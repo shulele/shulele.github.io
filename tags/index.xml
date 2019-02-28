@@ -50,7 +50,7 @@
     <item>
       <title>Climate Change</title>
       <link>/tags/climate-change/</link>
-      <pubDate>Sun, 23 Jul 2017 21:13:14 -0500</pubDate>
+      <pubDate>Sat, 23 Feb 2019 21:13:14 -0500</pubDate>
       
       <guid>/tags/climate-change/</guid>
       <description></description>
@@ -113,7 +113,7 @@
     <item>
       <title>Groundwater</title>
       <link>/tags/groundwater/</link>
-      <pubDate>Sun, 23 Jul 2017 21:13:14 -0500</pubDate>
+      <pubDate>Sat, 23 Feb 2019 21:13:14 -0500</pubDate>
       
       <guid>/tags/groundwater/</guid>
       <description></description>
@@ -131,7 +131,7 @@
     <item>
       <title>Hydrology</title>
       <link>/tags/hydrology/</link>
-      <pubDate>Mon, 23 Jul 2018 21:13:14 -0500</pubDate>
+      <pubDate>Sat, 23 Feb 2019 21:13:14 -0500</pubDate>
       
       <guid>/tags/hydrology/</guid>
       <description></description>
@@ -149,9 +149,18 @@
     <item>
       <title>Landuse change</title>
       <link>/tags/landuse-change/</link>
-      <pubDate>Mon, 23 Jul 2018 21:13:14 -0500</pubDate>
+      <pubDate>Sat, 23 Feb 2019 21:13:14 -0500</pubDate>
       
       <guid>/tags/landuse-change/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>/tags/machine-learning/</link>
+      <pubDate>Sat, 23 Feb 2019 21:13:14 -0500</pubDate>
+      
+      <guid>/tags/machine-learning/</guid>
       <description></description>
     </item>
     
@@ -237,6 +246,15 @@
     </item>
     
     <item>
+      <title>Statistical Downscaling</title>
+      <link>/tags/statistical-downscaling/</link>
+      <pubDate>Sat, 23 Feb 2019 21:13:14 -0500</pubDate>
+      
+      <guid>/tags/statistical-downscaling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Volunteering</title>
       <link>/tags/volunteering/</link>
       <pubDate>Tue, 29 Jan 2019 00:00:00 -0800</pubDate>
@@ -302,7 +320,7 @@
     <item>
       <title>hydrology</title>
       <link>/tags/hydrology/</link>
-      <pubDate>Mon, 23 Jul 2018 21:13:14 -0500</pubDate>
+      <pubDate>Sat, 23 Feb 2019 21:13:14 -0500</pubDate>
       
       <guid>/tags/hydrology/</guid>
       <description></description>
@@ -341,6 +359,24 @@
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
       <guid>/tags/regression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>statement</title>
+      <link>/tags/statement/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/statement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>teaching</title>
+      <link>/tags/teaching/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/teaching/</guid>
       <description></description>
     </item>
     

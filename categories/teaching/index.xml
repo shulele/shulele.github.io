@@ -6,10 +6,19 @@
     <description>Recent content in teaching on Lele&#39;s Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/teaching/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Teaching Statement</title>
+      <link>/apppackage/teachingstatement/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/apppackage/teachingstatement/</guid>
+      <description>I love to train the next generation of hydrologists and environmental scientists. It is my belief that every student is capable of tasting the passion that I feel for hydrologic modeling by becoming a practitioner in the exploration of hydrological theories, researches and models. I had three undergraduate sessions of teaching on Geography Information System years ago. My teaching philosophy rests on three tenets: simplifying the complexity with mathematics, realizing ideas with programming, and integrating students in research.</description>
+    </item>
     
     <item>
       <title>Advance programming</title>
