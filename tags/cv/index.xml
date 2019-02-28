@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CV on Lele&#39;s Page</title>
+    <link>/tags/cv/</link>
+    <description>Recent content in CV on Lele&#39;s Page</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lele Shu</title>
+      <link>/cv/</link>
+      <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/cv/</guid>
+      <description>PhD of Water Resources Engineering Minor: Computational Science  223 Hoagland Hall
+Davis, CA 95616
+llshu@ucdavis.edu
+lele.shu@gmail.com
+ About Me I am a postdoctoral researcher in Department of Land, Air and Water Resources, University of California, Davis. My research interest is in computational hydrologic model, hydrologic data mining, and integrated Coupled Nature-Human System modeling.
+Education 2012 - 2017, Pennsylvania State University (University Park, Pennsylvania, USA). PhD in Water Resource Engineering, Minor in Computational Science</description>
+    </item>
+    
+  </channel>
+</rss>

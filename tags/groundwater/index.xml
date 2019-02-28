@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Groundwater on Lele&#39;s Page</title>
+    <link>/tags/groundwater/</link>
+    <description>Recent content in Groundwater on Lele&#39;s Page</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 23 Mar 2019 21:13:14 -0500</lastBuildDate>
+    
+	<atom:link href="/tags/groundwater/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hydrologic modeling in project HYPERION</title>
+      <link>/research/hyperion/</link>
+      <pubDate>Sat, 23 Mar 2019 21:13:14 -0500</pubDate>
+      
+      <guid>/research/hyperion/</guid>
+      <description>Introduction of HYPERION  The objective of HYPERION is the development of a comprehensive regional hydroclimate data assessment capability focused on feature-specific metrics and stakeholder-relevant outcomes. The secondary objective of this proposal is to leverage this assessment capability to improve our ability to predict these outcomes, by identifying the process-level drivers of outcome biases and evaluating the most appropriate and efficient ways to couple climate models, hydrologic models, and models of human impacts.</description>
+    </item>
+    
+    <item>
+      <title>Lake-PIHM modeling in CNH-Lake project</title>
+      <link>/research/cnh_lak/</link>
+      <pubDate>Sun, 23 Jul 2017 21:13:14 -0500</pubDate>
+      
+      <guid>/research/cnh_lak/</guid>
+      <description>This project is the hydrology-lake modeling part of the whole project. The leading project is CNH-L: Linking land-use decision making, water quality, and lake associations to understand human-natural feedbacks in lake catchments, cooperated with multiple universities and institutes(e.g. Virginia Tech, Pennsylvania State University, University of Wisconsin, Cary Institute of Ecosystem Studies, Michigan State University ).
+Introduction of project  Freshwater lakes and their catchments present a rich and fascinating opportunity to examine the dynamics of coupled natural and human systems (CNHS).</description>
+    </item>
+    
+    <item>
+      <title>Reconstructing the role of landuse change on water yield at the Maya urban</title>
+      <link>/research/tikal/</link>
+      <pubDate>Sat, 23 Jul 2016 21:13:14 -0500</pubDate>
+      
+      <guid>/research/tikal/</guid>
+      <description>This project is the hydrology-lake modeling part of the project Land, Water, and Territory: A 3,000-Year Study of Niche Construction and Cultural Evolution in the Tikal National Park, Guatemala. The view in Tikal 
+Introduction of project Location of Tikal  ## Tasks in hydrologic modeling Land use map of Tikal  Elevation of Tikal 
+Accomplishment of the project keep updating</description>
+    </item>
+    
+  </channel>
+</rss>

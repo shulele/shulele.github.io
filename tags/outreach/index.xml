@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Outreach on Lele&#39;s Page</title>
+    <link>/tags/outreach/</link>
+    <description>Recent content in Outreach on Lele&#39;s Page</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Jan 2019 00:00:00 -0800</lastBuildDate>
+    
+	<atom:link href="/tags/outreach/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The planets in the space go &#34;Round And Round&#34;</title>
+      <link>/outreach/roundandround/</link>
+      <pubDate>Tue, 29 Jan 2019 00:00:00 -0800</pubDate>
+      
+      <guid>/outreach/roundandround/</guid>
+      <description>I planed to write an R package and submit on CRAN, that can plot the planets orbiting in Solar System, or satellite/moon orbiting around earth. That package must plot the moving planets, the moon, moon phase and satellite in 2D or 3D canvas. In future, it may calculate the orbit based on orbit mechanics.
+My son loves the song “The wheels on the bus go round and round“, and he has an obsession on planets.</description>
+    </item>
+    
+    <item>
+      <title>Volunteering in KiDs-UCD program</title>
+      <link>/outreach/kids-ucd/</link>
+      <pubDate>Tue, 29 Jan 2019 00:00:00 -0800</pubDate>
+      
+      <guid>/outreach/kids-ucd/</guid>
+      <description>Motivation of the project This is fantastic program to teach the local kids and lead them into the discovering sciences.
+ Panoview of the Math&amp;Science classroom.  Week 02: Week 03: Jessica is writing students observation and discussion of plants in two different soils (Sperpentine and sandy loam).   Week 05: Week 05: The growth condition of their beans.  Week 05: One question from students&#39; question box. Question: Why are my plants leaves sticky?</description>
+    </item>
+    
+  </channel>
+</rss>

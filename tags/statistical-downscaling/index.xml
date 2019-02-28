@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Statistical Downscaling on Lele&#39;s Page</title>
+    <link>/tags/statistical-downscaling/</link>
+    <description>Recent content in Statistical Downscaling on Lele&#39;s Page</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 23 Mar 2019 21:13:14 -0500</lastBuildDate>
+    
+	<atom:link href="/tags/statistical-downscaling/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hydrologic modeling in project HYPERION</title>
+      <link>/research/hyperion/</link>
+      <pubDate>Sat, 23 Mar 2019 21:13:14 -0500</pubDate>
+      
+      <guid>/research/hyperion/</guid>
+      <description>Introduction of HYPERION  The objective of HYPERION is the development of a comprehensive regional hydroclimate data assessment capability focused on feature-specific metrics and stakeholder-relevant outcomes. The secondary objective of this proposal is to leverage this assessment capability to improve our ability to predict these outcomes, by identifying the process-level drivers of outcome biases and evaluating the most appropriate and efficient ways to couple climate models, hydrologic models, and models of human impacts.</description>
+    </item>
+    
+  </channel>
+</rss>

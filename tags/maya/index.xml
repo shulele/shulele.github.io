@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Maya on Lele&#39;s Page</title>
+    <link>/tags/maya/</link>
+    <description>Recent content in Maya on Lele&#39;s Page</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 23 Jul 2016 21:13:14 -0500</lastBuildDate>
+    
+	<atom:link href="/tags/maya/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Reconstructing the role of landuse change on water yield at the Maya urban</title>
+      <link>/research/tikal/</link>
+      <pubDate>Sat, 23 Jul 2016 21:13:14 -0500</pubDate>
+      
+      <guid>/research/tikal/</guid>
+      <description>This project is the hydrology-lake modeling part of the project Land, Water, and Territory: A 3,000-Year Study of Niche Construction and Cultural Evolution in the Tikal National Park, Guatemala. The view in Tikal 
+Introduction of project Location of Tikal  ## Tasks in hydrologic modeling Land use map of Tikal  Elevation of Tikal 
+Accomplishment of the project keep updating</description>
+    </item>
+    
+  </channel>
+</rss>

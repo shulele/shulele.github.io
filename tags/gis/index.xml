@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GIS on Lele&#39;s Page</title>
+    <link>/tags/gis/</link>
+    <description>Recent content in GIS on Lele&#39;s Page</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/gis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Geospatial and Geostatistical Analysis with R</title>
+      <link>/teaching/class_geospatialr/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/class_geospatialr/</guid>
+      <description>  &amp;ldquo;We Shape Our Tools, and Thereafter Our Tools Shape Us&amp;rdquo;
+ Objective Prerequisite for attendee  Preliminary knowledge and experience of spatial data -  Reference Grading Two projects and 10 homework. 40% term project (20% per project) 60% homework (6% each) Total 100%
+Content of course  Fundamental knowledge of spatial data and spatial analysis R and Rstudio Data structure Where to find the data Spatial data format and manipulation Spatial data projection Analysis of vector data Statistical and Geostatistical  </description>
+    </item>
+    
+  </channel>
+</rss>
