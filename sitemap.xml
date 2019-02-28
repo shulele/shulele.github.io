@@ -4,22 +4,6 @@
     
     <url>
     
-      <loc>/teaching/teachingstatement/</loc>
-      <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/research/hyperion/</loc>
-      <lastmod>2019-03-23T21:13:14-05:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>/cv/</loc>
       <lastmod>2019-02-26T00:00:00+00:00</lastmod>
     </url>
@@ -126,14 +110,6 @@
     
       <loc>/research/mint/</loc>
       <lastmod>2018-07-23T21:13:14-05:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/privacy/</loc>
-      <lastmod>2018-06-28T00:00:00-07:00</lastmod>
     </url>
     
   
@@ -347,7 +323,7 @@
     <url>
     
       <loc>/tags/climate-change/</loc>
-      <lastmod>2019-03-23T21:13:14-05:00</lastmod>
+      <lastmod>2017-07-23T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -365,7 +341,7 @@
     <url>
     
       <loc>/teaching/</loc>
-      <lastmod>2019-09-01T00:00:00+00:00</lastmod>
+      <lastmod>2019-01-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -427,7 +403,7 @@
     <url>
     
       <loc>/tags/groundwater/</loc>
-      <lastmod>2019-03-23T21:13:14-05:00</lastmod>
+      <lastmod>2017-07-23T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -445,7 +421,7 @@
     <url>
     
       <loc>/tags/hydrology/</loc>
-      <lastmod>2019-03-23T21:13:14-05:00</lastmod>
+      <lastmod>2018-07-23T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -479,7 +455,7 @@
     <url>
     
       <loc>/tags/landuse-change/</loc>
-      <lastmod>2019-03-23T21:13:14-05:00</lastmod>
+      <lastmod>2018-07-23T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -497,7 +473,7 @@
     <url>
     
       <loc>/</loc>
-      <lastmod>2019-09-01T00:00:00+00:00</lastmod>
+      <lastmod>2019-02-05T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -507,15 +483,6 @@
     
       <loc>/authors/ms-nixon/</loc>
       <lastmod>2013-07-01T00:00:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/machine-learning/</loc>
-      <lastmod>2019-03-23T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -638,7 +605,7 @@
     <url>
     
       <loc>/categories/research/</loc>
-      <lastmod>2019-03-23T21:13:14-05:00</lastmod>
+      <lastmod>2018-07-23T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -647,7 +614,7 @@
     <url>
     
       <loc>/research/</loc>
-      <lastmod>2019-03-23T21:13:14-05:00</lastmod>
+      <lastmod>2018-07-23T21:13:14-05:00</lastmod>
     </url>
     
   
@@ -673,15 +640,6 @@
     
       <loc>/tags/statistical/</loc>
       <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/statistical-downscaling/</loc>
-      <lastmod>2019-03-23T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -797,7 +755,7 @@
     <url>
     
       <loc>/tags/hydrology/</loc>
-      <lastmod>2019-03-23T21:13:14-05:00</lastmod>
+      <lastmod>2018-07-23T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -841,26 +799,8 @@
     
     <url>
     
-      <loc>/tags/statement/</loc>
-      <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/teaching/</loc>
-      <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>/categories/teaching/</loc>
-      <lastmod>2019-09-01T00:00:00+00:00</lastmod>
+      <lastmod>2019-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
