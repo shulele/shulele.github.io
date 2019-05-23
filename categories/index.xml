@@ -21,11 +21,29 @@
     </item>
     
     <item>
+      <title>Post</title>
+      <link>/categories/post/</link>
+      <pubDate>Tue, 16 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Research</title>
       <link>/categories/research/</link>
       <pubDate>Sat, 23 Feb 2019 21:13:14 -0500</pubDate>
       
       <guid>/categories/research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>program</title>
+      <link>/categories/program/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/program/</guid>
       <description></description>
     </item>
     

@@ -4,6 +4,30 @@
     
     <url>
     
+      <loc>/post/the-explanation-of-bayesian-theorem-in-statistics/</loc>
+      <lastmod>2019-04-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/outreach/threejs-experiment/</loc>
+      <lastmod>2019-03-08T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/outreach/threejs-experiment/</loc>
+      <lastmod>2019-03-08T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/post/test1/</loc>
       <lastmod>2019-03-08T00:00:00+00:00</lastmod>
     </url>
@@ -498,7 +522,7 @@
     <url>
     
       <loc>/</loc>
-      <lastmod>2019-03-08T00:00:00+00:00</lastmod>
+      <lastmod>2019-04-16T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -552,7 +576,7 @@
     <url>
     
       <loc>/outreach/</loc>
-      <lastmod>2019-01-29T00:00:00-08:00</lastmod>
+      <lastmod>2019-03-08T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -577,6 +601,15 @@
     
     <url>
     
+      <loc>/categories/post/</loc>
+      <lastmod>2019-04-16T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/tags/poster/</loc>
       <lastmod>2018-12-01T00:00:00-08:00</lastmod>
       <priority>0</priority>
@@ -587,7 +620,7 @@
     <url>
     
       <loc>/post/</loc>
-      <lastmod>2019-03-08T00:00:00+00:00</lastmod>
+      <lastmod>2019-04-16T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -655,7 +688,7 @@
     <url>
     
       <loc>/tags/statistical/</loc>
-      <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+      <lastmod>2019-04-16T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -797,8 +830,17 @@
     
     <url>
     
+      <loc>/categories/program/</loc>
+      <lastmod>2019-03-08T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/tags/programming/</loc>
-      <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+      <lastmod>2019-03-08T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
