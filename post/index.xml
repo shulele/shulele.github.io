@@ -24,34 +24,23 @@ Bayesian probability also known as evidential probability, is the process of add
     </item>
     
     <item>
-      <title>test1</title>
-      <link>/post/test1/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      <title>The project to plot planets/objects in space and orbital movement.</title>
+      <link>/post/roundandround/</link>
+      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/test1/</guid>
-      <description></description>
+      <guid>/post/roundandround/</guid>
+      <description>I planed to write an R package and submit on CRAN, that can plot the planets orbiting in Solar System, or satellite/moon orbiting around earth. That package must plot the moving planets, the moon, moon phase and satellite in 2D or 3D canvas. In future, it may calculate the orbit based on orbit mechanics.
+My son loves the song “The wheels on the bus go round and round“, and he has an obsession on planets.</description>
     </item>
     
     <item>
-      <title>Display Jupyter Notebooks with Academic</title>
-      <link>/post/jupyter/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <title>The project to plot planets/objects in space and orbital movement.</title>
+      <link>/post/kids-ucd/</link>
+      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/jupyter/</guid>
-      <description>from IPython.core.display import Image Image(&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;)  print(&amp;quot;Welcome to Academic!&amp;quot;)  Welcome to Academic!  Install Python and Jupyter Install Anaconda which includes Python 3 and Jupyter notebook.
-Otherwise, for advanced users, install Jupyter notebook with pip3 install jupyter.
-Create a new blog post as usual Run the following commands in your Terminal, substituting &amp;lt;MY_WEBSITE_FOLDER&amp;gt; and my-post with the file path to your Academic website folder and a name for your blog post (without spaces), respectively:</description>
-    </item>
-    
-    <item>
-      <title>Academic: the website designer for Hugo</title>
-      <link>/post/getting-started/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
-      
-      <guid>/post/getting-started/</guid>
-      <description>Academic makes it easy to create a beautiful website for free using Markdown. Customize anything on your site with widgets, themes, and language packs.
-Follow our easy step by step guide to learn how to build your own free website with Academic. Check out the personal demo or the business demo of what you&amp;rsquo;ll get in less than 10 minutes.
- View the documentation Ask a question Request a feature or report a bug Updating?</description>
+      <guid>/post/kids-ucd/</guid>
+      <description>Motivation of the project This is fantastic program to teach the local kids and lead them into the discovering sciences.
+ Panoview of the Math&amp;Science classroom.  Week 02: Week 03: Jessica is writing students observation and discussion of plants in two different soils (Sperpentine and sandy loam).   Week 05: Week 05: The growth condition of their beans.  Week 05: One question from students&#39; question box. Question: Why are my plants leaves sticky?</description>
     </item>
     
   </channel>

@@ -6,19 +6,10 @@
     <description>Recent content in Tags on Lele&#39;s Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 23 Jul 2016 21:13:14 -0500</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Academic</title>
-      <link>/tags/academic/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
-      
-      <guid>/tags/academic/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Anthropology</title>
@@ -41,7 +32,7 @@
     <item>
       <title>CV</title>
       <link>/tags/cv/</link>
-      <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/cv/</guid>
       <description></description>
@@ -62,15 +53,6 @@
       <pubDate>Mon, 23 Jul 2018 21:13:14 -0500</pubDate>
       
       <guid>/tags/climate-change/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Diversity</title>
-      <link>/tags/diversity/</link>
-      <pubDate>Tue, 29 Jan 2019 00:00:00 -0800</pubDate>
-      
-      <guid>/tags/diversity/</guid>
       <description></description>
     </item>
     
@@ -183,15 +165,6 @@
     </item>
     
     <item>
-      <title>Outreach</title>
-      <link>/tags/outreach/</link>
-      <pubDate>Tue, 29 Jan 2019 00:00:00 -0800</pubDate>
-      
-      <guid>/tags/outreach/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>PIHM</title>
       <link>/tags/pihm/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 -0800</pubDate>
@@ -212,7 +185,7 @@
     <item>
       <title>R</title>
       <link>/tags/r/</link>
-      <pubDate>Tue, 29 Jan 2019 00:00:00 -0800</pubDate>
+      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/r/</guid>
       <description></description>
@@ -246,11 +219,11 @@
     </item>
     
     <item>
-      <title>Volunteering</title>
-      <link>/tags/volunteering/</link>
-      <pubDate>Tue, 29 Jan 2019 00:00:00 -0800</pubDate>
+      <title>Unfinished</title>
+      <link>/tags/unfinished/</link>
+      <pubDate>Tue, 16 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/volunteering/</guid>
+      <guid>/tags/unfinished/</guid>
       <description></description>
     </item>
     
@@ -318,18 +291,9 @@
     </item>
     
     <item>
-      <title>orbital</title>
-      <link>/tags/orbital/</link>
-      <pubDate>Tue, 29 Jan 2019 00:00:00 -0800</pubDate>
-      
-      <guid>/tags/orbital/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>programming</title>
       <link>/tags/programming/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/programming/</guid>
       <description></description>
@@ -350,6 +314,15 @@
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/teaching/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>volunteer</title>
+      <link>/tags/volunteer/</link>
+      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/volunteer/</guid>
       <description></description>
     </item>
     

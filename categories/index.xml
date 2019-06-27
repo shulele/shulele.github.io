@@ -6,7 +6,7 @@
     <description>Recent content in Categories on Lele&#39;s Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>CV</title>
       <link>/categories/cv/</link>
-      <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>/categories/cv/</guid>
       <description></description>
@@ -35,15 +35,6 @@
       <pubDate>Sat, 23 Feb 2019 21:13:14 -0500</pubDate>
       
       <guid>/categories/research/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>program</title>
-      <link>/categories/program/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/program/</guid>
       <description></description>
     </item>
     
