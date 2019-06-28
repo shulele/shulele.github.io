@@ -6,10 +6,24 @@
     <description>Recent content in Post on Lele&#39;s Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Monthly NDVI change in USA and Global from 2002-2017</title>
+      <link>/post/monthly-ndvi-change-in-china-usa-and-global-from-2002-2017/</link>
+      <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/monthly-ndvi-change-in-china-usa-and-global-from-2002-2017/</guid>
+      <description>Global NDVI
+ The normalized difference vegetation index (NDVI) is a simple graphical indicator that reflect the greenness and the heath condition of vegetations.
+The raw data is from NASA MOD13A.
+ The global NDVI variation from 2002 to 2017. 
+ The NDVI varies from 2002 to 2017 in US (Continental) 
+  How to download the rawdata The code of the monthly NDVI from MODIS dataset is MOD13C2, so type the code below in your terminal and the wget will download all availalble data from server to you local matchine.</description>
+    </item>
     
     <item>
       <title>The explanation of Bayesian Theorem in Statistics</title>

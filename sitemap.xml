@@ -4,6 +4,14 @@
     
     <url>
     
+      <loc>/post/monthly-ndvi-change-in-china-usa-and-global-from-2002-2017/</loc>
+      <lastmod>2019-06-27T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/cv/</loc>
       <lastmod>2019-06-26T00:00:00+00:00</lastmod>
     </url>
@@ -126,14 +134,6 @@
     
       <loc>/research/mint/</loc>
       <lastmod>2018-07-23T21:13:14-05:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/privacy/</loc>
-      <lastmod>2018-06-28T00:00:00-07:00</lastmod>
     </url>
     
   
@@ -472,7 +472,7 @@
     <url>
     
       <loc>/</loc>
-      <lastmod>2019-04-16T00:00:00+00:00</lastmod>
+      <lastmod>2019-06-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -500,6 +500,15 @@
     
       <loc>/tags/maya/</loc>
       <lastmod>2016-07-23T21:13:14-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/ndvi/</loc>
+      <lastmod>2019-06-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -535,7 +544,7 @@
     <url>
     
       <loc>/categories/post/</loc>
-      <lastmod>2019-04-16T00:00:00+00:00</lastmod>
+      <lastmod>2019-06-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -553,7 +562,7 @@
     <url>
     
       <loc>/post/</loc>
-      <lastmod>2019-04-16T00:00:00+00:00</lastmod>
+      <lastmod>2019-06-27T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -579,6 +588,15 @@
     
       <loc>/tags/r/</loc>
       <lastmod>2019-01-29T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/remote-sensing/</loc>
+      <lastmod>2019-06-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -675,6 +693,15 @@
     
       <loc>/tags/unfinished/</loc>
       <lastmod>2019-04-16T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/vegtation/</loc>
+      <lastmod>2019-06-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

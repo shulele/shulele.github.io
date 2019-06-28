@@ -6,8 +6,36 @@
     <description>Recent content in Lele&#39;s Page on Lele&#39;s Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Jun 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Monthly NDVI change in USA and Global from 2002-2017</title>
+      <link>/post/monthly-ndvi-change-in-china-usa-and-global-from-2002-2017/</link>
+      <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/monthly-ndvi-change-in-china-usa-and-global-from-2002-2017/</guid>
+      <description>
+
+
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;/post/2019-06-27-monthly-ndvi-change-in-china-usa-and-global-from-2002-2017_files/NDVI.png&#34; alt=&#34;Global NDVI&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;Global NDVI&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;The normalized difference vegetation index (NDVI) is a simple graphical indicator that reflect the greenness and the heath condition of vegetations.&lt;/p&gt;
+&lt;p&gt;The raw data is from &lt;a href=&#34;https://modis.gsfc.nasa.gov/data/dataprod/mod13.php&#34;&gt;NASA MOD13A&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The global NDVI variation from 2002 to 2017. &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/7yyPfozr1PU&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The NDVI varies from 2002 to 2017 in US (Continental) &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/LL0qRwLLd1g&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div id=&#34;how-to-download-the-rawdata&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;How to download the rawdata&lt;/h2&gt;
+&lt;p&gt;The code of the monthly NDVI from MODIS dataset is MOD13C2, so type the code below in your terminal and the wget will download all availalble data from server to you local matchine.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;wget  --user=XXXXX --password=XXXX -r -c -np -x https://e4ftl01.cr.usgs.gov/MOLT/MOD13C2.006/&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;em&gt;The R package RoundAndRound and PIHMgisR is used for this data processing and visulization.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>The explanation of Bayesian Theorem in Statistics</title>
@@ -557,16 +585,6 @@ Total 100%&lt;/p&gt;
 &lt;h2 id=&#34;accomplishment-of-the-project&#34;&gt;Accomplishment of the project&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;keep updating&lt;/strong&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Privacy Policy</title>
-      <link>/privacy/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 -0700</pubDate>
-      
-      <guid>/privacy/</guid>
-      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     
