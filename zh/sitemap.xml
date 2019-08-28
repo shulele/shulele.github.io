@@ -394,10 +394,10 @@
     
     <url>
     
-      <xhtml:link rel="alternate" href="/zh/categories/cv/" hreflang="zh"/>
-      <xhtml:link rel="alternate" href="/categories/cv/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/zh/tags/cv/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="/tags/cv/" hreflang="en"/>
     
-      <loc>/zh/categories/cv/</loc>
+      <loc>/zh/tags/cv/</loc>
       <lastmod>2019-06-26T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -406,10 +406,10 @@
     
     <url>
     
-      <xhtml:link rel="alternate" href="/zh/tags/cv/" hreflang="zh"/>
-      <xhtml:link rel="alternate" href="/tags/cv/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/zh/categories/cv/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="/categories/cv/" hreflang="en"/>
     
-      <loc>/zh/tags/cv/</loc>
+      <loc>/zh/categories/cv/</loc>
       <lastmod>2019-06-26T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1077,10 +1077,10 @@
     
     <url>
     
-      <xhtml:link rel="alternate" href="/zh/categories/teaching/" hreflang="zh"/>
-      <xhtml:link rel="alternate" href="/categories/teaching/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/zh/tags/teaching/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="/tags/teaching/" hreflang="en"/>
     
-      <loc>/zh/categories/teaching/</loc>
+      <loc>/zh/tags/teaching/</loc>
       <lastmod>2019-02-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1089,10 +1089,10 @@
     
     <url>
     
-      <xhtml:link rel="alternate" href="/zh/tags/teaching/" hreflang="zh"/>
-      <xhtml:link rel="alternate" href="/tags/teaching/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/zh/categories/teaching/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="/categories/teaching/" hreflang="en"/>
     
-      <loc>/zh/tags/teaching/</loc>
+      <loc>/zh/categories/teaching/</loc>
       <lastmod>2019-02-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
