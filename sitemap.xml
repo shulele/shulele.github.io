@@ -280,7 +280,7 @@
     
     <url>
     
-      <loc>/categories/cv/</loc>
+      <loc>/tags/cv/</loc>
       <lastmod>2019-06-26T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -289,7 +289,7 @@
     
     <url>
     
-      <loc>/tags/cv/</loc>
+      <loc>/categories/cv/</loc>
       <lastmod>2019-06-26T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -798,7 +798,7 @@
     
     <url>
     
-      <loc>/categories/teaching/</loc>
+      <loc>/tags/teaching/</loc>
       <lastmod>2019-02-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -807,7 +807,7 @@
     
     <url>
     
-      <loc>/tags/teaching/</loc>
+      <loc>/categories/teaching/</loc>
       <lastmod>2019-02-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
