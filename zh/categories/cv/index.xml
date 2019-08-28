@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CV on </title>
+    <link>/zh/categories/cv/</link>
+    <description>Recent content in CV on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hans</language>
+    <lastBuildDate>Wed, 26 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/zh/categories/cv/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>舒乐乐， 水文学博士</title>
+      <link>/zh/cv/</link>
+      <pubDate>Wed, 26 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/zh/cv/</guid>
+      <description>PDF版 中文 英文 水资源工程博士 博士副修计算科学 223 Hoagland Hall Davis, CA 95616 llshu@ucdavis.edu lele.shu@gmail.com 简介 1983年生，籍贯陕西。水文学博士，现加州大学戴维斯分校博士后研究员，20</description>
+    </item>
+    
+  </channel>
+</rss>

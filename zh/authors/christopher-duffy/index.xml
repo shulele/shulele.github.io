@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Christopher Duffy on </title>
+    <link>/zh/authors/christopher-duffy/</link>
+    <description>Recent content in Christopher Duffy on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hans</language>
+    <lastBuildDate>Fri, 01 Dec 2017 00:00:00 -0800</lastBuildDate>
+    
+	<atom:link href="/zh/authors/christopher-duffy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Coupling Cellular Automata Land Use Change with Distributed Hydrologic models</title>
+      <link>/zh/talk/agu2017/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 -0800</pubDate>
+      
+      <guid>/zh/talk/agu2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Catchment hydrological change from soil degradation</title>
+      <link>/zh/talk/agu2015/</link>
+      <pubDate>Tue, 01 Dec 2015 00:00:00 -0800</pubDate>
+      
+      <guid>/zh/talk/agu2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reconstructing the role of landuse change on water yield at the Maya urban center Tikal, Guatemala [700-800 AD]</title>
+      <link>/zh/talk/agu2014/</link>
+      <pubDate>Wed, 31 Dec 2014 00:00:00 -0800</pubDate>
+      
+      <guid>/zh/talk/agu2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Urbanization-driven hydrological process change in Conestoga River watershed in Lancaster of Pennsylvania</title>
+      <link>/zh/talk/agu2013/</link>
+      <pubDate>Tue, 31 Dec 2013 00:00:00 -0800</pubDate>
+      
+      <guid>/zh/talk/agu2013/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors on </title>
+    <link>/zh/authors/</link>
+    <description>Recent content in Authors on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hans</language>
+    
+	<atom:link href="/zh/authors/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Christopher Duffy</title>
+      <link>/zh/authors/christopher-duffy/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 -0800</pubDate>
+      
+      <guid>/zh/authors/christopher-duffy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GA Cushen</title>
+      <link>/zh/authors/ga-cushen/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 -0700</pubDate>
+      
+      <guid>/zh/authors/ga-cushen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kirk D. French</title>
+      <link>/zh/authors/kirk-d.-french/</link>
+      <pubDate>Wed, 31 Dec 2014 00:00:00 -0800</pubDate>
+      
+      <guid>/zh/authors/kirk-d.-french/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lele Shu</title>
+      <link>/zh/authors/lele-shu/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 -0800</pubDate>
+      
+      <guid>/zh/authors/lele-shu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MS Nixon</title>
+      <link>/zh/authors/ms-nixon/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 -0700</pubDate>
+      
+      <guid>/zh/authors/ms-nixon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Paul Ullrich</title>
+      <link>/zh/authors/paul-ullrich/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 -0800</pubDate>
+      
+      <guid>/zh/authors/paul-ullrich/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Susana E. Garcia-gonzalez</title>
+      <link>/zh/authors/susana-e.-garcia-gonzalez/</link>
+      <pubDate>Wed, 31 Dec 2014 00:00:00 -0800</pubDate>
+      
+      <guid>/zh/authors/susana-e.-garcia-gonzalez/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Timothy Murtha</title>
+      <link>/zh/authors/timothy-murtha/</link>
+      <pubDate>Wed, 31 Dec 2014 00:00:00 -0800</pubDate>
+      
+      <guid>/zh/authors/timothy-murtha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>admin</title>
+      <link>/zh/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/zh/authors/admin/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

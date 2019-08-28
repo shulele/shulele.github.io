@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Poster on </title>
+    <link>/zh/tags/poster/</link>
+    <description>Recent content in Poster on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hans</language>
+    <lastBuildDate>Sat, 01 Dec 2018 00:00:00 -0800</lastBuildDate>
+    
+	<atom:link href="/zh/tags/poster/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Model simulated spatial distribution and the variation of ground water level in Sacramento Watershed, California from 1985 to 2017</title>
+      <link>/zh/talk/agu2018/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 -0800</pubDate>
+      
+      <guid>/zh/talk/agu2018/</guid>
+      <description>Annual Precipitation (1985-2017) of Sacramento Watershed  Please stop by my poster, we can have a talk.</description>
+    </item>
+    
+    <item>
+      <title>Coupling Cellular Automata Land Use Change with Distributed Hydrologic models</title>
+      <link>/zh/talk/agu2017/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 -0800</pubDate>
+      
+      <guid>/zh/talk/agu2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Catchment hydrological change from soil degradation</title>
+      <link>/zh/talk/agu2015/</link>
+      <pubDate>Tue, 01 Dec 2015 00:00:00 -0800</pubDate>
+      
+      <guid>/zh/talk/agu2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reconstructing the role of landuse change on water yield at the Maya urban center Tikal, Guatemala [700-800 AD]</title>
+      <link>/zh/talk/agu2014/</link>
+      <pubDate>Wed, 31 Dec 2014 00:00:00 -0800</pubDate>
+      
+      <guid>/zh/talk/agu2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Urbanization-driven hydrological process change in Conestoga River watershed in Lancaster of Pennsylvania</title>
+      <link>/zh/talk/agu2013/</link>
+      <pubDate>Tue, 31 Dec 2013 00:00:00 -0800</pubDate>
+      
+      <guid>/zh/talk/agu2013/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

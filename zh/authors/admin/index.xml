@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>admin on </title>
+    <link>/zh/authors/admin/</link>
+    <description>Recent content in admin on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hans</language>
+    
+	<atom:link href="/zh/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/zh/author/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/zh/author/admin/</guid>
+      <description>舒乐乐 水文学博士，现加州大学戴维斯分校(Department of Land, Air and Water Resources, UC Davis)博士后研究员，2017年毕业与美国 宾夕法尼亚州立大学(</description>
+    </item>
+    
+  </channel>
+</rss>
