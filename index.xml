@@ -21,7 +21,7 @@
 
 &lt;h1 id=&#34;script-for-global-ndvi&#34;&gt;Script for Global NDVI&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&#34;/EN/post/2019-10-03-r-script-to-animate-global-ndvi_files/NDVI_GLOBAL201002.png&#34; alt=&#34;Global NDVI on Feb 2010&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/en/post/2019-10-03-r-script-to-animate-global-ndvi_files/NDVI_GLOBAL201002.png&#34; alt=&#34;Global NDVI on Feb 2010&#34; /&gt;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;rm(list=ls())
 library(RoundAndRound)
@@ -173,7 +173,7 @@ print(cmd)
 
 &lt;h1 id=&#34;script-for-china-ndvi&#34;&gt;Script for China NDVI&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&#34;/EN/post/2019-10-03-r-script-to-animate-global-ndvi_files/NDVI_CN200202.png&#34; alt=&#34;China NDVI on Feb 2002&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/en/post/2019-10-03-r-script-to-animate-global-ndvi_files/NDVI_CN200202.png&#34; alt=&#34;China NDVI on Feb 2002&#34; /&gt;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;rm(list=ls())
 # devtools::install_github(&#39;shulele/RoundAndRound&#39;)
