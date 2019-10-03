@@ -4,6 +4,14 @@
     
     <url>
     
+      <loc>/post/2019-10-03-r-script-to-animate-global-ndvi/</loc>
+      <lastmod>2019-10-03T00:15:07-07:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <xhtml:link rel="alternate" href="/post/monthly-ndvi-change-in-china-usa-and-global-from-2002-2017/" hreflang="en"/>
       <xhtml:link rel="alternate" href="/zh/post/monthly-ndvi-change-in-china-usa-and-global-from-2002-2017/" hreflang="zh"/>
     
@@ -191,6 +199,17 @@
     
     <url>
     
+      <xhtml:link rel="alternate" href="/privacy/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="/zh/privacy/" hreflang="zh"/>
+    
+      <loc>/privacy/</loc>
+      <lastmod>2018-06-28T00:00:00-07:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <xhtml:link rel="alternate" href="/talk/agu2017/" hreflang="en"/>
       <xhtml:link rel="alternate" href="/zh/talk/agu2017/" hreflang="zh"/>
     
@@ -294,6 +313,13 @@
       <xhtml:link rel="alternate" href="/zh/author/admin/" hreflang="zh"/>
     
       <loc>/author/admin/</loc>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/post/2019-10-02-r-code-to-animate-the-spatial-change/</loc>
     </url>
     
   
@@ -643,7 +669,7 @@
       <xhtml:link rel="alternate" href="/zh/" hreflang="zh"/>
     
       <loc>/</loc>
-      <lastmod>2019-06-27T00:00:00+00:00</lastmod>
+      <lastmod>2019-10-03T00:15:07-07:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -763,7 +789,7 @@
       <xhtml:link rel="alternate" href="/zh/post/" hreflang="zh"/>
     
       <loc>/post/</loc>
-      <lastmod>2019-06-27T00:00:00+00:00</lastmod>
+      <lastmod>2019-10-03T00:15:07-07:00</lastmod>
     </url>
     
   

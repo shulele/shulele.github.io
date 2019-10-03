@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Lele Shu&#39;s Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Oct 2019 00:15:07 -0700</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2019 10 03 R Script to Animate Global Ndvi</title>
+      <link>/post/2019-10-03-r-script-to-animate-global-ndvi/</link>
+      <pubDate>Thu, 03 Oct 2019 00:15:07 -0700</pubDate>
+      
+      <guid>/post/2019-10-03-r-script-to-animate-global-ndvi/</guid>
+      <description>This script is to demonstrate the capability and scheme to realise the animation. You have to prepare your own data for this animation script. Script for Global NDVI rm(list=ls()) library(RoundAndRound) # devtools::install_github(&#39;shulele/RoundAndRound&#39;) col.fun=function(x){ colorspace::terrain_hcl(x, l=c(65,95), power=c(1/3, 1.5)) } plotStar &amp;lt;- function(x, y, radius, angle=180, xyratio=1, ...){ i &amp;lt;- 1:11 alpha &amp;lt;- 2*pi / 10 r &amp;lt;- radius * (i %% 2 + 1)/2 omega &amp;lt;- alpha * i + angle</description>
+    </item>
     
     <item>
       <title>Monthly NDVI change in USA and Global from 2002-2017</title>
@@ -55,6 +64,17 @@ My son loves the song “The wheels on the bus go round and round“, and he has
       <guid>/post/kids-ucd/</guid>
       <description>Motivation of the project This is fantastic program to teach the local kids and lead them into the discovering sciences.
  Panoview of the Math&amp;Science classroom.  Week 02: Week 03: Jessica is writing students observation and discussion of plants in two different soils (Sperpentine and sandy loam).   Week 05: Week 05: The growth condition of their beans.  Week 05: One question from students&#39; question box. Question: Why are my plants leaves sticky?</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/post/2019-10-02-r-code-to-animate-the-spatial-change/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-10-02-r-code-to-animate-the-spatial-change/</guid>
+      <description>+++ title = “2019 10 02 R: Animate the Spatial data (global NDVI)” date = 2019-10-02T16:38:21-07:00 draft = false
+Tags and categories  For example, use tags = [] for no tags, or the form tags = [&amp;quot;A Tag&amp;quot;, &amp;quot;Another Tag&amp;quot;] for one or more tags. tags = [“NDVI”] categories = [“post”]
+ Featured image  To use, add an image named featured.jpg/png to your page’s folder. [image] # Caption (optional) caption = “”</description>
     </item>
     
   </channel>

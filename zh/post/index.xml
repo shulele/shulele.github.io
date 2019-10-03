@@ -6,10 +6,19 @@
     <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Thu, 27 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Oct 2019 23:37:32 -0700</lastBuildDate>
     
 	<atom:link href="/zh/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2019 10 02 R Animate the Global Spatial Data Ndvi</title>
+      <link>/zh/post/2019-10-02-r-animate-the-global-spatial-data-ndvi/</link>
+      <pubDate>Wed, 02 Oct 2019 23:37:32 -0700</pubDate>
+      
+      <guid>/zh/post/2019-10-02-r-animate-the-global-spatial-data-ndvi/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Monthly NDVI change in USA and Global from 2002-2017</title>
