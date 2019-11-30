@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Water budgets | 舒乐乐</title>
+    <link>https://www.shulele.net/zh/tags/water-budgets/</link>
+      <atom:link href="https://www.shulele.net/zh/tags/water-budgets/index.xml" rel="self" type="application/rss+xml" />
+    <description>Water budgets</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Wed, 31 Dec 2014 00:00:00 -0800</lastBuildDate>
+    <image>
+      <url>https://www.shulele.net/img/icon-192.png</url>
+      <title>Water budgets</title>
+      <link>https://www.shulele.net/zh/tags/water-budgets/</link>
+    </image>
+    
+    <item>
+      <title>Reconstructing the role of landuse change on water yield at the Maya urban center Tikal, Guatemala [700-800 AD]</title>
+      <link>https://www.shulele.net/zh/talk/agu2014/</link>
+      <pubDate>Wed, 31 Dec 2014 00:00:00 -0800</pubDate>
+      <guid>https://www.shulele.net/zh/talk/agu2014/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

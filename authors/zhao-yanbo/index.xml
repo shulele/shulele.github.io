@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zhao, Yanbo | SHU</title>
+    <link>https://www.shulele.net/authors/zhao-yanbo/</link>
+      <atom:link href="https://www.shulele.net/authors/zhao-yanbo/index.xml" rel="self" type="application/rss+xml" />
+    <description>Zhao, Yanbo</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 25 Aug 2011 00:00:00 -0700</lastBuildDate>
+    <image>
+      <url>https://www.shulele.net/img/icon-192.png</url>
+      <title>Zhao, Yanbo</title>
+      <link>https://www.shulele.net/authors/zhao-yanbo/</link>
+    </image>
+    
+    <item>
+      <title>Integrated modeling environment and a preliminary application on the Heihe River Basin, China</title>
+      <link>https://www.shulele.net/publication/nan2011/</link>
+      <pubDate>Thu, 25 Aug 2011 00:00:00 -0700</pubDate>
+      <guid>https://www.shulele.net/publication/nan2011/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>course | SHU</title>
+    <link>https://www.shulele.net/tags/course/</link>
+      <atom:link href="https://www.shulele.net/tags/course/index.xml" rel="self" type="application/rss+xml" />
+    <description>course</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.shulele.net/img/icon-192.png</url>
+      <title>course</title>
+      <link>https://www.shulele.net/tags/course/</link>
+    </image>
+    
+    <item>
+      <title>Advance programming</title>
+      <link>https://www.shulele.net/class_programming/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.shulele.net/class_programming/</guid>
+      <description>
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;We Shape Our Tools, and Thereafter Our Tools Shape Us&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&#34;objective&#34;&gt;Objective&lt;/h1&gt;
+
+&lt;p&gt;How to convert scientific questions to efficient programming algorithm, including data structue, computational algorithm, data management and parallelization.&lt;/p&gt;
+
+&lt;h2 id=&#34;prerequisite-for-attendee&#34;&gt;Prerequisite for attendee&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Basic programming knowledge, such as C/C++, Java, R, python, Matlab, etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;reference&#34;&gt;Reference&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Textbooks&lt;/strong&gt;: None&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Useful sources&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Yang, Daoqi. C++ and object-oriented numeric computing for scientists and engineers. Springer Science &amp;amp; Business Media, 2000.&lt;/li&gt;
+&lt;li&gt;Kernighan, Brian W., and Dennis M. Ritchie. The C programming language. 2006.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.163.2848&amp;amp;rep=rep1&amp;amp;type=pdf&#34; target=&#34;_blank&#34;&gt;Victor Shtern, Core C++ A Software Engineering Approach, Prentice Hall (2000) ISBN: 0130857297&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Running Linux, 4th Edition, Welsh, Kaufman, Dalheimer, and Dawson&lt;/li&gt;
+&lt;li&gt;Chapman, Stephen J. JAVA for Engineers and Scientists. Prentice-Hall, Inc., 2003.&lt;/li&gt;
+&lt;li&gt;Cornell, Gary, and Cay Stephen Horstmann. Core Java. SunSoft press, 1996.&lt;/li&gt;
+&lt;li&gt;Ghai, Ajit. &amp;ldquo;Facts and Fallacies of Software Engineering.&amp;rdquo; Software Quality Professional 5.3 (2003): 38.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.mgnet.org/~douglas/Classes/na-sc/notes/Parallel%20Scientific%20Computing%20in%20C_plus_plus%20and%20MPI.pdf&#34; target=&#34;_blank&#34;&gt;Karniadakis, George Em, George Karniadakis, and Robert M. Kirby II. Parallel scientific computing in C++ and MPI: a seamless approach to parallel algorithms and their implementation. Vol. 2. Cambridge University Press, 2003.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://dept-info.labri.fr/~counilh/ens_parallelisme/mpi/pacheco_99.pdf&#34; target=&#34;_blank&#34;&gt;Pacheco, Peter. Parallel programming with MPI. Morgan Kaufmann, 1997.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;grading&#34;&gt;Grading&lt;/h2&gt;
+
+&lt;p&gt;Two projects and 10 homework.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;60% term project (30% per project)&lt;/li&gt;
+&lt;li&gt;40% homework (4% each)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Total 100%&lt;/p&gt;
+
+&lt;h2 id=&#34;outline-of-the-course&#34;&gt;Outline of the course&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Introduction&lt;/li&gt;
+&lt;li&gt;The History and  Future of Computing&lt;/li&gt;
+&lt;li&gt;Trends in Programming Languages&lt;/li&gt;
+&lt;li&gt;Linux&lt;/li&gt;
+&lt;li&gt;Utilities: vi, emacs, dbx, make, cvs, and IDE&amp;rsquo;s&lt;/li&gt;
+&lt;li&gt;Brief Introduction to Software Engineering&lt;/li&gt;
+&lt;li&gt;C++
+
+&lt;ul&gt;
+&lt;li&gt;Intro&lt;/li&gt;
+&lt;li&gt;Basics&lt;/li&gt;
+&lt;li&gt;Control and Arrays&lt;/li&gt;
+&lt;li&gt;Pointers&lt;/li&gt;
+&lt;li&gt;Structures, Classes, and Objects&lt;/li&gt;
+&lt;li&gt;Operator Overloading&lt;/li&gt;
+&lt;li&gt;Input / Output&lt;/li&gt;
+&lt;li&gt;Templates&lt;/li&gt;
+&lt;li&gt;C++ vs. Java&lt;/li&gt;
+&lt;li&gt;Brief Discussion of Java, C#, and Objective-C&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Parallel Computing
+
+&lt;ul&gt;
+&lt;li&gt;MPI&lt;/li&gt;
+&lt;li&gt;OpenMP&lt;/li&gt;
+&lt;li&gt;Threads&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Python&lt;/li&gt;
+&lt;li&gt;Conclusions&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Geospatial and Geostatistical Analysis with R</title>
+      <link>https://www.shulele.net/class_geospatialr/0overview/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.shulele.net/class_geospatialr/0overview/</guid>
+      <description>
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;We Shape Our Tools, and Thereafter Our Tools Shape Us&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&#34;objective&#34;&gt;Objective&lt;/h1&gt;
+
+&lt;p&gt;How to use R/Python and other programming languages to realize spatial-data managment, GIS function, geostatistical, spatial analysis and visualization.&lt;/p&gt;
+
+&lt;h2 id=&#34;prerequisite-for-attendee&#34;&gt;Prerequisite for attendee&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Preliminary knowledge and experience of spatial data
+-&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;reference&#34;&gt;Reference&lt;/h2&gt;
+
+&lt;h2 id=&#34;grading&#34;&gt;Grading&lt;/h2&gt;
+
+&lt;p&gt;Two projects and 10 homework.
+40% term project (20% per project)
+60% homework (6% each)
+Total 100%&lt;/p&gt;
+
+&lt;h2 id=&#34;content-of-course&#34;&gt;Content of course&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fundamental knowledge of spatial data and spatial analysis&lt;/li&gt;
+&lt;li&gt;R and Rstudio&lt;/li&gt;
+&lt;li&gt;Data structure&lt;/li&gt;
+&lt;li&gt;Where to find the data&lt;/li&gt;
+&lt;li&gt;Spatial data format and manipulation&lt;/li&gt;
+&lt;li&gt;Spatial data projection&lt;/li&gt;
+&lt;li&gt;Analysis of vector data&lt;/li&gt;
+&lt;li&gt;Statistical and Geostatistical&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

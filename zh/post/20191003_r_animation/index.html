@@ -1,0 +1,1395 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.6.2">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="舒乐乐">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="This script is to demonstrate the capability and scheme to realise the animation. You have to prepare your own data for this animation script.
+Script for Global NDVI rm(list=ls()) library(RoundAndRound) # devtools::install_github(&#39;shulele/RoundAndRound&#39;) col.fun=function(x){ colorspace::terrain_hcl(x, l=c(65,95), power=c(1/3, 1.5)) } plotStar &lt;- function(x, y, radius, angle=180, xyratio=1, ...){ i &lt;- 1:11 alpha &lt;- 2*pi / 10 r &lt;- radius * (i %% 2 &#43; 1)/2 omega &lt;- alpha * i &#43; angle * pi /180 invisible(mapply(function(a, b, .">
+
+  
+  <link rel="alternate" hreflang="en" href="https://www.shulele.net/post/20191003_r_animation/">
+  
+  <link rel="alternate" hreflang="zh-Hans" href="https://www.shulele.net/zh/post/20191003_r_animation/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="rgb(0, 136, 204)">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark">
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cutive+Mono%7CLora:400,700%7CRoboto:400,700&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/zh/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://www.shulele.net/zh/post/20191003_r_animation/">
+
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@leleshu">
+  <meta property="twitter:creator" content="@leleshu">
+  
+  <meta property="og:site_name" content="舒乐乐">
+  <meta property="og:url" content="https://www.shulele.net/zh/post/20191003_r_animation/">
+  <meta property="og:title" content="R Script to Animate Global NDVI | 舒乐乐">
+  <meta property="og:description" content="This script is to demonstrate the capability and scheme to realise the animation. You have to prepare your own data for this animation script.
+Script for Global NDVI rm(list=ls()) library(RoundAndRound) # devtools::install_github(&#39;shulele/RoundAndRound&#39;) col.fun=function(x){ colorspace::terrain_hcl(x, l=c(65,95), power=c(1/3, 1.5)) } plotStar &lt;- function(x, y, radius, angle=180, xyratio=1, ...){ i &lt;- 1:11 alpha &lt;- 2*pi / 10 r &lt;- radius * (i %% 2 &#43; 1)/2 omega &lt;- alpha * i &#43; angle * pi /180 invisible(mapply(function(a, b, ."><meta property="og:image" content="https://www.shulele.net/zh/post/20191003_r_animation/featured.png">
+  <meta property="twitter:image" content="https://www.shulele.net/zh/post/20191003_r_animation/featured.png"><meta property="og:locale" content="zh-Hans">
+  
+    
+      <meta property="article:published_time" content="2019-10-03T00:15:07-07:00">
+    
+    <meta property="article:modified_time" content="2019-10-03T00:15:07-07:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.shulele.net/zh/post/20191003_r_animation/"
+  },
+  "headline": "R Script to Animate Global NDVI",
+  
+  "image": [
+    "https://www.shulele.net/zh/post/20191003_r_animation/featured.png"
+  ],
+  
+  "datePublished": "2019-10-03T00:15:07-07:00",
+  "dateModified": "2019-10-03T00:15:07-07:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "舒乐乐"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "舒乐乐",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.shulele.net/img/icon-512.png"
+    }
+  },
+  "description": "This script is to demonstrate the capability and scheme to realise the animation. You have to prepare your own data for this animation script.\nScript for Global NDVI rm(list=ls()) library(RoundAndRound) # devtools::install_github('shulele/RoundAndRound') col.fun=function(x){ colorspace::terrain_hcl(x, l=c(65,95), power=c(1/3, 1.5)) } plotStar \u0026lt;- function(x, y, radius, angle=180, xyratio=1, ...){ i \u0026lt;- 1:11 alpha \u0026lt;- 2*pi / 10 r \u0026lt;- radius * (i %% 2 + 1)/2 omega \u0026lt;- alpha * i + angle * pi /180 invisible(mapply(function(a, b, ."
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>R Script to Animate Global NDVI | 舒乐乐</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="dark">
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>搜索</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="搜索..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    
+    
+      <a class="navbar-brand" href="/zh/">舒乐乐</a>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="切换导航">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-center" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/zh/#about"><span>首页</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/zh/#posts"><span>日志</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/zh/#projects"><span>研究</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/zh/#teaching"><span>课程</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/zh/#talks"><span>讲座报告</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/zh/#publications"><span>文章</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/zh/gallery/"><span>图库</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/zh/cv/"><span>简历</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item">
+        <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item dropdown i18n-dropdown">
+        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-globe mr-1" aria-hidden="true"></i><span class="d-none d-lg-inline">中文 (简体)</span>
+        </a>
+        <div class="dropdown-menu">
+          <div class="dropdown-item i18n-active font-weight-bold">
+            <span>中文 (简体)</span>
+          </div>
+          
+          <a class="dropdown-item" href="/post/20191003_r_animation/">
+            <span>English</span>
+          </a>
+          
+        </div>
+      </li>
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+<div class="article-container pt-3">
+  <h1>R Script to Animate Global NDVI</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Oct 3, 2019
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 432px;">
+  <div style="position: relative">
+    <img src="/zh/post/20191003_r_animation/featured_hu68f1042480ee8f628d33c185f9c9f87c_136097_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      
+
+<p>This script is to demonstrate the capability and scheme to realise the animation. You have to prepare your own data for this animation script.</p>
+
+<h1 id="script-for-global-ndvi">Script for Global NDVI</h1>
+
+<p><img src="NDVI_GLOBAL201002.png" alt="Global NDVI on Feb 2010" /></p>
+
+<pre><code class="language-r">rm(list=ls())
+library(RoundAndRound)
+# devtools::install_github('shulele/RoundAndRound')
+col.fun=function(x){ colorspace::terrain_hcl(x, l=c(65,95), 
+                                             power=c(1/3, 1.5))  }
+plotStar &lt;- function(x, y, radius, angle=180, xyratio=1, ...){
+  i &lt;- 1:11
+  alpha &lt;- 2*pi / 10
+  r &lt;- radius * (i %% 2 + 1)/2
+  omega &lt;- alpha * i + angle * pi /180
+  invisible(mapply(function(a, b, ...) 
+    polygon(r*sin(omega) + a, r*cos(omega) * xyratio + b, ...), 
+    x, y, ...))
+}
+
+# setwd(&quot;~/Dropbox/文章天下事/Drafts/2018-CAWildfireMap/Rcode&quot;)
+#install.packages('ncdf4')
+clib=c('ncdf4', 'raster','rgeos','rgdal','ggplot2', 'lattice')
+tmp=lapply(clib, library, character.only=T)
+key='NDVI_GLOBAL'
+cn=FALSE
+# cn=TRUE
+if(cn){dir.gif = file.path('../gif', paste0(key, '_cn') )}else{
+  dir.gif = file.path('../gif', paste0(key, '_en') )}
+dir.in = file.path('/Volumes/WD8T/FireIndex/RDS/NDVI')
+dir.fig = file.path('../figure', key)
+dir.rds = file.path('../RDS', key)
+dlist = list(dir.in, dir.fig, dir.gif, dir.rds);
+tmp=lapply(dlist, dir.create, showWarnings = F, recursive = T)
+
+crs0=crs('+init=epsg:4326')
+
+rds.riv = '/Users/leleshu/Dropbox/PIHM/Projects/CommonData/Global/ne_10m_rivers_lake_centerlines_scale_rank/ne_10m_rivers_lake_centerlines_scale_rank.RDS'
+sp.riv = readRDS( file =rds.riv)
+map=readRDS('/Users/leleshu/Dropbox/PIHM/Projects/CommonData/Global/ADM/cntry02.RDS')
+sp.prov = map
+# map=gUnaryUnion(map)
+crs(map)= CRS('+init=epsg:4326')
+brk = sort(unique(c(-1, 0.2, seq(2 ,10, by = 1)/10) ))
+brk = seq(0, 10, 1)/10
+# cols=rev(colorspace::diverge_hsv(length(brk) ) )
+cols=rev(col.fun(length(brk)));
+
+ncols = length(cols)
+pngout&lt;-function(fn, wd = 12, ht = 8){
+  png(fn, width=wd, height=ht, unit='in', res=150)
+}
+# years = 2010:2017; 
+years = 2002:2009;
+ny=length(years)
+# plot(map, axes=T)
+# plotclock(time=c(1,NA,NA), add=T, orig=orig, rad=4, val=month.abb, ab=1.2)
+if(cn){
+  labs=c('1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月')
+}else{
+  labs=month.abb
+}
+# # library(foreach)
+# library(doMC)
+# library(doParallel)
+# registerDoMC(6)
+# plot(r)
+
+xp=c(-180, 180, 180, -180)
+yp=c(-90, -90, 90,90)
+xt=seq(-180, 180, 30)
+yt=seq(-90, 90, 30)
+xtlab= rep('W', length(xt)); xtlab[xt&gt;0]='E'; xtlab[xt==0]='';xtlab=paste0('°', xtlab)
+ytlab= rep('S', length(xt)); xtlab[xt&gt;0]='N'; xtlab[xt==0]='';ytlab=paste0('°', ytlab)
+
+rcl=rbind(c(-1000, 0, 0), c(1, 10, 1) )
+mygrid &lt;- function(h=NULL, v=NULL,  lty=2, col='gray80', ...){
+  fun.h=function(x){ abline(h=x,  lty=lty, col=col, ...)  }
+  fun.v=function(x){ abline(v=x,  lty=lty, col=col, ...)  }
+  if(!is.null(h)) tmp = lapply(h, fun.h)
+  if(!is.null(v)) tmp = lapply(v, fun.v)
+}
+
+theta=1:360-90 - 360/12
+cc.cols=col.fun(180)
+cc.cols=c(cc.cols, rev(cc.cols))
+cc=PCS2CCS(theta=theta, a=0.8)
+ext=extent(map)
+# x= foreach (iy = 1:ny) %dopar%{
+for(iy in 1:ny){
+  yr= years[iy]
+  fn.in = file.path(dir.in, paste0('NDVI',yr,'.RDS'))
+  message(iy,'/', ny, '\t',yr, '\t', fn.in)
+  dat = readRDS(fn.in)
+  tag = substr(names(dat), 2, nchar(names(dat)) )
+  nmon = length(tag)
+  for(i in 1:nmon){
+    rx=dat[[i]]
+    r=reclassify(rx, rcl)
+    message(i,'/', nmon, '\t', tag[i] )
+    ttl = paste0(substr(tag[i], 1,4), '.', substr(tag[i], 5,6) )
+    pngout(file.path(dir.gif, paste0(key, tag[i], '.png')), ht=6, wd=10)
+    par(mar=c(2.5,2.5,1,1))
+    # plot(map, axes=T)
+    # plot(map,  col='white', axes=T, border='transparent')
+    plot(xp, yp, type='n', axes=F, asp=1, xlim = range(xp), ylim=range(yp)); box(); 
+    axis(side=1, at=xt); 
+    axis(side=2, at=yt)
+    polygon(xp,yp, border='lightskyblue', col='lightskyblue')
+    plot(add=T, map,  col='white', axes=T, border='transparent')
+    mygrid(h=yt, v=xt)
+    plot(add=T, r, breaks=brk, col=cols, legend=FALSE, axes=F);
+    mtext(ttl, side=3, cex=2.5, line=-2, font=2, col='darkgreen')
+    plot(add=T, sp.riv, col=rgb(0,0,1, 0.3), lwd=.5)
+    mygrid(h=yt, v=xt)
+    par(fig=c(c(0.1, 0.3)+.0, c(0.1,0.24)+.16), new=T, mar=c(0,0,0,0))
+    tmp=density(r, plot=F)
+    plot(tmp$x, tmp$y, type='l',  lwd=3, bg='gray80', col=3, axes=F,
+         xlim=c(0,1), ylim=c(-1,4.5))
+    plot(r, legend.only=TRUE, breaks=brk, col=cols,
+         smallplot=c(.0, 1, .0, .13),
+         legend.width=5, legend.shrink=.7, cex=5, horizontal=T,
+         axis.args=list(col.axis='blue', lwd = 0,
+                        font.axis=1, cex.axis=1, tck = 0, line=-.85,
+                        labels=brk, cex.axis=1.2),
+         legend.args=list(text='',col=4, side=3, font=1, cex=1.5)
+    )
+    x.mon=as.numeric(substr(tag[i], 5,6))
+    if(cn){
+      par(fig=c(c(0.3, 0.55)+.28, c(0.6,0.86)+.05), new=T, mar=c(0,0,0,0)
+          ,family='STKaiti')
+    }else{
+      par(fig=c(c(0.3, 0.55)+.28, c(0.6,0.86)-.4), new=T, mar=c(0,0,0,0)
+      )
+    }
+    plot(0, type='n', axes=F, xlab='', ylab='', xlim=c(-1,1)*1.5, ylim=c(-1,1)*1.5, asp=1)
+    plotclock(time=c(x.mon,NA,NA),rad=1.1, val=labs, axes=F, add=T, fun.plot = polygon,
+              val.arg = list(col=4, cex=.95))
+    # color ring.
+    points(cc, col=cc.cols, cex=1.4, pch=19)
+    dev.off()
+    # stop('stop')
+  } 
+}
+
+fps=6
+fn.mov = file.path(dirname(dir.gif), paste0(key,'_', fps,'fps.mp4') )
+cmd = paste('ffmpeg -r ', fps,  '-f image2 -s 1920x1080 -i ', paste0(dir.gif, '/*.png'),
+            '-vcodec libx264 -crf 25  -pix_fmt yuv420p', fn.mov)
+print(cmd)
+# system(cmd)
+</code></pre>
+
+<h1 id="script-for-china-ndvi">Script for China NDVI</h1>
+
+<p><img src="NDVI_CN200202.png" alt="China NDVI on Feb 2002" /></p>
+
+<pre><code class="language-r">rm(list=ls())
+# devtools::install_github('shulele/RoundAndRound')
+library(RoundAndRound)
+library(xts)
+col.fun=function(x){ colorspace::terrain_hcl(x, l=c(65,95), 
+                                             power=c(1/3, 1.5))  }
+plotStar &lt;- function(x, y, radius, angle=180, xyratio=1, ...){
+  i &lt;- 1:11
+  alpha &lt;- 2*pi / 10
+  r &lt;- radius * (i %% 2 + 1)/2
+  omega &lt;- alpha * i + angle * pi /180
+  invisible(mapply(function(a, b, ...) 
+    polygon(r*sin(omega) + a, r*cos(omega) * xyratio + b, ...), 
+    x, y, ...))
+}
+#install.packages('ncdf4')
+clib=c('ncdf4', 'raster','rgeos','rgdal','ggplot2', 'lattice')
+tmp=lapply(clib, library, character.only=T)
+key='NDVI_CN'
+# cn=FALSE
+cn=TRUE
+if(cn){
+  dir.gif = file.path('../gif', paste0(key, '_cn') )
+}else{
+  dir.gif = file.path('../gif', paste0(key, '_en') )
+}
+dir.in = file.path('../RDS/NDVI_CN/')
+dir.fig = file.path('../figure', key)
+dir.rds = file.path('../RDS', key)
+dlist = list(dir.in, dir.fig, dir.gif, dir.rds);
+tmp=lapply(dlist, dir.create, showWarnings = F, recursive = T)
+
+crs0=crs('+init=epsg:4326')
+sp.prov = readRDS( file = file.path(dir.rds, 'province.RDS'))
+sp.cn=readRDS(file = file.path(dir.rds, 'map.RDS'))
+sp.city = readRDS( file = file.path(dir.rds, 'city.RDS'))
+sp.riv = readRDS( file = file.path(dir.rds, 'riv.RDS'))
+
+# map=readRDS('../RDS/CONUS.RDS')
+ext=extent(sp.cn)
+ia=gArea(sp.cn, byid = T)
+id=order(ia, decreasing = T)[1:6]
+map=sp.cn[id, ]
+map@data=data.frame(1:6)
+crs(map)= CRS('+init=epsg:4326')
+brk = sort(unique(c(-1, 0.2, seq(2 ,10, by = 1)/10) ))
+brk = seq(0, 10, 1)/10
+# cols=rev(colorspace::diverge_hsv(length(brk) ) )
+cols=rev(col.fun(length(brk)));
+
+ncols = length(cols)
+pngout&lt;-function(fn, wd = 12, ht = 8){
+  png(fn, width=wd, height=ht, unit='in', res=150)
+}
+years = 2010:2017; 
+years = 2002:2017;
+ny=length(years)
+# plot(map, axes=T)
+# plotclock(time=c(1,NA,NA), add=T, orig=orig, rad=4, val=month.abb, ab=1.2)
+if(cn){
+  labs=c('1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月')
+}else{
+  labs=month.abb
+}
+# # library(foreach)
+# library(doMC)
+# library(doParallel)
+# registerDoMC(6)
+# plot(r)
+iy=1
+rid1=which(as.numeric(sp.riv@data$JB) ==1)
+rid2=which(as.numeric(sp.riv@data$JB) ==2)
+ct.xy=coordinates(sp.city)
+ct.txt=as.character(sp.city@data$PINYIN)
+
+theta=1:360-90 - 360/12
+cc.cols=col.fun(180)
+cc.cols=c(cc.cols, rev(cc.cols))
+cc=PCS2CCS(theta=theta, a=0.8)
+go&lt;-function(){
+  tsd=readRDS(file.path(dir.rds, paste0(key,'.TSD.RDS')) )
+  tsd=cbind(tsd, movingFun(tsd, 12))
+  txx=coredata(tsd)
+  xt=seq(min(years), max(years), length.out = 12*(diff(range(years))+1) )
+  mat=cbind(xt, txx)
+}
+tsd=go()
+
+# x= foreach (iy = 1:ny) %dopar%{
+for(iy in 1:ny){
+  yr= years[iy]
+  fn.in = file.path(dir.in, paste0('NDVI',yr,'.RDS'))
+  message(iy,'/', ny, '\t',yr, '\t', fn.in)
+  dat = readRDS(fn.in)
+  tag = substr(names(dat), 2, nchar(names(dat)) )
+  nmon = length(tag)
+  for(i in 1:nmon){
+    rx=dat[[i]]
+    r=mask(rx, map)
+    # r=rx
+    message(i,'/', nmon, '\t', tag[i] )
+    ttl = paste0(substr(tag[i], 1,4), '.', substr(tag[i], 5,6) )
+    graphics.off()
+    pngout(file.path(dir.gif, paste0(key, tag[i], '.png')), ht=7, wd=10)
+    par(mar=c(2.5,2.5,1,1))
+    # plot(map, axes=T)
+    plot(map,  border='gray80', axes=T, ylim=c(19, 53), xlim=c(74, 135))
+
+    r[r&lt;0]=0
+    r[r&gt;1]=1
+    plot(add=T, r, breaks=brk, col=cols, legend=FALSE);
+    mtext(ttl, side=3, cex=2.5, line=-2, adj=1, font=2, col='darkgreen')
+    plot(map, add=T, border = 4, lwd=.7, lty=2)
+    plot(add=T, sp.prov, border='gray50', lwd=.7, lty=2)
+    plot(add=T, sp.riv[rid1, ], col=rgb(0,0,1, 0.6), lwd=1.5)
+    plot(add=T, sp.riv[rid2, ], col=rgb(0,0,1, 0.6), lwd=.8)
+    plot(add=T, sp.city, pch=20, col='darkgreen')
+    plotStar(ct.xy[1,1], ct.xy[1,2], .5, pch=3, col=2)
+    # text(ct.xy, ct.txt, cex=.5)
+    grid()
+    # xloc=c(0.05, 0.3); yloc=c(0.1,0.13)
+    # plot(r, legend.only=TRUE, breaks=brk, col=cols,
+    #      smallplot=c(xloc+.03, yloc+.02),
+    #      legend.width=5, legend.shrink=.7, cex=5, horizontal=T,
+    #      axis.args=list(col.axis='blue', lwd = 0,
+    #                     font.axis=4, cex.axis=1.5,tck = 0, line=-.85,
+    #                     labels=brk, cex.axis=1.2),
+    #      legend.args=list(text='',col=4, side=3, font=2, cex=1.5)
+    # )
+    # dev.off();plot(r)
+    
+    par(fig=c(c(0.04, 0.305)+.04, c(0.1,0.24)+.03), new=T, mar=c(0,0,0,0))
+    tmp=density(r, plot=F)
+    plot(tmp$x, tmp$y, type='l', axes=F, lwd=2, bg='gray80', col=3,
+         xlim=c(0,1), ylim=c(-1,4.5))
+    plot(r, legend.only=TRUE, breaks=brk, col=cols,
+         smallplot=c(.0, 1, .0, .13),
+         legend.width=5, legend.shrink=.7, cex=5, horizontal=T,
+         axis.args=list(col.axis='blue', lwd = 0,
+                        font.axis=1, cex.axis=1, tck = 0, line=-.85,
+                        labels=brk, cex.axis=1.2),
+         legend.args=list(text='',col=4, side=3, font=1, cex=1.5)
+    )
+    
+    x.mon=as.numeric(substr(tag[i], 5,6))
+    if(cn){
+      par(fig=c(c(0.3, 0.55)+.1, c(0.6,0.85)+.05), new=T, mar=c(0,0,0,0),
+          family='STKaiti')
+    }else{
+      par(fig=c(c(0.3, 0.55)+.1, c(0.6,0.85)+.05), new=T, mar=c(0,0,0,0))
+    }
+    plot(0, type='n', axes=F, xlab='', ylab='', xlim=c(-1,1)*1.5, ylim=c(-1,1)*1.5, asp=1)
+    plotclock(time=c(x.mon,NA,NA),rad=1, val=labs, axes=F, add=T, fun.plot = polygon,
+    val.arg = list(col=4, cex=.95))
+    # color ring.
+    points(cc, col=cc.cols, cex=1.4, pch=19)
+    # text(0, 0, ttl, col='gray', cex=1.2)
+    text(0, 0, years[iy], col='darkgreen', cex=1.5)
+    text(0, -0.4, &quot;Lele Shu&quot;, col='gray40', cex=.7, font=2, family='Kaiti SC')
+    # South Sea
+    par(fig=c(c(0.7, 0.9)+.08, c(0.1,0.4)-.029), new=T, mar=c(0,0,0,0))
+    plot(sp.cn, type='n', axes=F, xlab='', ylab='',
+         xlim=c(105,125), ylim=c(6,20))
+    plot(add=T, sp.riv[c(rid1,rid2), ], col=rgb(0,0,1, 0.6), lwd=1)
+    box(lty='solid'); grid()
+    axis(side=3, cex.axis=.5, tick=NULL, lwd=0, line=-1, font=2)
+    axis(side=2, cex.axis=.5, tick=NULL, lwd=0, line=-1, font=2)
+    plot(add=T, r, breaks=brk, col=cols, legend=FALSE);
+    #     TREND 
+    par(fig=c(c(0.04, 0.4)+.04, c(0.1,0.2)+.75), mgp = c(0, 1, 0), new=T, mar=c(0,0,0,0))
+    matplot(tsd[,1], tsd[,-1], xlab='', ylab='', type='l', axes=F,
+            col=c('darkgreen', 'red'), lwd=c(1,2), lty=1); 
+    axis(side=1, at=years, cex.axis=.7, font.axis=4)
+    tid=i+(iy-1)*12
+    points(tsd[tid, 1], tsd[tid, 2], pch=20, col='darkgreen', cex=2); 
+    mtext(side=2, 'Mean')
+    dev.off()
+    # stop('stop')
+  } 
+}
+
+fps=6
+fn.mov = file.path(dirname(dir.gif), paste0(key,'_', fps,'fps.mp4') )
+cmd = paste('ffmpeg -r ', fps,  '-f image2 -s 1920x1080 -i ',
+            paste0(&quot;'&quot;, dir.gif, '/*.png', &quot;'&quot;),
+             '-vcodec libx264 -crf 25  -pix_fmt yuv420p', fn.mov)
+print(cmd)
+system(cmd)
+</code></pre>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://www.shulele.net/zh/post/20191003_r_animation/&amp;text=R%20Script%20to%20Animate%20Global%20NDVI" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://www.shulele.net/zh/post/20191003_r_animation/&amp;t=R%20Script%20to%20Animate%20Global%20NDVI" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=R%20Script%20to%20Animate%20Global%20NDVI&amp;body=https://www.shulele.net/zh/post/20191003_r_animation/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://www.shulele.net/zh/post/20191003_r_animation/&amp;title=R%20Script%20to%20Animate%20Global%20NDVI" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=R%20Script%20to%20Animate%20Global%20NDVI%20https://www.shulele.net/zh/post/20191003_r_animation/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://www.shulele.net/zh/post/20191003_r_animation/&amp;title=R%20Script%20to%20Animate%20Global%20NDVI" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <img class="portrait mr-3" src="/zh/authors/admin/avatar_hu18b35d882719384e90116b918ac0f720_171187_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://www.shulele.net/">舒乐乐</a></h5>
+      <h6 class="card-subtitle">博士后研究员, SHUD模型作者</h6>
+      <p class="card-text">加州大学戴维斯分校博士后研究员, SHUD模型作者； 专注于数值方法的分布式水文模型、水文大数据的机器学习、气候/人类活动对水循环的影响和集成模型耦合研究</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:lele.shu@gmail.com" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/leleshu" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=6yiZVfkAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/shulele" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/img/weixin.jpg" >
+        <i class="fab fa-weixin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/cv/LeleShu_CV_cn.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+<div class="article-widget">
+  
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">下一页</div>
+    <a href="/zh/post/20191119_sundials/" rel="next">How to Install Sundials 5.x or Cvode on Mac Linux System</a>
+  </div>
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">上一页</div>
+    <a href="/zh/post/20190627_ndvi/" rel="prev"> Monthly NDVI change in USA and Global from 2002-2017</a>
+  </div>
+  
+</div>
+
+</div>
+
+
+
+  
+  
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/zh/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"没有找到结果","placeholder":"搜索...","results":"搜索结果"};
+      const content_type = {
+        'post': "文章",
+        'project': "项目",
+        'publication' : "出版物",
+        'talk' : "演讲"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.bcfae8267aba63cc55af53a503896bd9.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">引用</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> 复制
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> 下载
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
