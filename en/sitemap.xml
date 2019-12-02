@@ -22,38 +22,6 @@
   </url>
   
   <url>
-    <loc>https://www.shulele.net/teaching/class_fdm/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://www.shulele.net/zh/teaching/class_fdm/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.shulele.net/teaching/class_fdm/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.shulele.net/teaching/example/class_fdm/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.shulele.net/teaching/class_geospatialr/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://www.shulele.net/zh/teaching/class_geospatialr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.shulele.net/teaching/class_geospatialr/"
-                />
-  </url>
-  
-  <url>
     <loc>https://www.shulele.net/publication_types/3/</loc>
     <lastmod>2019-11-25T00:00:00-08:00</lastmod>
     <xhtml:link
@@ -1338,20 +1306,6 @@
   
   <url>
     <loc>https://www.shulele.net/teaching/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.shulele.net/teaching/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://www.shulele.net/zh/teaching/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.shulele.net/teaching/"
-                />
   </url>
   
 </urlset>

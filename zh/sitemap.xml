@@ -3,36 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.shulele.net/zh/teaching/class_fdm/</loc>
-    <lastmod>2018-12-01T00:00:00-08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.shulele.net/teaching/class_fdm/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://www.shulele.net/zh/teaching/class_fdm/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.shulele.net/zh/teaching/class_geospatialr/</loc>
-    <lastmod>2018-12-01T00:00:00-08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.shulele.net/teaching/class_geospatialr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://www.shulele.net/zh/teaching/class_geospatialr/"
-                />
-  </url>
-  
-  <url>
     <loc>https://www.shulele.net/zh/publication_types/3/</loc>
     <lastmod>2019-11-25T00:00:00-08:00</lastmod>
     <xhtml:link
@@ -659,21 +629,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://www.shulele.net/zh/talk/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.shulele.net/zh/teaching/</loc>
-    <lastmod>2018-12-01T00:00:00-08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.shulele.net/teaching/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://www.shulele.net/zh/teaching/"
                 />
   </url>
   
