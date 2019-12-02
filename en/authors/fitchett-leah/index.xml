@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fitchett, Leah | SHU</title>
-    <link>/en/authors/fitchett-leah/</link>
-      <atom:link href="/en/authors/fitchett-leah/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.shulele.net/en/authors/fitchett-leah/</link>
+      <atom:link href="https://www.shulele.net/en/authors/fitchett-leah/index.xml" rel="self" type="application/rss+xml" />
     <description>Fitchett, Leah</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 25 Jul 2019 00:00:00 -0700</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://www.shulele.net/img/icon-192.png</url>
       <title>Fitchett, Leah</title>
-      <link>/en/authors/fitchett-leah/</link>
+      <link>https://www.shulele.net/en/authors/fitchett-leah/</link>
     </image>
     
     <item>
       <title>Integrating fast and slow processes is essential for simulating human–freshwater interactions</title>
-      <link>/en/publication/ward2018/</link>
+      <link>https://www.shulele.net/en/publication/ward2018/</link>
       <pubDate>Thu, 25 Jul 2019 00:00:00 -0700</pubDate>
-      <guid>/en/publication/ward2018/</guid>
+      <guid>https://www.shulele.net/en/publication/ward2018/</guid>
       <description></description>
     </item>
     

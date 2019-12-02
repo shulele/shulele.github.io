@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Li, Xin | 舒乐乐</title>
-    <link>/zh/authors/li-xin/</link>
-      <atom:link href="/zh/authors/li-xin/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.shulele.net/zh/authors/li-xin/</link>
+      <atom:link href="https://www.shulele.net/zh/authors/li-xin/index.xml" rel="self" type="application/rss+xml" />
     <description>Li, Xin</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Thu, 25 Aug 2011 00:00:00 -0700</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://www.shulele.net/img/icon-192.png</url>
       <title>Li, Xin</title>
-      <link>/zh/authors/li-xin/</link>
+      <link>https://www.shulele.net/zh/authors/li-xin/</link>
     </image>
     
     <item>
       <title>Integrated modeling environment and a preliminary application on the Heihe River Basin, China</title>
-      <link>/zh/publication/nan2011/</link>
+      <link>https://www.shulele.net/zh/publication/nan2011/</link>
       <pubDate>Thu, 25 Aug 2011 00:00:00 -0700</pubDate>
-      <guid>/zh/publication/nan2011/</guid>
+      <guid>https://www.shulele.net/zh/publication/nan2011/</guid>
       <description></description>
     </item>
     

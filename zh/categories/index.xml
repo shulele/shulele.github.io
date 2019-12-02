@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories | 舒乐乐</title>
-    <link>/zh/categories/</link>
-      <atom:link href="/zh/categories/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.shulele.net/zh/categories/</link>
+      <atom:link href="https://www.shulele.net/zh/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Sat, 23 Feb 2019 21:13:14 -0500</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://www.shulele.net/img/icon-192.png</url>
       <title>Categories</title>
-      <link>/zh/categories/</link>
+      <link>https://www.shulele.net/zh/categories/</link>
     </image>
     
     <item>
       <title>Research</title>
-      <link>/zh/categories/research/</link>
+      <link>https://www.shulele.net/zh/categories/research/</link>
       <pubDate>Sat, 23 Feb 2019 21:13:14 -0500</pubDate>
-      <guid>/zh/categories/research/</guid>
+      <guid>https://www.shulele.net/zh/categories/research/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Post</title>
-      <link>/zh/categories/post/</link>
+      <link>https://www.shulele.net/zh/categories/post/</link>
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/zh/categories/post/</guid>
+      <guid>https://www.shulele.net/zh/categories/post/</guid>
       <description></description>
     </item>
     

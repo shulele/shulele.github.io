@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Machine Learning | SHU</title>
-    <link>/en/tags/machine-learning/</link>
-      <atom:link href="/en/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.shulele.net/en/tags/machine-learning/</link>
+      <atom:link href="https://www.shulele.net/en/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Machine Learning</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 23 Feb 2019 21:13:14 -0500</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://www.shulele.net/img/icon-192.png</url>
       <title>Machine Learning</title>
-      <link>/en/tags/machine-learning/</link>
+      <link>https://www.shulele.net/en/tags/machine-learning/</link>
     </image>
     
     <item>
       <title>Hydrologic modeling in project HYPERION</title>
-      <link>/en/project/hyperion/</link>
+      <link>https://www.shulele.net/en/project/hyperion/</link>
       <pubDate>Sat, 23 Feb 2019 21:13:14 -0500</pubDate>
-      <guid>/en/project/hyperion/</guid>
+      <guid>https://www.shulele.net/en/project/hyperion/</guid>
       <description>
 
 &lt;h2 id=&#34;introduction-of-hyperion-i-class-fas-fa-external-link-alt-i-https-climate-ucdavis-edu-hyperion&#34;&gt;Introduction of HYPERION &lt;a href=&#34;https://climate.ucdavis.edu/hyperion/&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;

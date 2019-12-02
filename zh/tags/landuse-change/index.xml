@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Landuse change | 舒乐乐</title>
-    <link>/zh/tags/landuse-change/</link>
-      <atom:link href="/zh/tags/landuse-change/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.shulele.net/zh/tags/landuse-change/</link>
+      <atom:link href="https://www.shulele.net/zh/tags/landuse-change/index.xml" rel="self" type="application/rss+xml" />
     <description>Landuse change</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Sat, 23 Feb 2019 21:13:14 -0500</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://www.shulele.net/img/icon-192.png</url>
       <title>Landuse change</title>
-      <link>/zh/tags/landuse-change/</link>
+      <link>https://www.shulele.net/zh/tags/landuse-change/</link>
     </image>
     
     <item>
       <title>Hydrologic modeling in project HYPERION</title>
-      <link>/zh/project/hyperion/</link>
+      <link>https://www.shulele.net/zh/project/hyperion/</link>
       <pubDate>Sat, 23 Feb 2019 21:13:14 -0500</pubDate>
-      <guid>/zh/project/hyperion/</guid>
+      <guid>https://www.shulele.net/zh/project/hyperion/</guid>
       <description>
 
 &lt;h2 id=&#34;introduction-of-hyperion-i-class-fas-fa-external-link-alt-i-https-climate-ucdavis-edu-hyperion&#34;&gt;Introduction of HYPERION &lt;a href=&#34;https://climate.ucdavis.edu/hyperion/&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;
@@ -117,9 +117,9 @@
     
     <item>
       <title>Automatic hydrologic deployment and modeling</title>
-      <link>/zh/project/mint/</link>
+      <link>https://www.shulele.net/zh/project/mint/</link>
       <pubDate>Mon, 23 Jul 2018 21:13:14 -0500</pubDate>
-      <guid>/zh/project/mint/</guid>
+      <guid>https://www.shulele.net/zh/project/mint/</guid>
       <description>
 
 &lt;p&gt;This project is the hydrologic modeling part of the project &lt;em&gt;Model Integration through Knowledge-Rich Data and Process Composition&lt;/em&gt;.&lt;/p&gt;
@@ -146,17 +146,17 @@
     
     <item>
       <title>Coupling Cellular Automata Land Use Change with Distributed Hydrologic models</title>
-      <link>/zh/talk/agu2017/</link>
+      <link>https://www.shulele.net/zh/talk/agu2017/</link>
       <pubDate>Fri, 01 Dec 2017 00:00:00 -0800</pubDate>
-      <guid>/zh/talk/agu2017/</guid>
+      <guid>https://www.shulele.net/zh/talk/agu2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Lake-PIHM modeling in CNH-Lake project</title>
-      <link>/zh/project/cnh_lak/</link>
+      <link>https://www.shulele.net/zh/project/cnh_lak/</link>
       <pubDate>Sun, 23 Jul 2017 21:13:14 -0500</pubDate>
-      <guid>/zh/project/cnh_lak/</guid>
+      <guid>https://www.shulele.net/zh/project/cnh_lak/</guid>
       <description>
 
 &lt;p&gt;This project is the hydrology-lake modeling part of the whole project. The leading project is &lt;em&gt;CNH-L: Linking land-use decision making, water quality, and lake associations to understand human-natural feedbacks in lake catchments&lt;/em&gt;, cooperated with multiple universities and institutes(e.g. Virginia Tech, Pennsylvania State University, University of Wisconsin, Cary Institute of Ecosystem Studies, Michigan State University ).&lt;/p&gt;
@@ -188,9 +188,9 @@
   &lt;/figure&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;a href=&#34;/program/mendota&#34;&gt;Lake Mendota in 3D&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;a href=&#34;https://www.shulele.net/program/mendota&#34;&gt;Lake Mendota in 3D&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;a href=&#34;/program/sunapee&#34;&gt;Lake Sunapee in 3D&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;a href=&#34;https://www.shulele.net/program/sunapee&#34;&gt;Lake Sunapee in 3D&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;keep updating&lt;/strong&gt;&lt;/p&gt;
@@ -199,9 +199,9 @@
     
     <item>
       <title>Reconstructing the role of landuse change on water yield at the Maya urban</title>
-      <link>/zh/project/tikal/</link>
+      <link>https://www.shulele.net/zh/project/tikal/</link>
       <pubDate>Sat, 23 Jul 2016 21:13:14 -0500</pubDate>
-      <guid>/zh/project/tikal/</guid>
+      <guid>https://www.shulele.net/zh/project/tikal/</guid>
       <description>
 
 &lt;p&gt;This project is the hydrology-lake modeling part of the project &lt;em&gt;Land, Water, and Territory: A 3,000-Year Study of Niche Construction and Cultural Evolution in the Tikal National Park, Guatemala&lt;/em&gt;.
@@ -236,9 +236,9 @@
     
     <item>
       <title>Impact in hydrology from landuse and climate change</title>
-      <link>/zh/project/stormwater/</link>
+      <link>https://www.shulele.net/zh/project/stormwater/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      <guid>/zh/project/stormwater/</guid>
+      <guid>https://www.shulele.net/zh/project/stormwater/</guid>
       <description>
 
 &lt;p&gt;This project is the hydrologic modeling part of the project &lt;em&gt;NSF Hydrologic and Water Quality Modeling for Green Infrastructure&lt;/em&gt;.
@@ -269,9 +269,9 @@
     
     <item>
       <title>Urbanization-driven hydrological process change in Conestoga River watershed in Lancaster of Pennsylvania</title>
-      <link>/zh/talk/agu2013/</link>
+      <link>https://www.shulele.net/zh/talk/agu2013/</link>
       <pubDate>Tue, 31 Dec 2013 00:00:00 -0800</pubDate>
-      <guid>/zh/talk/agu2013/</guid>
+      <guid>https://www.shulele.net/zh/talk/agu2013/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Paul Ullrich | 舒乐乐</title>
-    <link>/zh/authors/paul-ullrich/</link>
-      <atom:link href="/zh/authors/paul-ullrich/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.shulele.net/zh/authors/paul-ullrich/</link>
+      <atom:link href="https://www.shulele.net/zh/authors/paul-ullrich/index.xml" rel="self" type="application/rss+xml" />
     <description>Paul Ullrich</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Sat, 01 Dec 2018 00:00:00 -0800</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://www.shulele.net/img/icon-192.png</url>
       <title>Paul Ullrich</title>
-      <link>/zh/authors/paul-ullrich/</link>
+      <link>https://www.shulele.net/zh/authors/paul-ullrich/</link>
     </image>
     
     <item>
       <title>Model simulated spatial distribution and the variation of ground water level in Sacramento Watershed, California from 1985 to 2017</title>
-      <link>/zh/talk/agu2018/</link>
+      <link>https://www.shulele.net/zh/talk/agu2018/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 -0800</pubDate>
-      <guid>/zh/talk/agu2018/</guid>
+      <guid>https://www.shulele.net/zh/talk/agu2018/</guid>
       <description>&lt;figure class=&#34;image&#34;&gt;
   &lt;img src=&#34;AnnualPRCP.png&#34; alt=&#34;{{ include.description }}&#34; width=&#34;400&#34;&gt;
   &lt;figcaption&gt;Annual Precipitation (1985-2017) of Sacramento Watershed&lt;/figcaption&gt;

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Geospatial and Geostatistical Analysis with R | SHU</title>
-    <link>/en/class_geospatialr/</link>
-      <atom:link href="/en/class_geospatialr/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.shulele.net/en/class_geospatialr/</link>
+      <atom:link href="https://www.shulele.net/en/class_geospatialr/index.xml" rel="self" type="application/rss+xml" />
     <description>Geospatial and Geostatistical Analysis with R</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 31 Dec 2013 00:00:00 -0800</lastBuildDate>
     <image>
-      <url>/en/class_geospatialr/featured.png</url>
+      <url>https://www.shulele.net/en/class_geospatialr/featured.png</url>
       <title>Geospatial and Geostatistical Analysis with R</title>
-      <link>/en/class_geospatialr/</link>
+      <link>https://www.shulele.net/en/class_geospatialr/</link>
     </image>
     
     <item>
       <title>Geospatial and Geostatistical Analysis with R</title>
-      <link>/en/class_geospatialr/0overview/</link>
+      <link>https://www.shulele.net/en/class_geospatialr/0overview/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/en/class_geospatialr/0overview/</guid>
+      <guid>https://www.shulele.net/en/class_geospatialr/0overview/</guid>
       <description>
 
 &lt;blockquote&gt;

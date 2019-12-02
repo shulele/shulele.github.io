@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hydrology | SHU</title>
-    <link>/en/tags/hydrology/</link>
-      <atom:link href="/en/tags/hydrology/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.shulele.net/en/tags/hydrology/</link>
+      <atom:link href="https://www.shulele.net/en/tags/hydrology/index.xml" rel="self" type="application/rss+xml" />
     <description>Hydrology</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 23 Feb 2019 21:13:14 -0500</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://www.shulele.net/img/icon-192.png</url>
       <title>Hydrology</title>
-      <link>/en/tags/hydrology/</link>
+      <link>https://www.shulele.net/en/tags/hydrology/</link>
     </image>
     
     <item>
       <title>Hydrologic modeling in project HYPERION</title>
-      <link>/en/project/hyperion/</link>
+      <link>https://www.shulele.net/en/project/hyperion/</link>
       <pubDate>Sat, 23 Feb 2019 21:13:14 -0500</pubDate>
-      <guid>/en/project/hyperion/</guid>
+      <guid>https://www.shulele.net/en/project/hyperion/</guid>
       <description>
 
 &lt;h2 id=&#34;introduction-of-hyperion-i-class-fas-fa-external-link-alt-i-https-climate-ucdavis-edu-hyperion&#34;&gt;Introduction of HYPERION &lt;a href=&#34;https://climate.ucdavis.edu/hyperion/&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;
@@ -117,9 +117,9 @@
     
     <item>
       <title>Automatic hydrologic deployment and modeling</title>
-      <link>/en/project/mint/</link>
+      <link>https://www.shulele.net/en/project/mint/</link>
       <pubDate>Mon, 23 Jul 2018 21:13:14 -0500</pubDate>
-      <guid>/en/project/mint/</guid>
+      <guid>https://www.shulele.net/en/project/mint/</guid>
       <description>
 
 &lt;p&gt;This project is the hydrologic modeling part of the project &lt;em&gt;Model Integration through Knowledge-Rich Data and Process Composition&lt;/em&gt;.&lt;/p&gt;
@@ -146,9 +146,9 @@
     
     <item>
       <title>Lake-PIHM modeling in CNH-Lake project</title>
-      <link>/en/project/cnh_lak/</link>
+      <link>https://www.shulele.net/en/project/cnh_lak/</link>
       <pubDate>Sun, 23 Jul 2017 21:13:14 -0500</pubDate>
-      <guid>/en/project/cnh_lak/</guid>
+      <guid>https://www.shulele.net/en/project/cnh_lak/</guid>
       <description>
 
 &lt;p&gt;This project is the hydrology-lake modeling part of the whole project. The leading project is &lt;em&gt;CNH-L: Linking land-use decision making, water quality, and lake associations to understand human-natural feedbacks in lake catchments&lt;/em&gt;, cooperated with multiple universities and institutes(e.g. Virginia Tech, Pennsylvania State University, University of Wisconsin, Cary Institute of Ecosystem Studies, Michigan State University ).&lt;/p&gt;
@@ -180,9 +180,9 @@
   &lt;/figure&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;a href=&#34;/program/mendota&#34;&gt;Lake Mendota in 3D&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;a href=&#34;https://www.shulele.net/program/mendota&#34;&gt;Lake Mendota in 3D&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;a href=&#34;/program/sunapee&#34;&gt;Lake Sunapee in 3D&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;a href=&#34;https://www.shulele.net/program/sunapee&#34;&gt;Lake Sunapee in 3D&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;keep updating&lt;/strong&gt;&lt;/p&gt;
@@ -191,9 +191,9 @@
     
     <item>
       <title>Lake-PIHM modeling in CNH-Lake project</title>
-      <link>/en/project/cnh_lak/</link>
+      <link>https://www.shulele.net/en/project/cnh_lak/</link>
       <pubDate>Sun, 23 Jul 2017 21:13:14 -0500</pubDate>
-      <guid>/en/project/cnh_lak/</guid>
+      <guid>https://www.shulele.net/en/project/cnh_lak/</guid>
       <description>
 
 &lt;p&gt;This project is the hydrology-lake modeling part of the whole project. The leading project is &lt;em&gt;CNH-L: Linking land-use decision making, water quality, and lake associations to understand human-natural feedbacks in lake catchments&lt;/em&gt;, cooperated with multiple universities and institutes(e.g. Virginia Tech, Pennsylvania State University, University of Wisconsin, Cary Institute of Ecosystem Studies, Michigan State University ).&lt;/p&gt;
@@ -225,9 +225,9 @@
   &lt;/figure&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;a href=&#34;/program/mendota&#34;&gt;Lake Mendota in 3D&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;a href=&#34;https://www.shulele.net/program/mendota&#34;&gt;Lake Mendota in 3D&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;a href=&#34;/program/sunapee&#34;&gt;Lake Sunapee in 3D&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;a href=&#34;https://www.shulele.net/program/sunapee&#34;&gt;Lake Sunapee in 3D&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;keep updating&lt;/strong&gt;&lt;/p&gt;
@@ -236,9 +236,9 @@
     
     <item>
       <title>Reconstructing the role of landuse change on water yield at the Maya urban</title>
-      <link>/en/project/tikal/</link>
+      <link>https://www.shulele.net/en/project/tikal/</link>
       <pubDate>Sat, 23 Jul 2016 21:13:14 -0500</pubDate>
-      <guid>/en/project/tikal/</guid>
+      <guid>https://www.shulele.net/en/project/tikal/</guid>
       <description>
 
 &lt;p&gt;This project is the hydrology-lake modeling part of the project &lt;em&gt;Land, Water, and Territory: A 3,000-Year Study of Niche Construction and Cultural Evolution in the Tikal National Park, Guatemala&lt;/em&gt;.
@@ -273,9 +273,9 @@
     
     <item>
       <title>Impact in hydrology from landuse and climate change</title>
-      <link>/en/project/stormwater/</link>
+      <link>https://www.shulele.net/en/project/stormwater/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      <guid>/en/project/stormwater/</guid>
+      <guid>https://www.shulele.net/en/project/stormwater/</guid>
       <description>
 
 &lt;p&gt;This project is the hydrologic modeling part of the project &lt;em&gt;NSF Hydrologic and Water Quality Modeling for Green Infrastructure&lt;/em&gt;.
