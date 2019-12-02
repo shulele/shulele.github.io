@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | SHU</title>
+    <link>https://www.shulele.net/en/post/</link>
+      <atom:link href="https://www.shulele.net/en/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 19 Nov 2019 22:05:38 -0800</lastBuildDate>
+    <image>
+      <url>https://www.shulele.net/img/icon-192.png</url>
+      <title>Posts</title>
+      <link>https://www.shulele.net/en/post/</link>
+    </image>
+    
+    <item>
+      <title>How to Install Sundials 5.x or Cvode on Mac Linux System</title>
+      <link>https://www.shulele.net/en/post/20191119_sundials/</link>
+      <pubDate>Tue, 19 Nov 2019 22:05:38 -0800</pubDate>
+      <guid>https://www.shulele.net/en/post/20191119_sundials/</guid>
+      <description>
+
+&lt;h2 id=&#34;sundials-suite-of-nonlinear-and-differential-algebraic-equation-solvers&#34;&gt;SUNDIALS: SUite of Nonlinear and DIfferential/ALgebraic Equation Solvers&lt;/h2&gt;
+
+&lt;p&gt;SUNDIALS (&lt;a href=&#34;https://computing.llnl.gov/projects/sundials&#34; target=&#34;_blank&#34;&gt;https://computing.llnl.gov/projects/sundials&lt;/a&gt;) is a very powerful mathematical library that is helpful in solving engineering and scientific problems efficiently. CVODE is one of the tools, aiming to solve Ordinary Differential Equation, in C language.
+In the Solver of Hydrologic Unstructured Domain (SHUD) model, the system of ODEs describing the hydrological processes is fully coupled and solved simultaneously at each  time step ($ \Delta t=t&lt;em&gt;{n}-t&lt;/em&gt;{n-1}$)  using CVODE, a stiff solver based on Newton-Krylov iteration.&lt;/p&gt;
+
+&lt;p&gt;The latest version of SUNDIALS is v5.0.0, released on November 2019. Let&amp;rsquo;s install it on a Mac OS or Linux system.&lt;/p&gt;
+
+&lt;p&gt;I test the installation on &lt;strong&gt;Mac 10.13&lt;/strong&gt; and  &lt;strong&gt;Ubuntu 18.04.3 LTS (GNU/Linux 4.15.0-66-generic x86_64)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Download SUNDIALS, via &lt;a href=&#34;https://computing.llnl.gov/projects/sundials/sundials-software&#34; target=&#34;_blank&#34;&gt;https://computing.llnl.gov/projects/sundials/sundials-software&lt;/a&gt;.
+Or get latest SUNDIALS on GitHub:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/LLNL/sundials.git
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Now, you must have the source code of SUNDIALS in your folder.
+  Please enter the folder.
+  Let&amp;rsquo;s assume you are in the same level of &lt;em&gt;sundials&lt;/em&gt;.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Create a install folder.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The installation folder names &lt;strong&gt;installSundials&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  mkdir installSundials
+  cd installSundials
+  
+  rm -rf builddir instdir srcdir
+  
+  mkdir builddir
+  mkdir instdir
+  mkdir srcdir
+  
+  cd builddir/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Configure the installation with CCMAKE.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;There are two ways to configure the installation. One is GUI, and the other is command line.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Option 1&lt;/strong&gt;, type command blow:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ccmake ../../sundials/
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You will see a screen like this:
+  &lt;img src=&#34;featured.png&#34; alt=&#34;CCMAKE Screenshot&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Use your cursor, move to line &lt;strong&gt;&lt;em&gt;CMAKE_INSTALL_PREFIX&lt;/em&gt;&lt;/strong&gt;, which is the path SUNDIALS will be installed. Press Enter to start edit the line. I install it on &lt;strong&gt;/usr/local/sundials&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Another path you may change is the path of example code, &lt;strong&gt;&lt;em&gt;EXAMPLES_INSTALL_PATH&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Next, you need to select which solver you want to install, such as, ARKODE, CVODE, CVODES IDA, IDAS, KINSOL. They are on the top of your GUI; press Enter to enable or disable it. Since I need the CVODE only, I turn the &lt;strong&gt;&lt;em&gt;BUILD_CVODE&lt;/em&gt;&lt;/strong&gt; option ON and keep the rest of them OFF.&lt;/p&gt;
+
+&lt;p&gt;If you have OpenMP on your machine and you need the support of OpenMP parallel in your program, you can turn the &lt;em&gt;OPENMP_ENABLE&lt;/em&gt; ON.&lt;/p&gt;
+
+&lt;p&gt;After edits, press &lt;strong&gt;C&lt;/strong&gt; to configure, and press &lt;strong&gt;C&lt;/strong&gt; again, when &lt;strong&gt;g&lt;/strong&gt; option shows up on the bottom, press &lt;strong&gt;g&lt;/strong&gt; to generate configuration files.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Option 2&lt;/strong&gt;, you can use command to realise the edits above, for example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cmake -DCMAKE_INSTALL_PREFIX=/usr/local/sundials \
+-DEXAMPLES_INSTALL_PATH=../example \
+-DBUILD_CVODE=ON \
+-DBUILD_CVODES=OFF \
+-DBUILD_ARKODE=OFF \
+-DBUILD_CVODES=OFF \
+-DBUILD_IDA=OFF \
+-DBUILD_IDAS=OFF \
+-DBUILD_KINSOL=OFF \
+-DOPENMP_ENABLE=ON \
+../../sundials/
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The command above configure installation, to install SUNDIALS to &lt;em&gt;/usr/local/sundials&lt;/em&gt;, the examples to &lt;em&gt;../example&lt;/em&gt;, install &lt;em&gt;CVODE&lt;/em&gt; only, with OpenMP support.&lt;/p&gt;
+
+&lt;p&gt;If you don&amp;rsquo;t need OpenMP or your OpenMP may result in errors, use the command below:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  cmake -DCMAKE_INSTALL_PREFIX=/usr/local/sundials \
+   -DEXAMPLES_INSTALL_PATH=../example \
+   -DBUILD_CVODE=ON \
+   -DBUILD_CVODES=OFF \
+   -DBUILD_ARKODE=OFF \
+   -DBUILD_CVODES=OFF \
+   -DBUILD_IDA=OFF \
+   -DBUILD_IDAS=OFF \
+   -DBUILD_KINSOL=OFF \
+   -DOPENMP_ENABLE=OFF \
+   ../../sundials/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ol&gt;
+&lt;li&gt;make and install&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This is simple and easy, run:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  make
+  make install
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Sometimes, if the system may require higher previlage. If so, please try to use sudo:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  make
+  sudo make install
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If there is no error occur, the SUNDIALS is installed successfully. Congrats.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Test the SUNDIALS library with the examples.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Enter the example folder,  &lt;em&gt;../example&lt;/em&gt; as the &lt;strong&gt;Option 2&lt;/strong&gt; in step 3. You will see several examples.
+    &lt;img src=&#34;example.png&#34; alt=&#34;example&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Use make to compile all of them:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;   cd ../example/cvode/serial/
+   ls
+   make
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;After make, you will see files like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;outfile.png&#34; alt=&#34;outfile&#34; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Test the program:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;./cvAdvDiff_bnd
+   
+./cvKrylovDemo_ls
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&#34;test.png&#34; alt=&#34;TEst&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now, you can use SUNDIALS/CVODE in your own numeric solver.&lt;/p&gt;
+
+&lt;p&gt;Be patient, you will meet more challenges.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>R Script to Animate Global NDVI</title>
+      <link>https://www.shulele.net/en/post/20191003_r_animation/</link>
+      <pubDate>Thu, 03 Oct 2019 00:15:07 -0700</pubDate>
+      <guid>https://www.shulele.net/en/post/20191003_r_animation/</guid>
+      <description>
+
+&lt;p&gt;This script is to demonstrate the capability and scheme to realise the animation. You have to prepare your own data for this animation script.&lt;/p&gt;
+
+&lt;h1 id=&#34;script-for-global-ndvi&#34;&gt;Script for Global NDVI&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;NDVI_GLOBAL201002.png&#34; alt=&#34;Global NDVI on Feb 2010&#34; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;rm(list=ls())
+library(RoundAndRound)
+# devtools::install_github(&#39;shulele/RoundAndRound&#39;)
+col.fun=function(x){ colorspace::terrain_hcl(x, l=c(65,95), 
+                                             power=c(1/3, 1.5))  }
+plotStar &amp;lt;- function(x, y, radius, angle=180, xyratio=1, ...){
+  i &amp;lt;- 1:11
+  alpha &amp;lt;- 2*pi / 10
+  r &amp;lt;- radius * (i %% 2 + 1)/2
+  omega &amp;lt;- alpha * i + angle * pi /180
+  invisible(mapply(function(a, b, ...) 
+    polygon(r*sin(omega) + a, r*cos(omega) * xyratio + b, ...), 
+    x, y, ...))
+}
+
+# setwd(&amp;quot;~/Dropbox/文章天下事/Drafts/2018-CAWildfireMap/Rcode&amp;quot;)
+#install.packages(&#39;ncdf4&#39;)
+clib=c(&#39;ncdf4&#39;, &#39;raster&#39;,&#39;rgeos&#39;,&#39;rgdal&#39;,&#39;ggplot2&#39;, &#39;lattice&#39;)
+tmp=lapply(clib, library, character.only=T)
+key=&#39;NDVI_GLOBAL&#39;
+cn=FALSE
+# cn=TRUE
+if(cn){dir.gif = file.path(&#39;../gif&#39;, paste0(key, &#39;_cn&#39;) )}else{
+  dir.gif = file.path(&#39;../gif&#39;, paste0(key, &#39;_en&#39;) )}
+dir.in = file.path(&#39;/Volumes/WD8T/FireIndex/RDS/NDVI&#39;)
+dir.fig = file.path(&#39;../figure&#39;, key)
+dir.rds = file.path(&#39;../RDS&#39;, key)
+dlist = list(dir.in, dir.fig, dir.gif, dir.rds);
+tmp=lapply(dlist, dir.create, showWarnings = F, recursive = T)
+
+crs0=crs(&#39;+init=epsg:4326&#39;)
+
+rds.riv = &#39;/Users/leleshu/Dropbox/PIHM/Projects/CommonData/Global/ne_10m_rivers_lake_centerlines_scale_rank/ne_10m_rivers_lake_centerlines_scale_rank.RDS&#39;
+sp.riv = readRDS( file =rds.riv)
+map=readRDS(&#39;/Users/leleshu/Dropbox/PIHM/Projects/CommonData/Global/ADM/cntry02.RDS&#39;)
+sp.prov = map
+# map=gUnaryUnion(map)
+crs(map)= CRS(&#39;+init=epsg:4326&#39;)
+brk = sort(unique(c(-1, 0.2, seq(2 ,10, by = 1)/10) ))
+brk = seq(0, 10, 1)/10
+# cols=rev(colorspace::diverge_hsv(length(brk) ) )
+cols=rev(col.fun(length(brk)));
+
+ncols = length(cols)
+pngout&amp;lt;-function(fn, wd = 12, ht = 8){
+  png(fn, width=wd, height=ht, unit=&#39;in&#39;, res=150)
+}
+# years = 2010:2017; 
+years = 2002:2009;
+ny=length(years)
+# plot(map, axes=T)
+# plotclock(time=c(1,NA,NA), add=T, orig=orig, rad=4, val=month.abb, ab=1.2)
+if(cn){
+  labs=c(&#39;1月&#39;,&#39;2月&#39;,&#39;3月&#39;,&#39;4月&#39;,&#39;5月&#39;,&#39;6月&#39;,&#39;7月&#39;,&#39;8月&#39;,&#39;9月&#39;,&#39;10月&#39;,&#39;11月&#39;,&#39;12月&#39;)
+}else{
+  labs=month.abb
+}
+# # library(foreach)
+# library(doMC)
+# library(doParallel)
+# registerDoMC(6)
+# plot(r)
+
+xp=c(-180, 180, 180, -180)
+yp=c(-90, -90, 90,90)
+xt=seq(-180, 180, 30)
+yt=seq(-90, 90, 30)
+xtlab= rep(&#39;W&#39;, length(xt)); xtlab[xt&amp;gt;0]=&#39;E&#39;; xtlab[xt==0]=&#39;&#39;;xtlab=paste0(&#39;°&#39;, xtlab)
+ytlab= rep(&#39;S&#39;, length(xt)); xtlab[xt&amp;gt;0]=&#39;N&#39;; xtlab[xt==0]=&#39;&#39;;ytlab=paste0(&#39;°&#39;, ytlab)
+
+rcl=rbind(c(-1000, 0, 0), c(1, 10, 1) )
+mygrid &amp;lt;- function(h=NULL, v=NULL,  lty=2, col=&#39;gray80&#39;, ...){
+  fun.h=function(x){ abline(h=x,  lty=lty, col=col, ...)  }
+  fun.v=function(x){ abline(v=x,  lty=lty, col=col, ...)  }
+  if(!is.null(h)) tmp = lapply(h, fun.h)
+  if(!is.null(v)) tmp = lapply(v, fun.v)
+}
+
+theta=1:360-90 - 360/12
+cc.cols=col.fun(180)
+cc.cols=c(cc.cols, rev(cc.cols))
+cc=PCS2CCS(theta=theta, a=0.8)
+ext=extent(map)
+# x= foreach (iy = 1:ny) %dopar%{
+for(iy in 1:ny){
+  yr= years[iy]
+  fn.in = file.path(dir.in, paste0(&#39;NDVI&#39;,yr,&#39;.RDS&#39;))
+  message(iy,&#39;/&#39;, ny, &#39;\t&#39;,yr, &#39;\t&#39;, fn.in)
+  dat = readRDS(fn.in)
+  tag = substr(names(dat), 2, nchar(names(dat)) )
+  nmon = length(tag)
+  for(i in 1:nmon){
+    rx=dat[[i]]
+    r=reclassify(rx, rcl)
+    message(i,&#39;/&#39;, nmon, &#39;\t&#39;, tag[i] )
+    ttl = paste0(substr(tag[i], 1,4), &#39;.&#39;, substr(tag[i], 5,6) )
+    pngout(file.path(dir.gif, paste0(key, tag[i], &#39;.png&#39;)), ht=6, wd=10)
+    par(mar=c(2.5,2.5,1,1))
+    # plot(map, axes=T)
+    # plot(map,  col=&#39;white&#39;, axes=T, border=&#39;transparent&#39;)
+    plot(xp, yp, type=&#39;n&#39;, axes=F, asp=1, xlim = range(xp), ylim=range(yp)); box(); 
+    axis(side=1, at=xt); 
+    axis(side=2, at=yt)
+    polygon(xp,yp, border=&#39;lightskyblue&#39;, col=&#39;lightskyblue&#39;)
+    plot(add=T, map,  col=&#39;white&#39;, axes=T, border=&#39;transparent&#39;)
+    mygrid(h=yt, v=xt)
+    plot(add=T, r, breaks=brk, col=cols, legend=FALSE, axes=F);
+    mtext(ttl, side=3, cex=2.5, line=-2, font=2, col=&#39;darkgreen&#39;)
+    plot(add=T, sp.riv, col=rgb(0,0,1, 0.3), lwd=.5)
+    mygrid(h=yt, v=xt)
+    par(fig=c(c(0.1, 0.3)+.0, c(0.1,0.24)+.16), new=T, mar=c(0,0,0,0))
+    tmp=density(r, plot=F)
+    plot(tmp$x, tmp$y, type=&#39;l&#39;,  lwd=3, bg=&#39;gray80&#39;, col=3, axes=F,
+         xlim=c(0,1), ylim=c(-1,4.5))
+    plot(r, legend.only=TRUE, breaks=brk, col=cols,
+         smallplot=c(.0, 1, .0, .13),
+         legend.width=5, legend.shrink=.7, cex=5, horizontal=T,
+         axis.args=list(col.axis=&#39;blue&#39;, lwd = 0,
+                        font.axis=1, cex.axis=1, tck = 0, line=-.85,
+                        labels=brk, cex.axis=1.2),
+         legend.args=list(text=&#39;&#39;,col=4, side=3, font=1, cex=1.5)
+    )
+    x.mon=as.numeric(substr(tag[i], 5,6))
+    if(cn){
+      par(fig=c(c(0.3, 0.55)+.28, c(0.6,0.86)+.05), new=T, mar=c(0,0,0,0)
+          ,family=&#39;STKaiti&#39;)
+    }else{
+      par(fig=c(c(0.3, 0.55)+.28, c(0.6,0.86)-.4), new=T, mar=c(0,0,0,0)
+      )
+    }
+    plot(0, type=&#39;n&#39;, axes=F, xlab=&#39;&#39;, ylab=&#39;&#39;, xlim=c(-1,1)*1.5, ylim=c(-1,1)*1.5, asp=1)
+    plotclock(time=c(x.mon,NA,NA),rad=1.1, val=labs, axes=F, add=T, fun.plot = polygon,
+              val.arg = list(col=4, cex=.95))
+    # color ring.
+    points(cc, col=cc.cols, cex=1.4, pch=19)
+    dev.off()
+    # stop(&#39;stop&#39;)
+  } 
+}
+
+fps=6
+fn.mov = file.path(dirname(dir.gif), paste0(key,&#39;_&#39;, fps,&#39;fps.mp4&#39;) )
+cmd = paste(&#39;ffmpeg -r &#39;, fps,  &#39;-f image2 -s 1920x1080 -i &#39;, paste0(dir.gif, &#39;/*.png&#39;),
+            &#39;-vcodec libx264 -crf 25  -pix_fmt yuv420p&#39;, fn.mov)
+print(cmd)
+# system(cmd)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;script-for-china-ndvi&#34;&gt;Script for China NDVI&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;NDVI_CN200202.png&#34; alt=&#34;China NDVI on Feb 2002&#34; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;rm(list=ls())
+# devtools::install_github(&#39;shulele/RoundAndRound&#39;)
+library(RoundAndRound)
+library(xts)
+col.fun=function(x){ colorspace::terrain_hcl(x, l=c(65,95), 
+                                             power=c(1/3, 1.5))  }
+plotStar &amp;lt;- function(x, y, radius, angle=180, xyratio=1, ...){
+  i &amp;lt;- 1:11
+  alpha &amp;lt;- 2*pi / 10
+  r &amp;lt;- radius * (i %% 2 + 1)/2
+  omega &amp;lt;- alpha * i + angle * pi /180
+  invisible(mapply(function(a, b, ...) 
+    polygon(r*sin(omega) + a, r*cos(omega) * xyratio + b, ...), 
+    x, y, ...))
+}
+#install.packages(&#39;ncdf4&#39;)
+clib=c(&#39;ncdf4&#39;, &#39;raster&#39;,&#39;rgeos&#39;,&#39;rgdal&#39;,&#39;ggplot2&#39;, &#39;lattice&#39;)
+tmp=lapply(clib, library, character.only=T)
+key=&#39;NDVI_CN&#39;
+# cn=FALSE
+cn=TRUE
+if(cn){
+  dir.gif = file.path(&#39;../gif&#39;, paste0(key, &#39;_cn&#39;) )
+}else{
+  dir.gif = file.path(&#39;../gif&#39;, paste0(key, &#39;_en&#39;) )
+}
+dir.in = file.path(&#39;../RDS/NDVI_CN/&#39;)
+dir.fig = file.path(&#39;../figure&#39;, key)
+dir.rds = file.path(&#39;../RDS&#39;, key)
+dlist = list(dir.in, dir.fig, dir.gif, dir.rds);
+tmp=lapply(dlist, dir.create, showWarnings = F, recursive = T)
+
+crs0=crs(&#39;+init=epsg:4326&#39;)
+sp.prov = readRDS( file = file.path(dir.rds, &#39;province.RDS&#39;))
+sp.cn=readRDS(file = file.path(dir.rds, &#39;map.RDS&#39;))
+sp.city = readRDS( file = file.path(dir.rds, &#39;city.RDS&#39;))
+sp.riv = readRDS( file = file.path(dir.rds, &#39;riv.RDS&#39;))
+
+# map=readRDS(&#39;../RDS/CONUS.RDS&#39;)
+ext=extent(sp.cn)
+ia=gArea(sp.cn, byid = T)
+id=order(ia, decreasing = T)[1:6]
+map=sp.cn[id, ]
+map@data=data.frame(1:6)
+crs(map)= CRS(&#39;+init=epsg:4326&#39;)
+brk = sort(unique(c(-1, 0.2, seq(2 ,10, by = 1)/10) ))
+brk = seq(0, 10, 1)/10
+# cols=rev(colorspace::diverge_hsv(length(brk) ) )
+cols=rev(col.fun(length(brk)));
+
+ncols = length(cols)
+pngout&amp;lt;-function(fn, wd = 12, ht = 8){
+  png(fn, width=wd, height=ht, unit=&#39;in&#39;, res=150)
+}
+years = 2010:2017; 
+years = 2002:2017;
+ny=length(years)
+# plot(map, axes=T)
+# plotclock(time=c(1,NA,NA), add=T, orig=orig, rad=4, val=month.abb, ab=1.2)
+if(cn){
+  labs=c(&#39;1月&#39;,&#39;2月&#39;,&#39;3月&#39;,&#39;4月&#39;,&#39;5月&#39;,&#39;6月&#39;,&#39;7月&#39;,&#39;8月&#39;,&#39;9月&#39;,&#39;10月&#39;,&#39;11月&#39;,&#39;12月&#39;)
+}else{
+  labs=month.abb
+}
+# # library(foreach)
+# library(doMC)
+# library(doParallel)
+# registerDoMC(6)
+# plot(r)
+iy=1
+rid1=which(as.numeric(sp.riv@data$JB) ==1)
+rid2=which(as.numeric(sp.riv@data$JB) ==2)
+ct.xy=coordinates(sp.city)
+ct.txt=as.character(sp.city@data$PINYIN)
+
+theta=1:360-90 - 360/12
+cc.cols=col.fun(180)
+cc.cols=c(cc.cols, rev(cc.cols))
+cc=PCS2CCS(theta=theta, a=0.8)
+go&amp;lt;-function(){
+  tsd=readRDS(file.path(dir.rds, paste0(key,&#39;.TSD.RDS&#39;)) )
+  tsd=cbind(tsd, movingFun(tsd, 12))
+  txx=coredata(tsd)
+  xt=seq(min(years), max(years), length.out = 12*(diff(range(years))+1) )
+  mat=cbind(xt, txx)
+}
+tsd=go()
+
+# x= foreach (iy = 1:ny) %dopar%{
+for(iy in 1:ny){
+  yr= years[iy]
+  fn.in = file.path(dir.in, paste0(&#39;NDVI&#39;,yr,&#39;.RDS&#39;))
+  message(iy,&#39;/&#39;, ny, &#39;\t&#39;,yr, &#39;\t&#39;, fn.in)
+  dat = readRDS(fn.in)
+  tag = substr(names(dat), 2, nchar(names(dat)) )
+  nmon = length(tag)
+  for(i in 1:nmon){
+    rx=dat[[i]]
+    r=mask(rx, map)
+    # r=rx
+    message(i,&#39;/&#39;, nmon, &#39;\t&#39;, tag[i] )
+    ttl = paste0(substr(tag[i], 1,4), &#39;.&#39;, substr(tag[i], 5,6) )
+    graphics.off()
+    pngout(file.path(dir.gif, paste0(key, tag[i], &#39;.png&#39;)), ht=7, wd=10)
+    par(mar=c(2.5,2.5,1,1))
+    # plot(map, axes=T)
+    plot(map,  border=&#39;gray80&#39;, axes=T, ylim=c(19, 53), xlim=c(74, 135))
+
+    r[r&amp;lt;0]=0
+    r[r&amp;gt;1]=1
+    plot(add=T, r, breaks=brk, col=cols, legend=FALSE);
+    mtext(ttl, side=3, cex=2.5, line=-2, adj=1, font=2, col=&#39;darkgreen&#39;)
+    plot(map, add=T, border = 4, lwd=.7, lty=2)
+    plot(add=T, sp.prov, border=&#39;gray50&#39;, lwd=.7, lty=2)
+    plot(add=T, sp.riv[rid1, ], col=rgb(0,0,1, 0.6), lwd=1.5)
+    plot(add=T, sp.riv[rid2, ], col=rgb(0,0,1, 0.6), lwd=.8)
+    plot(add=T, sp.city, pch=20, col=&#39;darkgreen&#39;)
+    plotStar(ct.xy[1,1], ct.xy[1,2], .5, pch=3, col=2)
+    # text(ct.xy, ct.txt, cex=.5)
+    grid()
+    # xloc=c(0.05, 0.3); yloc=c(0.1,0.13)
+    # plot(r, legend.only=TRUE, breaks=brk, col=cols,
+    #      smallplot=c(xloc+.03, yloc+.02),
+    #      legend.width=5, legend.shrink=.7, cex=5, horizontal=T,
+    #      axis.args=list(col.axis=&#39;blue&#39;, lwd = 0,
+    #                     font.axis=4, cex.axis=1.5,tck = 0, line=-.85,
+    #                     labels=brk, cex.axis=1.2),
+    #      legend.args=list(text=&#39;&#39;,col=4, side=3, font=2, cex=1.5)
+    # )
+    # dev.off();plot(r)
+    
+    par(fig=c(c(0.04, 0.305)+.04, c(0.1,0.24)+.03), new=T, mar=c(0,0,0,0))
+    tmp=density(r, plot=F)
+    plot(tmp$x, tmp$y, type=&#39;l&#39;, axes=F, lwd=2, bg=&#39;gray80&#39;, col=3,
+         xlim=c(0,1), ylim=c(-1,4.5))
+    plot(r, legend.only=TRUE, breaks=brk, col=cols,
+         smallplot=c(.0, 1, .0, .13),
+         legend.width=5, legend.shrink=.7, cex=5, horizontal=T,
+         axis.args=list(col.axis=&#39;blue&#39;, lwd = 0,
+                        font.axis=1, cex.axis=1, tck = 0, line=-.85,
+                        labels=brk, cex.axis=1.2),
+         legend.args=list(text=&#39;&#39;,col=4, side=3, font=1, cex=1.5)
+    )
+    
+    x.mon=as.numeric(substr(tag[i], 5,6))
+    if(cn){
+      par(fig=c(c(0.3, 0.55)+.1, c(0.6,0.85)+.05), new=T, mar=c(0,0,0,0),
+          family=&#39;STKaiti&#39;)
+    }else{
+      par(fig=c(c(0.3, 0.55)+.1, c(0.6,0.85)+.05), new=T, mar=c(0,0,0,0))
+    }
+    plot(0, type=&#39;n&#39;, axes=F, xlab=&#39;&#39;, ylab=&#39;&#39;, xlim=c(-1,1)*1.5, ylim=c(-1,1)*1.5, asp=1)
+    plotclock(time=c(x.mon,NA,NA),rad=1, val=labs, axes=F, add=T, fun.plot = polygon,
+    val.arg = list(col=4, cex=.95))
+    # color ring.
+    points(cc, col=cc.cols, cex=1.4, pch=19)
+    # text(0, 0, ttl, col=&#39;gray&#39;, cex=1.2)
+    text(0, 0, years[iy], col=&#39;darkgreen&#39;, cex=1.5)
+    text(0, -0.4, &amp;quot;Lele Shu&amp;quot;, col=&#39;gray40&#39;, cex=.7, font=2, family=&#39;Kaiti SC&#39;)
+    # South Sea
+    par(fig=c(c(0.7, 0.9)+.08, c(0.1,0.4)-.029), new=T, mar=c(0,0,0,0))
+    plot(sp.cn, type=&#39;n&#39;, axes=F, xlab=&#39;&#39;, ylab=&#39;&#39;,
+         xlim=c(105,125), ylim=c(6,20))
+    plot(add=T, sp.riv[c(rid1,rid2), ], col=rgb(0,0,1, 0.6), lwd=1)
+    box(lty=&#39;solid&#39;); grid()
+    axis(side=3, cex.axis=.5, tick=NULL, lwd=0, line=-1, font=2)
+    axis(side=2, cex.axis=.5, tick=NULL, lwd=0, line=-1, font=2)
+    plot(add=T, r, breaks=brk, col=cols, legend=FALSE);
+    #     TREND 
+    par(fig=c(c(0.04, 0.4)+.04, c(0.1,0.2)+.75), mgp = c(0, 1, 0), new=T, mar=c(0,0,0,0))
+    matplot(tsd[,1], tsd[,-1], xlab=&#39;&#39;, ylab=&#39;&#39;, type=&#39;l&#39;, axes=F,
+            col=c(&#39;darkgreen&#39;, &#39;red&#39;), lwd=c(1,2), lty=1); 
+    axis(side=1, at=years, cex.axis=.7, font.axis=4)
+    tid=i+(iy-1)*12
+    points(tsd[tid, 1], tsd[tid, 2], pch=20, col=&#39;darkgreen&#39;, cex=2); 
+    mtext(side=2, &#39;Mean&#39;)
+    dev.off()
+    # stop(&#39;stop&#39;)
+  } 
+}
+
+fps=6
+fn.mov = file.path(dirname(dir.gif), paste0(key,&#39;_&#39;, fps,&#39;fps.mp4&#39;) )
+cmd = paste(&#39;ffmpeg -r &#39;, fps,  &#39;-f image2 -s 1920x1080 -i &#39;,
+            paste0(&amp;quot;&#39;&amp;quot;, dir.gif, &#39;/*.png&#39;, &amp;quot;&#39;&amp;quot;),
+             &#39;-vcodec libx264 -crf 25  -pix_fmt yuv420p&#39;, fn.mov)
+print(cmd)
+system(cmd)
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title> Monthly NDVI change in USA and Global from 2002-2017</title>
+      <link>https://www.shulele.net/en/post/20190627_ndvi/</link>
+      <pubDate>Thu, 27 Jun 2019 00:15:07 -0700</pubDate>
+      <guid>https://www.shulele.net/en/post/20190627_ndvi/</guid>
+      <description>
+
+&lt;!-- ![Global NDVI](featured.png) --&gt;
+
+&lt;p&gt;The normalized difference vegetation index (NDVI) is a simple graphical indicator that reflect the greenness and the heath condition of vegetations.&lt;/p&gt;
+
+&lt;p&gt;The raw data is from &lt;a href=&#34;https://modis.gsfc.nasa.gov/data/dataprod/mod13.php&#34; target=&#34;_blank&#34;&gt;NASA MOD13A&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The global NDVI variation from 2002 to 2017.
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/7yyPfozr1PU&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The NDVI varies from 2002 to 2017 in US (Continental)
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/LL0qRwLLd1g&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;how-to-download-the-rawdata&#34;&gt;How to download the rawdata&lt;/h2&gt;
+
+&lt;p&gt;The code of the monthly NDVI from MODIS dataset is MOD13C2, so type the code below in your terminal and the wget will download all availalble data from server to you local matchine.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;wget  --user=XXXXX --password=XXXX -r -c -np -x https://e4ftl01.cr.usgs.gov/MOLT/MOD13C2.006/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;em&gt;The R package RoundAndRound and PIHMgisR is used for this data processing and visulization.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The project to plot planets/objects in space and orbital movement.</title>
+      <link>https://www.shulele.net/en/post/kids-ucd/</link>
+      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.shulele.net/en/post/kids-ucd/</guid>
+      <description>
+
+&lt;h2 id=&#34;motivation-of-the-project&#34;&gt;Motivation of the project&lt;/h2&gt;
+
+&lt;p&gt;This is fantastic program to teach the local kids and lead them into the discovering sciences.&lt;/p&gt;
+
+&lt;figure class=&#34;image&#34;&gt;
+  &lt;img src=&#34;fig/Classroom.jpg&#34;&gt;
+  &lt;figcaption&gt; Panoview of the Math&amp;Science classroom.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&#34;week-02&#34;&gt;Week 02:&lt;/h4&gt;
+
+&lt;figure class=&#34;image&#34;&gt;
+  &lt;img src=&#34;fig/L03.jpg&#34;&gt;
+  &lt;figcaption&gt;Week 03: Jessica is writing students observation and discussion of plants in two different soils (Sperpentine and sandy loam). &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&#34;week-05&#34;&gt;Week 05:&lt;/h4&gt;
+
+&lt;figure class=&#34;image&#34;&gt;
+  &lt;img src=&#34;fig/L05.jpg&#34; width=400px&gt;
+  &lt;figcaption&gt;Week 05: The growth condition of their beans.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure class=&#34;image&#34;&gt;
+  &lt;img src=&#34;fig/QA05.jpg&#34; width=300px&gt;
+  &lt;figcaption&gt;Week 05: One question from students&#39; question box. Question: Why are my plants leaves sticky?&lt;/figcaption&gt;
+&lt;/figure&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The project to plot planets/objects in space and orbital movement.</title>
+      <link>https://www.shulele.net/en/post/roundandround/</link>
+      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.shulele.net/en/post/roundandround/</guid>
+      <description>&lt;p&gt;I planed to write an R package and submit on CRAN, that can plot the planets orbiting in Solar System, or satellite/moon orbiting around earth. That package must plot the moving planets, the moon, moon phase and satellite in 2D or 3D canvas. In future, it may calculate the orbit based on orbit mechanics.&lt;/p&gt;
+
+&lt;p&gt;My son loves the song “The wheels on the bus go round and round“, and he has an obsession on planets. He asks mommy play the solar system documentary every night when we ask him to brush his teeth.  So I decided to plot the moving planets in solar system for him with the scientific knowledge I know.&lt;/p&gt;
+
+&lt;figure class=&#34;image&#34;&gt;
+  &lt;img src=&#34;photo.png&#34; alt=&#34;{{ include.description }}&#34; width=&#34;800&#34;&gt;
+  &lt;figcaption&gt;My son is obsessed by the planets and stars&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Another motivation is from the Chinese lunar exploration, Chang-E 5 landing on far-side of the moon.  Lots of people discussed it and were fuddled on the rotation of moon and relation between the earth and the moon.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, I kept thinking the Chinese semi-lunar calendar for many years, I know the founder mental logic and algorithm of the calendar in my mind, but never scratched the equations and numbers in paper yet.  This calendar is determined by the moon phase and the position of the earth in orbit. Definitely the solver in papers are more rousted in my brain.&lt;/p&gt;
+
+&lt;p&gt;Let’s see what I got, by now.&lt;/p&gt;
+
+&lt;figure class=&#34;image&#34;&gt;
+  &lt;img src=&#34;Moon0.png&#34; alt=&#34;{{ include.description }}&#34; width=&#34;800&#34;&gt;
+  &lt;figcaption&gt;The idea of the Moon and the Sun are moving around the Earth, when we assume the earth is the center of system. The orbital period of the moon is 27.321 day, but the synodic period is 29.53 day, that because the sun moves 27.321/365.25 in its sun’s orbit when the moon moves in the moon’s orbit. It requires 2.2 days to let the sun and the moon to face-to-face again.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&#34;image&#34;&gt;
+  &lt;img src=&#34;Moon_year365.png&#34; alt=&#34;{{ include.description }}&#34; width=&#34;800&#34;&gt;
+  &lt;figcaption&gt;The position of the Moon and the Sun in an earth year (365 day). The right legend shows the moon phase in 30 days. The concentric orbits are numbers of the moon periods.&lt;/figcaption&gt;
+&lt;/figure&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

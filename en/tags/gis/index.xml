@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GIS | SHU</title>
+    <link>https://www.shulele.net/en/tags/gis/</link>
+      <atom:link href="https://www.shulele.net/en/tags/gis/index.xml" rel="self" type="application/rss+xml" />
+    <description>GIS</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.shulele.net/img/icon-192.png</url>
+      <title>GIS</title>
+      <link>https://www.shulele.net/en/tags/gis/</link>
+    </image>
+    
+    <item>
+      <title>Geospatial and Geostatistical Analysis with R</title>
+      <link>https://www.shulele.net/en/class_geospatialr/0overview/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.shulele.net/en/class_geospatialr/0overview/</guid>
+      <description>
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;We Shape Our Tools, and Thereafter Our Tools Shape Us&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&#34;objective&#34;&gt;Objective&lt;/h1&gt;
+
+&lt;p&gt;How to use R/Python and other programming languages to realize spatial-data managment, GIS function, geostatistical, spatial analysis and visualization.&lt;/p&gt;
+
+&lt;h2 id=&#34;prerequisite-for-attendee&#34;&gt;Prerequisite for attendee&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Preliminary knowledge and experience of spatial data
+-&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;reference&#34;&gt;Reference&lt;/h2&gt;
+
+&lt;h2 id=&#34;grading&#34;&gt;Grading&lt;/h2&gt;
+
+&lt;p&gt;Two projects and 10 homework.
+40% term project (20% per project)
+60% homework (6% each)
+Total 100%&lt;/p&gt;
+
+&lt;h2 id=&#34;content-of-course&#34;&gt;Content of course&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fundamental knowledge of spatial data and spatial analysis&lt;/li&gt;
+&lt;li&gt;R and Rstudio&lt;/li&gt;
+&lt;li&gt;Data structure&lt;/li&gt;
+&lt;li&gt;Where to find the data&lt;/li&gt;
+&lt;li&gt;Spatial data format and manipulation&lt;/li&gt;
+&lt;li&gt;Spatial data projection&lt;/li&gt;
+&lt;li&gt;Analysis of vector data&lt;/li&gt;
+&lt;li&gt;Statistical and Geostatistical&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

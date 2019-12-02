@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PIHM | SHU</title>
+    <link>https://www.shulele.net/en/tags/pihm/</link>
+      <atom:link href="https://www.shulele.net/en/tags/pihm/index.xml" rel="self" type="application/rss+xml" />
+    <description>PIHM</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Dec 2018 00:00:00 -0800</lastBuildDate>
+    <image>
+      <url>https://www.shulele.net/img/icon-192.png</url>
+      <title>PIHM</title>
+      <link>https://www.shulele.net/en/tags/pihm/</link>
+    </image>
+    
+    <item>
+      <title>Model simulated spatial distribution and the variation of ground water level in Sacramento Watershed, California from 1985 to 2017</title>
+      <link>https://www.shulele.net/en/talk/agu2018/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 -0800</pubDate>
+      <guid>https://www.shulele.net/en/talk/agu2018/</guid>
+      <description>&lt;figure class=&#34;image&#34;&gt;
+  &lt;img src=&#34;AnnualPRCP.png&#34; alt=&#34;{{ include.description }}&#34; width=&#34;400&#34;&gt;
+  &lt;figcaption&gt;Annual Precipitation (1985-2017) of Sacramento Watershed&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Please stop by my poster, we can have a talk.&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Automatic hydrologic deployment and modeling</title>
+      <link>https://www.shulele.net/en/project/mint/</link>
+      <pubDate>Mon, 23 Jul 2018 21:13:14 -0500</pubDate>
+      <guid>https://www.shulele.net/en/project/mint/</guid>
+      <description>
+
+&lt;p&gt;This project is the hydrologic modeling part of the project &lt;em&gt;Model Integration through Knowledge-Rich Data and Process Composition&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;introduction-of-project-i-class-fas-fa-external-link-alt-i-http-mint-project-info&#34;&gt;Introduction of project &lt;a href=&#34;http://mint-project.info&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;h2 id=&#34;tasks-in-hydrologic-modeling&#34;&gt;Tasks in hydrologic modeling&lt;/h2&gt;
+
+&lt;figure class=&#34;image&#34;&gt;
+  &lt;img src=&#34;featured.png&#34;, width=800px&gt;
+  &lt;figcaption&gt;The completed workflow of hydrologic modeling with PIHM model and national/global data services. &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&#34;image&#34;&gt;
+  &lt;img src=&#34;fig/Animation.gif&#34;, width=800px&gt;
+  &lt;figcaption&gt;Animation of flood plant in South Sudan from 2001 to 2017 based on FLDAS data. &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;accomplishment-of-the-project&#34;&gt;Accomplishment of the project&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;keep updating&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Coupling Cellular Automata Land Use Change with Distributed Hydrologic models</title>
+      <link>https://www.shulele.net/en/talk/agu2017/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 -0800</pubDate>
+      <guid>https://www.shulele.net/en/talk/agu2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lake-PIHM modeling in CNH-Lake project</title>
+      <link>https://www.shulele.net/en/project/cnh_lak/</link>
+      <pubDate>Sun, 23 Jul 2017 21:13:14 -0500</pubDate>
+      <guid>https://www.shulele.net/en/project/cnh_lak/</guid>
+      <description>
+
+&lt;p&gt;This project is the hydrology-lake modeling part of the whole project. The leading project is &lt;em&gt;CNH-L: Linking land-use decision making, water quality, and lake associations to understand human-natural feedbacks in lake catchments&lt;/em&gt;, cooperated with multiple universities and institutes(e.g. Virginia Tech, Pennsylvania State University, University of Wisconsin, Cary Institute of Ecosystem Studies, Michigan State University ).&lt;/p&gt;
+
+&lt;h2 id=&#34;introduction-of-project-i-class-fas-fa-external-link-alt-i-http-www-organicdatascience-org-cnh-index-php-main-page&#34;&gt;Introduction of project &lt;a href=&#34;http://www.organicdatascience.org/cnh/index.php/Main_Page&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Freshwater lakes and their catchments present a rich and fascinating opportunity to examine the dynamics of coupled natural and human systems (CNHS). Humans derive great benefit from the irreplaceable services provided by lakes, such as drinking water, recreation, and fisheries, while at the same time contributing to the degradation of the very waters upon which they depend. However, degradation in the water quality attributes that people value can serve as a catalyst for behavioral change through collective action, as evidenced by the increasing momentum of citizen-driven lake associations. To identify and quantify these feedbacks between lake water quality and human behavior, we propose to develop a novel, coupled modeling framework that captures how land-use decision making interacts with hydrological and limnological processes to transform nutrient loads into changes in lake water quality, and how altered water quality feeds back to human systems by affecting the amenities that people value. Our model will extend our interdisciplinary focus by examining how lake associations respond to changes in lake water quality and how their activities influence the behavior of citizens and policy makers to protect their freshwater resources. To construct the coupled model, we will augment our data and modeling resources with new information on the organizational capacity and effectiveness of three active and established lake associations. Our coupled modeling framework flexibly links key human and natural systems in three focal lake catchments, allowing us to investigate human-natural feedbacks in those catchments and to build on our understanding of those linkages to generate insight into CNHS at a broad scale.&lt;/p&gt;
+
+&lt;figure class=&#34;image&#34;&gt;
+  &lt;img src=&#34;fig/CatchmentGraphic_v2.png&#34;, width=400px&gt;
+  &lt;figcaption&gt;Water quality and human welfare are driven by the dynamic interactions among and between human and natural systems within lake catchments.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;tasks-in-hydrologic-modeling&#34;&gt;Tasks in hydrologic modeling&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Coupling the watershed hydrologic modeling with lake modeling.
+*&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;figure class=&#34;image&#34;&gt;
+    &lt;img src=&#34;fig/Sunapee_data.png&#34;, width=600px&gt;
+    &lt;figcaption&gt;The spatial data used for PIHM simulation in Lake Sunapee, NH&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;figure class=&#34;image&#34;&gt;
+    &lt;img src=&#34;fig/Sunapee_3dmap.png&#34;, width=600px&gt;
+    &lt;figcaption&gt;The flood plane in Lake Sunapee Watershed. The gray triangular mesh are the PIHM simulation domain. &lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;a href=&#34;https://www.shulele.net/program/mendota&#34;&gt;Lake Mendota in 3D&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;a href=&#34;https://www.shulele.net/program/sunapee&#34;&gt;Lake Sunapee in 3D&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;keep updating&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reconstructing the role of landuse change on water yield at the Maya urban</title>
+      <link>https://www.shulele.net/en/project/tikal/</link>
+      <pubDate>Sat, 23 Jul 2016 21:13:14 -0500</pubDate>
+      <guid>https://www.shulele.net/en/project/tikal/</guid>
+      <description>
+
+&lt;p&gt;This project is the hydrology-lake modeling part of the project &lt;em&gt;Land, Water, and Territory: A 3,000-Year Study of Niche Construction and Cultural Evolution in the Tikal National Park, Guatemala&lt;/em&gt;.
+&lt;figure class=&#34;image&#34;&gt;
+  &lt;img src=&#34;featured.jpg&#34;, width=400px&gt;
+  &lt;figcaption&gt;The view in Tikal&lt;/figcaption&gt;
+&lt;/figure&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;introduction-of-project&#34;&gt;Introduction of project&lt;/h2&gt;
+
+&lt;figure class=&#34;image&#34;&gt;
+  &lt;img src=&#34;fig/Locations.png&#34;, width=400px&gt;
+  &lt;figcaption&gt;Location of Tikal&lt;/figcaption&gt;
+&lt;/figure&gt;
+## Tasks in hydrologic modeling
+
+&lt;figure class=&#34;image&#34;&gt;
+  &lt;img src=&#34;fig/LandUse.png&#34;, width=400px&gt;
+  &lt;figcaption&gt;Land use map of Tikal&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;figure class=&#34;image&#34;&gt;
+  &lt;img src=&#34;fig/tk_dem_lan.png&#34;, width=400px&gt;
+  &lt;figcaption&gt;Elevation of Tikal&lt;/figcaption&gt;
+&lt;/figure&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;accomplishment-of-the-project&#34;&gt;Accomplishment of the project&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;keep updating&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Catchment hydrological change from soil degradation</title>
+      <link>https://www.shulele.net/en/talk/agu2015/</link>
+      <pubDate>Tue, 01 Dec 2015 00:00:00 -0800</pubDate>
+      <guid>https://www.shulele.net/en/talk/agu2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Impact in hydrology from landuse and climate change</title>
+      <link>https://www.shulele.net/en/project/stormwater/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <guid>https://www.shulele.net/en/project/stormwater/</guid>
+      <description>
+
+&lt;p&gt;This project is the hydrologic modeling part of the project &lt;em&gt;NSF Hydrologic and Water Quality Modeling for Green Infrastructure&lt;/em&gt;.
+&lt;figure class=&#34;image&#34;&gt;
+  &lt;img src=&#34;featured.png&#34;, width=400px&gt;
+  &lt;figcaption&gt;Overview of the use of artificial intelligence techniques to support model integration&lt;/figcaption&gt;
+&lt;/figure&gt;&lt;/p&gt;
+
+&lt;figure class=&#34;image&#34;&gt;
+  &lt;img src=&#34;fig/MINTworkflow.png&#34;, width=400px&gt;
+  &lt;figcaption&gt;Overview of the use of artificial intelligence techniques to support model integration&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;introduction-of-project&#34;&gt;Introduction of project&lt;/h2&gt;
+
+&lt;h2 id=&#34;tasks-in-hydrologic-modeling&#34;&gt;Tasks in hydrologic modeling&lt;/h2&gt;
+
+&lt;figure class=&#34;image&#34;&gt;
+  &lt;img src=&#34;fig/pongo_dem.png&#34;, width=400px&gt;
+  &lt;figcaption&gt; Elevation and PIHM mesh of the Pongo watershed in South Sudan &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;accomplishment-of-the-project&#34;&gt;Accomplishment of the project&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;keep updating&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reconstructing the role of landuse change on water yield at the Maya urban center Tikal, Guatemala [700-800 AD]</title>
+      <link>https://www.shulele.net/en/talk/agu2014/</link>
+      <pubDate>Wed, 31 Dec 2014 00:00:00 -0800</pubDate>
+      <guid>https://www.shulele.net/en/talk/agu2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Urbanization-driven hydrological process change in Conestoga River watershed in Lancaster of Pennsylvania</title>
+      <link>https://www.shulele.net/en/talk/agu2013/</link>
+      <pubDate>Tue, 31 Dec 2013 00:00:00 -0800</pubDate>
+      <guid>https://www.shulele.net/en/talk/agu2013/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
