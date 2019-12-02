@@ -213,6 +213,11 @@
   </url>
   
   <url>
+    <loc>https://www.shulele.net/zh/post/20190916_iahs_hydrology/</loc>
+    <lastmod>2019-09-16T00:15:07-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.shulele.net/zh/publication_types/2/</loc>
     <lastmod>2019-07-25T00:00:00-07:00</lastmod>
     <xhtml:link
@@ -528,33 +533,13 @@
   </url>
   
   <url>
-    <loc>https://www.shulele.net/zh/post/kids-ucd/</loc>
+    <loc>https://www.shulele.net/zh/post/20190129kids-ucd/</loc>
     <lastmod>2019-01-29T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.shulele.net/post/kids-ucd/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://www.shulele.net/zh/post/kids-ucd/"
-                />
   </url>
   
   <url>
-    <loc>https://www.shulele.net/zh/post/roundandround/</loc>
+    <loc>https://www.shulele.net/zh/post/20190129roundandround/</loc>
     <lastmod>2019-01-29T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.shulele.net/post/roundandround/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://www.shulele.net/zh/post/roundandround/"
-                />
   </url>
   
   <url>
