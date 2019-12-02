@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>0 | 舒乐乐</title>
-    <link>https://www.shulele.net/zh/publication_types/0/</link>
-      <atom:link href="https://www.shulele.net/zh/publication_types/0/index.xml" rel="self" type="application/rss+xml" />
+    <link>/zh/publication_types/0/</link>
+      <atom:link href="/zh/publication_types/0/index.xml" rel="self" type="application/rss+xml" />
     <description>0</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Fri, 11 Aug 2017 00:00:00 -0700</lastBuildDate>
     <image>
-      <url>https://www.shulele.net/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>0</title>
-      <link>https://www.shulele.net/zh/publication_types/0/</link>
+      <link>/zh/publication_types/0/</link>
     </image>
     
     <item>
       <title>Impacts of Urbanization and Climate Change on the Hydrological Cycle: A Study in Modern and Ancient Land Use Change</title>
-      <link>https://www.shulele.net/zh/publication/shu2017/</link>
+      <link>/zh/publication/shu2017/</link>
       <pubDate>Fri, 11 Aug 2017 00:00:00 -0700</pubDate>
-      <guid>https://www.shulele.net/zh/publication/shu2017/</guid>
+      <guid>/zh/publication/shu2017/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Statistical Downscaling | 舒乐乐</title>
-    <link>https://www.shulele.net/zh/tags/statistical-downscaling/</link>
-      <atom:link href="https://www.shulele.net/zh/tags/statistical-downscaling/index.xml" rel="self" type="application/rss+xml" />
+    <link>/zh/tags/statistical-downscaling/</link>
+      <atom:link href="/zh/tags/statistical-downscaling/index.xml" rel="self" type="application/rss+xml" />
     <description>Statistical Downscaling</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Sat, 23 Feb 2019 21:13:14 -0500</lastBuildDate>
     <image>
-      <url>https://www.shulele.net/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Statistical Downscaling</title>
-      <link>https://www.shulele.net/zh/tags/statistical-downscaling/</link>
+      <link>/zh/tags/statistical-downscaling/</link>
     </image>
     
     <item>
       <title>Hydrologic modeling in project HYPERION</title>
-      <link>https://www.shulele.net/zh/project/hyperion/</link>
+      <link>/zh/project/hyperion/</link>
       <pubDate>Sat, 23 Feb 2019 21:13:14 -0500</pubDate>
-      <guid>https://www.shulele.net/zh/project/hyperion/</guid>
+      <guid>/zh/project/hyperion/</guid>
       <description>
 
 &lt;h2 id=&#34;introduction-of-hyperion-i-class-fas-fa-external-link-alt-i-https-climate-ucdavis-edu-hyperion&#34;&gt;Introduction of HYPERION &lt;a href=&#34;https://climate.ucdavis.edu/hyperion/&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Susana E. Garcia-gonzalez | 舒乐乐</title>
-    <link>https://www.shulele.net/zh/authors/susana-e.-garcia-gonzalez/</link>
-      <atom:link href="https://www.shulele.net/zh/authors/susana-e.-garcia-gonzalez/index.xml" rel="self" type="application/rss+xml" />
+    <link>/zh/authors/susana-e.-garcia-gonzalez/</link>
+      <atom:link href="/zh/authors/susana-e.-garcia-gonzalez/index.xml" rel="self" type="application/rss+xml" />
     <description>Susana E. Garcia-gonzalez</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Wed, 31 Dec 2014 00:00:00 -0800</lastBuildDate>
     <image>
-      <url>https://www.shulele.net/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Susana E. Garcia-gonzalez</title>
-      <link>https://www.shulele.net/zh/authors/susana-e.-garcia-gonzalez/</link>
+      <link>/zh/authors/susana-e.-garcia-gonzalez/</link>
     </image>
     
     <item>
       <title>Reconstructing the role of landuse change on water yield at the Maya urban center Tikal, Guatemala [700-800 AD]</title>
-      <link>https://www.shulele.net/zh/talk/agu2014/</link>
+      <link>/zh/talk/agu2014/</link>
       <pubDate>Wed, 31 Dec 2014 00:00:00 -0800</pubDate>
-      <guid>https://www.shulele.net/zh/talk/agu2014/</guid>
+      <guid>/zh/talk/agu2014/</guid>
       <description></description>
     </item>
     

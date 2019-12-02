@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nan, Zhuotong | SHU</title>
-    <link>https://www.shulele.net/en/authors/nan-zhuotong/</link>
-      <atom:link href="https://www.shulele.net/en/authors/nan-zhuotong/index.xml" rel="self" type="application/rss+xml" />
+    <link>/en/authors/nan-zhuotong/</link>
+      <atom:link href="/en/authors/nan-zhuotong/index.xml" rel="self" type="application/rss+xml" />
     <description>Nan, Zhuotong</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 25 Aug 2011 00:00:00 -0700</lastBuildDate>
     <image>
-      <url>https://www.shulele.net/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Nan, Zhuotong</title>
-      <link>https://www.shulele.net/en/authors/nan-zhuotong/</link>
+      <link>/en/authors/nan-zhuotong/</link>
     </image>
     
     <item>
       <title>Integrated modeling environment and a preliminary application on the Heihe River Basin, China</title>
-      <link>https://www.shulele.net/en/publication/nan2011/</link>
+      <link>/en/publication/nan2011/</link>
       <pubDate>Thu, 25 Aug 2011 00:00:00 -0700</pubDate>
-      <guid>https://www.shulele.net/en/publication/nan2011/</guid>
+      <guid>/en/publication/nan2011/</guid>
       <description></description>
     </item>
     

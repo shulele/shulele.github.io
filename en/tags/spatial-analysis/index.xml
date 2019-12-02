@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Spatial Analysis | SHU</title>
-    <link>https://www.shulele.net/en/tags/spatial-analysis/</link>
-      <atom:link href="https://www.shulele.net/en/tags/spatial-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <link>/en/tags/spatial-analysis/</link>
+      <atom:link href="/en/tags/spatial-analysis/index.xml" rel="self" type="application/rss+xml" />
     <description>Spatial Analysis</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://www.shulele.net/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Spatial Analysis</title>
-      <link>https://www.shulele.net/en/tags/spatial-analysis/</link>
+      <link>/en/tags/spatial-analysis/</link>
     </image>
     
     <item>
       <title>Geospatial and Geostatistical Analysis with R</title>
-      <link>https://www.shulele.net/en/class_geospatialr/0overview/</link>
+      <link>/en/class_geospatialr/0overview/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.shulele.net/en/class_geospatialr/0overview/</guid>
+      <guid>/en/class_geospatialr/0overview/</guid>
       <description>
 
 &lt;blockquote&gt;

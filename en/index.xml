@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SHU</title>
-    <link>https://www.shulele.net/en/</link>
-      <atom:link href="https://www.shulele.net/en/index.xml" rel="self" type="application/rss+xml" />
+    <link>/en/</link>
+      <atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
     <description>SHU</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 25 Nov 2019 00:00:00 -0800</lastBuildDate>
     <image>
-      <url>https://www.shulele.net/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>SHU</title>
-      <link>https://www.shulele.net/en/</link>
+      <link>/en/</link>
     </image>
     
     <item>
       <title>Class 1 - Overview</title>
-      <link>https://www.shulele.net/en/class_fdm/class01/class_01/</link>
+      <link>/en/class_fdm/class01/class_01/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.shulele.net/en/class_fdm/class01/class_01/</guid>
+      <guid>/en/class_fdm/class01/class_01/</guid>
       <description>
 
 &lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
@@ -27,9 +27,9 @@
     
     <item>
       <title>Solver for Hydrologic Unstructured Domain (SHUD): Numerical modeling of watershed hydrology with the finite element method</title>
-      <link>https://www.shulele.net/en/publication/shu2019_shud/</link>
+      <link>/en/publication/shu2019_shud/</link>
       <pubDate>Mon, 25 Nov 2019 00:00:00 -0800</pubDate>
-      <guid>https://www.shulele.net/en/publication/shu2019_shud/</guid>
+      <guid>/en/publication/shu2019_shud/</guid>
       <description>&lt;p&gt;Hydrological modeling is an essential strategy for understanding natural flows, particularly where observations are lacking in either space or time, or where topographic roughness leads to a disconnect in the characteristic timescales of overland and groundwater flow. Consequently, significant opportunities remain for the development of extensible modeling systems that operate robustly across regions.
 Towards the development of such a robust hydrological modeling system, this paper introduces the Solver for Hydrological Unstructured Domain (SHUD), an integrated multi-process, multi-scale, multi-timestep hydrological model, in which hydrological processes are fully coupled using the semi-discrete Finite Volume Method. The SHUD integrates overland flow, snow accumulation/melting, evapotranspiration, subsurface and groundwater flow, and river routing, while realistically capturing the physical processes in a watershed.&lt;br /&gt;
 The SHUD incorporates one-dimension unsaturated flow, two-dimension groundwater flow, and river channels connected with hillslopes via overland flow and baseflow.&lt;/p&gt;
@@ -42,9 +42,9 @@ The SHUD incorporates one-dimension unsaturated flow, two-dimension groundwater 
     
     <item>
       <title>How to Install Sundials 5.x or Cvode on Mac Linux System</title>
-      <link>https://www.shulele.net/en/post/20191119_sundials/</link>
+      <link>/en/post/20191119_sundials/</link>
       <pubDate>Tue, 19 Nov 2019 22:05:38 -0800</pubDate>
-      <guid>https://www.shulele.net/en/post/20191119_sundials/</guid>
+      <guid>/en/post/20191119_sundials/</guid>
       <description>
 
 &lt;h2 id=&#34;sundials-suite-of-nonlinear-and-differential-algebraic-equation-solvers&#34;&gt;SUNDIALS: SUite of Nonlinear and DIfferential/ALgebraic Equation Solvers&lt;/h2&gt;
@@ -201,9 +201,9 @@ Or get latest SUNDIALS on GitHub:&lt;/p&gt;
     
     <item>
       <title>R Script to Animate Global NDVI</title>
-      <link>https://www.shulele.net/en/post/20191003_r_animation/</link>
+      <link>/en/post/20191003_r_animation/</link>
       <pubDate>Thu, 03 Oct 2019 00:15:07 -0700</pubDate>
-      <guid>https://www.shulele.net/en/post/20191003_r_animation/</guid>
+      <guid>/en/post/20191003_r_animation/</guid>
       <description>
 
 &lt;p&gt;This script is to demonstrate the capability and scheme to realise the animation. You have to prepare your own data for this animation script.&lt;/p&gt;
@@ -558,17 +558,17 @@ system(cmd)
     
     <item>
       <title>Integrating fast and slow processes is essential for simulating human–freshwater interactions</title>
-      <link>https://www.shulele.net/en/publication/ward2018/</link>
+      <link>/en/publication/ward2018/</link>
       <pubDate>Thu, 25 Jul 2019 00:00:00 -0700</pubDate>
-      <guid>https://www.shulele.net/en/publication/ward2018/</guid>
+      <guid>/en/publication/ward2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Monthly NDVI change in USA and Global from 2002-2017</title>
-      <link>https://www.shulele.net/en/post/20190627_ndvi/</link>
+      <link>/en/post/20190627_ndvi/</link>
       <pubDate>Thu, 27 Jun 2019 00:15:07 -0700</pubDate>
-      <guid>https://www.shulele.net/en/post/20190627_ndvi/</guid>
+      <guid>/en/post/20190627_ndvi/</guid>
       <description>
 
 &lt;!-- ![Global NDVI](featured.png) --&gt;
@@ -598,9 +598,9 @@ system(cmd)
     
     <item>
       <title>Hydrologic modeling in project HYPERION</title>
-      <link>https://www.shulele.net/en/project/hyperion/</link>
+      <link>/en/project/hyperion/</link>
       <pubDate>Sat, 23 Feb 2019 21:13:14 -0500</pubDate>
-      <guid>https://www.shulele.net/en/project/hyperion/</guid>
+      <guid>/en/project/hyperion/</guid>
       <description>
 
 &lt;h2 id=&#34;introduction-of-hyperion-i-class-fas-fa-external-link-alt-i-https-climate-ucdavis-edu-hyperion&#34;&gt;Introduction of HYPERION &lt;a href=&#34;https://climate.ucdavis.edu/hyperion/&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;
@@ -701,9 +701,9 @@ system(cmd)
     
     <item>
       <title>The project to plot planets/objects in space and orbital movement.</title>
-      <link>https://www.shulele.net/en/post/kids-ucd/</link>
+      <link>/en/post/kids-ucd/</link>
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.shulele.net/en/post/kids-ucd/</guid>
+      <guid>/en/post/kids-ucd/</guid>
       <description>
 
 &lt;h2 id=&#34;motivation-of-the-project&#34;&gt;Motivation of the project&lt;/h2&gt;
@@ -737,9 +737,9 @@ system(cmd)
     
     <item>
       <title>The project to plot planets/objects in space and orbital movement.</title>
-      <link>https://www.shulele.net/en/post/roundandround/</link>
+      <link>/en/post/roundandround/</link>
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.shulele.net/en/post/roundandround/</guid>
+      <guid>/en/post/roundandround/</guid>
       <description>&lt;p&gt;I planed to write an R package and submit on CRAN, that can plot the planets orbiting in Solar System, or satellite/moon orbiting around earth. That package must plot the moving planets, the moon, moon phase and satellite in 2D or 3D canvas. In future, it may calculate the orbit based on orbit mechanics.&lt;/p&gt;
 
 &lt;p&gt;My son loves the song “The wheels on the bus go round and round“, and he has an obsession on planets. He asks mommy play the solar system documentary every night when we ask him to brush his teeth.  So I decided to plot the moving planets in solar system for him with the scientific knowledge I know.&lt;/p&gt;
@@ -769,9 +769,9 @@ system(cmd)
     
     <item>
       <title>Advance programming</title>
-      <link>https://www.shulele.net/en/class_programming/</link>
+      <link>/en/class_programming/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.shulele.net/en/class_programming/</guid>
+      <guid>/en/class_programming/</guid>
       <description>
 
 &lt;blockquote&gt;
@@ -855,9 +855,9 @@ system(cmd)
     
     <item>
       <title>Geospatial and Geostatistical Analysis with R</title>
-      <link>https://www.shulele.net/en/class_geospatialr/0overview/</link>
+      <link>/en/class_geospatialr/0overview/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.shulele.net/en/class_geospatialr/0overview/</guid>
+      <guid>/en/class_geospatialr/0overview/</guid>
       <description>
 
 &lt;blockquote&gt;
@@ -901,9 +901,9 @@ Total 100%&lt;/p&gt;
     
     <item>
       <title>Model simulated spatial distribution and the variation of ground water level in Sacramento Watershed, California from 1985 to 2017</title>
-      <link>https://www.shulele.net/en/talk/agu2018/</link>
+      <link>/en/talk/agu2018/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 -0800</pubDate>
-      <guid>https://www.shulele.net/en/talk/agu2018/</guid>
+      <guid>/en/talk/agu2018/</guid>
       <description>&lt;figure class=&#34;image&#34;&gt;
   &lt;img src=&#34;AnnualPRCP.png&#34; alt=&#34;{{ include.description }}&#34; width=&#34;400&#34;&gt;
   &lt;figcaption&gt;Annual Precipitation (1985-2017) of Sacramento Watershed&lt;/figcaption&gt;
@@ -915,9 +915,9 @@ Total 100%&lt;/p&gt;
     
     <item>
       <title>Automatic hydrologic deployment and modeling</title>
-      <link>https://www.shulele.net/en/project/mint/</link>
+      <link>/en/project/mint/</link>
       <pubDate>Mon, 23 Jul 2018 21:13:14 -0500</pubDate>
-      <guid>https://www.shulele.net/en/project/mint/</guid>
+      <guid>/en/project/mint/</guid>
       <description>
 
 &lt;p&gt;This project is the hydrologic modeling part of the project &lt;em&gt;Model Integration through Knowledge-Rich Data and Process Composition&lt;/em&gt;.&lt;/p&gt;
@@ -944,33 +944,33 @@ Total 100%&lt;/p&gt;
     
     <item>
       <title>From concept to practice to policy: modeling coupled natural and human systems in lake catchments</title>
-      <link>https://www.shulele.net/en/publication/cobourn2018/</link>
+      <link>/en/publication/cobourn2018/</link>
       <pubDate>Fri, 25 May 2018 00:00:00 -0700</pubDate>
-      <guid>https://www.shulele.net/en/publication/cobourn2018/</guid>
+      <guid>/en/publication/cobourn2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Coupling Cellular Automata Land Use Change with Distributed Hydrologic models</title>
-      <link>https://www.shulele.net/en/talk/agu2017/</link>
+      <link>/en/talk/agu2017/</link>
       <pubDate>Fri, 01 Dec 2017 00:00:00 -0800</pubDate>
-      <guid>https://www.shulele.net/en/talk/agu2017/</guid>
+      <guid>/en/talk/agu2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Impacts of Urbanization and Climate Change on the Hydrological Cycle: A Study in Modern and Ancient Land Use Change</title>
-      <link>https://www.shulele.net/en/publication/shu2017/</link>
+      <link>/en/publication/shu2017/</link>
       <pubDate>Fri, 11 Aug 2017 00:00:00 -0700</pubDate>
-      <guid>https://www.shulele.net/en/publication/shu2017/</guid>
+      <guid>/en/publication/shu2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Lake-PIHM modeling in CNH-Lake project</title>
-      <link>https://www.shulele.net/en/project/cnh_lak/</link>
+      <link>/en/project/cnh_lak/</link>
       <pubDate>Sun, 23 Jul 2017 21:13:14 -0500</pubDate>
-      <guid>https://www.shulele.net/en/project/cnh_lak/</guid>
+      <guid>/en/project/cnh_lak/</guid>
       <description>
 
 &lt;p&gt;This project is the hydrology-lake modeling part of the whole project. The leading project is &lt;em&gt;CNH-L: Linking land-use decision making, water quality, and lake associations to understand human-natural feedbacks in lake catchments&lt;/em&gt;, cooperated with multiple universities and institutes(e.g. Virginia Tech, Pennsylvania State University, University of Wisconsin, Cary Institute of Ecosystem Studies, Michigan State University ).&lt;/p&gt;
@@ -1002,9 +1002,9 @@ Total 100%&lt;/p&gt;
   &lt;/figure&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;a href=&#34;https://www.shulele.net/program/mendota&#34;&gt;Lake Mendota in 3D&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;a href=&#34;/program/mendota&#34;&gt;Lake Mendota in 3D&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;a href=&#34;https://www.shulele.net/program/sunapee&#34;&gt;Lake Sunapee in 3D&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;a href=&#34;/program/sunapee&#34;&gt;Lake Sunapee in 3D&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;keep updating&lt;/strong&gt;&lt;/p&gt;
@@ -1013,9 +1013,9 @@ Total 100%&lt;/p&gt;
     
     <item>
       <title>Reconstructing the role of landuse change on water yield at the Maya urban</title>
-      <link>https://www.shulele.net/en/project/tikal/</link>
+      <link>/en/project/tikal/</link>
       <pubDate>Sat, 23 Jul 2016 21:13:14 -0500</pubDate>
-      <guid>https://www.shulele.net/en/project/tikal/</guid>
+      <guid>/en/project/tikal/</guid>
       <description>
 
 &lt;p&gt;This project is the hydrology-lake modeling part of the project &lt;em&gt;Land, Water, and Territory: A 3,000-Year Study of Niche Construction and Cultural Evolution in the Tikal National Park, Guatemala&lt;/em&gt;.
@@ -1050,41 +1050,41 @@ Total 100%&lt;/p&gt;
     
     <item>
       <title>Mendota Lake</title>
-      <link>https://www.shulele.net/en/vis3d/mendota/</link>
+      <link>/en/vis3d/mendota/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://www.shulele.net/en/vis3d/mendota/</guid>
+      <guid>/en/vis3d/mendota/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sunapee Lake</title>
-      <link>https://www.shulele.net/en/vis3d/sunapee/</link>
+      <link>/en/vis3d/sunapee/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://www.shulele.net/en/vis3d/sunapee/</guid>
+      <guid>/en/vis3d/sunapee/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Yanhua Village in Ningxia, China</title>
-      <link>https://www.shulele.net/en/vis3d/yanhuacun/</link>
+      <link>/en/vis3d/yanhuacun/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://www.shulele.net/en/vis3d/yanhuacun/</guid>
+      <guid>/en/vis3d/yanhuacun/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Catchment hydrological change from soil degradation</title>
-      <link>https://www.shulele.net/en/talk/agu2015/</link>
+      <link>/en/talk/agu2015/</link>
       <pubDate>Tue, 01 Dec 2015 00:00:00 -0800</pubDate>
-      <guid>https://www.shulele.net/en/talk/agu2015/</guid>
+      <guid>/en/talk/agu2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Impact in hydrology from landuse and climate change</title>
-      <link>https://www.shulele.net/en/project/stormwater/</link>
+      <link>/en/project/stormwater/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      <guid>https://www.shulele.net/en/project/stormwater/</guid>
+      <guid>/en/project/stormwater/</guid>
       <description>
 
 &lt;p&gt;This project is the hydrologic modeling part of the project &lt;em&gt;NSF Hydrologic and Water Quality Modeling for Green Infrastructure&lt;/em&gt;.
@@ -1115,41 +1115,41 @@ Total 100%&lt;/p&gt;
     
     <item>
       <title>Reconstructing the role of landuse change on water yield at the Maya urban center Tikal, Guatemala [700-800 AD]</title>
-      <link>https://www.shulele.net/en/talk/agu2014/</link>
+      <link>/en/talk/agu2014/</link>
       <pubDate>Wed, 31 Dec 2014 00:00:00 -0800</pubDate>
-      <guid>https://www.shulele.net/en/talk/agu2014/</guid>
+      <guid>/en/talk/agu2014/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Urbanization-driven hydrological process change in Conestoga River watershed in Lancaster of Pennsylvania</title>
-      <link>https://www.shulele.net/en/talk/agu2013/</link>
+      <link>/en/talk/agu2013/</link>
       <pubDate>Tue, 31 Dec 2013 00:00:00 -0800</pubDate>
-      <guid>https://www.shulele.net/en/talk/agu2013/</guid>
+      <guid>/en/talk/agu2013/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Integrated modeling environment and a preliminary application on the Heihe River Basin, China</title>
-      <link>https://www.shulele.net/en/publication/nan2011/</link>
+      <link>/en/publication/nan2011/</link>
       <pubDate>Thu, 25 Aug 2011 00:00:00 -0700</pubDate>
-      <guid>https://www.shulele.net/en/publication/nan2011/</guid>
+      <guid>/en/publication/nan2011/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gallery</title>
-      <link>https://www.shulele.net/en/gallery/</link>
+      <link>/en/gallery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.shulele.net/en/gallery/</guid>
+      <guid>/en/gallery/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Numerical Methods in Hydrology</title>
-      <link>https://www.shulele.net/en/class_fdm/0overview/</link>
+      <link>/en/class_fdm/0overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.shulele.net/en/class_fdm/0overview/</guid>
+      <guid>/en/class_fdm/0overview/</guid>
       <description>
 
 &lt;h1 id=&#34;objective&#34;&gt;Objective&lt;/h1&gt;
@@ -1230,9 +1230,9 @@ Total 100%&lt;/p&gt;
     
     <item>
       <title>Teaching</title>
-      <link>https://www.shulele.net/en/teaching/</link>
+      <link>/en/teaching/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.shulele.net/en/teaching/</guid>
+      <guid>/en/teaching/</guid>
       <description></description>
     </item>
     

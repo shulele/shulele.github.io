@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts | SHU</title>
-    <link>https://www.shulele.net/en/post/</link>
-      <atom:link href="https://www.shulele.net/en/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>/en/post/</link>
+      <atom:link href="/en/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 19 Nov 2019 22:05:38 -0800</lastBuildDate>
     <image>
-      <url>https://www.shulele.net/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Posts</title>
-      <link>https://www.shulele.net/en/post/</link>
+      <link>/en/post/</link>
     </image>
     
     <item>
       <title>How to Install Sundials 5.x or Cvode on Mac Linux System</title>
-      <link>https://www.shulele.net/en/post/20191119_sundials/</link>
+      <link>/en/post/20191119_sundials/</link>
       <pubDate>Tue, 19 Nov 2019 22:05:38 -0800</pubDate>
-      <guid>https://www.shulele.net/en/post/20191119_sundials/</guid>
+      <guid>/en/post/20191119_sundials/</guid>
       <description>
 
 &lt;h2 id=&#34;sundials-suite-of-nonlinear-and-differential-algebraic-equation-solvers&#34;&gt;SUNDIALS: SUite of Nonlinear and DIfferential/ALgebraic Equation Solvers&lt;/h2&gt;
@@ -173,9 +173,9 @@ Or get latest SUNDIALS on GitHub:&lt;/p&gt;
     
     <item>
       <title>R Script to Animate Global NDVI</title>
-      <link>https://www.shulele.net/en/post/20191003_r_animation/</link>
+      <link>/en/post/20191003_r_animation/</link>
       <pubDate>Thu, 03 Oct 2019 00:15:07 -0700</pubDate>
-      <guid>https://www.shulele.net/en/post/20191003_r_animation/</guid>
+      <guid>/en/post/20191003_r_animation/</guid>
       <description>
 
 &lt;p&gt;This script is to demonstrate the capability and scheme to realise the animation. You have to prepare your own data for this animation script.&lt;/p&gt;
@@ -530,9 +530,9 @@ system(cmd)
     
     <item>
       <title> Monthly NDVI change in USA and Global from 2002-2017</title>
-      <link>https://www.shulele.net/en/post/20190627_ndvi/</link>
+      <link>/en/post/20190627_ndvi/</link>
       <pubDate>Thu, 27 Jun 2019 00:15:07 -0700</pubDate>
-      <guid>https://www.shulele.net/en/post/20190627_ndvi/</guid>
+      <guid>/en/post/20190627_ndvi/</guid>
       <description>
 
 &lt;!-- ![Global NDVI](featured.png) --&gt;
@@ -562,9 +562,9 @@ system(cmd)
     
     <item>
       <title>The project to plot planets/objects in space and orbital movement.</title>
-      <link>https://www.shulele.net/en/post/kids-ucd/</link>
+      <link>/en/post/kids-ucd/</link>
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.shulele.net/en/post/kids-ucd/</guid>
+      <guid>/en/post/kids-ucd/</guid>
       <description>
 
 &lt;h2 id=&#34;motivation-of-the-project&#34;&gt;Motivation of the project&lt;/h2&gt;
@@ -598,9 +598,9 @@ system(cmd)
     
     <item>
       <title>The project to plot planets/objects in space and orbital movement.</title>
-      <link>https://www.shulele.net/en/post/roundandround/</link>
+      <link>/en/post/roundandround/</link>
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.shulele.net/en/post/roundandround/</guid>
+      <guid>/en/post/roundandround/</guid>
       <description>&lt;p&gt;I planed to write an R package and submit on CRAN, that can plot the planets orbiting in Solar System, or satellite/moon orbiting around earth. That package must plot the moving planets, the moon, moon phase and satellite in 2D or 3D canvas. In future, it may calculate the orbit based on orbit mechanics.&lt;/p&gt;
 
 &lt;p&gt;My son loves the song “The wheels on the bus go round and round“, and he has an obsession on planets. He asks mommy play the solar system documentary every night when we ask him to brush his teeth.  So I decided to plot the moving planets in solar system for him with the scientific knowledge I know.&lt;/p&gt;

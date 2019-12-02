@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SHUD | SHU</title>
-    <link>https://www.shulele.net/en/tags/shud/</link>
-      <atom:link href="https://www.shulele.net/en/tags/shud/index.xml" rel="self" type="application/rss+xml" />
+    <link>/en/tags/shud/</link>
+      <atom:link href="/en/tags/shud/index.xml" rel="self" type="application/rss+xml" />
     <description>SHUD</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://www.shulele.net/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>SHUD</title>
-      <link>https://www.shulele.net/en/tags/shud/</link>
+      <link>/en/tags/shud/</link>
     </image>
     
     <item>
       <title>Mendota Lake</title>
-      <link>https://www.shulele.net/en/vis3d/mendota/</link>
+      <link>/en/vis3d/mendota/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://www.shulele.net/en/vis3d/mendota/</guid>
+      <guid>/en/vis3d/mendota/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sunapee Lake</title>
-      <link>https://www.shulele.net/en/vis3d/sunapee/</link>
+      <link>/en/vis3d/sunapee/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://www.shulele.net/en/vis3d/sunapee/</guid>
+      <guid>/en/vis3d/sunapee/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Yanhua Village in Ningxia, China</title>
-      <link>https://www.shulele.net/en/vis3d/yanhuacun/</link>
+      <link>/en/vis3d/yanhuacun/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://www.shulele.net/en/vis3d/yanhuacun/</guid>
+      <guid>/en/vis3d/yanhuacun/</guid>
       <description></description>
     </item>
     

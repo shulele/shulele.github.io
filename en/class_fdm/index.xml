@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Numerical Methods in Hydrology | SHU</title>
-    <link>https://www.shulele.net/en/class_fdm/</link>
-      <atom:link href="https://www.shulele.net/en/class_fdm/index.xml" rel="self" type="application/rss+xml" />
+    <link>/en/class_fdm/</link>
+      <atom:link href="/en/class_fdm/index.xml" rel="self" type="application/rss+xml" />
     <description>Numerical Methods in Hydrology</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 05 May 2019 00:00:00 +0100</lastBuildDate>
     <image>
-      <url>https://www.shulele.net/en/class_fdm/featured.png</url>
+      <url>/en/class_fdm/featured.png</url>
       <title>Numerical Methods in Hydrology</title>
-      <link>https://www.shulele.net/en/class_fdm/</link>
+      <link>/en/class_fdm/</link>
     </image>
     
     <item>
       <title>Class 1 - Overview</title>
-      <link>https://www.shulele.net/en/class_fdm/class01/class_01/</link>
+      <link>/en/class_fdm/class01/class_01/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.shulele.net/en/class_fdm/class01/class_01/</guid>
+      <guid>/en/class_fdm/class01/class_01/</guid>
       <description>
 
 &lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
@@ -27,9 +27,9 @@
     
     <item>
       <title>Numerical Methods in Hydrology</title>
-      <link>https://www.shulele.net/en/class_fdm/0overview/</link>
+      <link>/en/class_fdm/0overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.shulele.net/en/class_fdm/0overview/</guid>
+      <guid>/en/class_fdm/0overview/</guid>
       <description>
 
 &lt;h1 id=&#34;objective&#34;&gt;Objective&lt;/h1&gt;

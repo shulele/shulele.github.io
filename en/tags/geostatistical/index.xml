@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Geostatistical | SHU</title>
-    <link>https://www.shulele.net/en/tags/geostatistical/</link>
-      <atom:link href="https://www.shulele.net/en/tags/geostatistical/index.xml" rel="self" type="application/rss+xml" />
+    <link>/en/tags/geostatistical/</link>
+      <atom:link href="/en/tags/geostatistical/index.xml" rel="self" type="application/rss+xml" />
     <description>Geostatistical</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://www.shulele.net/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Geostatistical</title>
-      <link>https://www.shulele.net/en/tags/geostatistical/</link>
+      <link>/en/tags/geostatistical/</link>
     </image>
     
     <item>
       <title>Geospatial and Geostatistical Analysis with R</title>
-      <link>https://www.shulele.net/en/class_geospatialr/0overview/</link>
+      <link>/en/class_geospatialr/0overview/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.shulele.net/en/class_geospatialr/0overview/</guid>
+      <guid>/en/class_geospatialr/0overview/</guid>
       <description>
 
 &lt;blockquote&gt;

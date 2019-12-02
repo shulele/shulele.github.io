@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Post | SHU</title>
-    <link>https://www.shulele.net/en/categories/post/</link>
-      <atom:link href="https://www.shulele.net/en/categories/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>/en/categories/post/</link>
+      <atom:link href="/en/categories/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Post</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 29 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://www.shulele.net/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Post</title>
-      <link>https://www.shulele.net/en/categories/post/</link>
+      <link>/en/categories/post/</link>
     </image>
     
     <item>
       <title>The project to plot planets/objects in space and orbital movement.</title>
-      <link>https://www.shulele.net/en/post/kids-ucd/</link>
+      <link>/en/post/kids-ucd/</link>
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.shulele.net/en/post/kids-ucd/</guid>
+      <guid>/en/post/kids-ucd/</guid>
       <description>
 
 &lt;h2 id=&#34;motivation-of-the-project&#34;&gt;Motivation of the project&lt;/h2&gt;
@@ -50,9 +50,9 @@
     
     <item>
       <title>The project to plot planets/objects in space and orbital movement.</title>
-      <link>https://www.shulele.net/en/post/roundandround/</link>
+      <link>/en/post/roundandround/</link>
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.shulele.net/en/post/roundandround/</guid>
+      <guid>/en/post/roundandround/</guid>
       <description>&lt;p&gt;I planed to write an R package and submit on CRAN, that can plot the planets orbiting in Solar System, or satellite/moon orbiting around earth. That package must plot the moving planets, the moon, moon phase and satellite in 2D or 3D canvas. In future, it may calculate the orbit based on orbit mechanics.&lt;/p&gt;
 
 &lt;p&gt;My son loves the song “The wheels on the bus go round and round“, and he has an obsession on planets. He asks mommy play the solar system documentary every night when we ask him to brush his teeth.  So I decided to plot the moving planets in solar system for him with the scientific knowledge I know.&lt;/p&gt;
