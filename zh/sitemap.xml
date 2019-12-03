@@ -3,6 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.shulele.net/zh/post/</loc>
+    <lastmod>2019-12-02T00:15:07-07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.shulele.net/en/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.shulele.net/zh/post/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.shulele.net/zh/post/20191202_xueshuwubi/</loc>
+    <lastmod>2019-12-02T00:15:07-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.shulele.net/zh/</loc>
+    <lastmod>2019-12-02T00:15:07-07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.shulele.net/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.shulele.net/zh/"
+                />
+  </url>
+  
+  <url>
     <loc>https://www.shulele.net/zh/publication_types/3/</loc>
     <lastmod>2019-11-25T00:00:00-08:00</lastmod>
     <xhtml:link
@@ -123,21 +158,6 @@
   </url>
   
   <url>
-    <loc>https://www.shulele.net/zh/</loc>
-    <lastmod>2019-11-25T00:00:00-08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.shulele.net/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://www.shulele.net/zh/"
-                />
-  </url>
-  
-  <url>
     <loc>https://www.shulele.net/zh/post/20191119_sundials/</loc>
     <lastmod>2019-11-19T22:05:38-08:00</lastmod>
     <xhtml:link
@@ -149,21 +169,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://www.shulele.net/zh/post/20191119_sundials/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.shulele.net/zh/post/</loc>
-    <lastmod>2019-11-19T22:05:38-08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.shulele.net/en/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://www.shulele.net/zh/post/"
                 />
   </url>
   

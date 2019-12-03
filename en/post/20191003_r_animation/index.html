@@ -581,15 +581,10 @@
   <div class="article-container">
 
     <div class="article-style">
-      
-
-<p>This script is to demonstrate the capability and scheme to realise the animation. You have to prepare your own data for this animation script.</p>
-
+      <p>This script is to demonstrate the capability and scheme to realise the animation. You have to prepare your own data for this animation script.</p>
 <h1 id="script-for-global-ndvi">Script for Global NDVI</h1>
-
-<p><img src="NDVI_GLOBAL201002.png" alt="Global NDVI on Feb 2010" /></p>
-
-<pre><code class="language-r">rm(list=ls())
+<p><img src="NDVI_GLOBAL201002.png" alt="Global NDVI on Feb 2010"></p>
+<pre><code class="language-{r}" data-lang="{r}">rm(list=ls())
 library(RoundAndRound)
 # devtools::install_github('shulele/RoundAndRound')
 col.fun=function(x){ colorspace::terrain_hcl(x, l=c(65,95), 
@@ -735,13 +730,9 @@ cmd = paste('ffmpeg -r ', fps,  '-f image2 -s 1920x1080 -i ', paste0(dir.gif, '/
             '-vcodec libx264 -crf 25  -pix_fmt yuv420p', fn.mov)
 print(cmd)
 # system(cmd)
-</code></pre>
-
-<h1 id="script-for-china-ndvi">Script for China NDVI</h1>
-
-<p><img src="NDVI_CN200202.png" alt="China NDVI on Feb 2002" /></p>
-
-<pre><code class="language-r">rm(list=ls())
+</code></pre><h1 id="script-for-china-ndvi">Script for China NDVI</h1>
+<p><img src="NDVI_CN200202.png" alt="China NDVI on Feb 2002"></p>
+<pre><code class="language-{r}" data-lang="{r}">rm(list=ls())
 # devtools::install_github('shulele/RoundAndRound')
 library(RoundAndRound)
 library(xts)
@@ -930,7 +921,6 @@ cmd = paste('ffmpeg -r ', fps,  '-f image2 -s 1920x1080 -i ',
 print(cmd)
 system(cmd)
 </code></pre>
-
     </div>
 
     

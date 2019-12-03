@@ -17,22 +17,16 @@
       <link>https://www.shulele.net/en/project/hyperion/</link>
       <pubDate>Sat, 23 Feb 2019 21:13:14 -0500</pubDate>
       <guid>https://www.shulele.net/en/project/hyperion/</guid>
-      <description>
-
-&lt;h2 id=&#34;introduction-of-hyperion-i-class-fas-fa-external-link-alt-i-https-climate-ucdavis-edu-hyperion&#34;&gt;Introduction of HYPERION &lt;a href=&#34;https://climate.ucdavis.edu/hyperion/&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;
-
+      <description>&lt;h2 id=&#34;introduction-of-hyperion-i-classfas-faexternallinkaltihttpsclimateucdaviseduhyperion&#34;&gt;Introduction of HYPERION &lt;a href=&#34;https://climate.ucdavis.edu/hyperion/&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;The objective of HYPERION is the development of a comprehensive regional hydroclimate data assessment capability focused on feature-specific metrics and stakeholder-relevant outcomes. The secondary objective of this proposal is to leverage this assessment capability to improve our ability to predict these outcomes, by identifying the process-level drivers of outcome biases and evaluating the most appropriate and efficient ways to couple climate models, hydrologic models, and models of human impacts.
-&lt;img src=&#34;fig/hyperion.png&#34; alt=&#34;HYPERION logo&#34; /&gt;&lt;/p&gt;
-
+&lt;img src=&#34;fig/hyperion.png&#34; alt=&#34;HYPERION logo&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;tasks-in-hydrologic-modeling&#34;&gt;Tasks in hydrologic modeling&lt;/h2&gt;
-
 &lt;ul&gt;
-&lt;li&gt;Develop a hydrologic modeling system for both the Sacramento watershed and several subcatchments.  Calculate key hydrological metrics, including stream flow, groundwater table, soil moisture, and snow pack.&lt;/li&gt;
-&lt;li&gt;Evaluate the quality of the hydrologic model and identify potential issues related to its performance.&lt;/li&gt;
-&lt;li&gt;Develop a statistical downscaling technique using both traditional statistical and machine learning methods that digests input to the hydrologic model and mimics the output of the model.&lt;/li&gt;
+&lt;li&gt;Develop a hydrologic modeling system for both the Sacramento watershed and several subcatchments.  Calculate key hydrological metrics, including stream flow, groundwater table, soil moisture, and snow pack.&lt;/li&gt;
+&lt;li&gt;Evaluate the quality of the hydrologic model and identify potential issues related to its performance.&lt;/li&gt;
+&lt;li&gt;Develop a statistical downscaling technique using both traditional statistical and machine learning methods that digests input to the hydrologic model and mimics the output of the model.&lt;/li&gt;
 &lt;li&gt;Determine which input variables are most relevant for producing an accurate statistical model.&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -40,24 +34,16 @@
 &lt;th align=&#34;center&#34;&gt;Annual Precipitation&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
-
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;fig/pihmdata.png&#34; alt=&#34;Data&#34; /&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;fig/AnnualPRCP.png&#34; alt=&#34;Precipitation&#34; /&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;fig/pihmdata.png&#34; alt=&#34;Data&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;fig/AnnualPRCP.png&#34; alt=&#34;Precipitation&#34;&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-
 &lt;h2 id=&#34;sacramento-watershed&#34;&gt;Sacramento Watershed&lt;/h2&gt;
-
 &lt;p&gt;The Sacramento River flows from Southern Oregon and to San Francisco Bay. Total drainage area is ~72000 km2. Elevation ranges from 0 to 4200m. The climate in SW is semi-arid hot Mediterranean. The spatial climatic characteristics are not only affected by latitude, terrain and snow coverage, but also by wind and ocean currents. Dramatic seasonal and annual climatic variations exist as well as large spatial heterogeneity. The mountains on the eastern and northern edges of the domain accumulate rain and snow which funnels into the groundwater of the whole watershed.  Annual precipitation ranges from 400 mm/year to 1500 mm/year, however extreme annual precipitation was more than 4000 mm/year in Northern mountainous area in 1983, and mean precipitation was only 270 mm/year from the 2013 extreme drought year.&lt;/p&gt;
-
-&lt;figure class=&#34;image&#34;&gt;
-  &lt;img src=&#34;fig/Animation.gif&#34;, width=400px&gt;
-  &lt;figcaption&gt;Animation of spatial annual precipitation in Sacramento Watershed&lt;/figcaption&gt;
-&lt;/figure&gt;
-
+&lt;!-- raw HTML omitted --&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -65,52 +51,38 @@
 &lt;th align=&#34;center&#34;&gt;Annual precipitation variation from 1979 to 2017 based on NLDAS data&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
-
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;fig/prcp_boxMonth.png&#34; alt=&#34;Data&#34; /&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;fig/prcp_boxyr.png&#34; alt=&#34;Precipitation&#34; /&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;fig/prcp_boxMonth.png&#34; alt=&#34;Data&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;fig/prcp_boxyr.png&#34; alt=&#34;Precipitation&#34;&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-
 &lt;h2 id=&#34;simulation-and-results&#34;&gt;Simulation and Results&lt;/h2&gt;
-
 &lt;p&gt;The calibration of the PIHM model used the Covariance Matrix Adaptation Evolution Strategy (CMA-ES) (Hansen 2006,Auger 2005). The automatic CMA-ES calibration is robust and able to converge to global optimization with low computing cost.&lt;/p&gt;
-
 &lt;h3 id=&#34;river-discharge&#34;&gt;River discharge&lt;/h3&gt;
-
-&lt;p&gt;The stream flow in the watershed follows the seasonal variation of precipitation. During drought years, the base flow from groundwater depletion contributes to the streamflow, and the excess infiltration replenishes ground water in wet seasons. For small watersheds in the Central Valley, such as catchment #9 where precipitation is less and the aquifer is thicker, the contribution from groundwater is small.
-&lt;figure class=&#34;image&#34;&gt;
-  &lt;img src=&#34;fig/calib.png&#34;&gt;
-  &lt;figcaption&gt;Calibration based on discharge of four subcatchments&lt;/figcaption&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
+&lt;p&gt;The stream flow in the watershed follows the seasonal variation of precipitation. During drought years, the base flow from groundwater depletion contributes to the streamflow, and the excess infiltration replenishes ground water in wet seasons. For small watersheds in the Central Valley, such as catchment #9 where precipitation is less and the aquifer is thicker, the contribution from groundwater is small.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
 &lt;h3 id=&#34;ground-water-variation&#34;&gt;Ground water variation&lt;/h3&gt;
-
 &lt;p&gt;The ground water near the river channel is shallower than the hill-slope. The spatial distribution pattern of ground water is controlled by topography, soil/geology characteristics and shape of the watershed. Steep slopes store less ground water than moderate slopes, because a steep hydraulic gradient on steep slopes drive the lateral groundwater flow.&lt;/p&gt;
-
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
-
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;fig/GWmap.png&#34; alt=&#34;&#34; /&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;fig/gwd.png&#34; alt=&#34;&#34; /&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;fig/GWmap.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;fig/gwd.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;Ground water spatial distribution&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;Temporal fluctuation from 2000 to 2017.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-
 &lt;p&gt;Ground water seasonal fluctuation follows the climatic variation. However, the seasonal variations in some catchments are relatively larger than others. The inter-annual variation in #5 sub-catchment is larger than seasonal variation. Although the annual precipitation trends in each sub-catchments are comparable, the trend in multiple-year changes of ground water table varies. This requires further analysis on water balance and the memory effect of ground water storage.&lt;/p&gt;
 </description>
     </item>
@@ -120,26 +92,12 @@
       <link>https://www.shulele.net/en/project/mint/</link>
       <pubDate>Mon, 23 Jul 2018 21:13:14 -0500</pubDate>
       <guid>https://www.shulele.net/en/project/mint/</guid>
-      <description>
-
-&lt;p&gt;This project is the hydrologic modeling part of the project &lt;em&gt;Model Integration through Knowledge-Rich Data and Process Composition&lt;/em&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;introduction-of-project-i-class-fas-fa-external-link-alt-i-http-mint-project-info&#34;&gt;Introduction of project &lt;a href=&#34;http://mint-project.info&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;
-
+      <description>&lt;p&gt;This project is the hydrologic modeling part of the project &lt;em&gt;Model Integration through Knowledge-Rich Data and Process Composition&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;introduction-of-project-i-classfas-faexternallinkaltihttpmintprojectinfo&#34;&gt;Introduction of project &lt;a href=&#34;http://mint-project.info&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;h2 id=&#34;tasks-in-hydrologic-modeling&#34;&gt;Tasks in hydrologic modeling&lt;/h2&gt;
-
-&lt;figure class=&#34;image&#34;&gt;
-  &lt;img src=&#34;featured.png&#34;, width=800px&gt;
-  &lt;figcaption&gt;The completed workflow of hydrologic modeling with PIHM model and national/global data services. &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;figure class=&#34;image&#34;&gt;
-  &lt;img src=&#34;fig/Animation.gif&#34;, width=800px&gt;
-  &lt;figcaption&gt;Animation of flood plant in South Sudan from 2001 to 2017 based on FLDAS data. &lt;/figcaption&gt;
-&lt;/figure&gt;
-
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
 &lt;h2 id=&#34;accomplishment-of-the-project&#34;&gt;Accomplishment of the project&lt;/h2&gt;
-
 &lt;p&gt;&lt;strong&gt;keep updating&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
@@ -149,42 +107,25 @@
       <link>https://www.shulele.net/en/project/cnh_lak/</link>
       <pubDate>Sun, 23 Jul 2017 21:13:14 -0500</pubDate>
       <guid>https://www.shulele.net/en/project/cnh_lak/</guid>
-      <description>
-
-&lt;p&gt;This project is the hydrology-lake modeling part of the whole project. The leading project is &lt;em&gt;CNH-L: Linking land-use decision making, water quality, and lake associations to understand human-natural feedbacks in lake catchments&lt;/em&gt;, cooperated with multiple universities and institutes(e.g. Virginia Tech, Pennsylvania State University, University of Wisconsin, Cary Institute of Ecosystem Studies, Michigan State University ).&lt;/p&gt;
-
-&lt;h2 id=&#34;introduction-of-project-i-class-fas-fa-external-link-alt-i-http-www-organicdatascience-org-cnh-index-php-main-page&#34;&gt;Introduction of project &lt;a href=&#34;http://www.organicdatascience.org/cnh/index.php/Main_Page&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;
-
+      <description>&lt;p&gt;This project is the hydrology-lake modeling part of the whole project. The leading project is &lt;em&gt;CNH-L: Linking land-use decision making, water quality, and lake associations to understand human-natural feedbacks in lake catchments&lt;/em&gt;, cooperated with multiple universities and institutes(e.g. Virginia Tech, Pennsylvania State University, University of Wisconsin, Cary Institute of Ecosystem Studies, Michigan State University ).&lt;/p&gt;
+&lt;h2 id=&#34;introduction-of-project-i-classfas-faexternallinkaltihttpwwworganicdatascienceorgcnhindexphpmainpage&#34;&gt;Introduction of project &lt;a href=&#34;http://www.organicdatascience.org/cnh/index.php/Main_Page&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Freshwater lakes and their catchments present a rich and fascinating opportunity to examine the dynamics of coupled natural and human systems (CNHS). Humans derive great benefit from the irreplaceable services provided by lakes, such as drinking water, recreation, and fisheries, while at the same time contributing to the degradation of the very waters upon which they depend. However, degradation in the water quality attributes that people value can serve as a catalyst for behavioral change through collective action, as evidenced by the increasing momentum of citizen-driven lake associations. To identify and quantify these feedbacks between lake water quality and human behavior, we propose to develop a novel, coupled modeling framework that captures how land-use decision making interacts with hydrological and limnological processes to transform nutrient loads into changes in lake water quality, and how altered water quality feeds back to human systems by affecting the amenities that people value. Our model will extend our interdisciplinary focus by examining how lake associations respond to changes in lake water quality and how their activities influence the behavior of citizens and policy makers to protect their freshwater resources. To construct the coupled model, we will augment our data and modeling resources with new information on the organizational capacity and effectiveness of three active and established lake associations. Our coupled modeling framework flexibly links key human and natural systems in three focal lake catchments, allowing us to investigate human-natural feedbacks in those catchments and to build on our understanding of those linkages to generate insight into CNHS at a broad scale.&lt;/p&gt;
-
-&lt;figure class=&#34;image&#34;&gt;
-  &lt;img src=&#34;fig/CatchmentGraphic_v2.png&#34;, width=400px&gt;
-  &lt;figcaption&gt;Water quality and human welfare are driven by the dynamic interactions among and between human and natural systems within lake catchments.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
+&lt;!-- raw HTML omitted --&gt;
 &lt;h2 id=&#34;tasks-in-hydrologic-modeling&#34;&gt;Tasks in hydrologic modeling&lt;/h2&gt;
-
 &lt;ul&gt;
-&lt;li&gt;Coupling the watershed hydrologic modeling with lake modeling.
-*&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Coupling the watershed hydrologic modeling with lake modeling.
+*&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;https://www.shulele.net/program/mendota&#34;&gt;Lake Mendota in 3D&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;https://www.shulele.net/program/sunapee&#34;&gt;Lake Sunapee in 3D&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;&lt;figure class=&#34;image&#34;&gt;
-    &lt;img src=&#34;fig/Sunapee_data.png&#34;, width=600px&gt;
-    &lt;figcaption&gt;The spatial data used for PIHM simulation in Lake Sunapee, NH&lt;/figcaption&gt;
-  &lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure class=&#34;image&#34;&gt;
-    &lt;img src=&#34;fig/Sunapee_3dmap.png&#34;, width=600px&gt;
-    &lt;figcaption&gt;The flood plane in Lake Sunapee Watershed. The gray triangular mesh are the PIHM simulation domain. &lt;/figcaption&gt;
-  &lt;/figure&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;a href=&#34;https://www.shulele.net/program/mendota&#34;&gt;Lake Mendota in 3D&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;a href=&#34;https://www.shulele.net/program/sunapee&#34;&gt;Lake Sunapee in 3D&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
 &lt;p&gt;&lt;strong&gt;keep updating&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
@@ -194,42 +135,25 @@
       <link>https://www.shulele.net/en/project/cnh_lak/</link>
       <pubDate>Sun, 23 Jul 2017 21:13:14 -0500</pubDate>
       <guid>https://www.shulele.net/en/project/cnh_lak/</guid>
-      <description>
-
-&lt;p&gt;This project is the hydrology-lake modeling part of the whole project. The leading project is &lt;em&gt;CNH-L: Linking land-use decision making, water quality, and lake associations to understand human-natural feedbacks in lake catchments&lt;/em&gt;, cooperated with multiple universities and institutes(e.g. Virginia Tech, Pennsylvania State University, University of Wisconsin, Cary Institute of Ecosystem Studies, Michigan State University ).&lt;/p&gt;
-
-&lt;h2 id=&#34;introduction-of-project-i-class-fas-fa-external-link-alt-i-http-www-organicdatascience-org-cnh-index-php-main-page&#34;&gt;Introduction of project &lt;a href=&#34;http://www.organicdatascience.org/cnh/index.php/Main_Page&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;
-
+      <description>&lt;p&gt;This project is the hydrology-lake modeling part of the whole project. The leading project is &lt;em&gt;CNH-L: Linking land-use decision making, water quality, and lake associations to understand human-natural feedbacks in lake catchments&lt;/em&gt;, cooperated with multiple universities and institutes(e.g. Virginia Tech, Pennsylvania State University, University of Wisconsin, Cary Institute of Ecosystem Studies, Michigan State University ).&lt;/p&gt;
+&lt;h2 id=&#34;introduction-of-project-i-classfas-faexternallinkaltihttpwwworganicdatascienceorgcnhindexphpmainpage&#34;&gt;Introduction of project &lt;a href=&#34;http://www.organicdatascience.org/cnh/index.php/Main_Page&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Freshwater lakes and their catchments present a rich and fascinating opportunity to examine the dynamics of coupled natural and human systems (CNHS). Humans derive great benefit from the irreplaceable services provided by lakes, such as drinking water, recreation, and fisheries, while at the same time contributing to the degradation of the very waters upon which they depend. However, degradation in the water quality attributes that people value can serve as a catalyst for behavioral change through collective action, as evidenced by the increasing momentum of citizen-driven lake associations. To identify and quantify these feedbacks between lake water quality and human behavior, we propose to develop a novel, coupled modeling framework that captures how land-use decision making interacts with hydrological and limnological processes to transform nutrient loads into changes in lake water quality, and how altered water quality feeds back to human systems by affecting the amenities that people value. Our model will extend our interdisciplinary focus by examining how lake associations respond to changes in lake water quality and how their activities influence the behavior of citizens and policy makers to protect their freshwater resources. To construct the coupled model, we will augment our data and modeling resources with new information on the organizational capacity and effectiveness of three active and established lake associations. Our coupled modeling framework flexibly links key human and natural systems in three focal lake catchments, allowing us to investigate human-natural feedbacks in those catchments and to build on our understanding of those linkages to generate insight into CNHS at a broad scale.&lt;/p&gt;
-
-&lt;figure class=&#34;image&#34;&gt;
-  &lt;img src=&#34;fig/CatchmentGraphic_v2.png&#34;, width=400px&gt;
-  &lt;figcaption&gt;Water quality and human welfare are driven by the dynamic interactions among and between human and natural systems within lake catchments.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
+&lt;!-- raw HTML omitted --&gt;
 &lt;h2 id=&#34;tasks-in-hydrologic-modeling&#34;&gt;Tasks in hydrologic modeling&lt;/h2&gt;
-
 &lt;ul&gt;
-&lt;li&gt;Coupling the watershed hydrologic modeling with lake modeling.
-*&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Coupling the watershed hydrologic modeling with lake modeling.
+*&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;https://www.shulele.net/program/mendota&#34;&gt;Lake Mendota in 3D&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;https://www.shulele.net/program/sunapee&#34;&gt;Lake Sunapee in 3D&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;&lt;figure class=&#34;image&#34;&gt;
-    &lt;img src=&#34;fig/Sunapee_data.png&#34;, width=600px&gt;
-    &lt;figcaption&gt;The spatial data used for PIHM simulation in Lake Sunapee, NH&lt;/figcaption&gt;
-  &lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;figure class=&#34;image&#34;&gt;
-    &lt;img src=&#34;fig/Sunapee_3dmap.png&#34;, width=600px&gt;
-    &lt;figcaption&gt;The flood plane in Lake Sunapee Watershed. The gray triangular mesh are the PIHM simulation domain. &lt;/figcaption&gt;
-  &lt;/figure&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;a href=&#34;https://www.shulele.net/program/mendota&#34;&gt;Lake Mendota in 3D&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;a href=&#34;https://www.shulele.net/program/sunapee&#34;&gt;Lake Sunapee in 3D&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
 &lt;p&gt;&lt;strong&gt;keep updating&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
@@ -239,34 +163,12 @@
       <link>https://www.shulele.net/en/project/tikal/</link>
       <pubDate>Sat, 23 Jul 2016 21:13:14 -0500</pubDate>
       <guid>https://www.shulele.net/en/project/tikal/</guid>
-      <description>
-
-&lt;p&gt;This project is the hydrology-lake modeling part of the project &lt;em&gt;Land, Water, and Territory: A 3,000-Year Study of Niche Construction and Cultural Evolution in the Tikal National Park, Guatemala&lt;/em&gt;.
-&lt;figure class=&#34;image&#34;&gt;
-  &lt;img src=&#34;featured.jpg&#34;, width=400px&gt;
-  &lt;figcaption&gt;The view in Tikal&lt;/figcaption&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
+      <description>&lt;p&gt;This project is the hydrology-lake modeling part of the project &lt;em&gt;Land, Water, and Territory: A 3,000-Year Study of Niche Construction and Cultural Evolution in the Tikal National Park, Guatemala&lt;/em&gt;.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
 &lt;h2 id=&#34;introduction-of-project&#34;&gt;Introduction of project&lt;/h2&gt;
-
-&lt;figure class=&#34;image&#34;&gt;
-  &lt;img src=&#34;fig/Locations.png&#34;, width=400px&gt;
-  &lt;figcaption&gt;Location of Tikal&lt;/figcaption&gt;
-&lt;/figure&gt;
-## Tasks in hydrologic modeling
-
-&lt;figure class=&#34;image&#34;&gt;
-  &lt;img src=&#34;fig/LandUse.png&#34;, width=400px&gt;
-  &lt;figcaption&gt;Land use map of Tikal&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;figure class=&#34;image&#34;&gt;
-  &lt;img src=&#34;fig/tk_dem_lan.png&#34;, width=400px&gt;
-  &lt;figcaption&gt;Elevation of Tikal&lt;/figcaption&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;accomplishment-of-the-project&#34;&gt;Accomplishment of the project&lt;/h2&gt;
-
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;&lt;strong&gt;keep updating&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
@@ -276,30 +178,13 @@
       <link>https://www.shulele.net/en/project/stormwater/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       <guid>https://www.shulele.net/en/project/stormwater/</guid>
-      <description>
-
-&lt;p&gt;This project is the hydrologic modeling part of the project &lt;em&gt;NSF Hydrologic and Water Quality Modeling for Green Infrastructure&lt;/em&gt;.
-&lt;figure class=&#34;image&#34;&gt;
-  &lt;img src=&#34;featured.png&#34;, width=400px&gt;
-  &lt;figcaption&gt;Overview of the use of artificial intelligence techniques to support model integration&lt;/figcaption&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;figure class=&#34;image&#34;&gt;
-  &lt;img src=&#34;fig/MINTworkflow.png&#34;, width=400px&gt;
-  &lt;figcaption&gt;Overview of the use of artificial intelligence techniques to support model integration&lt;/figcaption&gt;
-&lt;/figure&gt;
-
+      <description>&lt;p&gt;This project is the hydrologic modeling part of the project &lt;em&gt;NSF Hydrologic and Water Quality Modeling for Green Infrastructure&lt;/em&gt;.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
 &lt;h2 id=&#34;introduction-of-project&#34;&gt;Introduction of project&lt;/h2&gt;
-
 &lt;h2 id=&#34;tasks-in-hydrologic-modeling&#34;&gt;Tasks in hydrologic modeling&lt;/h2&gt;
-
-&lt;figure class=&#34;image&#34;&gt;
-  &lt;img src=&#34;fig/pongo_dem.png&#34;, width=400px&gt;
-  &lt;figcaption&gt; Elevation and PIHM mesh of the Pongo watershed in South Sudan &lt;/figcaption&gt;
-&lt;/figure&gt;
-
+&lt;!-- raw HTML omitted --&gt;
 &lt;h2 id=&#34;accomplishment-of-the-project&#34;&gt;Accomplishment of the project&lt;/h2&gt;
-
 &lt;p&gt;&lt;strong&gt;keep updating&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
