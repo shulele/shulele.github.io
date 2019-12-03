@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts | 舒乐乐</title>
+    <title>日志 | 舒乐乐</title>
     <link>/zh/post/</link>
       <atom:link href="/zh/post/index.xml" rel="self" type="application/rss+xml" />
-    <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Mon, 02 Dec 2019 00:15:07 -0700</lastBuildDate>
+    <description>日志</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Mon, 02 Dec 2019 22:05:38 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
-      <title>Posts</title>
+      <title>日志</title>
       <link>/zh/post/</link>
     </image>
     
     <item>
       <title>《葵花宝典》放在你面前，你愿意挥刀自宫吗？</title>
       <link>/zh/post/20191202_xueshuwubi/</link>
-      <pubDate>Mon, 02 Dec 2019 00:15:07 -0700</pubDate>
+      <pubDate>Mon, 02 Dec 2019 22:05:38 +0000</pubDate>
       <guid>/zh/post/20191202_xueshuwubi/</guid>
       <description>&lt;p&gt;&lt;strong&gt;我经常在想，金庸笔下的挥刀自宫究竟是什么意思？&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;金庸笔下的江湖。并不是一个空穴来风的虚构世界，而是将现实社会抽象化之后的江湖。金庸笔下说的江湖说的每一个门派、每一个大侠、每一个普通人，在我们现实中都可以找到类似的例子。&lt;/p&gt;
@@ -28,7 +28,7 @@
 为什么会拒绝挥刀自宫呢？因为挥刀自宫就意味着要放弃自己，要放弃作为人所最基本的那些东西；放弃了自己对自己的认同，也放弃了自己底线的底线。在金庸笔下，一个人若能够若敢于挥刀自宫，那么人世间一切的亲情、恩情、正义都不存在都不重要。只要你敢挥刀自宫那你就放弃了，除了名利之外这个世界上一切的东西。&lt;/p&gt;
 &lt;p&gt;那么现实中，谁是那个挥刀自宫的人呢？
 在学术界那些剽窃、抄袭、篡改数据、篡改结果的人，不就是挥刀自宫的人吗？选择舞弊的人，首先放弃了通过艰苦卓绝努力而获得学术进步和影响力，而选择那种最轻易，却不道德的方式，来获得他所想要的名利。当一个做学术的人，愿意抄袭的时候，也就放弃了作为学术工作者的底线。&lt;/p&gt;
-&lt;p&gt;在学术界那些剽窃、抄袭、篡改数据、篡改结果的人，不就是挥刀自宫的人吗？放弃了一个学术人为学术人的最基本底线，当然，这样的挥刀自宫，可以获得成功可以发表很多文章，可以发表重要文章，一段时间成为一代学术上的武功高手。 但是和那些真的，拿起刀子切鸡鸡的人一样。这样在学术上挥刀自宫的人，同样不会再有后代——他如何去教他的学生，他的门徒重复和他一样的实验，发一样的论文？
+&lt;p&gt;在学术界那些剽窃、抄袭、篡改数据、篡改结果的人，不就是挥刀自宫的人吗？放弃了一个学术人为学术人的最基本底线，当然，这样的挥刀自宫，可以获得成功可以发表很多文章，可以发表重要文章，一段时间成为一代学术上的武功高手。 但是和那些真的拿起刀子切鸡鸡的人一样。这样在学术上挥刀自宫的人，同样不会再有后代——他如何去教他的学生，他的门徒重复和他一样的实验，发一样的论文？
 当有一天，那些挥刀自宫的学术工作者发现竟然切了鸡鸡，那他就丢尽了脸面，人人都知道他是没有底线的败类。那未来他在学术的江湖中，人人都会躲着他，唯恐与他有任何瓜葛，他在学术界将无立锥之地，他将会被人唾骂，遗臭万年。
 现实中想成为学术大侠和江湖中的武功大侠一样，需要艰苦卓绝的努力才可获得。但时常艰苦的努力，并不能让你心想事成，但是挥刀自宫却可以让你轻易获得那份忐忐忑忑的荣耀。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;《葵花宝典》放在你面前，你愿意挥刀自宫吗？&lt;/strong&gt;&lt;/p&gt;
@@ -39,9 +39,9 @@
     </item>
     
     <item>
-      <title>How to Install Sundials 5.x or Cvode on Mac Linux System</title>
+      <title>如何在Linux/mac上安装SUNDIALS/CVODE</title>
       <link>/zh/post/20191119_sundials/</link>
-      <pubDate>Tue, 19 Nov 2019 22:05:38 -0800</pubDate>
+      <pubDate>Tue, 19 Nov 2019 22:05:38 +0000</pubDate>
       <guid>/zh/post/20191119_sundials/</guid>
       <description>&lt;h2 id=&#34;sundials-suite-of-nonlinear-and-differentialalgebraic-equation-solvers&#34;&gt;SUNDIALS: SUite of Nonlinear and DIfferential/ALgebraic Equation Solvers&lt;/h2&gt;
 &lt;p&gt;SUNDIALS (&lt;a href=&#34;https://computing.llnl.gov/projects/sundials&#34;&gt;https://computing.llnl.gov/projects/sundials&lt;/a&gt;) is a very powerful mathematical library that is helpful in solving engineering and scientific problems efficiently. CVODE is one of the tools, aiming to solve Ordinary Differential Equation, in C language.
@@ -137,7 +137,7 @@ sudo make install
 &lt;li&gt;
 &lt;p&gt;Test the program:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;./cvAdvDiff_bnd
-   
+
 ./cvKrylovDemo_ls
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;/ol&gt;
@@ -148,9 +148,9 @@ sudo make install
     </item>
     
     <item>
-      <title>R Script to Animate Global NDVI</title>
+      <title>使用R脚本制作全球NDVI动画</title>
       <link>/zh/post/20191003_r_animation/</link>
-      <pubDate>Thu, 03 Oct 2019 00:15:07 -0700</pubDate>
+      <pubDate>Thu, 03 Oct 2019 00:15:07 +0000</pubDate>
       <guid>/zh/post/20191003_r_animation/</guid>
       <description>&lt;p&gt;This script is to demonstrate the capability and scheme to realise the animation. You have to prepare your own data for this animation script.&lt;/p&gt;
 &lt;h1 id=&#34;script-for-global-ndvi&#34;&gt;Script for Global NDVI&lt;/h1&gt;
@@ -158,15 +158,15 @@ sudo make install
 &lt;pre&gt;&lt;code class=&#34;language-{r}&#34; data-lang=&#34;{r}&#34;&gt;rm(list=ls())
 library(RoundAndRound)
 # devtools::install_github(&#39;shulele/RoundAndRound&#39;)
-col.fun=function(x){ colorspace::terrain_hcl(x, l=c(65,95), 
+col.fun=function(x){ colorspace::terrain_hcl(x, l=c(65,95),
                                              power=c(1/3, 1.5))  }
 plotStar &amp;lt;- function(x, y, radius, angle=180, xyratio=1, ...){
   i &amp;lt;- 1:11
   alpha &amp;lt;- 2*pi / 10
   r &amp;lt;- radius * (i %% 2 + 1)/2
   omega &amp;lt;- alpha * i + angle * pi /180
-  invisible(mapply(function(a, b, ...) 
-    polygon(r*sin(omega) + a, r*cos(omega) * xyratio + b, ...), 
+  invisible(mapply(function(a, b, ...)
+    polygon(r*sin(omega) + a, r*cos(omega) * xyratio + b, ...),
     x, y, ...))
 }
 
@@ -202,7 +202,7 @@ ncols = length(cols)
 pngout&amp;lt;-function(fn, wd = 12, ht = 8){
   png(fn, width=wd, height=ht, unit=&#39;in&#39;, res=150)
 }
-# years = 2010:2017; 
+# years = 2010:2017;
 years = 2002:2009;
 ny=length(years)
 # plot(map, axes=T)
@@ -255,8 +255,8 @@ for(iy in 1:ny){
     par(mar=c(2.5,2.5,1,1))
     # plot(map, axes=T)
     # plot(map,  col=&#39;white&#39;, axes=T, border=&#39;transparent&#39;)
-    plot(xp, yp, type=&#39;n&#39;, axes=F, asp=1, xlim = range(xp), ylim=range(yp)); box(); 
-    axis(side=1, at=xt); 
+    plot(xp, yp, type=&#39;n&#39;, axes=F, asp=1, xlim = range(xp), ylim=range(yp)); box();
+    axis(side=1, at=xt);
     axis(side=2, at=yt)
     polygon(xp,yp, border=&#39;lightskyblue&#39;, col=&#39;lightskyblue&#39;)
     plot(add=T, map,  col=&#39;white&#39;, axes=T, border=&#39;transparent&#39;)
@@ -292,7 +292,7 @@ for(iy in 1:ny){
     points(cc, col=cc.cols, cex=1.4, pch=19)
     dev.off()
     # stop(&#39;stop&#39;)
-  } 
+  }
 }
 
 fps=6
@@ -307,15 +307,15 @@ print(cmd)
 # devtools::install_github(&#39;shulele/RoundAndRound&#39;)
 library(RoundAndRound)
 library(xts)
-col.fun=function(x){ colorspace::terrain_hcl(x, l=c(65,95), 
+col.fun=function(x){ colorspace::terrain_hcl(x, l=c(65,95),
                                              power=c(1/3, 1.5))  }
 plotStar &amp;lt;- function(x, y, radius, angle=180, xyratio=1, ...){
   i &amp;lt;- 1:11
   alpha &amp;lt;- 2*pi / 10
   r &amp;lt;- radius * (i %% 2 + 1)/2
   omega &amp;lt;- alpha * i + angle * pi /180
-  invisible(mapply(function(a, b, ...) 
-    polygon(r*sin(omega) + a, r*cos(omega) * xyratio + b, ...), 
+  invisible(mapply(function(a, b, ...)
+    polygon(r*sin(omega) + a, r*cos(omega) * xyratio + b, ...),
     x, y, ...))
 }
 #install.packages(&#39;ncdf4&#39;)
@@ -357,7 +357,7 @@ ncols = length(cols)
 pngout&amp;lt;-function(fn, wd = 12, ht = 8){
   png(fn, width=wd, height=ht, unit=&#39;in&#39;, res=150)
 }
-years = 2010:2017; 
+years = 2010:2017;
 years = 2002:2017;
 ny=length(years)
 # plot(map, axes=T)
@@ -433,7 +433,7 @@ for(iy in 1:ny){
     #      legend.args=list(text=&#39;&#39;,col=4, side=3, font=2, cex=1.5)
     # )
     # dev.off();plot(r)
-    
+
     par(fig=c(c(0.04, 0.305)+.04, c(0.1,0.24)+.03), new=T, mar=c(0,0,0,0))
     tmp=density(r, plot=F)
     plot(tmp$x, tmp$y, type=&#39;l&#39;, axes=F, lwd=2, bg=&#39;gray80&#39;, col=3,
@@ -446,7 +446,7 @@ for(iy in 1:ny){
                         labels=brk, cex.axis=1.2),
          legend.args=list(text=&#39;&#39;,col=4, side=3, font=1, cex=1.5)
     )
-    
+
     x.mon=as.numeric(substr(tag[i], 5,6))
     if(cn){
       par(fig=c(c(0.3, 0.55)+.1, c(0.6,0.85)+.05), new=T, mar=c(0,0,0,0),
@@ -471,17 +471,17 @@ for(iy in 1:ny){
     axis(side=3, cex.axis=.5, tick=NULL, lwd=0, line=-1, font=2)
     axis(side=2, cex.axis=.5, tick=NULL, lwd=0, line=-1, font=2)
     plot(add=T, r, breaks=brk, col=cols, legend=FALSE);
-    #     TREND 
+    #     TREND
     par(fig=c(c(0.04, 0.4)+.04, c(0.1,0.2)+.75), mgp = c(0, 1, 0), new=T, mar=c(0,0,0,0))
     matplot(tsd[,1], tsd[,-1], xlab=&#39;&#39;, ylab=&#39;&#39;, type=&#39;l&#39;, axes=F,
-            col=c(&#39;darkgreen&#39;, &#39;red&#39;), lwd=c(1,2), lty=1); 
+            col=c(&#39;darkgreen&#39;, &#39;red&#39;), lwd=c(1,2), lty=1);
     axis(side=1, at=years, cex.axis=.7, font.axis=4)
     tid=i+(iy-1)*12
-    points(tsd[tid, 1], tsd[tid, 2], pch=20, col=&#39;darkgreen&#39;, cex=2); 
+    points(tsd[tid, 1], tsd[tid, 2], pch=20, col=&#39;darkgreen&#39;, cex=2);
     mtext(side=2, &#39;Mean&#39;)
     dev.off()
     # stop(&#39;stop&#39;)
-  } 
+  }
 }
 
 fps=6
@@ -497,7 +497,7 @@ system(cmd)
     <item>
       <title>2018年IAHS(国际水文学会)选出的23个未解决的水文问题</title>
       <link>/zh/post/20190916_iahs_hydrology/</link>
-      <pubDate>Mon, 16 Sep 2019 00:15:07 -0700</pubDate>
+      <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
       <guid>/zh/post/20190916_iahs_hydrology/</guid>
       <description>&lt;h1 id=&#34;the-23-unsolved-problems-in-hydrology-identified-by-the-community-process-in-2018&#34;&gt;The 23 unsolved problems in hydrology identified by the community process in 2018.&lt;/h1&gt;
 &lt;p&gt;Link of the paper:&lt;a href=&#34;https://www.tandfonline.com/doi/full/10.1080/02626667.2019.1620507&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
@@ -653,9 +653,9 @@ subsurface?&lt;/p&gt;
     </item>
     
     <item>
-      <title> Monthly NDVI change in USA and Global from 2002-2017</title>
+      <title>2002-201年间美国和全球逐月NDVI的变化动画</title>
       <link>/zh/post/20190627_ndvi/</link>
-      <pubDate>Thu, 27 Jun 2019 00:15:07 -0700</pubDate>
+      <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
       <guid>/zh/post/20190627_ndvi/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;The normalized difference vegetation index (NDVI) is a simple graphical indicator that reflect the greenness and the heath condition of vegetations.&lt;/p&gt;
@@ -663,11 +663,19 @@ subsurface?&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The global NDVI variation from 2002 to 2017.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;!-- raw HTML omitted --&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/7yyPfozr1PU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
 &lt;ul&gt;
-&lt;li&gt;The NDVI varies from 2002 to 2017 in US (Continental)&lt;/li&gt;
+&lt;li&gt;The NDVI varies from 2002 to 2017 in US (Continental)
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/LL0qRwLLd1g&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-&lt;!-- raw HTML omitted --&gt;
 &lt;h2 id=&#34;how-to-download-the-rawdata&#34;&gt;How to download the rawdata&lt;/h2&gt;
 &lt;p&gt;The code of the monthly NDVI from MODIS dataset is MOD13C2, so type the code below in your terminal and the wget will download all availalble data from server to you local matchine.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;wget  --user=XXXXX --password=XXXX -r -c -np -x https://e4ftl01.cr.usgs.gov/MOLT/MOD13C2.006/
@@ -676,33 +684,112 @@ subsurface?&lt;/p&gt;
     </item>
     
     <item>
-      <title>The project to plot planets/objects in space and orbital movement.</title>
-      <link>/zh/post/20190129kids-ucd/</link>
-      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/zh/post/20190129kids-ucd/</guid>
-      <description>&lt;h2 id=&#34;motivation-of-the-project&#34;&gt;Motivation of the project&lt;/h2&gt;
-&lt;p&gt;This is fantastic program to teach the local kids and lead them into the discovering sciences.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;h4 id=&#34;week-02&#34;&gt;Week 02:&lt;/h4&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;h4 id=&#34;week-05&#34;&gt;Week 05:&lt;/h4&gt;
-&lt;!-- raw HTML omitted --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The project to plot planets/objects in space and orbital movement.</title>
+      <title>使用R语言计算、绘制和动画演示物体、天体在太空的运行状况.</title>
       <link>/zh/post/20190129roundandround/</link>
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
       <guid>/zh/post/20190129roundandround/</guid>
       <description>&lt;p&gt;I planed to write an R package and submit on CRAN, that can plot the planets orbiting in Solar System, or satellite/moon orbiting around earth. That package must plot the moving planets, the moon, moon phase and satellite in 2D or 3D canvas. In future, it may calculate the orbit based on orbit mechanics.&lt;/p&gt;
 &lt;p&gt;My son loves the song “The wheels on the bus go round and round“, and he has an obsession on planets. He asks mommy play the solar system documentary every night when we ask him to brush his teeth.  So I decided to plot the moving planets in solar system for him with the scientific knowledge I know.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;My son is obsessed by the planets and stars&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;photo.png&#34; alt=&#34;classroom.jpg&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 &lt;p&gt;Another motivation is from the Chinese lunar exploration, Chang-E 5 landing on far-side of the moon.  Lots of people discussed it and were fuddled on the rotation of moon and relation between the earth and the moon.&lt;/p&gt;
 &lt;p&gt;Furthermore, I kept thinking the Chinese semi-lunar calendar for many years, I know the founder mental logic and algorithm of the calendar in my mind, but never scratched the equations and numbers in paper yet.  This calendar is determined by the moon phase and the position of the earth in orbit. Definitely the solver in papers are more rousted in my brain.&lt;/p&gt;
 &lt;p&gt;Let’s see what I got, by now.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;The idea of the Moon and the Sun are moving around the Earth, when we assume the earth is the center of system. The orbital period of the moon is 27.321 day, but the synodic period is 29.53 day, that because the sun moves 27.321/365.25 in its sun’s orbit when the moon moves in the moon’s orbit. It requires 2.2 days to let the sun and the moon to face-to-face again.&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;Moon0.png&#34; alt=&#34;classroom.jpg&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;The position of the Moon and the Sun in an earth year (365 day). The right legend shows the moon phase in 30 days. The concentric orbits are numbers of the moon periods.&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;Moon_year365.png&#34; alt=&#34;classroom.jpg&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>我在美国做支教</title>
+      <link>/zh/post/20190129kids-ucd/</link>
+      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/zh/post/20190129kids-ucd/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://kidsdiscoveringscience.wordpress.com/about/&#34;&gt;项目外部链接&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;motivation-of-the-project&#34;&gt;Motivation of the project&lt;/h2&gt;
+&lt;p&gt;This is fantastic program to teach the local kids and lead them into the discovering sciences.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Panoview of the Math&amp;amp;Science classroom.&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;Classroom.jpg&#34; alt=&#34;classroom.jpg&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;week-03&#34;&gt;Week 03:&lt;/h4&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Week 03: Jessica is writing students observation and discussion of plants in two different soils (Sperpentine and sandy loam).&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;L03.jpg&#34; alt=&#34;L03.jpg&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;week-05&#34;&gt;Week 05:&lt;/h4&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Week 05: The growth condition of their beans.&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;L05.jpg&#34; alt=&#34;L05.jpg&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Week 05: One question from students&amp;rsquo; question box. Question: Why are my plants leaves sticky?&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;QA05.jpg&#34; alt=&#34;QA05.jpg&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 </description>
     </item>
     

@@ -41,7 +41,7 @@
   
   
   
-  <meta name="theme-color" content="rgb(0, 136, 204)">
+  <meta name="theme-color" content="#3f51b5">
   
 
   
@@ -62,8 +62,8 @@
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light" disabled>
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
         
       
     
@@ -118,14 +118,14 @@
   
   <meta property="og:site_name" content="舒乐乐">
   <meta property="og:url" content="/zh/post/20191119_sundials/">
-  <meta property="og:title" content="How to Install Sundials 5.x or Cvode on Mac Linux System | 舒乐乐">
+  <meta property="og:title" content="如何在Linux/mac上安装SUNDIALS/CVODE | 舒乐乐">
   <meta property="og:description" content="SUNDIALS: SUite of Nonlinear and DIfferential/ALgebraic Equation Solvers SUNDIALS (https://computing.llnl.gov/projects/sundials) is a very powerful mathematical library that is helpful in solving engineering and scientific problems efficiently. CVODE is one of the tools, aiming to solve Ordinary Differential Equation, in C language. In the Solver of Hydrologic Unstructured Domain (SHUD) model, the system of ODEs describing the hydrological processes is fully coupled and solved simultaneously at each time step ($ \Delta t=t_{n}-t_{n-1}$) using CVODE, a stiff solver based on Newton-Krylov iteration."><meta property="og:image" content="/zh/post/20191119_sundials/featured.png">
   <meta property="twitter:image" content="/zh/post/20191119_sundials/featured.png"><meta property="og:locale" content="zh-Hans">
   
     
-      <meta property="article:published_time" content="2019-11-19T22:05:38-08:00">
+      <meta property="article:published_time" content="2019-11-19T22:05:38&#43;00:00">
     
-    <meta property="article:modified_time" content="2019-11-19T22:05:38-08:00">
+    <meta property="article:modified_time" content="2019-09-05T00:00:00&#43;00:00">
   
 
   
@@ -153,14 +153,14 @@
     "@type": "WebPage",
     "@id": "/zh/post/20191119_sundials/"
   },
-  "headline": "How to Install Sundials 5.x or Cvode on Mac Linux System",
+  "headline": "如何在Linux/mac上安装SUNDIALS/CVODE",
   
   "image": [
     "/zh/post/20191119_sundials/featured.png"
   ],
   
-  "datePublished": "2019-11-19T22:05:38-08:00",
-  "dateModified": "2019-11-19T22:05:38-08:00",
+  "datePublished": "2019-11-19T22:05:38Z",
+  "dateModified": "2019-09-05T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -193,11 +193,11 @@
 
 
 
-  <title>How to Install Sundials 5.x or Cvode on Mac Linux System | 舒乐乐</title>
+  <title>如何在Linux/mac上安装SUNDIALS/CVODE | 舒乐乐</title>
 
 </head>
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="dark">
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
 
   <aside class="search-results" id="search">
   <div class="container">
@@ -516,8 +516,10 @@
 
 
 <div class="article-container pt-3">
-  <h1>How to Install Sundials 5.x or Cvode on Mac Linux System</h1>
+  <h1>如何在Linux/mac上安装SUNDIALS/CVODE</h1>
 
+  
+  <p class="page-subtitle">一步一步安装SUNDIALS</p>
   
 
   
@@ -527,14 +529,29 @@
 
   
   
+  
+  
+  <div>
+    
+
+
+
+  
+  <span>舒乐乐</span>
+
+  </div>
+  
+  
 
   
   <span class="article-date">
     
     
       
+          最近更新于
+      
     
-    Nov 19, 2019
+    Sep 5, 2019
   </span>
   
 
@@ -571,8 +588,8 @@
 
 <div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 603px;">
   <div style="position: relative">
-    <img src="/zh/post/20191119_sundials/featured_hu8679d4b080cc0c6ab52223e7f3ede2d0_203726_720x0_resize_lanczos_2.png" alt="" class="featured-image">
-    <span class="article-header-caption">SUDNIALS</span>
+    <img src="/zh/post/20191119_sundials/featured_hu9c2fdeb06166f885ce6e380ced074eb4_203766_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    <span class="article-header-caption">SUNDIALS</span>
   </div>
 </div>
 
@@ -675,7 +692,7 @@ sudo make install
 <li>
 <p>Test the program:</p>
 <pre><code>./cvAdvDiff_bnd
-   
+
 ./cvKrylovDemo_ls
 </code></pre></li>
 </ol>
@@ -702,7 +719,7 @@ sudo make install
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/zh/post/20191119_sundials/&amp;text=How%20to%20Install%20Sundials%205.x%20or%20Cvode%20on%20Mac%20Linux%20System" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/zh/post/20191119_sundials/&amp;text=%e5%a6%82%e4%bd%95%e5%9c%a8Linux/mac%e4%b8%8a%e5%ae%89%e8%a3%85SUNDIALS/CVODE" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -715,7 +732,7 @@ sudo make install
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/zh/post/20191119_sundials/&amp;t=How%20to%20Install%20Sundials%205.x%20or%20Cvode%20on%20Mac%20Linux%20System" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/zh/post/20191119_sundials/&amp;t=%e5%a6%82%e4%bd%95%e5%9c%a8Linux/mac%e4%b8%8a%e5%ae%89%e8%a3%85SUNDIALS/CVODE" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -728,7 +745,7 @@ sudo make install
       
       
       <li>
-        <a href="mailto:?subject=How%20to%20Install%20Sundials%205.x%20or%20Cvode%20on%20Mac%20Linux%20System&amp;body=/zh/post/20191119_sundials/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=%e5%a6%82%e4%bd%95%e5%9c%a8Linux/mac%e4%b8%8a%e5%ae%89%e8%a3%85SUNDIALS/CVODE&amp;body=/zh/post/20191119_sundials/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -741,7 +758,7 @@ sudo make install
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/zh/post/20191119_sundials/&amp;title=How%20to%20Install%20Sundials%205.x%20or%20Cvode%20on%20Mac%20Linux%20System" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/zh/post/20191119_sundials/&amp;title=%e5%a6%82%e4%bd%95%e5%9c%a8Linux/mac%e4%b8%8a%e5%ae%89%e8%a3%85SUNDIALS/CVODE" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -754,7 +771,7 @@ sudo make install
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=How%20to%20Install%20Sundials%205.x%20or%20Cvode%20on%20Mac%20Linux%20System%20/zh/post/20191119_sundials/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=%e5%a6%82%e4%bd%95%e5%9c%a8Linux/mac%e4%b8%8a%e5%ae%89%e8%a3%85SUNDIALS/CVODE%20/zh/post/20191119_sundials/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -767,7 +784,7 @@ sudo make install
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/zh/post/20191119_sundials/&amp;title=How%20to%20Install%20Sundials%205.x%20or%20Cvode%20on%20Mac%20Linux%20System" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/zh/post/20191119_sundials/&amp;title=%e5%a6%82%e4%bd%95%e5%9c%a8Linux/mac%e4%b8%8a%e5%ae%89%e8%a3%85SUNDIALS/CVODE" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -786,6 +803,10 @@ sudo make install
 
 
 
+  
+  
+    
+  
   
 
 
@@ -933,7 +954,7 @@ sudo make install
   
   <div class="post-nav-item">
     <div class="meta-nav">上一页</div>
-    <a href="/zh/post/20191003_r_animation/" rel="prev">R Script to Animate Global NDVI</a>
+    <a href="/zh/post/20191003_r_animation/" rel="prev">使用R脚本制作全球NDVI动画</a>
   </div>
   
 </div>

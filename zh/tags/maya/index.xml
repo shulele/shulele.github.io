@@ -17,12 +17,96 @@
       <link>/zh/project/tikal/</link>
       <pubDate>Sat, 23 Jul 2016 21:13:14 -0500</pubDate>
       <guid>/zh/project/tikal/</guid>
-      <description>&lt;p&gt;This project is the hydrology-lake modeling part of the project &lt;em&gt;Land, Water, and Territory: A 3,000-Year Study of Niche Construction and Cultural Evolution in the Tikal National Park, Guatemala&lt;/em&gt;.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;h2 id=&#34;introduction-of-project&#34;&gt;Introduction of project&lt;/h2&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
+      <description>&lt;h2 id=&#34;introduction-of-project&#34;&gt;Introduction of project&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;fig/Locations.png&#34; data-caption=&#34;Location of Tikal&#34;&gt;
+&lt;img src=&#34;fig/Locations.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Location of Tikal
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;tasks-in-hydrologic-modeling&#34;&gt;Tasks in hydrologic modeling&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;fig/LandUse.png&#34; data-caption=&#34;Land use map of Tikal&#34;&gt;
+&lt;img src=&#34;fig/LandUse.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Land use map of Tikal
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;fig/tk_dem_lan.png&#34; data-caption=&#34;Elevation of Tikal&#34;&gt;
+&lt;img src=&#34;fig/tk_dem_lan.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Elevation of Tikal
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;accomplishment-of-the-project&#34;&gt;Accomplishment of the project&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;keep updating&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>

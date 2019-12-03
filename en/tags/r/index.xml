@@ -5,28 +5,12 @@
     <link>/en/tags/r/</link>
       <atom:link href="/en/tags/r/index.xml" rel="self" type="application/rss+xml" />
     <description>R</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 29 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>R</title>
       <link>/en/tags/r/</link>
     </image>
-    
-    <item>
-      <title>The project to plot planets/objects in space and orbital movement.</title>
-      <link>/en/post/roundandround/</link>
-      <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/en/post/roundandround/</guid>
-      <description>&lt;p&gt;I planed to write an R package and submit on CRAN, that can plot the planets orbiting in Solar System, or satellite/moon orbiting around earth. That package must plot the moving planets, the moon, moon phase and satellite in 2D or 3D canvas. In future, it may calculate the orbit based on orbit mechanics.&lt;/p&gt;
-&lt;p&gt;My son loves the song “The wheels on the bus go round and round“, and he has an obsession on planets. He asks mommy play the solar system documentary every night when we ask him to brush his teeth.  So I decided to plot the moving planets in solar system for him with the scientific knowledge I know.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;Another motivation is from the Chinese lunar exploration, Chang-E 5 landing on far-side of the moon.  Lots of people discussed it and were fuddled on the rotation of moon and relation between the earth and the moon.&lt;/p&gt;
-&lt;p&gt;Furthermore, I kept thinking the Chinese semi-lunar calendar for many years, I know the founder mental logic and algorithm of the calendar in my mind, but never scratched the equations and numbers in paper yet.  This calendar is determined by the moon phase and the position of the earth in orbit. Definitely the solver in papers are more rousted in my brain.&lt;/p&gt;
-&lt;p&gt;Let’s see what I got, by now.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-</description>
-    </item>
     
     <item>
       <title>Geospatial and Geostatistical Analysis with R</title>

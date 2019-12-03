@@ -5,7 +5,7 @@
     <link>/zh/tags/lake/</link>
       <atom:link href="/zh/tags/lake/index.xml" rel="self" type="application/rss+xml" />
     <description>Lake</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Sun, 23 Jul 2017 21:13:14 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Lake</title>
@@ -13,35 +13,7 @@
     </image>
     
     <item>
-      <title>Lake-PIHM modeling in CNH-Lake project</title>
-      <link>/zh/project/cnh_lak/</link>
-      <pubDate>Sun, 23 Jul 2017 21:13:14 -0500</pubDate>
-      <guid>/zh/project/cnh_lak/</guid>
-      <description>&lt;p&gt;This project is the hydrology-lake modeling part of the whole project. The leading project is &lt;em&gt;CNH-L: Linking land-use decision making, water quality, and lake associations to understand human-natural feedbacks in lake catchments&lt;/em&gt;, cooperated with multiple universities and institutes(e.g. Virginia Tech, Pennsylvania State University, University of Wisconsin, Cary Institute of Ecosystem Studies, Michigan State University ).&lt;/p&gt;
-&lt;h2 id=&#34;introduction-of-project-i-classfas-faexternallinkaltihttpwwworganicdatascienceorgcnhindexphpmainpage&#34;&gt;Introduction of project &lt;a href=&#34;http://www.organicdatascience.org/cnh/index.php/Main_Page&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Freshwater lakes and their catchments present a rich and fascinating opportunity to examine the dynamics of coupled natural and human systems (CNHS). Humans derive great benefit from the irreplaceable services provided by lakes, such as drinking water, recreation, and fisheries, while at the same time contributing to the degradation of the very waters upon which they depend. However, degradation in the water quality attributes that people value can serve as a catalyst for behavioral change through collective action, as evidenced by the increasing momentum of citizen-driven lake associations. To identify and quantify these feedbacks between lake water quality and human behavior, we propose to develop a novel, coupled modeling framework that captures how land-use decision making interacts with hydrological and limnological processes to transform nutrient loads into changes in lake water quality, and how altered water quality feeds back to human systems by affecting the amenities that people value. Our model will extend our interdisciplinary focus by examining how lake associations respond to changes in lake water quality and how their activities influence the behavior of citizens and policy makers to protect their freshwater resources. To construct the coupled model, we will augment our data and modeling resources with new information on the organizational capacity and effectiveness of three active and established lake associations. Our coupled modeling framework flexibly links key human and natural systems in three focal lake catchments, allowing us to investigate human-natural feedbacks in those catchments and to build on our understanding of those linkages to generate insight into CNHS at a broad scale.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;h2 id=&#34;tasks-in-hydrologic-modeling&#34;&gt;Tasks in hydrologic modeling&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Coupling the watershed hydrologic modeling with lake modeling.
-*&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;/program/mendota&#34;&gt;Lake Mendota in 3D&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;/program/sunapee&#34;&gt;Lake Sunapee in 3D&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;keep updating&lt;/strong&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Mendota Lake</title>
+      <title>威斯康星州Mendota湖</title>
       <link>/zh/vis3d/mendota/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>/zh/vis3d/mendota/</guid>
@@ -49,18 +21,18 @@
     </item>
     
     <item>
-      <title>Sunapee Lake</title>
-      <link>/zh/vis3d/sunapee/</link>
+      <title>宁夏岩画村山洪模拟</title>
+      <link>/zh/vis3d/yanhuacun/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/zh/vis3d/sunapee/</guid>
+      <guid>/zh/vis3d/yanhuacun/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Yanhua Village in Ningxia, China</title>
-      <link>/zh/vis3d/yanhuacun/</link>
+      <title>新罕布什尔州Sunapee湖</title>
+      <link>/zh/vis3d/sunapee/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/zh/vis3d/yanhuacun/</guid>
+      <guid>/zh/vis3d/sunapee/</guid>
       <description></description>
     </item>
     

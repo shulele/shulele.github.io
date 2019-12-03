@@ -28,7 +28,8 @@
   
     
   
-  <meta name="description" content="This script is to demonstrate the capability and scheme to realise the animation. You have to prepare your own data for this animation script. Script for Global NDVI rm(list=ls()) library(RoundAndRound) # devtools::install_github(&#39;shulele/RoundAndRound&#39;) col.fun=function(x){ colorspace::terrain_hcl(x, l=c(65,95), power=c(1/3, 1.5)) } plotStar &lt;- function(x, y, radius, angle=180, xyratio=1, ...){ i &lt;- 1:11 alpha &lt;- 2*pi / 10 r &lt;- radius * (i %% 2 &#43; 1)/2 omega &lt;- alpha * i &#43; angle">
+  <meta name="description" content="This script is to demonstrate the capability and scheme to realise the animation. You have to prepare your own data for this animation script.
+Script for Global NDVI rm(list=ls()) library(RoundAndRound) # devtools::install_github(&#39;shulele/RoundAndRound&#39;) col.fun=function(x){ colorspace::terrain_hcl(x, l=c(65,95), power=c(1/3, 1.5)) } plotStar &lt;- function(x, y, radius, angle=180, xyratio=1, ...){ i &lt;- 1:11 alpha &lt;- 2*pi / 10 r &lt;- radius * (i %% 2 &#43; 1)/2 omega &lt;- alpha * i &#43; angle * pi /180 invisible(mapply(function(a, b, .">
 
   
   <link rel="alternate" hreflang="en" href="/en/post/20191003_r_animation/">
@@ -41,7 +42,7 @@
   
   
   
-  <meta name="theme-color" content="rgb(0, 136, 204)">
+  <meta name="theme-color" content="#3f51b5">
   
 
   
@@ -62,8 +63,8 @@
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light" disabled>
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
         
       
     
@@ -118,14 +119,15 @@
   
   <meta property="og:site_name" content="舒乐乐">
   <meta property="og:url" content="/zh/post/20191003_r_animation/">
-  <meta property="og:title" content="R Script to Animate Global NDVI | 舒乐乐">
-  <meta property="og:description" content="This script is to demonstrate the capability and scheme to realise the animation. You have to prepare your own data for this animation script. Script for Global NDVI rm(list=ls()) library(RoundAndRound) # devtools::install_github(&#39;shulele/RoundAndRound&#39;) col.fun=function(x){ colorspace::terrain_hcl(x, l=c(65,95), power=c(1/3, 1.5)) } plotStar &lt;- function(x, y, radius, angle=180, xyratio=1, ...){ i &lt;- 1:11 alpha &lt;- 2*pi / 10 r &lt;- radius * (i %% 2 &#43; 1)/2 omega &lt;- alpha * i &#43; angle"><meta property="og:image" content="/zh/post/20191003_r_animation/featured.png">
+  <meta property="og:title" content="使用R脚本制作全球NDVI动画 | 舒乐乐">
+  <meta property="og:description" content="This script is to demonstrate the capability and scheme to realise the animation. You have to prepare your own data for this animation script.
+Script for Global NDVI rm(list=ls()) library(RoundAndRound) # devtools::install_github(&#39;shulele/RoundAndRound&#39;) col.fun=function(x){ colorspace::terrain_hcl(x, l=c(65,95), power=c(1/3, 1.5)) } plotStar &lt;- function(x, y, radius, angle=180, xyratio=1, ...){ i &lt;- 1:11 alpha &lt;- 2*pi / 10 r &lt;- radius * (i %% 2 &#43; 1)/2 omega &lt;- alpha * i &#43; angle * pi /180 invisible(mapply(function(a, b, ."><meta property="og:image" content="/zh/post/20191003_r_animation/featured.png">
   <meta property="twitter:image" content="/zh/post/20191003_r_animation/featured.png"><meta property="og:locale" content="zh-Hans">
   
     
-      <meta property="article:published_time" content="2019-10-03T00:15:07-07:00">
+      <meta property="article:published_time" content="2019-10-03T00:15:07&#43;00:00">
     
-    <meta property="article:modified_time" content="2019-10-03T00:15:07-07:00">
+    <meta property="article:modified_time" content="2019-11-05T00:00:00&#43;00:00">
   
 
   
@@ -153,14 +155,14 @@
     "@type": "WebPage",
     "@id": "/zh/post/20191003_r_animation/"
   },
-  "headline": "R Script to Animate Global NDVI",
+  "headline": "使用R脚本制作全球NDVI动画",
   
   "image": [
     "/zh/post/20191003_r_animation/featured.png"
   ],
   
-  "datePublished": "2019-10-03T00:15:07-07:00",
-  "dateModified": "2019-10-03T00:15:07-07:00",
+  "datePublished": "2019-10-03T00:15:07Z",
+  "dateModified": "2019-11-05T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -175,7 +177,7 @@
       "url": "/img/icon-512.png"
     }
   },
-  "description": "This script is to demonstrate the capability and scheme to realise the animation. You have to prepare your own data for this animation script. Script for Global NDVI rm(list=ls()) library(RoundAndRound) # devtools::install_github('shulele/RoundAndRound') col.fun=function(x){ colorspace::terrain_hcl(x, l=c(65,95), power=c(1/3, 1.5)) } plotStar \u0026lt;- function(x, y, radius, angle=180, xyratio=1, ...){ i \u0026lt;- 1:11 alpha \u0026lt;- 2*pi / 10 r \u0026lt;- radius * (i %% 2 + 1)/2 omega \u0026lt;- alpha * i + angle"
+  "description": "This script is to demonstrate the capability and scheme to realise the animation. You have to prepare your own data for this animation script.\nScript for Global NDVI rm(list=ls()) library(RoundAndRound) # devtools::install_github('shulele/RoundAndRound') col.fun=function(x){ colorspace::terrain_hcl(x, l=c(65,95), power=c(1/3, 1.5)) } plotStar \u0026lt;- function(x, y, radius, angle=180, xyratio=1, ...){ i \u0026lt;- 1:11 alpha \u0026lt;- 2*pi / 10 r \u0026lt;- radius * (i %% 2 + 1)/2 omega \u0026lt;- alpha * i + angle * pi /180 invisible(mapply(function(a, b, ."
 }
 </script>
 
@@ -193,11 +195,11 @@
 
 
 
-  <title>R Script to Animate Global NDVI | 舒乐乐</title>
+  <title>使用R脚本制作全球NDVI动画 | 舒乐乐</title>
 
 </head>
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="dark">
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
 
   <aside class="search-results" id="search">
   <div class="container">
@@ -516,8 +518,10 @@
 
 
 <div class="article-container pt-3">
-  <h1>R Script to Animate Global NDVI</h1>
+  <h1>使用R脚本制作全球NDVI动画</h1>
 
+  
+  <p class="page-subtitle">R Script to Animate Global NDVI</p>
   
 
   
@@ -527,14 +531,29 @@
 
   
   
+  
+  
+  <div>
+    
+
+
+
+  
+  <span>舒乐乐</span>
+
+  </div>
+  
+  
 
   
   <span class="article-date">
     
     
       
+          最近更新于
+      
     
-    Oct 3, 2019
+    Nov 5, 2019
   </span>
   
 
@@ -571,7 +590,7 @@
 
 <div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 432px;">
   <div style="position: relative">
-    <img src="/zh/post/20191003_r_animation/featured_hu68f1042480ee8f628d33c185f9c9f87c_136097_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    <img src="/zh/post/20191003_r_animation/featured_hu1ed7f3778d56d380004297095f388651_136097_720x0_resize_lanczos_2.png" alt="" class="featured-image">
     
   </div>
 </div>
@@ -587,15 +606,15 @@
 <pre><code class="language-{r}" data-lang="{r}">rm(list=ls())
 library(RoundAndRound)
 # devtools::install_github('shulele/RoundAndRound')
-col.fun=function(x){ colorspace::terrain_hcl(x, l=c(65,95), 
+col.fun=function(x){ colorspace::terrain_hcl(x, l=c(65,95),
                                              power=c(1/3, 1.5))  }
 plotStar &lt;- function(x, y, radius, angle=180, xyratio=1, ...){
   i &lt;- 1:11
   alpha &lt;- 2*pi / 10
   r &lt;- radius * (i %% 2 + 1)/2
   omega &lt;- alpha * i + angle * pi /180
-  invisible(mapply(function(a, b, ...) 
-    polygon(r*sin(omega) + a, r*cos(omega) * xyratio + b, ...), 
+  invisible(mapply(function(a, b, ...)
+    polygon(r*sin(omega) + a, r*cos(omega) * xyratio + b, ...),
     x, y, ...))
 }
 
@@ -631,7 +650,7 @@ ncols = length(cols)
 pngout&lt;-function(fn, wd = 12, ht = 8){
   png(fn, width=wd, height=ht, unit='in', res=150)
 }
-# years = 2010:2017; 
+# years = 2010:2017;
 years = 2002:2009;
 ny=length(years)
 # plot(map, axes=T)
@@ -684,8 +703,8 @@ for(iy in 1:ny){
     par(mar=c(2.5,2.5,1,1))
     # plot(map, axes=T)
     # plot(map,  col='white', axes=T, border='transparent')
-    plot(xp, yp, type='n', axes=F, asp=1, xlim = range(xp), ylim=range(yp)); box(); 
-    axis(side=1, at=xt); 
+    plot(xp, yp, type='n', axes=F, asp=1, xlim = range(xp), ylim=range(yp)); box();
+    axis(side=1, at=xt);
     axis(side=2, at=yt)
     polygon(xp,yp, border='lightskyblue', col='lightskyblue')
     plot(add=T, map,  col='white', axes=T, border='transparent')
@@ -721,7 +740,7 @@ for(iy in 1:ny){
     points(cc, col=cc.cols, cex=1.4, pch=19)
     dev.off()
     # stop('stop')
-  } 
+  }
 }
 
 fps=6
@@ -736,15 +755,15 @@ print(cmd)
 # devtools::install_github('shulele/RoundAndRound')
 library(RoundAndRound)
 library(xts)
-col.fun=function(x){ colorspace::terrain_hcl(x, l=c(65,95), 
+col.fun=function(x){ colorspace::terrain_hcl(x, l=c(65,95),
                                              power=c(1/3, 1.5))  }
 plotStar &lt;- function(x, y, radius, angle=180, xyratio=1, ...){
   i &lt;- 1:11
   alpha &lt;- 2*pi / 10
   r &lt;- radius * (i %% 2 + 1)/2
   omega &lt;- alpha * i + angle * pi /180
-  invisible(mapply(function(a, b, ...) 
-    polygon(r*sin(omega) + a, r*cos(omega) * xyratio + b, ...), 
+  invisible(mapply(function(a, b, ...)
+    polygon(r*sin(omega) + a, r*cos(omega) * xyratio + b, ...),
     x, y, ...))
 }
 #install.packages('ncdf4')
@@ -786,7 +805,7 @@ ncols = length(cols)
 pngout&lt;-function(fn, wd = 12, ht = 8){
   png(fn, width=wd, height=ht, unit='in', res=150)
 }
-years = 2010:2017; 
+years = 2010:2017;
 years = 2002:2017;
 ny=length(years)
 # plot(map, axes=T)
@@ -862,7 +881,7 @@ for(iy in 1:ny){
     #      legend.args=list(text='',col=4, side=3, font=2, cex=1.5)
     # )
     # dev.off();plot(r)
-    
+
     par(fig=c(c(0.04, 0.305)+.04, c(0.1,0.24)+.03), new=T, mar=c(0,0,0,0))
     tmp=density(r, plot=F)
     plot(tmp$x, tmp$y, type='l', axes=F, lwd=2, bg='gray80', col=3,
@@ -875,7 +894,7 @@ for(iy in 1:ny){
                         labels=brk, cex.axis=1.2),
          legend.args=list(text='',col=4, side=3, font=1, cex=1.5)
     )
-    
+
     x.mon=as.numeric(substr(tag[i], 5,6))
     if(cn){
       par(fig=c(c(0.3, 0.55)+.1, c(0.6,0.85)+.05), new=T, mar=c(0,0,0,0),
@@ -900,17 +919,17 @@ for(iy in 1:ny){
     axis(side=3, cex.axis=.5, tick=NULL, lwd=0, line=-1, font=2)
     axis(side=2, cex.axis=.5, tick=NULL, lwd=0, line=-1, font=2)
     plot(add=T, r, breaks=brk, col=cols, legend=FALSE);
-    #     TREND 
+    #     TREND
     par(fig=c(c(0.04, 0.4)+.04, c(0.1,0.2)+.75), mgp = c(0, 1, 0), new=T, mar=c(0,0,0,0))
     matplot(tsd[,1], tsd[,-1], xlab='', ylab='', type='l', axes=F,
-            col=c('darkgreen', 'red'), lwd=c(1,2), lty=1); 
+            col=c('darkgreen', 'red'), lwd=c(1,2), lty=1);
     axis(side=1, at=years, cex.axis=.7, font.axis=4)
     tid=i+(iy-1)*12
-    points(tsd[tid, 1], tsd[tid, 2], pch=20, col='darkgreen', cex=2); 
+    points(tsd[tid, 1], tsd[tid, 2], pch=20, col='darkgreen', cex=2);
     mtext(side=2, 'Mean')
     dev.off()
     # stop('stop')
-  } 
+  }
 }
 
 fps=6
@@ -940,7 +959,7 @@ system(cmd)
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/zh/post/20191003_r_animation/&amp;text=R%20Script%20to%20Animate%20Global%20NDVI" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/zh/post/20191003_r_animation/&amp;text=%e4%bd%bf%e7%94%a8R%e8%84%9a%e6%9c%ac%e5%88%b6%e4%bd%9c%e5%85%a8%e7%90%83NDVI%e5%8a%a8%e7%94%bb" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -953,7 +972,7 @@ system(cmd)
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/zh/post/20191003_r_animation/&amp;t=R%20Script%20to%20Animate%20Global%20NDVI" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/zh/post/20191003_r_animation/&amp;t=%e4%bd%bf%e7%94%a8R%e8%84%9a%e6%9c%ac%e5%88%b6%e4%bd%9c%e5%85%a8%e7%90%83NDVI%e5%8a%a8%e7%94%bb" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -966,7 +985,7 @@ system(cmd)
       
       
       <li>
-        <a href="mailto:?subject=R%20Script%20to%20Animate%20Global%20NDVI&amp;body=/zh/post/20191003_r_animation/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=%e4%bd%bf%e7%94%a8R%e8%84%9a%e6%9c%ac%e5%88%b6%e4%bd%9c%e5%85%a8%e7%90%83NDVI%e5%8a%a8%e7%94%bb&amp;body=/zh/post/20191003_r_animation/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -979,7 +998,7 @@ system(cmd)
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/zh/post/20191003_r_animation/&amp;title=R%20Script%20to%20Animate%20Global%20NDVI" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/zh/post/20191003_r_animation/&amp;title=%e4%bd%bf%e7%94%a8R%e8%84%9a%e6%9c%ac%e5%88%b6%e4%bd%9c%e5%85%a8%e7%90%83NDVI%e5%8a%a8%e7%94%bb" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -992,7 +1011,7 @@ system(cmd)
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=R%20Script%20to%20Animate%20Global%20NDVI%20/zh/post/20191003_r_animation/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=%e4%bd%bf%e7%94%a8R%e8%84%9a%e6%9c%ac%e5%88%b6%e4%bd%9c%e5%85%a8%e7%90%83NDVI%e5%8a%a8%e7%94%bb%20/zh/post/20191003_r_animation/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1005,7 +1024,7 @@ system(cmd)
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/zh/post/20191003_r_animation/&amp;title=R%20Script%20to%20Animate%20Global%20NDVI" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/zh/post/20191003_r_animation/&amp;title=%e4%bd%bf%e7%94%a8R%e8%84%9a%e6%9c%ac%e5%88%b6%e4%bd%9c%e5%85%a8%e7%90%83NDVI%e5%8a%a8%e7%94%bb" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1024,6 +1043,10 @@ system(cmd)
 
 
 
+  
+  
+    
+  
   
 
 
@@ -1164,7 +1187,7 @@ system(cmd)
   
   <div class="post-nav-item">
     <div class="meta-nav">下一页</div>
-    <a href="/zh/post/20191119_sundials/" rel="next">How to Install Sundials 5.x or Cvode on Mac Linux System</a>
+    <a href="/zh/post/20191119_sundials/" rel="next">如何在Linux/mac上安装SUNDIALS/CVODE</a>
   </div>
   
   

@@ -9,6 +9,7 @@
   
   <url>
     <loc>/en/authors/admin/</loc>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -158,7 +159,7 @@
   
   <url>
     <loc>/en/post/20191119_sundials/</loc>
-    <lastmod>2019-11-19T22:05:38-08:00</lastmod>
+    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -173,7 +174,7 @@
   
   <url>
     <loc>/en/post/</loc>
-    <lastmod>2019-11-19T22:05:38-08:00</lastmod>
+    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -187,8 +188,203 @@
   </url>
   
   <url>
+    <loc>/en/project/mint/</loc>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/project/mint/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/project/mint/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/automatic-modeling/</loc>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/tags/automatic-modeling/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/automatic-modeling/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/categories/</loc>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/climate-change/</loc>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/tags/climate-change/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/climate-change/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/drought/</loc>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/tags/drought/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/drought/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/flood/</loc>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/tags/flood/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/flood/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/hydrology/</loc>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/tags/hydrology/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/hydrology/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/landuse-change/</loc>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/tags/landuse-change/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/landuse-change/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/pihm/</loc>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/tags/pihm/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/pihm/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/categories/research/</loc>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/categories/research/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/categories/research/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/project/</loc>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/project/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/project/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/</loc>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/watershed/</loc>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/tags/watershed/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/watershed/"
+                />
+  </url>
+  
+  <url>
     <loc>/en/post/20191003_r_animation/</loc>
-    <lastmod>2019-10-03T00:15:07-07:00</lastmod>
+    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -293,7 +489,7 @@
   
   <url>
     <loc>/en/post/20190627_ndvi/</loc>
-    <lastmod>2019-06-27T00:15:07-07:00</lastmod>
+    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -327,38 +523,8 @@
   </url>
   
   <url>
-    <loc>/en/categories/</loc>
-    <lastmod>2019-02-23T21:13:14-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/categories/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/tags/climate-change/</loc>
-    <lastmod>2019-02-23T21:13:14-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/tags/climate-change/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tags/climate-change/"
-                />
-  </url>
-  
-  <url>
     <loc>/en/tags/groundwater/</loc>
-    <lastmod>2019-02-23T21:13:14-05:00</lastmod>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -373,7 +539,7 @@
   
   <url>
     <loc>/en/project/hyperion/</loc>
-    <lastmod>2019-02-23T21:13:14-05:00</lastmod>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -387,38 +553,8 @@
   </url>
   
   <url>
-    <loc>/en/tags/hydrology/</loc>
-    <lastmod>2019-02-23T21:13:14-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/tags/hydrology/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tags/hydrology/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/tags/landuse-change/</loc>
-    <lastmod>2019-02-23T21:13:14-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/tags/landuse-change/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tags/landuse-change/"
-                />
-  </url>
-  
-  <url>
     <loc>/en/tags/machine-learning/</loc>
-    <lastmod>2019-02-23T21:13:14-05:00</lastmod>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -432,38 +568,8 @@
   </url>
   
   <url>
-    <loc>/en/categories/research/</loc>
-    <lastmod>2019-02-23T21:13:14-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/categories/research/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/categories/research/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/project/</loc>
-    <lastmod>2019-02-23T21:13:14-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/project/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/project/"
-                />
-  </url>
-  
-  <url>
     <loc>/en/tags/statistical-downscaling/</loc>
-    <lastmod>2019-02-23T21:13:14-05:00</lastmod>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -477,72 +583,32 @@
   </url>
   
   <url>
-    <loc>/en/tags/</loc>
-    <lastmod>2019-02-23T21:13:14-05:00</lastmod>
+    <loc>/en/post/20190129roundandround/</loc>
+    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tags/"
+                href="/zh/post/20190129roundandround/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/"
+                href="/en/post/20190129roundandround/"
                 />
   </url>
   
   <url>
-    <loc>/en/categories/post/</loc>
-    <lastmod>2019-01-29T00:00:00+00:00</lastmod>
+    <loc>/en/post/20190129kids-ucd/</loc>
+    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/categories/post/"
+                href="/zh/post/20190129kids-ucd/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/categories/post/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/tags/r/</loc>
-    <lastmod>2019-01-29T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/tags/r/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tags/r/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/post/kids-ucd/</loc>
-    <lastmod>2019-01-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/en/post/roundandround/</loc>
-    <lastmod>2019-01-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/en/tags/volunteer/</loc>
-    <lastmod>2019-01-29T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/tags/volunteer/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tags/volunteer/"
+                href="/en/post/20190129kids-ucd/"
                 />
   </url>
   
@@ -573,6 +639,11 @@
   
   <url>
     <loc>/en/tags/programming/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/en/tags/r/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -652,21 +723,6 @@
   </url>
   
   <url>
-    <loc>/en/tags/pihm/</loc>
-    <lastmod>2018-12-01T00:00:00-08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/tags/pihm/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tags/pihm/"
-                />
-  </url>
-  
-  <url>
     <loc>/en/tags/poster/</loc>
     <lastmod>2018-12-01T00:00:00-08:00</lastmod>
     <xhtml:link
@@ -693,81 +749,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/talk/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/project/mint/</loc>
-    <lastmod>2018-07-23T21:13:14-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/project/mint/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/project/mint/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/tags/automatic-modeling/</loc>
-    <lastmod>2018-07-23T21:13:14-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/tags/automatic-modeling/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tags/automatic-modeling/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/tags/drought/</loc>
-    <lastmod>2018-07-23T21:13:14-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/tags/drought/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tags/drought/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/tags/flood/</loc>
-    <lastmod>2018-07-23T21:13:14-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/tags/flood/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tags/flood/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/tags/watershed/</loc>
-    <lastmod>2018-07-23T21:13:14-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/tags/watershed/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tags/watershed/"
                 />
   </url>
   
@@ -847,38 +828,8 @@
   </url>
   
   <url>
-    <loc>/en/tags/lake/</loc>
-    <lastmod>2017-07-23T21:13:14-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/tags/lake/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tags/lake/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/project/cnh_lak/</loc>
-    <lastmod>2017-07-23T21:13:14-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/project/cnh_lak/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/project/cnh_lak/"
-                />
-  </url>
-  
-  <url>
     <loc>/en/tags/anthropology/</loc>
-    <lastmod>2016-07-23T21:13:14-05:00</lastmod>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -893,7 +844,7 @@
   
   <url>
     <loc>/en/tags/maya/</loc>
-    <lastmod>2016-07-23T21:13:14-05:00</lastmod>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -908,7 +859,7 @@
   
   <url>
     <loc>/en/project/tikal/</loc>
-    <lastmod>2016-07-23T21:13:14-05:00</lastmod>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -933,6 +884,21 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/vis3d/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/lake/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/tags/lake/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/lake/"
                 />
   </url>
   
@@ -1028,7 +994,7 @@
   
   <url>
     <loc>/en/project/stormwater/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"

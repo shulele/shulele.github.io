@@ -5,12 +5,21 @@
     <link>/zh/authors/</link>
       <atom:link href="/zh/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Mon, 25 Nov 2019 00:00:00 -0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Mon, 02 Dec 2019 22:05:38 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Authors</title>
       <link>/zh/authors/</link>
     </image>
+    
+    <item>
+      <title></title>
+      <link>/zh/authors/admin/</link>
+      <pubDate>Mon, 02 Dec 2019 22:05:38 +0000</pubDate>
+      <guid>/zh/authors/admin/</guid>
+      <description>&lt;p&gt;舒乐乐 水文学博士，现加州大学戴维斯分校(Department of Land, Air and Water Resources, UC Davis)博士后研究员，2017年毕业与美国 &lt;strong&gt;宾夕法尼亚州立大学(Pennsylvania State University)&lt;/strong&gt; 土木工程系水资源工程专业，副修学位&lt;strong&gt;计算科学(Computational Science)&lt;/strong&gt;。分别与兰州大学和中科院寒旱所获得学士和硕士学位。专注于数值方法的分布式水文模型、水文大数据的机器学习、气候/人类活动对水循环的影响和集成模型耦合研究。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Duffy, Christopher</title>
@@ -146,15 +155,6 @@
       <pubDate>Thu, 25 Aug 2011 00:00:00 -0700</pubDate>
       <guid>/zh/authors/zhao-yanbo/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/zh/authors/admin/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/zh/authors/admin/</guid>
-      <description>&lt;p&gt;舒乐乐 水文学博士，现加州大学戴维斯分校(Department of Land, Air and Water Resources, UC Davis)博士后研究员，2017年毕业与美国 &lt;strong&gt;宾夕法尼亚州立大学(Pennsylvania State University)&lt;/strong&gt; 土木工程系水资源工程专业，副修学位&lt;strong&gt;计算科学(Computational Science)&lt;/strong&gt;。分别与兰州大学和中科院寒旱所获得学士和硕士学位。专注于数值方法的分布式水文模型、水文大数据的机器学习、气候/人类活动对水循环的影响和集成模型耦合研究。&lt;/p&gt;
-</description>
     </item>
     
   </channel>

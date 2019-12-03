@@ -5,7 +5,7 @@
     <link>/en/tags/machine-learning/</link>
       <atom:link href="/en/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Machine Learning</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 23 Feb 2019 21:13:14 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 23 Feb 2019 21:13:14 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Machine Learning</title>
@@ -15,11 +15,11 @@
     <item>
       <title>Hydrologic modeling in project HYPERION</title>
       <link>/en/project/hyperion/</link>
-      <pubDate>Sat, 23 Feb 2019 21:13:14 -0500</pubDate>
+      <pubDate>Sat, 23 Feb 2019 21:13:14 +0000</pubDate>
       <guid>/en/project/hyperion/</guid>
       <description>&lt;h2 id=&#34;introduction-of-hyperion-i-classfas-faexternallinkaltihttpsclimateucdaviseduhyperion&#34;&gt;Introduction of HYPERION &lt;a href=&#34;https://climate.ucdavis.edu/hyperion/&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;The objective of HYPERION is the development of a comprehensive regional hydroclimate data assessment capability focused on feature-specific metrics and stakeholder-relevant outcomes. The secondary objective of this proposal is to leverage this assessment capability to improve our ability to predict these outcomes, by identifying the process-level drivers of outcome biases and evaluating the most appropriate and efficient ways to couple climate models, hydrologic models, and models of human impacts.
-&lt;img src=&#34;fig/hyperion.png&#34; alt=&#34;HYPERION logo&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The objective of HYPERION is the development of a comprehensive regional hydroclimate data assessment capability focused on feature-specific metrics and stakeholder-relevant outcomes. The secondary objective of this proposal is to leverage this assessment capability to improve our ability to predict these outcomes, by identifying the process-level drivers of outcome biases and evaluating the most appropriate and efficient ways to couple climate models, hydrologic models, and models of human impacts.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;fig/hyperion.png&#34; alt=&#34;HYPERION logo&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;tasks-in-hydrologic-modeling&#34;&gt;Tasks in hydrologic modeling&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Develop a hydrologic modeling system for both the Sacramento watershed and several subcatchments.  Calculate key hydrological metrics, including stream flow, groundwater table, soil moisture, and snow pack.&lt;/li&gt;

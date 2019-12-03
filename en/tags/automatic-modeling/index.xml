@@ -5,7 +5,7 @@
     <link>/en/tags/automatic-modeling/</link>
       <atom:link href="/en/tags/automatic-modeling/index.xml" rel="self" type="application/rss+xml" />
     <description>Automatic modeling</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 23 Jul 2018 21:13:14 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 05 Nov 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Automatic modeling</title>
@@ -15,13 +15,128 @@
     <item>
       <title>Automatic hydrologic deployment and modeling</title>
       <link>/en/project/mint/</link>
-      <pubDate>Mon, 23 Jul 2018 21:13:14 -0500</pubDate>
+      <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
       <guid>/en/project/mint/</guid>
       <description>&lt;p&gt;This project is the hydrologic modeling part of the project &lt;em&gt;Model Integration through Knowledge-Rich Data and Process Composition&lt;/em&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;introduction-of-project-i-classfas-faexternallinkaltihttpmintprojectinfo&#34;&gt;Introduction of project &lt;a href=&#34;http://mint-project.info&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;introduction-of-project&#34;&gt;Introduction of project&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://mint-project.info&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;fig/MINTworkflow.png&#34; data-caption=&#34;Overview of the use of artificial intelligence techniques to support model integration&#34;&gt;
+&lt;img src=&#34;fig/MINTworkflow.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Overview of the use of artificial intelligence techniques to support model integration
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
 &lt;h2 id=&#34;tasks-in-hydrologic-modeling&#34;&gt;Tasks in hydrologic modeling&lt;/h2&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;featured.png&#34; data-caption=&#34;The completed workflow of hydrologic modeling with PIHM model and national/global data services.&#34;&gt;
+&lt;img src=&#34;featured.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    The completed workflow of hydrologic modeling with PIHM model and national/global data services.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;fig/Animation.gif&#34; data-caption=&#34;Animation of flood plant in South Sudan from 2001 to 2017 based on FLDAS data.&#34;&gt;
+&lt;img src=&#34;fig/Animation.gif&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Animation of flood plant in South Sudan from 2001 to 2017 based on FLDAS data.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;fig/pongo_dem.png&#34; data-caption=&#34;Elevation and PIHM mesh of the Pongo watershed in South Sudan&#34;&gt;
+&lt;img src=&#34;fig/pongo_dem.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Elevation and PIHM mesh of the Pongo watershed in South Sudan
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
 &lt;h2 id=&#34;accomplishment-of-the-project&#34;&gt;Accomplishment of the project&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;keep updating&lt;/strong&gt;&lt;/p&gt;
 </description>

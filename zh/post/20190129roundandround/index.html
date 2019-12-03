@@ -32,6 +32,8 @@
 My son loves the song “The wheels on the bus go round and round“, and he has an obsession on planets.">
 
   
+  <link rel="alternate" hreflang="en" href="/en/post/20190129roundandround/">
+  
   <link rel="alternate" hreflang="zh-Hans" href="/zh/post/20190129roundandround/">
 
   
@@ -40,7 +42,7 @@ My son loves the song “The wheels on the bus go round and round“, and he has
   
   
   
-  <meta name="theme-color" content="rgb(0, 136, 204)">
+  <meta name="theme-color" content="#3f51b5">
   
 
   
@@ -61,8 +63,8 @@ My son loves the song “The wheels on the bus go round and round“, and he has
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light" disabled>
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
         
       
     
@@ -117,7 +119,7 @@ My son loves the song “The wheels on the bus go round and round“, and he has
   
   <meta property="og:site_name" content="舒乐乐">
   <meta property="og:url" content="/zh/post/20190129roundandround/">
-  <meta property="og:title" content="The project to plot planets/objects in space and orbital movement. | 舒乐乐">
+  <meta property="og:title" content="使用R语言计算、绘制和动画演示物体、天体在太空的运行状况. | 舒乐乐">
   <meta property="og:description" content="I planed to write an R package and submit on CRAN, that can plot the planets orbiting in Solar System, or satellite/moon orbiting around earth. That package must plot the moving planets, the moon, moon phase and satellite in 2D or 3D canvas. In future, it may calculate the orbit based on orbit mechanics.
 My son loves the song “The wheels on the bus go round and round“, and he has an obsession on planets."><meta property="og:image" content="/zh/post/20190129roundandround/featured.png">
   <meta property="twitter:image" content="/zh/post/20190129roundandround/featured.png"><meta property="og:locale" content="zh-Hans">
@@ -125,7 +127,7 @@ My son loves the song “The wheels on the bus go round and round“, and he has
     
       <meta property="article:published_time" content="2019-01-29T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2019-01-29T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2019-09-05T00:00:00&#43;00:00">
   
 
   
@@ -153,14 +155,14 @@ My son loves the song “The wheels on the bus go round and round“, and he has
     "@type": "WebPage",
     "@id": "/zh/post/20190129roundandround/"
   },
-  "headline": "The project to plot planets/objects in space and orbital movement.",
+  "headline": "使用R语言计算、绘制和动画演示物体、天体在太空的运行状况.",
   
   "image": [
     "/zh/post/20190129roundandround/featured.png"
   ],
   
   "datePublished": "2019-01-29T00:00:00Z",
-  "dateModified": "2019-01-29T00:00:00Z",
+  "dateModified": "2019-09-05T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -193,11 +195,11 @@ My son loves the song “The wheels on the bus go round and round“, and he has
 
 
 
-  <title>The project to plot planets/objects in space and orbital movement. | 舒乐乐</title>
+  <title>使用R语言计算、绘制和动画演示物体、天体在太空的运行状况. | 舒乐乐</title>
 
 </head>
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="dark">
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
 
   <aside class="search-results" id="search">
   <div class="container">
@@ -463,6 +465,22 @@ My son loves the song “The wheels on the bus go round and round“, and he has
       
 
       
+      <li class="nav-item dropdown i18n-dropdown">
+        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-globe mr-1" aria-hidden="true"></i><span class="d-none d-lg-inline">中文 (简体)</span>
+        </a>
+        <div class="dropdown-menu">
+          <div class="dropdown-item i18n-active font-weight-bold">
+            <span>中文 (简体)</span>
+          </div>
+          
+          <a class="dropdown-item" href="/en/post/20190129roundandround/">
+            <span>English</span>
+          </a>
+          
+        </div>
+      </li>
+      
 
     </ul>
 
@@ -500,7 +518,7 @@ My son loves the song “The wheels on the bus go round and round“, and he has
 
 
 <div class="article-container pt-3">
-  <h1>The project to plot planets/objects in space and orbital movement.</h1>
+  <h1>使用R语言计算、绘制和动画演示物体、天体在太空的运行状况.</h1>
 
   
 
@@ -511,14 +529,29 @@ My son loves the song “The wheels on the bus go round and round“, and he has
 
   
   
+  
+  
+  <div>
+    
+
+
+
+  
+  <span>舒乐乐</span>
+
+  </div>
+  
+  
 
   
   <span class="article-date">
     
     
       
+          最近更新于
+      
     
-    Jan 29, 2019
+    Sep 5, 2019
   </span>
   
 
@@ -531,10 +564,6 @@ My son loves the song “The wheels on the bus go round and round“, and he has
   
 
   
-  
-  <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/zh/categories/post/">Post</a></span>
   
 
 </div>
@@ -559,7 +588,7 @@ My son loves the song “The wheels on the bus go round and round“, and he has
 
 <div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 720px;">
   <div style="position: relative">
-    <img src="/zh/post/20190129roundandround/featured_hu5b025a01c3a70226d634314a19d7f09f_1114688_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    <img src="/zh/post/20190129roundandround/featured_hu198ddc5f85a4993931070e23a0e932ec_290973_720x0_resize_lanczos_2.png" alt="" class="featured-image">
     
   </div>
 </div>
@@ -571,24 +600,51 @@ My son loves the song “The wheels on the bus go round and round“, and he has
     <div class="article-style">
       <p>I planed to write an R package and submit on CRAN, that can plot the planets orbiting in Solar System, or satellite/moon orbiting around earth. That package must plot the moving planets, the moon, moon phase and satellite in 2D or 3D canvas. In future, it may calculate the orbit based on orbit mechanics.</p>
 <p>My son loves the song “The wheels on the bus go round and round“, and he has an obsession on planets. He asks mommy play the solar system documentary every night when we ask him to brush his teeth.  So I decided to plot the moving planets in solar system for him with the scientific knowledge I know.</p>
-<!-- raw HTML omitted -->
+<table>
+<thead>
+<tr>
+<th align="left">My son is obsessed by the planets and stars</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><img src="photo.png" alt="classroom.jpg"></td>
+</tr>
+</tbody>
+</table>
 <p>Another motivation is from the Chinese lunar exploration, Chang-E 5 landing on far-side of the moon.  Lots of people discussed it and were fuddled on the rotation of moon and relation between the earth and the moon.</p>
 <p>Furthermore, I kept thinking the Chinese semi-lunar calendar for many years, I know the founder mental logic and algorithm of the calendar in my mind, but never scratched the equations and numbers in paper yet.  This calendar is determined by the moon phase and the position of the earth in orbit. Definitely the solver in papers are more rousted in my brain.</p>
 <p>Let’s see what I got, by now.</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<table>
+<thead>
+<tr>
+<th align="left">The idea of the Moon and the Sun are moving around the Earth, when we assume the earth is the center of system. The orbital period of the moon is 27.321 day, but the synodic period is 29.53 day, that because the sun moves 27.321/365.25 in its sun’s orbit when the moon moves in the moon’s orbit. It requires 2.2 days to let the sun and the moon to face-to-face again.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><img src="Moon0.png" alt="classroom.jpg"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="left">The position of the Moon and the Sun in an earth year (365 day). The right legend shows the moon phase in 30 days. The concentric orbits are numbers of the moon periods.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><img src="Moon_year365.png" alt="classroom.jpg"></td>
+</tr>
+</tbody>
+</table>
 
     </div>
 
     
 
 
-
-<div class="article-tags">
-  
-  <a class="badge badge-light" href="/zh/tags/r/">R</a>
-  
-</div>
 
 
 
@@ -603,7 +659,7 @@ My son loves the song “The wheels on the bus go round and round“, and he has
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/zh/post/20190129roundandround/&amp;text=The%20project%20to%20plot%20planets/objects%20in%20space%20and%20orbital%20movement." target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/zh/post/20190129roundandround/&amp;text=%e4%bd%bf%e7%94%a8R%e8%af%ad%e8%a8%80%e8%ae%a1%e7%ae%97%e3%80%81%e7%bb%98%e5%88%b6%e5%92%8c%e5%8a%a8%e7%94%bb%e6%bc%94%e7%a4%ba%e7%89%a9%e4%bd%93%e3%80%81%e5%a4%a9%e4%bd%93%e5%9c%a8%e5%a4%aa%e7%a9%ba%e7%9a%84%e8%bf%90%e8%a1%8c%e7%8a%b6%e5%86%b5." target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -616,7 +672,7 @@ My son loves the song “The wheels on the bus go round and round“, and he has
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/zh/post/20190129roundandround/&amp;t=The%20project%20to%20plot%20planets/objects%20in%20space%20and%20orbital%20movement." target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/zh/post/20190129roundandround/&amp;t=%e4%bd%bf%e7%94%a8R%e8%af%ad%e8%a8%80%e8%ae%a1%e7%ae%97%e3%80%81%e7%bb%98%e5%88%b6%e5%92%8c%e5%8a%a8%e7%94%bb%e6%bc%94%e7%a4%ba%e7%89%a9%e4%bd%93%e3%80%81%e5%a4%a9%e4%bd%93%e5%9c%a8%e5%a4%aa%e7%a9%ba%e7%9a%84%e8%bf%90%e8%a1%8c%e7%8a%b6%e5%86%b5." target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -629,7 +685,7 @@ My son loves the song “The wheels on the bus go round and round“, and he has
       
       
       <li>
-        <a href="mailto:?subject=The%20project%20to%20plot%20planets/objects%20in%20space%20and%20orbital%20movement.&amp;body=/zh/post/20190129roundandround/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=%e4%bd%bf%e7%94%a8R%e8%af%ad%e8%a8%80%e8%ae%a1%e7%ae%97%e3%80%81%e7%bb%98%e5%88%b6%e5%92%8c%e5%8a%a8%e7%94%bb%e6%bc%94%e7%a4%ba%e7%89%a9%e4%bd%93%e3%80%81%e5%a4%a9%e4%bd%93%e5%9c%a8%e5%a4%aa%e7%a9%ba%e7%9a%84%e8%bf%90%e8%a1%8c%e7%8a%b6%e5%86%b5.&amp;body=/zh/post/20190129roundandround/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -642,7 +698,7 @@ My son loves the song “The wheels on the bus go round and round“, and he has
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/zh/post/20190129roundandround/&amp;title=The%20project%20to%20plot%20planets/objects%20in%20space%20and%20orbital%20movement." target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/zh/post/20190129roundandround/&amp;title=%e4%bd%bf%e7%94%a8R%e8%af%ad%e8%a8%80%e8%ae%a1%e7%ae%97%e3%80%81%e7%bb%98%e5%88%b6%e5%92%8c%e5%8a%a8%e7%94%bb%e6%bc%94%e7%a4%ba%e7%89%a9%e4%bd%93%e3%80%81%e5%a4%a9%e4%bd%93%e5%9c%a8%e5%a4%aa%e7%a9%ba%e7%9a%84%e8%bf%90%e8%a1%8c%e7%8a%b6%e5%86%b5." target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -655,7 +711,7 @@ My son loves the song “The wheels on the bus go round and round“, and he has
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=The%20project%20to%20plot%20planets/objects%20in%20space%20and%20orbital%20movement.%20/zh/post/20190129roundandround/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=%e4%bd%bf%e7%94%a8R%e8%af%ad%e8%a8%80%e8%ae%a1%e7%ae%97%e3%80%81%e7%bb%98%e5%88%b6%e5%92%8c%e5%8a%a8%e7%94%bb%e6%bc%94%e7%a4%ba%e7%89%a9%e4%bd%93%e3%80%81%e5%a4%a9%e4%bd%93%e5%9c%a8%e5%a4%aa%e7%a9%ba%e7%9a%84%e8%bf%90%e8%a1%8c%e7%8a%b6%e5%86%b5.%20/zh/post/20190129roundandround/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -668,7 +724,7 @@ My son loves the song “The wheels on the bus go round and round“, and he has
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/zh/post/20190129roundandround/&amp;title=The%20project%20to%20plot%20planets/objects%20in%20space%20and%20orbital%20movement." target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/zh/post/20190129roundandround/&amp;title=%e4%bd%bf%e7%94%a8R%e8%af%ad%e8%a8%80%e8%ae%a1%e7%ae%97%e3%80%81%e7%bb%98%e5%88%b6%e5%92%8c%e5%8a%a8%e7%94%bb%e6%bc%94%e7%a4%ba%e7%89%a9%e4%bd%93%e3%80%81%e5%a4%a9%e4%bd%93%e5%9c%a8%e5%a4%aa%e7%a9%ba%e7%9a%84%e8%bf%90%e8%a1%8c%e7%8a%b6%e5%86%b5." target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -687,6 +743,10 @@ My son loves the song “The wheels on the bus go round and round“, and he has
 
 
 
+  
+  
+    
+  
   
 
 
@@ -827,9 +887,15 @@ My son loves the song “The wheels on the bus go round and round“, and he has
   
   <div class="post-nav-item">
     <div class="meta-nav">下一页</div>
-    <a href="/zh/post/20190129kids-ucd/" rel="next">The project to plot planets/objects in space and orbital movement.</a>
+    <a href="/zh/post/20190627_ndvi/" rel="next">2002-201年间美国和全球逐月NDVI的变化动画</a>
   </div>
   
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">上一页</div>
+    <a href="/zh/post/20190129kids-ucd/" rel="prev">我在美国做支教</a>
+  </div>
   
 </div>
 
