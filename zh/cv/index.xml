@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>舒乐乐， 水文学博士 | 舒乐乐</title>
-    <link>https://www.shulele.net/zh/cv/</link>
-      <atom:link href="https://www.shulele.net/zh/cv/index.xml" rel="self" type="application/rss+xml" />
+    <link>/zh/cv/</link>
+      <atom:link href="/zh/cv/index.xml" rel="self" type="application/rss+xml" />
     <description>舒乐乐， 水文学博士</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Wed, 26 Jun 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://www.shulele.net/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>舒乐乐， 水文学博士</title>
-      <link>https://www.shulele.net/zh/cv/</link>
+      <link>/zh/cv/</link>
     </image>
     
   </channel>

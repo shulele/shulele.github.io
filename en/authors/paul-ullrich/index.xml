@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Paul Ullrich | SHU</title>
-    <link>https://www.shulele.net/en/authors/paul-ullrich/</link>
-      <atom:link href="https://www.shulele.net/en/authors/paul-ullrich/index.xml" rel="self" type="application/rss+xml" />
+    <link>/en/authors/paul-ullrich/</link>
+      <atom:link href="/en/authors/paul-ullrich/index.xml" rel="self" type="application/rss+xml" />
     <description>Paul Ullrich</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Dec 2018 00:00:00 -0800</lastBuildDate>
     <image>
-      <url>https://www.shulele.net/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Paul Ullrich</title>
-      <link>https://www.shulele.net/en/authors/paul-ullrich/</link>
+      <link>/en/authors/paul-ullrich/</link>
     </image>
     
     <item>
       <title>Model simulated spatial distribution and the variation of ground water level in Sacramento Watershed, California from 1985 to 2017</title>
-      <link>https://www.shulele.net/en/talk/agu2018/</link>
+      <link>/en/talk/agu2018/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 -0800</pubDate>
-      <guid>https://www.shulele.net/en/talk/agu2018/</guid>
+      <guid>/en/talk/agu2018/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;&lt;strong&gt;Please stop by my poster, we can have a talk.&lt;/strong&gt;&lt;/p&gt;
 </description>

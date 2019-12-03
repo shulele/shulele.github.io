@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Anthropology | SHU</title>
-    <link>https://www.shulele.net/en/tags/anthropology/</link>
-      <atom:link href="https://www.shulele.net/en/tags/anthropology/index.xml" rel="self" type="application/rss+xml" />
+    <link>/en/tags/anthropology/</link>
+      <atom:link href="/en/tags/anthropology/index.xml" rel="self" type="application/rss+xml" />
     <description>Anthropology</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 23 Jul 2016 21:13:14 -0500</lastBuildDate>
     <image>
-      <url>https://www.shulele.net/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Anthropology</title>
-      <link>https://www.shulele.net/en/tags/anthropology/</link>
+      <link>/en/tags/anthropology/</link>
     </image>
     
     <item>
       <title>Reconstructing the role of landuse change on water yield at the Maya urban</title>
-      <link>https://www.shulele.net/en/project/tikal/</link>
+      <link>/en/project/tikal/</link>
       <pubDate>Sat, 23 Jul 2016 21:13:14 -0500</pubDate>
-      <guid>https://www.shulele.net/en/project/tikal/</guid>
+      <guid>/en/project/tikal/</guid>
       <description>&lt;p&gt;This project is the hydrology-lake modeling part of the project &lt;em&gt;Land, Water, and Territory: A 3,000-Year Study of Niche Construction and Cultural Evolution in the Tikal National Park, Guatemala&lt;/em&gt;.&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;h2 id=&#34;introduction-of-project&#34;&gt;Introduction of project&lt;/h2&gt;

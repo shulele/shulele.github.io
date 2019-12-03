@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Poster | 舒乐乐</title>
-    <link>https://www.shulele.net/zh/tags/poster/</link>
-      <atom:link href="https://www.shulele.net/zh/tags/poster/index.xml" rel="self" type="application/rss+xml" />
+    <link>/zh/tags/poster/</link>
+      <atom:link href="/zh/tags/poster/index.xml" rel="self" type="application/rss+xml" />
     <description>Poster</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Sat, 01 Dec 2018 00:00:00 -0800</lastBuildDate>
     <image>
-      <url>https://www.shulele.net/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Poster</title>
-      <link>https://www.shulele.net/zh/tags/poster/</link>
+      <link>/zh/tags/poster/</link>
     </image>
     
     <item>
       <title>Model simulated spatial distribution and the variation of ground water level in Sacramento Watershed, California from 1985 to 2017</title>
-      <link>https://www.shulele.net/zh/talk/agu2018/</link>
+      <link>/zh/talk/agu2018/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 -0800</pubDate>
-      <guid>https://www.shulele.net/zh/talk/agu2018/</guid>
+      <guid>/zh/talk/agu2018/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;&lt;strong&gt;Please stop by my poster, we can have a talk.&lt;/strong&gt;&lt;/p&gt;
 </description>
@@ -24,33 +24,33 @@
     
     <item>
       <title>Coupling Cellular Automata Land Use Change with Distributed Hydrologic models</title>
-      <link>https://www.shulele.net/zh/talk/agu2017/</link>
+      <link>/zh/talk/agu2017/</link>
       <pubDate>Fri, 01 Dec 2017 00:00:00 -0800</pubDate>
-      <guid>https://www.shulele.net/zh/talk/agu2017/</guid>
+      <guid>/zh/talk/agu2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Catchment hydrological change from soil degradation</title>
-      <link>https://www.shulele.net/zh/talk/agu2015/</link>
+      <link>/zh/talk/agu2015/</link>
       <pubDate>Tue, 01 Dec 2015 00:00:00 -0800</pubDate>
-      <guid>https://www.shulele.net/zh/talk/agu2015/</guid>
+      <guid>/zh/talk/agu2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Reconstructing the role of landuse change on water yield at the Maya urban center Tikal, Guatemala [700-800 AD]</title>
-      <link>https://www.shulele.net/zh/talk/agu2014/</link>
+      <link>/zh/talk/agu2014/</link>
       <pubDate>Wed, 31 Dec 2014 00:00:00 -0800</pubDate>
-      <guid>https://www.shulele.net/zh/talk/agu2014/</guid>
+      <guid>/zh/talk/agu2014/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Urbanization-driven hydrological process change in Conestoga River watershed in Lancaster of Pennsylvania</title>
-      <link>https://www.shulele.net/zh/talk/agu2013/</link>
+      <link>/zh/talk/agu2013/</link>
       <pubDate>Tue, 31 Dec 2013 00:00:00 -0800</pubDate>
-      <guid>https://www.shulele.net/zh/talk/agu2013/</guid>
+      <guid>/zh/talk/agu2013/</guid>
       <description></description>
     </item>
     

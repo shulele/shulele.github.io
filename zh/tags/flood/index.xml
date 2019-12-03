@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Flood | 舒乐乐</title>
-    <link>https://www.shulele.net/zh/tags/flood/</link>
-      <atom:link href="https://www.shulele.net/zh/tags/flood/index.xml" rel="self" type="application/rss+xml" />
+    <link>/zh/tags/flood/</link>
+      <atom:link href="/zh/tags/flood/index.xml" rel="self" type="application/rss+xml" />
     <description>Flood</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Mon, 23 Jul 2018 21:13:14 -0500</lastBuildDate>
     <image>
-      <url>https://www.shulele.net/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Flood</title>
-      <link>https://www.shulele.net/zh/tags/flood/</link>
+      <link>/zh/tags/flood/</link>
     </image>
     
     <item>
       <title>Automatic hydrologic deployment and modeling</title>
-      <link>https://www.shulele.net/zh/project/mint/</link>
+      <link>/zh/project/mint/</link>
       <pubDate>Mon, 23 Jul 2018 21:13:14 -0500</pubDate>
-      <guid>https://www.shulele.net/zh/project/mint/</guid>
+      <guid>/zh/project/mint/</guid>
       <description>&lt;p&gt;This project is the hydrologic modeling part of the project &lt;em&gt;Model Integration through Knowledge-Rich Data and Process Composition&lt;/em&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;introduction-of-project-i-classfas-faexternallinkaltihttpmintprojectinfo&#34;&gt;Introduction of project &lt;a href=&#34;http://mint-project.info&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;h2 id=&#34;tasks-in-hydrologic-modeling&#34;&gt;Tasks in hydrologic modeling&lt;/h2&gt;
@@ -29,9 +29,9 @@
     
     <item>
       <title>Impact in hydrology from landuse and climate change</title>
-      <link>https://www.shulele.net/zh/project/stormwater/</link>
+      <link>/zh/project/stormwater/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      <guid>https://www.shulele.net/zh/project/stormwater/</guid>
+      <guid>/zh/project/stormwater/</guid>
       <description>&lt;p&gt;This project is the hydrologic modeling part of the project &lt;em&gt;NSF Hydrologic and Water Quality Modeling for Green Infrastructure&lt;/em&gt;.&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;

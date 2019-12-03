@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shu, Lele | SHU</title>
-    <link>https://www.shulele.net/en/authors/shu-lele/</link>
-      <atom:link href="https://www.shulele.net/en/authors/shu-lele/index.xml" rel="self" type="application/rss+xml" />
+    <link>/en/authors/shu-lele/</link>
+      <atom:link href="/en/authors/shu-lele/index.xml" rel="self" type="application/rss+xml" />
     <description>Shu, Lele</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 25 Nov 2019 00:00:00 -0800</lastBuildDate>
     <image>
-      <url>https://www.shulele.net/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Shu, Lele</title>
-      <link>https://www.shulele.net/en/authors/shu-lele/</link>
+      <link>/en/authors/shu-lele/</link>
     </image>
     
     <item>
       <title>Solver for Hydrologic Unstructured Domain (SHUD): Numerical modeling of watershed hydrology with the finite element method</title>
-      <link>https://www.shulele.net/en/publication/shu2019_shud/</link>
+      <link>/en/publication/shu2019_shud/</link>
       <pubDate>Mon, 25 Nov 2019 00:00:00 -0800</pubDate>
-      <guid>https://www.shulele.net/en/publication/shu2019_shud/</guid>
+      <guid>/en/publication/shu2019_shud/</guid>
       <description>&lt;p&gt;Hydrological modeling is an essential strategy for understanding natural flows, particularly where observations are lacking in either space or time, or where topographic roughness leads to a disconnect in the characteristic timescales of overland and groundwater flow. Consequently, significant opportunities remain for the development of extensible modeling systems that operate robustly across regions.
 Towards the development of such a robust hydrological modeling system, this paper introduces the Solver for Hydrological Unstructured Domain (SHUD), an integrated multi-process, multi-scale, multi-timestep hydrological model, in which hydrological processes are fully coupled using the semi-discrete Finite Volume Method. The SHUD integrates overland flow, snow accumulation/melting, evapotranspiration, subsurface and groundwater flow, and river routing, while realistically capturing the physical processes in a watershed.&lt;br&gt;
 The SHUD incorporates one-dimension unsaturated flow, two-dimension groundwater flow, and river channels connected with hillslopes via overland flow and baseflow.&lt;/p&gt;
@@ -27,17 +27,17 @@ The SHUD incorporates one-dimension unsaturated flow, two-dimension groundwater 
     
     <item>
       <title>Integrating fast and slow processes is essential for simulating human–freshwater interactions</title>
-      <link>https://www.shulele.net/en/publication/ward2018/</link>
+      <link>/en/publication/ward2018/</link>
       <pubDate>Thu, 25 Jul 2019 00:00:00 -0700</pubDate>
-      <guid>https://www.shulele.net/en/publication/ward2018/</guid>
+      <guid>/en/publication/ward2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Integrated modeling environment and a preliminary application on the Heihe River Basin, China</title>
-      <link>https://www.shulele.net/en/publication/nan2011/</link>
+      <link>/en/publication/nan2011/</link>
       <pubDate>Thu, 25 Aug 2011 00:00:00 -0700</pubDate>
-      <guid>https://www.shulele.net/en/publication/nan2011/</guid>
+      <guid>/en/publication/nan2011/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Statistical | SHU</title>
-    <link>https://www.shulele.net/en/tags/statistical/</link>
-      <atom:link href="https://www.shulele.net/en/tags/statistical/index.xml" rel="self" type="application/rss+xml" />
+    <link>/en/tags/statistical/</link>
+      <atom:link href="/en/tags/statistical/index.xml" rel="self" type="application/rss+xml" />
     <description>Statistical</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://www.shulele.net/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Statistical</title>
-      <link>https://www.shulele.net/en/tags/statistical/</link>
+      <link>/en/tags/statistical/</link>
     </image>
     
     <item>
       <title>Geospatial and Geostatistical Analysis with R</title>
-      <link>https://www.shulele.net/en/class_geospatialr/0overview/</link>
+      <link>/en/class_geospatialr/0overview/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.shulele.net/en/class_geospatialr/0overview/</guid>
+      <guid>/en/class_geospatialr/0overview/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;We Shape Our Tools, and Thereafter Our Tools Shape Us&amp;rdquo;&lt;/p&gt;
 &lt;/blockquote&gt;

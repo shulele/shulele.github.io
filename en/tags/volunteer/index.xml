@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>volunteer | SHU</title>
-    <link>https://www.shulele.net/en/tags/volunteer/</link>
-      <atom:link href="https://www.shulele.net/en/tags/volunteer/index.xml" rel="self" type="application/rss+xml" />
+    <link>/en/tags/volunteer/</link>
+      <atom:link href="/en/tags/volunteer/index.xml" rel="self" type="application/rss+xml" />
     <description>volunteer</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 29 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://www.shulele.net/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>volunteer</title>
-      <link>https://www.shulele.net/en/tags/volunteer/</link>
+      <link>/en/tags/volunteer/</link>
     </image>
     
     <item>
       <title>The project to plot planets/objects in space and orbital movement.</title>
-      <link>https://www.shulele.net/en/post/kids-ucd/</link>
+      <link>/en/post/kids-ucd/</link>
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.shulele.net/en/post/kids-ucd/</guid>
+      <guid>/en/post/kids-ucd/</guid>
       <description>&lt;h2 id=&#34;motivation-of-the-project&#34;&gt;Motivation of the project&lt;/h2&gt;
 &lt;p&gt;This is fantastic program to teach the local kids and lead them into the discovering sciences.&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;

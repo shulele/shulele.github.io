@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R | 舒乐乐</title>
-    <link>https://www.shulele.net/zh/tags/r/</link>
-      <atom:link href="https://www.shulele.net/zh/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    <link>/zh/tags/r/</link>
+      <atom:link href="/zh/tags/r/index.xml" rel="self" type="application/rss+xml" />
     <description>R</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Tue, 29 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://www.shulele.net/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>R</title>
-      <link>https://www.shulele.net/zh/tags/r/</link>
+      <link>/zh/tags/r/</link>
     </image>
     
     <item>
       <title>The project to plot planets/objects in space and orbital movement.</title>
-      <link>https://www.shulele.net/zh/post/20190129roundandround/</link>
+      <link>/zh/post/20190129roundandround/</link>
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.shulele.net/zh/post/20190129roundandround/</guid>
+      <guid>/zh/post/20190129roundandround/</guid>
       <description>&lt;p&gt;I planed to write an R package and submit on CRAN, that can plot the planets orbiting in Solar System, or satellite/moon orbiting around earth. That package must plot the moving planets, the moon, moon phase and satellite in 2D or 3D canvas. In future, it may calculate the orbit based on orbit mechanics.&lt;/p&gt;
 &lt;p&gt;My son loves the song “The wheels on the bus go round and round“, and he has an obsession on planets. He asks mommy play the solar system documentary every night when we ask him to brush his teeth.  So I decided to plot the moving planets in solar system for him with the scientific knowledge I know.&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;
