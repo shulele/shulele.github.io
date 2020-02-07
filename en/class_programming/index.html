@@ -32,10 +32,10 @@
  Objective How to convert scientific questions to efficient programming algorithm, including data structue, computational algorithm, data management and parallelization.
 Prerequisite for attendee  Basic programming knowledge, such as C/C&#43;&#43;, Java, R, python, Matlab, etc.  Reference Textbooks: None
 Useful sources:
- Yang, Daoqi. C&#43;&#43; and object-oriented numeric computing for scientists and engineers. Springer Science &amp; Business Media, 2000. Kernighan, Brian W.">
+ Yang, Daoqi. C&#43;&#43; and object-oriented numeric computing for scientists and engineers. Springer Science &amp; Business Media, 2000.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/en/class_programming/">
+  <link rel="alternate" hreflang="en-us" href="https://www.shulele.net/en/class_programming/">
 
   
 
@@ -95,15 +95,43 @@ Useful sources:
 
 
 
-  
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135370684-1"></script>
 <script>
-  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','UA-135370684-1');
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-135370684-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
 </script>
 
+
+  
 
 
   
@@ -112,7 +140,7 @@ Useful sources:
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/en/class_programming/">
+  <link rel="canonical" href="https://www.shulele.net/en/class_programming/">
 
   
   
@@ -127,14 +155,14 @@ Useful sources:
   <meta property="twitter:creator" content="@leleshu">
   
   <meta property="og:site_name" content="SHU">
-  <meta property="og:url" content="/en/class_programming/">
+  <meta property="og:url" content="https://www.shulele.net/en/class_programming/">
   <meta property="og:title" content="Advance programming | SHU">
   <meta property="og:description" content="&ldquo;We Shape Our Tools, and Thereafter Our Tools Shape Us&rdquo;
  Objective How to convert scientific questions to efficient programming algorithm, including data structue, computational algorithm, data management and parallelization.
 Prerequisite for attendee  Basic programming knowledge, such as C/C&#43;&#43;, Java, R, python, Matlab, etc.  Reference Textbooks: None
 Useful sources:
- Yang, Daoqi. C&#43;&#43; and object-oriented numeric computing for scientists and engineers. Springer Science &amp; Business Media, 2000. Kernighan, Brian W."><meta property="og:image" content="/en/class_programming/featured.jpg">
-  <meta property="twitter:image" content="/en/class_programming/featured.jpg"><meta property="og:locale" content="en-us">
+ Yang, Daoqi. C&#43;&#43; and object-oriented numeric computing for scientists and engineers. Springer Science &amp; Business Media, 2000."><meta property="og:image" content="https://www.shulele.net/en/class_programming/featured.jpg">
+  <meta property="twitter:image" content="https://www.shulele.net/en/class_programming/featured.jpg"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2019-01-01T00:00:00&#43;00:00">
@@ -203,7 +231,7 @@ Useful sources:
     
     
     
-      <a class="navbar-brand" href="/en">SHU</a>
+      <a class="navbar-brand" href="/en/">SHU</a>
     
 
     
@@ -264,16 +292,9 @@ Useful sources:
         
         
         
-          
-          
-          
-            
-          
-          
-        
 
         <li class="nav-item">
-          <a class="nav-link " href="/en/#posts"><span>Posts</span></a>
+          <a class="nav-link " href="/en/post/"><span>Posts</span></a>
         </li>
 
         
@@ -527,45 +548,62 @@ Useful sources:
   <div class="article-container">
 
     <div class="article-style">
-      <blockquote>
+      
+
+<blockquote>
 <p>&ldquo;We Shape Our Tools, and Thereafter Our Tools Shape Us&rdquo;</p>
 </blockquote>
+
 <h1 id="objective">Objective</h1>
+
 <p>How to convert scientific questions to efficient programming algorithm, including data structue, computational algorithm, data management and parallelization.</p>
+
 <h2 id="prerequisite-for-attendee">Prerequisite for attendee</h2>
+
 <ul>
 <li>Basic programming knowledge, such as C/C++, Java, R, python, Matlab, etc.</li>
 </ul>
+
 <h2 id="reference">Reference</h2>
+
 <p><strong>Textbooks</strong>: None</p>
+
 <p><strong>Useful sources</strong>:</p>
+
 <ul>
 <li>Yang, Daoqi. C++ and object-oriented numeric computing for scientists and engineers. Springer Science &amp; Business Media, 2000.</li>
 <li>Kernighan, Brian W., and Dennis M. Ritchie. The C programming language. 2006.</li>
-<li><a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.163.2848&amp;rep=rep1&amp;type=pdf">Victor Shtern, Core C++ A Software Engineering Approach, Prentice Hall (2000) ISBN: 0130857297</a></li>
+<li><a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.163.2848&amp;rep=rep1&amp;type=pdf" target="_blank">Victor Shtern, Core C++ A Software Engineering Approach, Prentice Hall (2000) ISBN: 0130857297</a></li>
 <li>Running Linux, 4th Edition, Welsh, Kaufman, Dalheimer, and Dawson</li>
 <li>Chapman, Stephen J. JAVA for Engineers and Scientists. Prentice-Hall, Inc., 2003.</li>
 <li>Cornell, Gary, and Cay Stephen Horstmann. Core Java. SunSoft press, 1996.</li>
 <li>Ghai, Ajit. &ldquo;Facts and Fallacies of Software Engineering.&rdquo; Software Quality Professional 5.3 (2003): 38.</li>
-<li><a href="http://www.mgnet.org/~douglas/Classes/na-sc/notes/Parallel%20Scientific%20Computing%20in%20C_plus_plus%20and%20MPI.pdf">Karniadakis, George Em, George Karniadakis, and Robert M. Kirby II. Parallel scientific computing in C++ and MPI: a seamless approach to parallel algorithms and their implementation. Vol. 2. Cambridge University Press, 2003.</a></li>
-<li><a href="http://dept-info.labri.fr/~counilh/ens_parallelisme/mpi/pacheco_99.pdf">Pacheco, Peter. Parallel programming with MPI. Morgan Kaufmann, 1997.</a></li>
+<li><a href="http://www.mgnet.org/~douglas/Classes/na-sc/notes/Parallel%20Scientific%20Computing%20in%20C_plus_plus%20and%20MPI.pdf" target="_blank">Karniadakis, George Em, George Karniadakis, and Robert M. Kirby II. Parallel scientific computing in C++ and MPI: a seamless approach to parallel algorithms and their implementation. Vol. 2. Cambridge University Press, 2003.</a></li>
+<li><a href="http://dept-info.labri.fr/~counilh/ens_parallelisme/mpi/pacheco_99.pdf" target="_blank">Pacheco, Peter. Parallel programming with MPI. Morgan Kaufmann, 1997.</a></li>
 </ul>
+
 <h2 id="grading">Grading</h2>
+
 <p>Two projects and 10 homework.</p>
+
 <ul>
 <li>60% term project (30% per project)</li>
 <li>40% homework (4% each)</li>
 </ul>
+
 <p>Total 100%</p>
+
 <h2 id="outline-of-the-course">Outline of the course</h2>
+
 <ul>
 <li>Introduction</li>
 <li>The History and  Future of Computing</li>
 <li>Trends in Programming Languages</li>
 <li>Linux</li>
-<li>Utilities: vi, emacs, dbx, make, cvs, and IDE's</li>
+<li>Utilities: vi, emacs, dbx, make, cvs, and IDE&rsquo;s</li>
 <li>Brief Introduction to Software Engineering</li>
 <li>C++
+
 <ul>
 <li>Intro</li>
 <li>Basics</li>
@@ -577,15 +615,14 @@ Useful sources:
 <li>Templates</li>
 <li>C++ vs. Java</li>
 <li>Brief Discussion of Java, C#, and Objective-C</li>
-</ul>
-</li>
+</ul></li>
 <li>Parallel Computing
+
 <ul>
 <li>MPI</li>
 <li>OpenMP</li>
 <li>Threads</li>
-</ul>
-</li>
+</ul></li>
 <li>Python</li>
 <li>Conclusions</li>
 </ul>
@@ -617,7 +654,7 @@ Useful sources:
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/en/class_programming/&amp;text=Advance%20programming" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://www.shulele.net/en/class_programming/&amp;text=Advance%20programming" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -630,7 +667,7 @@ Useful sources:
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/en/class_programming/&amp;t=Advance%20programming" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://www.shulele.net/en/class_programming/&amp;t=Advance%20programming" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -643,7 +680,7 @@ Useful sources:
       
       
       <li>
-        <a href="mailto:?subject=Advance%20programming&amp;body=/en/class_programming/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Advance%20programming&amp;body=https://www.shulele.net/en/class_programming/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -656,7 +693,7 @@ Useful sources:
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/en/class_programming/&amp;title=Advance%20programming" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://www.shulele.net/en/class_programming/&amp;title=Advance%20programming" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -669,7 +706,7 @@ Useful sources:
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Advance%20programming%20/en/class_programming/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Advance%20programming%20https://www.shulele.net/en/class_programming/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -682,7 +719,7 @@ Useful sources:
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/en/class_programming/&amp;title=Advance%20programming" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://www.shulele.net/en/class_programming/&amp;title=Advance%20programming" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>

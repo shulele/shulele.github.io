@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>3D Model of SHUD modeling | SHU</title>
-    <link>/en/vis3d/</link>
-      <atom:link href="/en/vis3d/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.shulele.net/en/vis3d/</link>
+      <atom:link href="https://www.shulele.net/en/vis3d/index.xml" rel="self" type="application/rss+xml" />
     <description>3D Model of SHUD modeling</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://www.shulele.net/img/icon-192.png</url>
       <title>3D Model of SHUD modeling</title>
-      <link>/en/vis3d/</link>
+      <link>https://www.shulele.net/en/vis3d/</link>
     </image>
     
     <item>
       <title>Mendota Lake</title>
-      <link>/en/vis3d/mendota/</link>
+      <link>https://www.shulele.net/en/vis3d/mendota/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/en/vis3d/mendota/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;/3d/Mendota/&#34;&gt;MENDOTA&lt;/a&gt;&lt;/p&gt;
+      <guid>https://www.shulele.net/en/vis3d/mendota/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.shulele.net/3d/Mendota/&#34;&gt;MENDOTA&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Sunapee Lake</title>
-      <link>/en/vis3d/sunapee/</link>
+      <link>https://www.shulele.net/en/vis3d/sunapee/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/en/vis3d/sunapee/</guid>
+      <guid>https://www.shulele.net/en/vis3d/sunapee/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Yanhua Village in Ningxia, China</title>
-      <link>/en/vis3d/yanhuacun/</link>
+      <link>https://www.shulele.net/en/vis3d/yanhuacun/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/en/vis3d/yanhuacun/</guid>
+      <guid>https://www.shulele.net/en/vis3d/yanhuacun/</guid>
       <description></description>
     </item>
     

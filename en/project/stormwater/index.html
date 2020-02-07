@@ -31,9 +31,9 @@
   <meta name="description" content="Introduction of project Tasks in hydrologic modeling Accomplishment of the project keep updating">
 
   
-  <link rel="alternate" hreflang="zh" href="/zh/project/stormwater/">
+  <link rel="alternate" hreflang="zh" href="https://www.shulele.net/zh/project/stormwater/">
   
-  <link rel="alternate" hreflang="en-us" href="/en/project/stormwater/">
+  <link rel="alternate" hreflang="en-us" href="https://www.shulele.net/en/project/stormwater/">
 
   
 
@@ -93,15 +93,43 @@
 
 
 
-  
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135370684-1"></script>
 <script>
-  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','UA-135370684-1');
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-135370684-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
 </script>
 
+
+  
 
 
   
@@ -110,7 +138,7 @@
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/en/project/stormwater/">
+  <link rel="canonical" href="https://www.shulele.net/en/project/stormwater/">
 
   
   
@@ -126,10 +154,10 @@
   <meta property="twitter:creator" content="@leleshu">
   
   <meta property="og:site_name" content="SHU">
-  <meta property="og:url" content="/en/project/stormwater/">
+  <meta property="og:url" content="https://www.shulele.net/en/project/stormwater/">
   <meta property="og:title" content="Impact in hydrology from landuse and climate change | SHU">
-  <meta property="og:description" content="Introduction of project Tasks in hydrologic modeling Accomplishment of the project keep updating"><meta property="og:image" content="/img/icon-192.png">
-  <meta property="twitter:image" content="/img/icon-192.png"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Introduction of project Tasks in hydrologic modeling Accomplishment of the project keep updating"><meta property="og:image" content="https://www.shulele.net/img/icon-192.png">
+  <meta property="twitter:image" content="https://www.shulele.net/img/icon-192.png"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2015-07-23T21:13:14&#43;00:00">
@@ -158,7 +186,7 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "/en/project/stormwater/"
+    "@id": "https://www.shulele.net/en/project/stormwater/"
   },
   "headline": "Impact in hydrology from landuse and climate change",
   
@@ -175,7 +203,7 @@
     "name": "SHU",
     "logo": {
       "@type": "ImageObject",
-      "url": "/img/icon-512.png"
+      "url": "https://www.shulele.net/img/icon-512.png"
     }
   },
   "description": "Introduction of project Tasks in hydrologic modeling Accomplishment of the project keep updating"
@@ -241,7 +269,7 @@
     
     
     
-      <a class="navbar-brand" href="/en">SHU</a>
+      <a class="navbar-brand" href="/en/">SHU</a>
     
 
     
@@ -302,16 +330,9 @@
         
         
         
-          
-          
-          
-            
-          
-          
-        
 
         <li class="nav-item">
-          <a class="nav-link " href="/en/#posts"><span>Posts</span></a>
+          <a class="nav-link " href="/en/post/"><span>Posts</span></a>
         </li>
 
         
@@ -593,9 +614,14 @@
   <div class="article-container">
 
     <div class="article-style">
-      <h2 id="introduction-of-project">Introduction of project</h2>
+      
+
+<h2 id="introduction-of-project">Introduction of project</h2>
+
 <h2 id="tasks-in-hydrologic-modeling">Tasks in hydrologic modeling</h2>
+
 <h2 id="accomplishment-of-the-project">Accomplishment of the project</h2>
+
 <p><strong>keep updating</strong></p>
 
     </div>
@@ -635,7 +661,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/en/project/stormwater/&amp;text=Impact%20in%20hydrology%20from%20landuse%20and%20climate%20change" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://www.shulele.net/en/project/stormwater/&amp;text=Impact%20in%20hydrology%20from%20landuse%20and%20climate%20change" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -648,7 +674,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/en/project/stormwater/&amp;t=Impact%20in%20hydrology%20from%20landuse%20and%20climate%20change" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://www.shulele.net/en/project/stormwater/&amp;t=Impact%20in%20hydrology%20from%20landuse%20and%20climate%20change" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -661,7 +687,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Impact%20in%20hydrology%20from%20landuse%20and%20climate%20change&amp;body=/en/project/stormwater/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Impact%20in%20hydrology%20from%20landuse%20and%20climate%20change&amp;body=https://www.shulele.net/en/project/stormwater/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -674,7 +700,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/en/project/stormwater/&amp;title=Impact%20in%20hydrology%20from%20landuse%20and%20climate%20change" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://www.shulele.net/en/project/stormwater/&amp;title=Impact%20in%20hydrology%20from%20landuse%20and%20climate%20change" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -687,7 +713,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Impact%20in%20hydrology%20from%20landuse%20and%20climate%20change%20/en/project/stormwater/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Impact%20in%20hydrology%20from%20landuse%20and%20climate%20change%20https://www.shulele.net/en/project/stormwater/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -700,7 +726,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/en/project/stormwater/&amp;title=Impact%20in%20hydrology%20from%20landuse%20and%20climate%20change" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://www.shulele.net/en/project/stormwater/&amp;title=Impact%20in%20hydrology%20from%20landuse%20and%20climate%20change" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -739,11 +765,11 @@
   <div class="media author-card content-widget-hr">
     
       
-      <img class="portrait mr-3" src="/en/authors/admin/avatar_hu18b35d882719384e90116b918ac0f720_105008_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
+      <img class="portrait mr-3" src="/en/authors/admin/avatar_hueb1c8038b4a9c17f7b98348cfd22026b_72001_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="/">Lele Shu</a></h5>
+      <h5 class="card-title"><a href="https://www.shulele.net/">Lele Shu</a></h5>
       <h6 class="card-subtitle">Ph.D, Hydrologist, Lead of SHUD project</h6>
       <p class="card-text">Hydrologist on distributed numeric hydrologic modeling, impact of landuse and climate change, Coupled Nature-Human-System and hydrologic data mining.</p>
       <ul class="network-icon" aria-hidden="true">

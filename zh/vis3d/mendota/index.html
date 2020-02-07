@@ -31,9 +31,9 @@
   <meta name="description" content="威斯康星州Mendota湖的SHUD模型模拟。">
 
   
-  <link rel="alternate" hreflang="en" href="/en/vis3d/mendota/">
+  <link rel="alternate" hreflang="en" href="https://www.shulele.net/en/vis3d/mendota/">
   
-  <link rel="alternate" hreflang="zh-Hans" href="/zh/vis3d/mendota/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://www.shulele.net/zh/vis3d/mendota/">
 
   
 
@@ -93,15 +93,43 @@
 
 
 
-  
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135370684-1"></script>
 <script>
-  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','UA-135370684-1');
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-135370684-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
 </script>
 
+
+  
 
 
   
@@ -110,7 +138,7 @@
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/zh/vis3d/mendota/">
+  <link rel="canonical" href="https://www.shulele.net/zh/vis3d/mendota/">
 
   
   
@@ -125,10 +153,10 @@
   <meta property="twitter:creator" content="@leleshu">
   
   <meta property="og:site_name" content="舒乐乐">
-  <meta property="og:url" content="/zh/vis3d/mendota/">
+  <meta property="og:url" content="https://www.shulele.net/zh/vis3d/mendota/">
   <meta property="og:title" content="威斯康星州Mendota湖 | 舒乐乐">
-  <meta property="og:description" content="威斯康星州Mendota湖的SHUD模型模拟。"><meta property="og:image" content="/zh/vis3d/mendota/featured.png">
-  <meta property="twitter:image" content="/zh/vis3d/mendota/featured.png"><meta property="og:locale" content="zh-Hans">
+  <meta property="og:description" content="威斯康星州Mendota湖的SHUD模型模拟。"><meta property="og:image" content="https://www.shulele.net/zh/vis3d/mendota/featured.png">
+  <meta property="twitter:image" content="https://www.shulele.net/zh/vis3d/mendota/featured.png"><meta property="og:locale" content="zh-Hans">
   
     
       <meta property="article:published_time" content="2016-04-27T00:00:00&#43;00:00">
@@ -197,7 +225,7 @@
     
     
     
-      <a class="navbar-brand" href="/zh">舒乐乐</a>
+      <a class="navbar-brand" href="/zh/">舒乐乐</a>
     
 
     
@@ -249,25 +277,16 @@
         
         
         
-          
-        
 
         
         
         
         
         
-        
-          
-          
-          
-            
-          
-          
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/zh/#posts"><span>日志</span></a>
+          <a class="nav-link " href="/zh/post"><span>日志</span></a>
         </li>
 
         
@@ -603,7 +622,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/zh/vis3d/mendota/&amp;text=%e5%a8%81%e6%96%af%e5%ba%b7%e6%98%9f%e5%b7%9eMendota%e6%b9%96" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://www.shulele.net/zh/vis3d/mendota/&amp;text=%e5%a8%81%e6%96%af%e5%ba%b7%e6%98%9f%e5%b7%9eMendota%e6%b9%96" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -616,7 +635,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/zh/vis3d/mendota/&amp;t=%e5%a8%81%e6%96%af%e5%ba%b7%e6%98%9f%e5%b7%9eMendota%e6%b9%96" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://www.shulele.net/zh/vis3d/mendota/&amp;t=%e5%a8%81%e6%96%af%e5%ba%b7%e6%98%9f%e5%b7%9eMendota%e6%b9%96" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -629,7 +648,7 @@
       
       
       <li>
-        <a href="mailto:?subject=%e5%a8%81%e6%96%af%e5%ba%b7%e6%98%9f%e5%b7%9eMendota%e6%b9%96&amp;body=/zh/vis3d/mendota/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=%e5%a8%81%e6%96%af%e5%ba%b7%e6%98%9f%e5%b7%9eMendota%e6%b9%96&amp;body=https://www.shulele.net/zh/vis3d/mendota/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -642,7 +661,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/zh/vis3d/mendota/&amp;title=%e5%a8%81%e6%96%af%e5%ba%b7%e6%98%9f%e5%b7%9eMendota%e6%b9%96" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://www.shulele.net/zh/vis3d/mendota/&amp;title=%e5%a8%81%e6%96%af%e5%ba%b7%e6%98%9f%e5%b7%9eMendota%e6%b9%96" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -655,7 +674,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=%e5%a8%81%e6%96%af%e5%ba%b7%e6%98%9f%e5%b7%9eMendota%e6%b9%96%20/zh/vis3d/mendota/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=%e5%a8%81%e6%96%af%e5%ba%b7%e6%98%9f%e5%b7%9eMendota%e6%b9%96%20https://www.shulele.net/zh/vis3d/mendota/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -668,7 +687,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/zh/vis3d/mendota/&amp;title=%e5%a8%81%e6%96%af%e5%ba%b7%e6%98%9f%e5%b7%9eMendota%e6%b9%96" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://www.shulele.net/zh/vis3d/mendota/&amp;title=%e5%a8%81%e6%96%af%e5%ba%b7%e6%98%9f%e5%b7%9eMendota%e6%b9%96" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -703,11 +722,11 @@
   <div class="media author-card content-widget-hr">
     
       
-      <img class="portrait mr-3" src="/zh/authors/admin/avatar_hu18b35d882719384e90116b918ac0f720_171187_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
+      <img class="portrait mr-3" src="/zh/authors/admin/avatar_hueb1c8038b4a9c17f7b98348cfd22026b_72001_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="/">舒乐乐</a></h5>
+      <h5 class="card-title"><a href="https://www.shulele.net/">舒乐乐</a></h5>
       <h6 class="card-subtitle">博士后研究员, SHUD模型作者</h6>
       <p class="card-text">加州大学戴维斯分校博士后研究员, SHUD模型作者； 专注于数值方法的分布式水文模型、水文大数据的机器学习、气候/人类活动对水循环的影响和集成模型耦合研究</p>
       <ul class="network-icon" aria-hidden="true">

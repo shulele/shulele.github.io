@@ -31,9 +31,9 @@
   <meta name="description" content="Poster in AGU 2018 Fall meeting">
 
   
-  <link rel="alternate" hreflang="zh" href="/zh/talk/agu2018/">
+  <link rel="alternate" hreflang="zh" href="https://www.shulele.net/zh/talk/agu2018/">
   
-  <link rel="alternate" hreflang="en-us" href="/en/talk/agu2018/">
+  <link rel="alternate" hreflang="en-us" href="https://www.shulele.net/en/talk/agu2018/">
 
   
 
@@ -93,15 +93,43 @@
 
 
 
-  
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135370684-1"></script>
 <script>
-  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','UA-135370684-1');
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-135370684-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
 </script>
 
+
+  
 
 
   
@@ -110,7 +138,7 @@
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/en/talk/agu2018/">
+  <link rel="canonical" href="https://www.shulele.net/en/talk/agu2018/">
 
   
   
@@ -125,10 +153,10 @@
   <meta property="twitter:creator" content="@leleshu">
   
   <meta property="og:site_name" content="SHU">
-  <meta property="og:url" content="/en/talk/agu2018/">
+  <meta property="og:url" content="https://www.shulele.net/en/talk/agu2018/">
   <meta property="og:title" content="Model simulated spatial distribution and the variation of ground water level in Sacramento Watershed, California from 1985 to 2017 | SHU">
-  <meta property="og:description" content="Poster in AGU 2018 Fall meeting"><meta property="og:image" content="/en/talk/agu2018/featured.png">
-  <meta property="twitter:image" content="/en/talk/agu2018/featured.png"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Poster in AGU 2018 Fall meeting"><meta property="og:image" content="https://www.shulele.net/en/talk/agu2018/featured.png">
+  <meta property="twitter:image" content="https://www.shulele.net/en/talk/agu2018/featured.png"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2018-12-01T00:00:00-08:00">
@@ -152,7 +180,7 @@
   "@type": "Event",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "/en/talk/agu2018/"
+    "@id": "https://www.shulele.net/en/talk/agu2018/"
   },
   "name": "Model simulated spatial distribution and the variation of ground water level in Sacramento Watershed, California from 1985 to 2017",
   
@@ -163,7 +191,7 @@
   
   
   "image": [
-    "/en/talk/agu2018/featured.png"
+    "https://www.shulele.net/en/talk/agu2018/featured.png"
   ],
   
   "startDate": "2018-12-01T00:00:00-08:00",
@@ -235,7 +263,7 @@
     
     
     
-      <a class="navbar-brand" href="/en">SHU</a>
+      <a class="navbar-brand" href="/en/">SHU</a>
     
 
     
@@ -296,16 +324,9 @@
         
         
         
-          
-          
-          
-            
-          
-          
-        
 
         <li class="nav-item">
-          <a class="nav-link " href="/en/#posts"><span>Posts</span></a>
+          <a class="nav-link " href="/en/post/"><span>Posts</span></a>
         </li>
 
         
@@ -624,7 +645,7 @@
 
     
       <h3>Abstract</h3>
-      <p class="pub-abstract">The Sacramento watershed is the largest watershed in California, and an invaluable source of freshwater for communities, agriculture and ecosystems within the State. Nonetheless this watershed remains susceptible to dramatic shifts in water storage, which relate to changes in snowpack and groundwater. Over the coming century, groundwater withdrawals and precipitation variability are anticipated to put significant stress on this resource.  Further, historical drought has had a pronounced effect on groundwater tables in this watershed, and recovery following a drought tends to be slow.  In order to prepare for the impacts of future drought, an accurate assessment of historical water levels would be invaluable. <!-- raw HTML omitted --> This study is aim to investigate the change and spatial distribution of groundwater level in the Sacramento Watershed over the past 33 years (1985-2017), through the simulation with the Penn State Integrated Hydrologic Model (PIHM). As a physically-based hydrologic model, the PIHM is able to provide the spatial distribution of ground water and fluctuation of ground water table under the climate variation. The study begins with the calibration and analysis of 14 headwater sub-watersheds where managed reservoirs are not present, since modeling of these headwaters does not require knowledge of reservoir operations. From these results, calibrated parameters are then applied to the entire Sacramento watershed.  Our results will identify trends in groundwater storage, changing spatial distribution of the ground water over the past 33 years, and recharge and depletion rates of groundwater in historic drought and wet years.</p>
+      <p class="pub-abstract">The Sacramento watershed is the largest watershed in California, and an invaluable source of freshwater for communities, agriculture and ecosystems within the State. Nonetheless this watershed remains susceptible to dramatic shifts in water storage, which relate to changes in snowpack and groundwater. Over the coming century, groundwater withdrawals and precipitation variability are anticipated to put significant stress on this resource.  Further, historical drought has had a pronounced effect on groundwater tables in this watershed, and recovery following a drought tends to be slow.  In order to prepare for the impacts of future drought, an accurate assessment of historical water levels would be invaluable. <br> This study is aim to investigate the change and spatial distribution of groundwater level in the Sacramento Watershed over the past 33 years (1985-2017), through the simulation with the Penn State Integrated Hydrologic Model (PIHM). As a physically-based hydrologic model, the PIHM is able to provide the spatial distribution of ground water and fluctuation of ground water table under the climate variation. The study begins with the calibration and analysis of 14 headwater sub-watersheds where managed reservoirs are not present, since modeling of these headwaters does not require knowledge of reservoir operations. From these results, calibrated parameters are then applied to the entire Sacramento watershed.  Our results will identify trends in groundwater storage, changing spatial distribution of the ground water over the past 33 years, and recharge and depletion rates of groundwater in historic drought and wet years.</p>
     
 
     <div class="row">
@@ -677,7 +698,11 @@
     <div class="space-below"></div>
 
     <div class="article-style">
-      <!-- raw HTML omitted -->
+      <figure class="image">
+  <img src="AnnualPRCP.png" alt="{{ include.description }}" width="400">
+  <figcaption>Annual Precipitation (1985-2017) of Sacramento Watershed</figcaption>
+</figure>
+
 <p><strong>Please stop by my poster, we can have a talk.</strong></p>
 
     </div>
@@ -709,7 +734,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/en/talk/agu2018/&amp;text=Model%20simulated%20spatial%20distribution%20and%20the%20variation%20of%20ground%20water%20level%20in%20Sacramento%20Watershed,%20California%20from%201985%20to%202017" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://www.shulele.net/en/talk/agu2018/&amp;text=Model%20simulated%20spatial%20distribution%20and%20the%20variation%20of%20ground%20water%20level%20in%20Sacramento%20Watershed,%20California%20from%201985%20to%202017" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -722,7 +747,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/en/talk/agu2018/&amp;t=Model%20simulated%20spatial%20distribution%20and%20the%20variation%20of%20ground%20water%20level%20in%20Sacramento%20Watershed,%20California%20from%201985%20to%202017" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://www.shulele.net/en/talk/agu2018/&amp;t=Model%20simulated%20spatial%20distribution%20and%20the%20variation%20of%20ground%20water%20level%20in%20Sacramento%20Watershed,%20California%20from%201985%20to%202017" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -735,7 +760,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Model%20simulated%20spatial%20distribution%20and%20the%20variation%20of%20ground%20water%20level%20in%20Sacramento%20Watershed,%20California%20from%201985%20to%202017&amp;body=/en/talk/agu2018/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Model%20simulated%20spatial%20distribution%20and%20the%20variation%20of%20ground%20water%20level%20in%20Sacramento%20Watershed,%20California%20from%201985%20to%202017&amp;body=https://www.shulele.net/en/talk/agu2018/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -748,7 +773,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/en/talk/agu2018/&amp;title=Model%20simulated%20spatial%20distribution%20and%20the%20variation%20of%20ground%20water%20level%20in%20Sacramento%20Watershed,%20California%20from%201985%20to%202017" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://www.shulele.net/en/talk/agu2018/&amp;title=Model%20simulated%20spatial%20distribution%20and%20the%20variation%20of%20ground%20water%20level%20in%20Sacramento%20Watershed,%20California%20from%201985%20to%202017" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -761,7 +786,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Model%20simulated%20spatial%20distribution%20and%20the%20variation%20of%20ground%20water%20level%20in%20Sacramento%20Watershed,%20California%20from%201985%20to%202017%20/en/talk/agu2018/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Model%20simulated%20spatial%20distribution%20and%20the%20variation%20of%20ground%20water%20level%20in%20Sacramento%20Watershed,%20California%20from%201985%20to%202017%20https://www.shulele.net/en/talk/agu2018/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -774,7 +799,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/en/talk/agu2018/&amp;title=Model%20simulated%20spatial%20distribution%20and%20the%20variation%20of%20ground%20water%20level%20in%20Sacramento%20Watershed,%20California%20from%201985%20to%202017" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://www.shulele.net/en/talk/agu2018/&amp;title=Model%20simulated%20spatial%20distribution%20and%20the%20variation%20of%20ground%20water%20level%20in%20Sacramento%20Watershed,%20California%20from%201985%20to%202017" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>

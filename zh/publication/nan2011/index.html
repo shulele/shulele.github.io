@@ -31,9 +31,9 @@
   <meta name="description" content="We designed and implemented an integrated modeling environment (HIME) for hydrological and land surface modeling purpose in a much extendable, efficient and easy use manner. With such design, a physical process was implemented as a module, or component. A new model can be generated in an intuitive way by linking module icons together and establishing their relationships. Following an introduction to the overall architecture, the designs for module linkage and data transfer between modules are described in details. Using XML based meta-information, modules in either source codes or binary form can be utilized by the environment. As a demonstration, with the help of HIME, we replaced the evaporation module of TOPMODEL with the evapotranspiration module from the Noah land surface model which explicitly accounts for vegetation transpiration. This example showed the effectiveness and efficiency of the modeling environment on model integration.">
 
   
-  <link rel="alternate" hreflang="en" href="/en/publication/nan2011/">
+  <link rel="alternate" hreflang="en" href="https://www.shulele.net/en/publication/nan2011/">
   
-  <link rel="alternate" hreflang="zh-Hans" href="/zh/publication/nan2011/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://www.shulele.net/zh/publication/nan2011/">
 
   
 
@@ -93,15 +93,43 @@
 
 
 
-  
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135370684-1"></script>
 <script>
-  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','UA-135370684-1');
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-135370684-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
 </script>
 
+
+  
 
 
   
@@ -110,7 +138,7 @@
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/zh/publication/nan2011/">
+  <link rel="canonical" href="https://www.shulele.net/zh/publication/nan2011/">
 
   
   
@@ -126,10 +154,10 @@
   <meta property="twitter:creator" content="@leleshu">
   
   <meta property="og:site_name" content="舒乐乐">
-  <meta property="og:url" content="/zh/publication/nan2011/">
+  <meta property="og:url" content="https://www.shulele.net/zh/publication/nan2011/">
   <meta property="og:title" content="Integrated modeling environment and a preliminary application on the Heihe River Basin, China | 舒乐乐">
-  <meta property="og:description" content="We designed and implemented an integrated modeling environment (HIME) for hydrological and land surface modeling purpose in a much extendable, efficient and easy use manner. With such design, a physical process was implemented as a module, or component. A new model can be generated in an intuitive way by linking module icons together and establishing their relationships. Following an introduction to the overall architecture, the designs for module linkage and data transfer between modules are described in details. Using XML based meta-information, modules in either source codes or binary form can be utilized by the environment. As a demonstration, with the help of HIME, we replaced the evaporation module of TOPMODEL with the evapotranspiration module from the Noah land surface model which explicitly accounts for vegetation transpiration. This example showed the effectiveness and efficiency of the modeling environment on model integration."><meta property="og:image" content="/img/icon-192.png">
-  <meta property="twitter:image" content="/img/icon-192.png"><meta property="og:locale" content="zh-Hans">
+  <meta property="og:description" content="We designed and implemented an integrated modeling environment (HIME) for hydrological and land surface modeling purpose in a much extendable, efficient and easy use manner. With such design, a physical process was implemented as a module, or component. A new model can be generated in an intuitive way by linking module icons together and establishing their relationships. Following an introduction to the overall architecture, the designs for module linkage and data transfer between modules are described in details. Using XML based meta-information, modules in either source codes or binary form can be utilized by the environment. As a demonstration, with the help of HIME, we replaced the evaporation module of TOPMODEL with the evapotranspiration module from the Noah land surface model which explicitly accounts for vegetation transpiration. This example showed the effectiveness and efficiency of the modeling environment on model integration."><meta property="og:image" content="https://www.shulele.net/img/icon-192.png">
+  <meta property="twitter:image" content="https://www.shulele.net/img/icon-192.png"><meta property="og:locale" content="zh-Hans">
   
     
       <meta property="article:published_time" content="2011-08-25T00:00:00-07:00">
@@ -158,7 +186,7 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "/zh/publication/nan2011/"
+    "@id": "https://www.shulele.net/zh/publication/nan2011/"
   },
   "headline": "Integrated modeling environment and a preliminary application on the Heihe River Basin, China",
   
@@ -175,7 +203,7 @@
     "name": "舒乐乐",
     "logo": {
       "@type": "ImageObject",
-      "url": "/img/icon-512.png"
+      "url": "https://www.shulele.net/img/icon-512.png"
     }
   },
   "description": "We designed and implemented an integrated modeling environment (HIME) for hydrological and land surface modeling purpose in a much extendable, efficient and easy use manner. With such design, a physical process was implemented as a module, or component. A new model can be generated in an intuitive way by linking module icons together and establishing their relationships. Following an introduction to the overall architecture, the designs for module linkage and data transfer between modules are described in details. Using XML based meta-information, modules in either source codes or binary form can be utilized by the environment. As a demonstration, with the help of HIME, we replaced the evaporation module of TOPMODEL with the evapotranspiration module from the Noah land surface model which explicitly accounts for vegetation transpiration. This example showed the effectiveness and efficiency of the modeling environment on model integration."
@@ -241,7 +269,7 @@
     
     
     
-      <a class="navbar-brand" href="/zh">舒乐乐</a>
+      <a class="navbar-brand" href="/zh/">舒乐乐</a>
     
 
     
@@ -293,25 +321,16 @@
         
         
         
-          
-        
 
         
         
         
         
         
-        
-          
-          
-          
-            
-          
-          
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/zh/#posts"><span>日志</span></a>
+          <a class="nav-link " href="/zh/post"><span>日志</span></a>
         </li>
 
         
@@ -703,7 +722,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/zh/publication/nan2011/&amp;text=Integrated%20modeling%20environment%20and%20a%20preliminary%20application%20on%20the%20Heihe%20River%20Basin,%20China" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://www.shulele.net/zh/publication/nan2011/&amp;text=Integrated%20modeling%20environment%20and%20a%20preliminary%20application%20on%20the%20Heihe%20River%20Basin,%20China" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -716,7 +735,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/zh/publication/nan2011/&amp;t=Integrated%20modeling%20environment%20and%20a%20preliminary%20application%20on%20the%20Heihe%20River%20Basin,%20China" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://www.shulele.net/zh/publication/nan2011/&amp;t=Integrated%20modeling%20environment%20and%20a%20preliminary%20application%20on%20the%20Heihe%20River%20Basin,%20China" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -729,7 +748,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Integrated%20modeling%20environment%20and%20a%20preliminary%20application%20on%20the%20Heihe%20River%20Basin,%20China&amp;body=/zh/publication/nan2011/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Integrated%20modeling%20environment%20and%20a%20preliminary%20application%20on%20the%20Heihe%20River%20Basin,%20China&amp;body=https://www.shulele.net/zh/publication/nan2011/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -742,7 +761,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/zh/publication/nan2011/&amp;title=Integrated%20modeling%20environment%20and%20a%20preliminary%20application%20on%20the%20Heihe%20River%20Basin,%20China" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://www.shulele.net/zh/publication/nan2011/&amp;title=Integrated%20modeling%20environment%20and%20a%20preliminary%20application%20on%20the%20Heihe%20River%20Basin,%20China" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -755,7 +774,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Integrated%20modeling%20environment%20and%20a%20preliminary%20application%20on%20the%20Heihe%20River%20Basin,%20China%20/zh/publication/nan2011/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Integrated%20modeling%20environment%20and%20a%20preliminary%20application%20on%20the%20Heihe%20River%20Basin,%20China%20https://www.shulele.net/zh/publication/nan2011/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -768,7 +787,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/zh/publication/nan2011/&amp;title=Integrated%20modeling%20environment%20and%20a%20preliminary%20application%20on%20the%20Heihe%20River%20Basin,%20China" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://www.shulele.net/zh/publication/nan2011/&amp;title=Integrated%20modeling%20environment%20and%20a%20preliminary%20application%20on%20the%20Heihe%20River%20Basin,%20China" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>

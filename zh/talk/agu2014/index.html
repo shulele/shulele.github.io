@@ -31,9 +31,9 @@
   <meta name="description" content="Poster in AGU 2014 Fall meeting">
 
   
-  <link rel="alternate" hreflang="en" href="/en/talk/agu2014/">
+  <link rel="alternate" hreflang="en" href="https://www.shulele.net/en/talk/agu2014/">
   
-  <link rel="alternate" hreflang="zh-Hans" href="/zh/talk/agu2014/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://www.shulele.net/zh/talk/agu2014/">
 
   
 
@@ -93,15 +93,43 @@
 
 
 
-  
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135370684-1"></script>
 <script>
-  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','UA-135370684-1');
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-135370684-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
 </script>
 
+
+  
 
 
   
@@ -110,7 +138,7 @@
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/zh/talk/agu2014/">
+  <link rel="canonical" href="https://www.shulele.net/zh/talk/agu2014/">
 
   
   
@@ -125,10 +153,10 @@
   <meta property="twitter:creator" content="@leleshu">
   
   <meta property="og:site_name" content="舒乐乐">
-  <meta property="og:url" content="/zh/talk/agu2014/">
+  <meta property="og:url" content="https://www.shulele.net/zh/talk/agu2014/">
   <meta property="og:title" content="Reconstructing the role of landuse change on water yield at the Maya urban center Tikal, Guatemala [700-800 AD] | 舒乐乐">
-  <meta property="og:description" content="Poster in AGU 2014 Fall meeting"><meta property="og:image" content="/zh/talk/agu2014/featured.jpg">
-  <meta property="twitter:image" content="/zh/talk/agu2014/featured.jpg"><meta property="og:locale" content="zh-Hans">
+  <meta property="og:description" content="Poster in AGU 2014 Fall meeting"><meta property="og:image" content="https://www.shulele.net/zh/talk/agu2014/featured.jpg">
+  <meta property="twitter:image" content="https://www.shulele.net/zh/talk/agu2014/featured.jpg"><meta property="og:locale" content="zh-Hans">
   
     
       <meta property="article:published_time" content="2014-12-31T00:00:00-08:00">
@@ -152,7 +180,7 @@
   "@type": "Event",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "/zh/talk/agu2014/"
+    "@id": "https://www.shulele.net/zh/talk/agu2014/"
   },
   "name": "Reconstructing the role of landuse change on water yield at the Maya urban center Tikal, Guatemala [700-800 AD]",
   
@@ -163,7 +191,7 @@
   
   
   "image": [
-    "/zh/talk/agu2014/featured.jpg"
+    "https://www.shulele.net/zh/talk/agu2014/featured.jpg"
   ],
   
   "startDate": "2014-12-31T00:00:00-08:00",
@@ -235,7 +263,7 @@
     
     
     
-      <a class="navbar-brand" href="/zh">舒乐乐</a>
+      <a class="navbar-brand" href="/zh/">舒乐乐</a>
     
 
     
@@ -287,25 +315,16 @@
         
         
         
-          
-        
 
         
         
         
         
         
-        
-          
-          
-          
-            
-          
-          
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/zh/#posts"><span>日志</span></a>
+          <a class="nav-link " href="/zh/post"><span>日志</span></a>
         </li>
 
         
@@ -612,7 +631,7 @@
 <div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 500px; max-height: 250px;">
   <div style="position: relative">
     <img src="/zh/talk/agu2014/featured.jpg" alt="" class="featured-image">
-    <span class="article-header-caption">View over the Grand Plaza and Temple I by <a href="https://www.flickr.com/photos/good_day/">Ken Douglas</a></span>
+    <span class="article-header-caption">View over the Grand Plaza and Temple I by <a href="https://www.flickr.com/photos/good_day/" target="_blank">Ken Douglas</a></span>
   </div>
 </div>
 
@@ -622,7 +641,7 @@
 
     
       <h3>摘要</h3>
-      <p class="pub-abstract">In recent years scientists have been debating the role of climate on the trajectory of Maya culture in the Late Classic period, 600-900 AD. Paleo-climatologists have reconstructed realizations of climate [Haug 2003; Medina-Elizalde 2012; Hodell 1995] that offer evidence for reduced precipitation in the Late Classic period. Recently French et al [2014] proposed that landuse change may also play an important role in the available water supply at Tikal, with the removal of tropical forest and conversion to maize-agriculture and urban landuse leading to extensive development of sophisticated water storage systems and rainfall harvesting for water supply and irrigation. Rapid population growth is a concurrent and compounding factor [Scarborough 2012; Shaw 2003] where landuse impacts the distribution and availability of water storage in the surrounding watershed. Although proposed climate scenarios for the Late Classic offer a quantitative scenario for possible atmospheric conditions at Tikal, the impact of land use change on the distribution and availability of water supply has not been evaluated. <!-- raw HTML omitted --> In this research we reconstruct the plausible vulnerability of the water supply at Tikal under the combined forces of climatic and land use change. The Penn State Integrated Hydrologic Model (PIHM) [Qu and Duffy 2007] is used to simulate the daily-to-seasonal space and time distribution of soil moisture, groundwater and surface water storage for the period 700-800 AD, the peak of Tikal’s population history. The analysis includes a quantitative assessment of the likely changes in available water storage as tropical forest is converted to maize agriculture and urban land. In particular we examine the important control that reduced canopy interception plays in the seasonal availability of water. Preliminary simulations suggest that removing tropical forest increases runoff and available water storage, which may serve to moderate seasonal and long-term drought conditions.</p>
+      <p class="pub-abstract">In recent years scientists have been debating the role of climate on the trajectory of Maya culture in the Late Classic period, 600-900 AD. Paleo-climatologists have reconstructed realizations of climate [Haug 2003; Medina-Elizalde 2012; Hodell 1995] that offer evidence for reduced precipitation in the Late Classic period. Recently French et al [2014] proposed that landuse change may also play an important role in the available water supply at Tikal, with the removal of tropical forest and conversion to maize-agriculture and urban landuse leading to extensive development of sophisticated water storage systems and rainfall harvesting for water supply and irrigation. Rapid population growth is a concurrent and compounding factor [Scarborough 2012; Shaw 2003] where landuse impacts the distribution and availability of water storage in the surrounding watershed. Although proposed climate scenarios for the Late Classic offer a quantitative scenario for possible atmospheric conditions at Tikal, the impact of land use change on the distribution and availability of water supply has not been evaluated. <br> In this research we reconstruct the plausible vulnerability of the water supply at Tikal under the combined forces of climatic and land use change. The Penn State Integrated Hydrologic Model (PIHM) [Qu and Duffy 2007] is used to simulate the daily-to-seasonal space and time distribution of soil moisture, groundwater and surface water storage for the period 700-800 AD, the peak of Tikal’s population history. The analysis includes a quantitative assessment of the likely changes in available water storage as tropical forest is converted to maize agriculture and urban land. In particular we examine the important control that reduced canopy interception plays in the seasonal availability of water. Preliminary simulations suggest that removing tropical forest increases runoff and available water storage, which may serve to moderate seasonal and long-term drought conditions.</p>
     
 
     <div class="row">
@@ -711,7 +730,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/zh/talk/agu2014/&amp;text=Reconstructing%20the%20role%20of%20landuse%20change%20on%20water%20yield%20at%20the%20Maya%20urban%20center%20Tikal,%20Guatemala%20[700-800%20AD]" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://www.shulele.net/zh/talk/agu2014/&amp;text=Reconstructing%20the%20role%20of%20landuse%20change%20on%20water%20yield%20at%20the%20Maya%20urban%20center%20Tikal,%20Guatemala%20[700-800%20AD]" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -724,7 +743,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/zh/talk/agu2014/&amp;t=Reconstructing%20the%20role%20of%20landuse%20change%20on%20water%20yield%20at%20the%20Maya%20urban%20center%20Tikal,%20Guatemala%20[700-800%20AD]" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://www.shulele.net/zh/talk/agu2014/&amp;t=Reconstructing%20the%20role%20of%20landuse%20change%20on%20water%20yield%20at%20the%20Maya%20urban%20center%20Tikal,%20Guatemala%20[700-800%20AD]" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -737,7 +756,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Reconstructing%20the%20role%20of%20landuse%20change%20on%20water%20yield%20at%20the%20Maya%20urban%20center%20Tikal,%20Guatemala%20[700-800%20AD]&amp;body=/zh/talk/agu2014/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Reconstructing%20the%20role%20of%20landuse%20change%20on%20water%20yield%20at%20the%20Maya%20urban%20center%20Tikal,%20Guatemala%20[700-800%20AD]&amp;body=https://www.shulele.net/zh/talk/agu2014/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -750,7 +769,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/zh/talk/agu2014/&amp;title=Reconstructing%20the%20role%20of%20landuse%20change%20on%20water%20yield%20at%20the%20Maya%20urban%20center%20Tikal,%20Guatemala%20[700-800%20AD]" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://www.shulele.net/zh/talk/agu2014/&amp;title=Reconstructing%20the%20role%20of%20landuse%20change%20on%20water%20yield%20at%20the%20Maya%20urban%20center%20Tikal,%20Guatemala%20[700-800%20AD]" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -763,7 +782,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Reconstructing%20the%20role%20of%20landuse%20change%20on%20water%20yield%20at%20the%20Maya%20urban%20center%20Tikal,%20Guatemala%20[700-800%20AD]%20/zh/talk/agu2014/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Reconstructing%20the%20role%20of%20landuse%20change%20on%20water%20yield%20at%20the%20Maya%20urban%20center%20Tikal,%20Guatemala%20[700-800%20AD]%20https://www.shulele.net/zh/talk/agu2014/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -776,7 +795,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/zh/talk/agu2014/&amp;title=Reconstructing%20the%20role%20of%20landuse%20change%20on%20water%20yield%20at%20the%20Maya%20urban%20center%20Tikal,%20Guatemala%20[700-800%20AD]" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://www.shulele.net/zh/talk/agu2014/&amp;title=Reconstructing%20the%20role%20of%20landuse%20change%20on%20water%20yield%20at%20the%20Maya%20urban%20center%20Tikal,%20Guatemala%20[700-800%20AD]" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>

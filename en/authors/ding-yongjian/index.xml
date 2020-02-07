@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ding, Yongjian | SHU</title>
-    <link>/en/authors/ding-yongjian/</link>
-      <atom:link href="/en/authors/ding-yongjian/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.shulele.net/en/authors/ding-yongjian/</link>
+      <atom:link href="https://www.shulele.net/en/authors/ding-yongjian/index.xml" rel="self" type="application/rss+xml" />
     <description>Ding, Yongjian</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 25 Aug 2011 00:00:00 -0700</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://www.shulele.net/img/icon-192.png</url>
       <title>Ding, Yongjian</title>
-      <link>/en/authors/ding-yongjian/</link>
+      <link>https://www.shulele.net/en/authors/ding-yongjian/</link>
     </image>
     
     <item>
       <title>Integrated modeling environment and a preliminary application on the Heihe River Basin, China</title>
-      <link>/en/publication/nan2011/</link>
+      <link>https://www.shulele.net/en/publication/nan2011/</link>
       <pubDate>Thu, 25 Aug 2011 00:00:00 -0700</pubDate>
-      <guid>/en/publication/nan2011/</guid>
+      <guid>https://www.shulele.net/en/publication/nan2011/</guid>
       <description></description>
     </item>
     

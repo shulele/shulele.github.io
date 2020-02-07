@@ -2,24 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Drought | SHU</title>
-    <link>/en/tags/drought/</link>
-      <atom:link href="/en/tags/drought/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.shulele.net/en/tags/drought/</link>
+      <atom:link href="https://www.shulele.net/en/tags/drought/index.xml" rel="self" type="application/rss+xml" />
     <description>Drought</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 05 Nov 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://www.shulele.net/img/icon-192.png</url>
       <title>Drought</title>
-      <link>/en/tags/drought/</link>
+      <link>https://www.shulele.net/en/tags/drought/</link>
     </image>
     
     <item>
       <title>Automatic hydrologic deployment and modeling</title>
-      <link>/en/project/mint/</link>
+      <link>https://www.shulele.net/en/project/mint/</link>
       <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/en/project/mint/</guid>
-      <description>&lt;p&gt;This project is the hydrologic modeling part of the project &lt;em&gt;Model Integration through Knowledge-Rich Data and Process Composition&lt;/em&gt;.&lt;/p&gt;
+      <guid>https://www.shulele.net/en/project/mint/</guid>
+      <description>
+
+&lt;p&gt;This project is the hydrologic modeling part of the project &lt;em&gt;Model Integration through Knowledge-Rich Data and Process Composition&lt;/em&gt;.&lt;/p&gt;
+
 &lt;h2 id=&#34;introduction-of-project&#34;&gt;Introduction of project&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;http://mint-project.info&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://mint-project.info&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
 
 
 
@@ -49,7 +54,9 @@
 
 &lt;/figure&gt;
 
+
 &lt;h2 id=&#34;tasks-in-hydrologic-modeling&#34;&gt;Tasks in hydrologic modeling&lt;/h2&gt;
+
 
 
 
@@ -78,6 +85,7 @@
 
 
 &lt;/figure&gt;
+
 
 
 
@@ -121,6 +129,7 @@
 
 
 
+
 &lt;figure&gt;
 
 
@@ -137,17 +146,22 @@
 
 &lt;/figure&gt;
 
+
 &lt;h2 id=&#34;accomplishment-of-the-project&#34;&gt;Accomplishment of the project&lt;/h2&gt;
+
 &lt;p&gt;&lt;strong&gt;keep updating&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Reconstructing the role of landuse change on water yield at the Maya urban</title>
-      <link>/en/project/tikal/</link>
+      <link>https://www.shulele.net/en/project/tikal/</link>
       <pubDate>Sat, 23 Jul 2016 21:13:14 -0500</pubDate>
-      <guid>/en/project/tikal/</guid>
-      <description>&lt;h2 id=&#34;introduction-of-project&#34;&gt;Introduction of project&lt;/h2&gt;
+      <guid>https://www.shulele.net/en/project/tikal/</guid>
+      <description>
+
+&lt;h2 id=&#34;introduction-of-project&#34;&gt;Introduction of project&lt;/h2&gt;
+
 
 
 
@@ -177,7 +191,9 @@
 
 &lt;/figure&gt;
 
+
 &lt;h2 id=&#34;tasks-in-hydrologic-modeling&#34;&gt;Tasks in hydrologic modeling&lt;/h2&gt;
+
 
 
 
@@ -220,6 +236,7 @@
 
 
 
+
 &lt;figure&gt;
 
 
@@ -236,19 +253,26 @@
 
 &lt;/figure&gt;
 
+
 &lt;h2 id=&#34;accomplishment-of-the-project&#34;&gt;Accomplishment of the project&lt;/h2&gt;
+
 &lt;p&gt;&lt;strong&gt;keep updating&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Impact in hydrology from landuse and climate change</title>
-      <link>/en/project/stormwater/</link>
+      <link>https://www.shulele.net/en/project/stormwater/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 +0000</pubDate>
-      <guid>/en/project/stormwater/</guid>
-      <description>&lt;h2 id=&#34;introduction-of-project&#34;&gt;Introduction of project&lt;/h2&gt;
+      <guid>https://www.shulele.net/en/project/stormwater/</guid>
+      <description>
+
+&lt;h2 id=&#34;introduction-of-project&#34;&gt;Introduction of project&lt;/h2&gt;
+
 &lt;h2 id=&#34;tasks-in-hydrologic-modeling&#34;&gt;Tasks in hydrologic modeling&lt;/h2&gt;
+
 &lt;h2 id=&#34;accomplishment-of-the-project&#34;&gt;Accomplishment of the project&lt;/h2&gt;
+
 &lt;p&gt;&lt;strong&gt;keep updating&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>

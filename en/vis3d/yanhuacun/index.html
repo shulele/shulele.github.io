@@ -31,9 +31,9 @@
   <meta name="description" content="The mud flood 2018 in Yanhua Village, Ningxia, China">
 
   
-  <link rel="alternate" hreflang="zh" href="/zh/vis3d/yanhuacun/">
+  <link rel="alternate" hreflang="zh" href="https://www.shulele.net/zh/vis3d/yanhuacun/">
   
-  <link rel="alternate" hreflang="en-us" href="/en/vis3d/yanhuacun/">
+  <link rel="alternate" hreflang="en-us" href="https://www.shulele.net/en/vis3d/yanhuacun/">
 
   
 
@@ -93,15 +93,43 @@
 
 
 
-  
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135370684-1"></script>
 <script>
-  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','UA-135370684-1');
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-135370684-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
 </script>
 
+
+  
 
 
   
@@ -110,7 +138,7 @@
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/en/vis3d/yanhuacun/">
+  <link rel="canonical" href="https://www.shulele.net/en/vis3d/yanhuacun/">
 
   
   
@@ -125,10 +153,10 @@
   <meta property="twitter:creator" content="@leleshu">
   
   <meta property="og:site_name" content="SHU">
-  <meta property="og:url" content="/en/vis3d/yanhuacun/">
+  <meta property="og:url" content="https://www.shulele.net/en/vis3d/yanhuacun/">
   <meta property="og:title" content="Yanhua Village in Ningxia, China | SHU">
-  <meta property="og:description" content="The mud flood 2018 in Yanhua Village, Ningxia, China"><meta property="og:image" content="/en/vis3d/yanhuacun/featured.png">
-  <meta property="twitter:image" content="/en/vis3d/yanhuacun/featured.png"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="The mud flood 2018 in Yanhua Village, Ningxia, China"><meta property="og:image" content="https://www.shulele.net/en/vis3d/yanhuacun/featured.png">
+  <meta property="twitter:image" content="https://www.shulele.net/en/vis3d/yanhuacun/featured.png"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2016-04-27T00:00:00&#43;00:00">
@@ -197,7 +225,7 @@
     
     
     
-      <a class="navbar-brand" href="/en">SHU</a>
+      <a class="navbar-brand" href="/en/">SHU</a>
     
 
     
@@ -258,16 +286,9 @@
         
         
         
-          
-          
-          
-            
-          
-          
-        
 
         <li class="nav-item">
-          <a class="nav-link " href="/en/#posts"><span>Posts</span></a>
+          <a class="nav-link " href="/en/post/"><span>Posts</span></a>
         </li>
 
         
@@ -603,7 +624,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/en/vis3d/yanhuacun/&amp;text=Yanhua%20Village%20in%20Ningxia,%20China" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://www.shulele.net/en/vis3d/yanhuacun/&amp;text=Yanhua%20Village%20in%20Ningxia,%20China" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -616,7 +637,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/en/vis3d/yanhuacun/&amp;t=Yanhua%20Village%20in%20Ningxia,%20China" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://www.shulele.net/en/vis3d/yanhuacun/&amp;t=Yanhua%20Village%20in%20Ningxia,%20China" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -629,7 +650,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Yanhua%20Village%20in%20Ningxia,%20China&amp;body=/en/vis3d/yanhuacun/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Yanhua%20Village%20in%20Ningxia,%20China&amp;body=https://www.shulele.net/en/vis3d/yanhuacun/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -642,7 +663,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/en/vis3d/yanhuacun/&amp;title=Yanhua%20Village%20in%20Ningxia,%20China" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://www.shulele.net/en/vis3d/yanhuacun/&amp;title=Yanhua%20Village%20in%20Ningxia,%20China" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -655,7 +676,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Yanhua%20Village%20in%20Ningxia,%20China%20/en/vis3d/yanhuacun/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Yanhua%20Village%20in%20Ningxia,%20China%20https://www.shulele.net/en/vis3d/yanhuacun/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -668,7 +689,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/en/vis3d/yanhuacun/&amp;title=Yanhua%20Village%20in%20Ningxia,%20China" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://www.shulele.net/en/vis3d/yanhuacun/&amp;title=Yanhua%20Village%20in%20Ningxia,%20China" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -703,11 +724,11 @@
   <div class="media author-card content-widget-hr">
     
       
-      <img class="portrait mr-3" src="/en/authors/admin/avatar_hu18b35d882719384e90116b918ac0f720_105008_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
+      <img class="portrait mr-3" src="/en/authors/admin/avatar_hueb1c8038b4a9c17f7b98348cfd22026b_72001_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="/">Lele Shu</a></h5>
+      <h5 class="card-title"><a href="https://www.shulele.net/">Lele Shu</a></h5>
       <h6 class="card-subtitle">Ph.D, Hydrologist, Lead of SHUD project</h6>
       <p class="card-text">Hydrologist on distributed numeric hydrologic modeling, impact of landuse and climate change, Coupled Nature-Human-System and hydrologic data mining.</p>
       <ul class="network-icon" aria-hidden="true">

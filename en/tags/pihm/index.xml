@@ -2,24 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PIHM | SHU</title>
-    <link>/en/tags/pihm/</link>
-      <atom:link href="/en/tags/pihm/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.shulele.net/en/tags/pihm/</link>
+      <atom:link href="https://www.shulele.net/en/tags/pihm/index.xml" rel="self" type="application/rss+xml" />
     <description>PIHM</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 05 Nov 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://www.shulele.net/img/icon-192.png</url>
       <title>PIHM</title>
-      <link>/en/tags/pihm/</link>
+      <link>https://www.shulele.net/en/tags/pihm/</link>
     </image>
     
     <item>
       <title>Automatic hydrologic deployment and modeling</title>
-      <link>/en/project/mint/</link>
+      <link>https://www.shulele.net/en/project/mint/</link>
       <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/en/project/mint/</guid>
-      <description>&lt;p&gt;This project is the hydrologic modeling part of the project &lt;em&gt;Model Integration through Knowledge-Rich Data and Process Composition&lt;/em&gt;.&lt;/p&gt;
+      <guid>https://www.shulele.net/en/project/mint/</guid>
+      <description>
+
+&lt;p&gt;This project is the hydrologic modeling part of the project &lt;em&gt;Model Integration through Knowledge-Rich Data and Process Composition&lt;/em&gt;.&lt;/p&gt;
+
 &lt;h2 id=&#34;introduction-of-project&#34;&gt;Introduction of project&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;http://mint-project.info&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://mint-project.info&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
 
 
 
@@ -49,7 +54,9 @@
 
 &lt;/figure&gt;
 
+
 &lt;h2 id=&#34;tasks-in-hydrologic-modeling&#34;&gt;Tasks in hydrologic modeling&lt;/h2&gt;
+
 
 
 
@@ -78,6 +85,7 @@
 
 
 &lt;/figure&gt;
+
 
 
 
@@ -121,6 +129,7 @@
 
 
 
+
 &lt;figure&gt;
 
 
@@ -137,35 +146,44 @@
 
 &lt;/figure&gt;
 
+
 &lt;h2 id=&#34;accomplishment-of-the-project&#34;&gt;Accomplishment of the project&lt;/h2&gt;
+
 &lt;p&gt;&lt;strong&gt;keep updating&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Model simulated spatial distribution and the variation of ground water level in Sacramento Watershed, California from 1985 to 2017</title>
-      <link>/en/talk/agu2018/</link>
+      <link>https://www.shulele.net/en/talk/agu2018/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 -0800</pubDate>
-      <guid>/en/talk/agu2018/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
+      <guid>https://www.shulele.net/en/talk/agu2018/</guid>
+      <description>&lt;figure class=&#34;image&#34;&gt;
+  &lt;img src=&#34;AnnualPRCP.png&#34; alt=&#34;{{ include.description }}&#34; width=&#34;400&#34;&gt;
+  &lt;figcaption&gt;Annual Precipitation (1985-2017) of Sacramento Watershed&lt;/figcaption&gt;
+&lt;/figure&gt;
+
 &lt;p&gt;&lt;strong&gt;Please stop by my poster, we can have a talk.&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Coupling Cellular Automata Land Use Change with Distributed Hydrologic models</title>
-      <link>/en/talk/agu2017/</link>
+      <link>https://www.shulele.net/en/talk/agu2017/</link>
       <pubDate>Fri, 01 Dec 2017 00:00:00 -0800</pubDate>
-      <guid>/en/talk/agu2017/</guid>
+      <guid>https://www.shulele.net/en/talk/agu2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Reconstructing the role of landuse change on water yield at the Maya urban</title>
-      <link>/en/project/tikal/</link>
+      <link>https://www.shulele.net/en/project/tikal/</link>
       <pubDate>Sat, 23 Jul 2016 21:13:14 -0500</pubDate>
-      <guid>/en/project/tikal/</guid>
-      <description>&lt;h2 id=&#34;introduction-of-project&#34;&gt;Introduction of project&lt;/h2&gt;
+      <guid>https://www.shulele.net/en/project/tikal/</guid>
+      <description>
+
+&lt;h2 id=&#34;introduction-of-project&#34;&gt;Introduction of project&lt;/h2&gt;
+
 
 
 
@@ -195,7 +213,9 @@
 
 &lt;/figure&gt;
 
+
 &lt;h2 id=&#34;tasks-in-hydrologic-modeling&#34;&gt;Tasks in hydrologic modeling&lt;/h2&gt;
+
 
 
 
@@ -238,6 +258,7 @@
 
 
 
+
 &lt;figure&gt;
 
 
@@ -254,44 +275,51 @@
 
 &lt;/figure&gt;
 
+
 &lt;h2 id=&#34;accomplishment-of-the-project&#34;&gt;Accomplishment of the project&lt;/h2&gt;
+
 &lt;p&gt;&lt;strong&gt;keep updating&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Catchment hydrological change from soil degradation</title>
-      <link>/en/talk/agu2015/</link>
+      <link>https://www.shulele.net/en/talk/agu2015/</link>
       <pubDate>Tue, 01 Dec 2015 00:00:00 -0800</pubDate>
-      <guid>/en/talk/agu2015/</guid>
+      <guid>https://www.shulele.net/en/talk/agu2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Impact in hydrology from landuse and climate change</title>
-      <link>/en/project/stormwater/</link>
+      <link>https://www.shulele.net/en/project/stormwater/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 +0000</pubDate>
-      <guid>/en/project/stormwater/</guid>
-      <description>&lt;h2 id=&#34;introduction-of-project&#34;&gt;Introduction of project&lt;/h2&gt;
+      <guid>https://www.shulele.net/en/project/stormwater/</guid>
+      <description>
+
+&lt;h2 id=&#34;introduction-of-project&#34;&gt;Introduction of project&lt;/h2&gt;
+
 &lt;h2 id=&#34;tasks-in-hydrologic-modeling&#34;&gt;Tasks in hydrologic modeling&lt;/h2&gt;
+
 &lt;h2 id=&#34;accomplishment-of-the-project&#34;&gt;Accomplishment of the project&lt;/h2&gt;
+
 &lt;p&gt;&lt;strong&gt;keep updating&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Reconstructing the role of landuse change on water yield at the Maya urban center Tikal, Guatemala [700-800 AD]</title>
-      <link>/en/talk/agu2014/</link>
+      <link>https://www.shulele.net/en/talk/agu2014/</link>
       <pubDate>Wed, 31 Dec 2014 00:00:00 -0800</pubDate>
-      <guid>/en/talk/agu2014/</guid>
+      <guid>https://www.shulele.net/en/talk/agu2014/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Urbanization-driven hydrological process change in Conestoga River watershed in Lancaster of Pennsylvania</title>
-      <link>/en/talk/agu2013/</link>
+      <link>https://www.shulele.net/en/talk/agu2013/</link>
       <pubDate>Tue, 31 Dec 2013 00:00:00 -0800</pubDate>
-      <guid>/en/talk/agu2013/</guid>
+      <guid>https://www.shulele.net/en/talk/agu2013/</guid>
       <description></description>
     </item>
     

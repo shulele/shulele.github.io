@@ -33,7 +33,7 @@ To become familiar with:
  explicit method, implicit method, Linear/Non-Linear Partial Differential Equations (PDE), and numeric solutions for advection-dispersion equations.  To write or use existing finite element and/or boundary element programs to analyze project scale problems. Prerequisite for attendee  College calculus and algebra Groundwater hydraulics Basic programming knowledge, such as C/C&#43;&#43;, Java, R, python, Matlab, etc.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/en/class_fdm/0overview/">
+  <link rel="alternate" hreflang="en-us" href="https://www.shulele.net/en/class_fdm/0overview/">
 
   
 
@@ -93,15 +93,43 @@ To become familiar with:
 
 
 
-  
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135370684-1"></script>
 <script>
-  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','UA-135370684-1');
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-135370684-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
 </script>
 
+
+  
 
 
   
@@ -110,7 +138,7 @@ To become familiar with:
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/en/class_fdm/0overview/">
+  <link rel="canonical" href="https://www.shulele.net/en/class_fdm/0overview/">
 
   
   
@@ -126,12 +154,12 @@ To become familiar with:
   <meta property="twitter:creator" content="@leleshu">
   
   <meta property="og:site_name" content="SHU">
-  <meta property="og:url" content="/en/class_fdm/0overview/">
+  <meta property="og:url" content="https://www.shulele.net/en/class_fdm/0overview/">
   <meta property="og:title" content="Numerical Methods in Hydrology | SHU">
   <meta property="og:description" content="Objective The objective to this class is to learn the steps involved in developing mathematical models for applied environmental/water resources problems, and using numerical methods to solve these mathematical models.
 To become familiar with:
- explicit method, implicit method, Linear/Non-Linear Partial Differential Equations (PDE), and numeric solutions for advection-dispersion equations.  To write or use existing finite element and/or boundary element programs to analyze project scale problems. Prerequisite for attendee  College calculus and algebra Groundwater hydraulics Basic programming knowledge, such as C/C&#43;&#43;, Java, R, python, Matlab, etc."><meta property="og:image" content="/img/icon-192.png">
-  <meta property="twitter:image" content="/img/icon-192.png"><meta property="og:locale" content="en-us">
+ explicit method, implicit method, Linear/Non-Linear Partial Differential Equations (PDE), and numeric solutions for advection-dispersion equations.  To write or use existing finite element and/or boundary element programs to analyze project scale problems. Prerequisite for attendee  College calculus and algebra Groundwater hydraulics Basic programming knowledge, such as C/C&#43;&#43;, Java, R, python, Matlab, etc."><meta property="og:image" content="https://www.shulele.net/img/icon-192.png">
+  <meta property="twitter:image" content="https://www.shulele.net/img/icon-192.png"><meta property="og:locale" content="en-us">
   
     
     
@@ -198,7 +226,7 @@ To become familiar with:
     
     
     
-      <a class="navbar-brand" href="/en">SHU</a>
+      <a class="navbar-brand" href="/en/">SHU</a>
     
 
     
@@ -259,16 +287,9 @@ To become familiar with:
         
         
         
-          
-          
-          
-            
-          
-          
-        
 
         <li class="nav-item">
-          <a class="nav-link " href="/en/#posts"><span>Posts</span></a>
+          <a class="nav-link " href="/en/post/"><span>Posts</span></a>
         </li>
 
         
@@ -510,23 +531,33 @@ To become familiar with:
   <div class="article-container">
 
     <div class="article-style">
-      <h1 id="objective">Objective</h1>
+      
+
+<h1 id="objective">Objective</h1>
+
 <p>The objective to this class is to learn the steps involved in developing mathematical models for applied environmental/water resources problems, and using numerical methods to solve these mathematical models.</p>
+
 <p>To become familiar with:</p>
+
 <ul>
 <li>explicit method,</li>
 <li>implicit method,</li>
 <li>Linear/Non-Linear Partial Differential Equations (PDE), and</li>
 <li>numeric solutions for advection-dispersion equations.</li>
 </ul>
+
 <p>To write or use existing finite element and/or boundary element programs to analyze project scale problems. </p>
+
 <h2 id="prerequisite-for-attendee">Prerequisite for attendee</h2>
+
 <ul>
 <li>College calculus and algebra</li>
 <li>Groundwater hydraulics</li>
 <li>Basic programming knowledge, such as C/C++, Java, R, python, Matlab, etc.</li>
 </ul>
+
 <h2 id="reference">Reference</h2>
+
 <ul>
 <li>Segerlind, L. J. Applied Finite Element Analysis. John Wiley and Sons, Inc., New York, NY (Reserve, Engineering Library).</li>
 <li>Brebbia, C. A., J. C. F. Telles and L. C. Wrobel. Boundary Element Techniques. Springer Verlag, New York, NY (Reserve, Engineering Library).</li>
@@ -534,11 +565,14 @@ To become familiar with:
 <li>Kane, J. H. Boundary Element Analysis. Prentice Hall, Englewood Cliffs, NJ.</li>
 <li>Gerald, C. F. and P. O. Wheatley. Applied Numerical Analysis. Addison Wesley, Reading, MA (Reserve, Engineering Library).</li>
 </ul>
+
 <h2 id="grading">Grading</h2>
+
 <p>Two projects and 10 homeworks.
 40% term project (20% per project)
 60% homework (6% each)
 Total 100%</p>
+
 <table>
 <thead>
 <tr>
@@ -547,17 +581,20 @@ Total 100%</p>
 <th>Homework</th>
 </tr>
 </thead>
+
 <tbody>
 <tr>
 <td>1</td>
-<td>Taylor Series	Hand writing the Taylor series, forward/backward/central derivative  equations</td>
+<td>Taylor Series Hand writing the Taylor series, forward/backward/central derivative  equations</td>
 <td></td>
 </tr>
+
 <tr>
 <td></td>
-<td>Euler/Heun/Runge-Kutta methods	Write code to compare the error of Euler, Heun and Runge-Kutta equations on two problems</td>
+<td>Euler/Heun/Runge-Kutta methods  Write code to compare the error of Euler, Heun and Runge-Kutta equations on two problems</td>
 <td></td>
 </tr>
+
 <tr>
 <td>2</td>
 <td></td>
@@ -565,8 +602,9 @@ Total 100%</p>
 </tr>
 </tbody>
 </table>
+
 <ul>
-<li><a href="class1">class 1</a></li>
+<li><a href="class1" target="_blank">class 1</a></li>
 </ul>
 
     </div>
@@ -588,7 +626,7 @@ Total 100%</p>
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/en/class_fdm/0overview/&amp;text=Numerical%20Methods%20in%20Hydrology" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://www.shulele.net/en/class_fdm/0overview/&amp;text=Numerical%20Methods%20in%20Hydrology" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -601,7 +639,7 @@ Total 100%</p>
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/en/class_fdm/0overview/&amp;t=Numerical%20Methods%20in%20Hydrology" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://www.shulele.net/en/class_fdm/0overview/&amp;t=Numerical%20Methods%20in%20Hydrology" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -614,7 +652,7 @@ Total 100%</p>
       
       
       <li>
-        <a href="mailto:?subject=Numerical%20Methods%20in%20Hydrology&amp;body=/en/class_fdm/0overview/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Numerical%20Methods%20in%20Hydrology&amp;body=https://www.shulele.net/en/class_fdm/0overview/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -627,7 +665,7 @@ Total 100%</p>
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/en/class_fdm/0overview/&amp;title=Numerical%20Methods%20in%20Hydrology" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://www.shulele.net/en/class_fdm/0overview/&amp;title=Numerical%20Methods%20in%20Hydrology" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -640,7 +678,7 @@ Total 100%</p>
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Numerical%20Methods%20in%20Hydrology%20/en/class_fdm/0overview/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Numerical%20Methods%20in%20Hydrology%20https://www.shulele.net/en/class_fdm/0overview/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -653,7 +691,7 @@ Total 100%</p>
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/en/class_fdm/0overview/&amp;title=Numerical%20Methods%20in%20Hydrology" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://www.shulele.net/en/class_fdm/0overview/&amp;title=Numerical%20Methods%20in%20Hydrology" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -688,11 +726,11 @@ Total 100%</p>
   <div class="media author-card content-widget-hr">
     
       
-      <img class="portrait mr-3" src="/en/authors/admin/avatar_hu18b35d882719384e90116b918ac0f720_105008_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
+      <img class="portrait mr-3" src="/en/authors/admin/avatar_hueb1c8038b4a9c17f7b98348cfd22026b_72001_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="/">Lele Shu</a></h5>
+      <h5 class="card-title"><a href="https://www.shulele.net/">Lele Shu</a></h5>
       <h6 class="card-subtitle">Ph.D, Hydrologist, Lead of SHUD project</h6>
       <p class="card-text">Hydrologist on distributed numeric hydrologic modeling, impact of landuse and climate change, Coupled Nature-Human-System and hydrologic data mining.</p>
       <ul class="network-icon" aria-hidden="true">

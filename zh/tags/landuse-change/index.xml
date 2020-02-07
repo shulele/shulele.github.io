@@ -2,24 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Landuse change | 舒乐乐</title>
-    <link>/zh/tags/landuse-change/</link>
-      <atom:link href="/zh/tags/landuse-change/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.shulele.net/zh/tags/landuse-change/</link>
+      <atom:link href="https://www.shulele.net/zh/tags/landuse-change/index.xml" rel="self" type="application/rss+xml" />
     <description>Landuse change</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Tue, 05 Nov 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://www.shulele.net/img/icon-192.png</url>
       <title>Landuse change</title>
-      <link>/zh/tags/landuse-change/</link>
+      <link>https://www.shulele.net/zh/tags/landuse-change/</link>
     </image>
     
     <item>
       <title>Automatic hydrologic deployment and modeling</title>
-      <link>/zh/project/mint/</link>
+      <link>https://www.shulele.net/zh/project/mint/</link>
       <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/zh/project/mint/</guid>
-      <description>&lt;p&gt;This project is the hydrologic modeling part of the project &lt;em&gt;Model Integration through Knowledge-Rich Data and Process Composition&lt;/em&gt;.&lt;/p&gt;
+      <guid>https://www.shulele.net/zh/project/mint/</guid>
+      <description>
+
+&lt;p&gt;This project is the hydrologic modeling part of the project &lt;em&gt;Model Integration through Knowledge-Rich Data and Process Composition&lt;/em&gt;.&lt;/p&gt;
+
 &lt;h2 id=&#34;introduction-of-project&#34;&gt;Introduction of project&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;http://mint-project.info&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://mint-project.info&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
 
 
 
@@ -49,7 +54,9 @@
 
 &lt;/figure&gt;
 
+
 &lt;h2 id=&#34;tasks-in-hydrologic-modeling&#34;&gt;Tasks in hydrologic modeling&lt;/h2&gt;
+
 
 
 
@@ -78,6 +85,7 @@
 
 
 &lt;/figure&gt;
+
 
 
 
@@ -121,6 +129,7 @@
 
 
 
+
 &lt;figure&gt;
 
 
@@ -137,26 +146,35 @@
 
 &lt;/figure&gt;
 
+
 &lt;h2 id=&#34;accomplishment-of-the-project&#34;&gt;Accomplishment of the project&lt;/h2&gt;
+
 &lt;p&gt;&lt;strong&gt;keep updating&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Hydrologic modeling in project HYPERION</title>
-      <link>/zh/project/hyperion/</link>
+      <link>https://www.shulele.net/zh/project/hyperion/</link>
       <pubDate>Sat, 23 Feb 2019 21:13:14 +0000</pubDate>
-      <guid>/zh/project/hyperion/</guid>
-      <description>&lt;h2 id=&#34;introduction-of-hyperion-i-classfas-faexternallinkaltihttpsclimateucdaviseduhyperion&#34;&gt;Introduction of HYPERION &lt;a href=&#34;https://climate.ucdavis.edu/hyperion/&#34;&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/a&gt;&lt;/h2&gt;
+      <guid>https://www.shulele.net/zh/project/hyperion/</guid>
+      <description>
+
+&lt;h2 id=&#34;introduction-of-hyperion-i-class-fas-fa-external-link-alt-i-https-climate-ucdavis-edu-hyperion&#34;&gt;Introduction of HYPERION &lt;a href=&#34;https://climate.ucdavis.edu/hyperion/&#34; target=&#34;_blank&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;
+
 &lt;p&gt;The objective of HYPERION is the development of a comprehensive regional hydroclimate data assessment capability focused on feature-specific metrics and stakeholder-relevant outcomes. The secondary objective of this proposal is to leverage this assessment capability to improve our ability to predict these outcomes, by identifying the process-level drivers of outcome biases and evaluating the most appropriate and efficient ways to couple climate models, hydrologic models, and models of human impacts.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;fig/hyperion.png&#34; alt=&#34;HYPERION logo&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;fig/hyperion.png&#34; alt=&#34;HYPERION logo&#34; /&gt;&lt;/p&gt;
+
 &lt;h2 id=&#34;tasks-in-hydrologic-modeling&#34;&gt;Tasks in hydrologic modeling&lt;/h2&gt;
+
 &lt;ul&gt;
-&lt;li&gt;Develop a hydrologic modeling system for both the Sacramento watershed and several subcatchments.  Calculate key hydrological metrics, including stream flow, groundwater table, soil moisture, and snow pack.&lt;/li&gt;
-&lt;li&gt;Evaluate the quality of the hydrologic model and identify potential issues related to its performance.&lt;/li&gt;
-&lt;li&gt;Develop a statistical downscaling technique using both traditional statistical and machine learning methods that digests input to the hydrologic model and mimics the output of the model.&lt;/li&gt;
+&lt;li&gt;Develop a hydrologic modeling system for both the Sacramento watershed and several subcatchments.  Calculate key hydrological metrics, including stream flow, groundwater table, soil moisture, and snow pack.&lt;/li&gt;
+&lt;li&gt;Evaluate the quality of the hydrologic model and identify potential issues related to its performance.&lt;/li&gt;
+&lt;li&gt;Develop a statistical downscaling technique using both traditional statistical and machine learning methods that digests input to the hydrologic model and mimics the output of the model.&lt;/li&gt;
 &lt;li&gt;Determine which input variables are most relevant for producing an accurate statistical model.&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -164,16 +182,24 @@
 &lt;th align=&#34;center&#34;&gt;Annual Precipitation&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
+
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;fig/pihmdata.png&#34; alt=&#34;Data&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;fig/AnnualPRCP.png&#34; alt=&#34;Precipitation&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;fig/pihmdata.png&#34; alt=&#34;Data&#34; /&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;fig/AnnualPRCP.png&#34; alt=&#34;Precipitation&#34; /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+
 &lt;h2 id=&#34;sacramento-watershed&#34;&gt;Sacramento Watershed&lt;/h2&gt;
+
 &lt;p&gt;The Sacramento River flows from Southern Oregon and to San Francisco Bay. Total drainage area is ~72000 km2. Elevation ranges from 0 to 4200m. The climate in SW is semi-arid hot Mediterranean. The spatial climatic characteristics are not only affected by latitude, terrain and snow coverage, but also by wind and ocean currents. Dramatic seasonal and annual climatic variations exist as well as large spatial heterogeneity. The mountains on the eastern and northern edges of the domain accumulate rain and snow which funnels into the groundwater of the whole watershed.  Annual precipitation ranges from 400 mm/year to 1500 mm/year, however extreme annual precipitation was more than 4000 mm/year in Northern mountainous area in 1983, and mean precipitation was only 270 mm/year from the 2013 extreme drought year.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+
+&lt;figure class=&#34;image&#34;&gt;
+  &lt;img src=&#34;fig/Animation.gif&#34;, width=400px&gt;
+  &lt;figcaption&gt;Animation of spatial annual precipitation in Sacramento Watershed&lt;/figcaption&gt;
+&lt;/figure&gt;
+
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -181,56 +207,73 @@
 &lt;th align=&#34;center&#34;&gt;Annual precipitation variation from 1979 to 2017 based on NLDAS data&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
+
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;fig/prcp_boxMonth.png&#34; alt=&#34;Data&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;fig/prcp_boxyr.png&#34; alt=&#34;Precipitation&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;fig/prcp_boxMonth.png&#34; alt=&#34;Data&#34; /&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;fig/prcp_boxyr.png&#34; alt=&#34;Precipitation&#34; /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+
 &lt;h2 id=&#34;simulation-and-results&#34;&gt;Simulation and Results&lt;/h2&gt;
+
 &lt;p&gt;The calibration of the PIHM model used the Covariance Matrix Adaptation Evolution Strategy (CMA-ES) (Hansen 2006,Auger 2005). The automatic CMA-ES calibration is robust and able to converge to global optimization with low computing cost.&lt;/p&gt;
+
 &lt;h3 id=&#34;river-discharge&#34;&gt;River discharge&lt;/h3&gt;
-&lt;p&gt;The stream flow in the watershed follows the seasonal variation of precipitation. During drought years, the base flow from groundwater depletion contributes to the streamflow, and the excess infiltration replenishes ground water in wet seasons. For small watersheds in the Central Valley, such as catchment #9 where precipitation is less and the aquifer is thicker, the contribution from groundwater is small.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+
+&lt;p&gt;The stream flow in the watershed follows the seasonal variation of precipitation. During drought years, the base flow from groundwater depletion contributes to the streamflow, and the excess infiltration replenishes ground water in wet seasons. For small watersheds in the Central Valley, such as catchment #9 where precipitation is less and the aquifer is thicker, the contribution from groundwater is small.
+&lt;figure class=&#34;image&#34;&gt;
+  &lt;img src=&#34;fig/calib.png&#34;&gt;
+  &lt;figcaption&gt;Calibration based on discharge of four subcatchments&lt;/figcaption&gt;
+&lt;/figure&gt;&lt;/p&gt;
+
 &lt;h3 id=&#34;ground-water-variation&#34;&gt;Ground water variation&lt;/h3&gt;
+
 &lt;p&gt;The ground water near the river channel is shallower than the hill-slope. The spatial distribution pattern of ground water is controlled by topography, soil/geology characteristics and shape of the watershed. Steep slopes store less ground water than moderate slopes, because a steep hydraulic gradient on steep slopes drive the lateral groundwater flow.&lt;/p&gt;
+
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
+
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;fig/GWmap.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;fig/gwd.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;fig/GWmap.png&#34; alt=&#34;&#34; /&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;fig/gwd.png&#34; alt=&#34;&#34; /&gt;&lt;/td&gt;
 &lt;/tr&gt;
+
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;Ground water spatial distribution&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;Temporal fluctuation from 2000 to 2017.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+
 &lt;p&gt;Ground water seasonal fluctuation follows the climatic variation. However, the seasonal variations in some catchments are relatively larger than others. The inter-annual variation in #5 sub-catchment is larger than seasonal variation. Although the annual precipitation trends in each sub-catchments are comparable, the trend in multiple-year changes of ground water table varies. This requires further analysis on water balance and the memory effect of ground water storage.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Coupling Cellular Automata Land Use Change with Distributed Hydrologic models</title>
-      <link>/zh/talk/agu2017/</link>
+      <link>https://www.shulele.net/zh/talk/agu2017/</link>
       <pubDate>Fri, 01 Dec 2017 00:00:00 -0800</pubDate>
-      <guid>/zh/talk/agu2017/</guid>
+      <guid>https://www.shulele.net/zh/talk/agu2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Reconstructing the role of landuse change on water yield at the Maya urban</title>
-      <link>/zh/project/tikal/</link>
+      <link>https://www.shulele.net/zh/project/tikal/</link>
       <pubDate>Sat, 23 Jul 2016 21:13:14 -0500</pubDate>
-      <guid>/zh/project/tikal/</guid>
-      <description>&lt;h2 id=&#34;introduction-of-project&#34;&gt;Introduction of project&lt;/h2&gt;
+      <guid>https://www.shulele.net/zh/project/tikal/</guid>
+      <description>
+
+&lt;h2 id=&#34;introduction-of-project&#34;&gt;Introduction of project&lt;/h2&gt;
+
 
 
 
@@ -260,7 +303,9 @@
 
 &lt;/figure&gt;
 
+
 &lt;h2 id=&#34;tasks-in-hydrologic-modeling&#34;&gt;Tasks in hydrologic modeling&lt;/h2&gt;
+
 
 
 
@@ -303,6 +348,7 @@
 
 
 
+
 &lt;figure&gt;
 
 
@@ -319,28 +365,35 @@
 
 &lt;/figure&gt;
 
+
 &lt;h2 id=&#34;accomplishment-of-the-project&#34;&gt;Accomplishment of the project&lt;/h2&gt;
+
 &lt;p&gt;&lt;strong&gt;keep updating&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Impact in hydrology from landuse and climate change</title>
-      <link>/zh/project/stormwater/</link>
+      <link>https://www.shulele.net/zh/project/stormwater/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 +0000</pubDate>
-      <guid>/zh/project/stormwater/</guid>
-      <description>&lt;h2 id=&#34;introduction-of-project&#34;&gt;Introduction of project&lt;/h2&gt;
+      <guid>https://www.shulele.net/zh/project/stormwater/</guid>
+      <description>
+
+&lt;h2 id=&#34;introduction-of-project&#34;&gt;Introduction of project&lt;/h2&gt;
+
 &lt;h2 id=&#34;tasks-in-hydrologic-modeling&#34;&gt;Tasks in hydrologic modeling&lt;/h2&gt;
+
 &lt;h2 id=&#34;accomplishment-of-the-project&#34;&gt;Accomplishment of the project&lt;/h2&gt;
+
 &lt;p&gt;&lt;strong&gt;keep updating&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Urbanization-driven hydrological process change in Conestoga River watershed in Lancaster of Pennsylvania</title>
-      <link>/zh/talk/agu2013/</link>
+      <link>https://www.shulele.net/zh/talk/agu2013/</link>
       <pubDate>Tue, 31 Dec 2013 00:00:00 -0800</pubDate>
-      <guid>/zh/talk/agu2013/</guid>
+      <guid>https://www.shulele.net/zh/talk/agu2013/</guid>
       <description></description>
     </item>
     

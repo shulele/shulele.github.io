@@ -2,134 +2,242 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts | SHU</title>
-    <link>/en/post/</link>
-      <atom:link href="/en/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.shulele.net/en/post/</link>
+      <atom:link href="https://www.shulele.net/en/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 19 Nov 2019 22:05:38 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Feb 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://www.shulele.net/img/icon-192.png</url>
       <title>Posts</title>
-      <link>/en/post/</link>
+      <link>https://www.shulele.net/en/post/</link>
     </image>
     
     <item>
+      <title>Leter to Nature: Stop using the offensive virus names</title>
+      <link>https://www.shulele.net/en/post/20200201_nature/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.shulele.net/en/post/20200201_nature/</guid>
+      <description>
+
+&lt;h2 id=&#34;stop-using-the-offensive-virus-names&#34;&gt;Stop using the offensive virus names&lt;/h2&gt;
+
+&lt;p&gt;Inappropriate naming of the new human disease inevitably causes prejudice and discrimination upon particular people and undue fear of the diseases on global social media, although unintentionally.&lt;/p&gt;
+
+&lt;p&gt;After the outbreak of Novel Coronavirus (2019-nCoV) causing a severe respiratory illness, some of the research papers and news on nature (such as Nature 577, 450 (2020), Nature 577, 605-607 (2020), doi: 10.1038/d41586-020-00146-w, doi: 10.1038/d41586-020-00180-8, doi: 10.1038/d41586-020-00253-8 and doi: 10.1038/d41586-020-00262-7 ) and other media used &amp;ldquo;&lt;em&gt;China Coronavirus&lt;/em&gt;&amp;rdquo;, &amp;ldquo;&lt;em&gt;Wuhan Coronavirus&lt;/em&gt;&amp;rdquo;, even &amp;ldquo;&lt;em&gt;Chinese Virus&lt;/em&gt;&amp;rdquo;. Such inappropriate naming did not only lead to affronted counteraction in Chinese social media, but also armed the notorious sinophobia and anti-Asian racism around the world. The people in the region suffering short-term contagious virus now will be stigmatized by far-reaching hostility from outside.&lt;/p&gt;
+
+&lt;p&gt;I propose the editors, journalists and researchers on nature and broad science community to avoid such inappropriate names of any current and future human infectious diseases or viruses. Even though it is difficult and time-consuming to rename the diseases and viruses we named before, such as Middle East Respiratory Syndrome (MERS-CoV), Spanish flu, Ebola Virus, we must take immediate action of adapting no-harm names.&lt;/p&gt;
+
+&lt;p&gt;In 2015, for minimizing &amp;ldquo;unnecessary negative impact of disease names on trade, travel, tourism or animal welfare, and avoid causing offense to any cultural, social, national, regional, professional or ethnic groups&amp;rdquo;, the World Health Organization (WHO) issued guidelines that suggested scientists, journalist and health officials to use more neutral, generic terms to name new human diseases. The guideline is applicable to any unrecognized infections, syndromes, viruses, and diseases of humans that unreported in human and harm human health potentially.&lt;/p&gt;
+
+&lt;p&gt;In scientific communities, such as The Lancet and The New England Journal of Medicine, the &amp;ldquo;2019 novel coronavirus&amp;rdquo; is referenced dominantly, which is the no-harm name describing the 2019-nCoV. As the names of the new diseases and viruses will make their way into human history, we must select the more neutral and non-offensive names methodically.&lt;/p&gt;
+
+&lt;p&gt;After one week, I got reply:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Thank you for your submission to Correspondence. We have received &lt;strong&gt;a large number of letters relating to the new coronavirus, many of which make overlapping points or points already covered by our reporters&lt;/strong&gt;. We have therefore chosen a representative sample for publication.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The wrong names are still on Nature.com, I will continue doing my best to let them correct them.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Spiral calendar</title>
+      <link>https://www.shulele.net/en/post/20200110_calender/</link>
+      <pubDate>Fri, 10 Jan 2020 12:05:38 +0000</pubDate>
+      <guid>https://www.shulele.net/en/post/20200110_calender/</guid>
+      <description>&lt;p&gt;Is the current calendar is the best or only way to represent days?&lt;/p&gt;
+
+&lt;p&gt;The days we experienced, undergoing, and expecting are recorded a piece of paper; we call it a calendar, where marks days of years, months, weeks, and holidays. The current calendar appearance that organized with month and weeks are very efficient to display the days of week and month.&lt;/p&gt;
+
+&lt;p&gt;But, the calendar drops the original meaning of &amp;ldquo;Month&amp;rdquo;,  which was related to the moon and moon phase, while the lunar calendar and lunisolar calendar (such as Chinese Calendar) still conserve the sense in the month. The month is defined according to the moon phase.&lt;/p&gt;
+
+&lt;p&gt;One month is defined from a black moon to the next black moon, as a lunar month. Since the Synodic period is ~29.5 days, some months have 29 and the others have 30 days.  Winter(northern sphere) has more 29-day months, while summer has more 30-day month, because of the orbit speed of the earth.&lt;/p&gt;
+
+&lt;p&gt;Another problem with the mismatch of the lunar month is the number of days in a solar year.  We have to find the common multiple between the moon synodic period and the orbital period of the earth.  The days of a solar year is 365.25 days, but the number of days in 12 lunar months is ~355 days.  The pure lunar calendar simply ignores the difference, so that the number of years is different from solar and lunar years. The Chinese calendar, which is a lunisolar calendar, solves the problem with leap months.  Seven leap months are inserted in every 19 years, such that days in 19 Chinese years are the same as 19 Julian or solar years.&lt;/p&gt;
+
+&lt;p&gt;Above is the background.&lt;/p&gt;
+
+&lt;p&gt;I want to have a calendar that shows date, days of weeks and the moon phases together, and that represents the endless of time.
+Here is the calendar:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;feature.png&#34; alt=&#34;Spiral calendar&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>How to Install Sundials 5.x or Cvode on Mac Linux System</title>
-      <link>/en/post/20191119_sundials/</link>
+      <link>https://www.shulele.net/en/post/20191119_sundials/</link>
       <pubDate>Tue, 19 Nov 2019 22:05:38 +0000</pubDate>
-      <guid>/en/post/20191119_sundials/</guid>
-      <description>&lt;h2 id=&#34;sundials-suite-of-nonlinear-and-differentialalgebraic-equation-solvers&#34;&gt;SUNDIALS: SUite of Nonlinear and DIfferential/ALgebraic Equation Solvers&lt;/h2&gt;
-&lt;p&gt;SUNDIALS (&lt;a href=&#34;https://computing.llnl.gov/projects/sundials&#34;&gt;https://computing.llnl.gov/projects/sundials&lt;/a&gt;) is a very powerful mathematical library that is helpful in solving engineering and scientific problems efficiently. CVODE is one of the tools, aiming to solve Ordinary Differential Equation, in C language.
-In the Solver of Hydrologic Unstructured Domain (SHUD) model, the system of ODEs describing the hydrological processes is fully coupled and solved simultaneously at each  time step ($ \Delta t=t_{n}-t_{n-1}$)  using CVODE, a stiff solver based on Newton-Krylov iteration.&lt;/p&gt;
-&lt;p&gt;The latest version of SUNDIALS is v5.0.0, released on November 2019. Let&#39;s install it on a Mac OS or Linux system.&lt;/p&gt;
+      <guid>https://www.shulele.net/en/post/20191119_sundials/</guid>
+      <description>
+
+&lt;h2 id=&#34;sundials-suite-of-nonlinear-and-differential-algebraic-equation-solvers&#34;&gt;SUNDIALS: SUite of Nonlinear and DIfferential/ALgebraic Equation Solvers&lt;/h2&gt;
+
+&lt;p&gt;SUNDIALS (&lt;a href=&#34;https://computing.llnl.gov/projects/sundials&#34; target=&#34;_blank&#34;&gt;https://computing.llnl.gov/projects/sundials&lt;/a&gt;) is a very powerful mathematical library that is helpful in solving engineering and scientific problems efficiently. CVODE is one of the tools, aiming to solve Ordinary Differential Equation, in C language.
+In the Solver of Hydrologic Unstructured Domain (SHUD) model, the system of ODEs describing the hydrological processes is fully coupled and solved simultaneously at each  time step ($ \Delta t=t&lt;em&gt;{n}-t&lt;/em&gt;{n-1}$)  using CVODE, a stiff solver based on Newton-Krylov iteration.&lt;/p&gt;
+
+&lt;p&gt;The latest version of SUNDIALS is v5.0.0, released on November 2019. Let&amp;rsquo;s install it on a Mac OS or Linux system.&lt;/p&gt;
+
 &lt;p&gt;I test the installation on &lt;strong&gt;Mac 10.13&lt;/strong&gt; and  &lt;strong&gt;Ubuntu 18.04.3 LTS (GNU/Linux 4.15.0-66-generic x86_64)&lt;/strong&gt;&lt;/p&gt;
+
 &lt;ol&gt;
-&lt;li&gt;Download SUNDIALS, via &lt;a href=&#34;https://computing.llnl.gov/projects/sundials/sundials-software&#34;&gt;https://computing.llnl.gov/projects/sundials/sundials-software&lt;/a&gt;.
-Or get latest SUNDIALS on GitHub:&lt;/li&gt;
-&lt;/ol&gt;
+&lt;li&gt;&lt;p&gt;Download SUNDIALS, via &lt;a href=&#34;https://computing.llnl.gov/projects/sundials/sundials-software&#34; target=&#34;_blank&#34;&gt;https://computing.llnl.gov/projects/sundials/sundials-software&lt;/a&gt;.
+Or get latest SUNDIALS on GitHub:&lt;/p&gt;
+
 &lt;pre&gt;&lt;code&gt;git clone https://github.com/LLNL/sundials.git
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Now, you must have the source code of SUNDIALS in your folder.
-Please enter the folder.
-Let&#39;s assume you are in the same level of &lt;em&gt;sundials&lt;/em&gt;.&lt;/p&gt;
-&lt;ol start=&#34;2&#34;&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Now, you must have the source code of SUNDIALS in your folder.
+  Please enter the folder.
+  Let&amp;rsquo;s assume you are in the same level of &lt;em&gt;sundials&lt;/em&gt;.&lt;/p&gt;
+
+&lt;ol&gt;
 &lt;li&gt;Create a install folder.&lt;/li&gt;
 &lt;/ol&gt;
+
 &lt;p&gt;The installation folder names &lt;strong&gt;installSundials&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;mkdir installSundials
-cd installSundials
 
-rm -rf builddir instdir srcdir
+&lt;pre&gt;&lt;code&gt;  mkdir installSundials
+  cd installSundials
 
-mkdir builddir
-mkdir instdir
-mkdir srcdir
+  rm -rf builddir instdir srcdir
 
-cd builddir/
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;3&#34;&gt;
+  mkdir builddir
+  mkdir instdir
+  mkdir srcdir
+
+  cd builddir/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ol&gt;
 &lt;li&gt;Configure the installation with CCMAKE.&lt;/li&gt;
 &lt;/ol&gt;
+
 &lt;p&gt;There are two ways to configure the installation. One is GUI, and the other is command line.&lt;/p&gt;
+
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Option 1&lt;/strong&gt;, type command blow:&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Option 1&lt;/strong&gt;, type command blow:&lt;/p&gt;
+
 &lt;pre&gt;&lt;code&gt;ccmake ../../sundials/
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;You will see a screen like this:
-&lt;img src=&#34;featured.png&#34; alt=&#34;CCMAKE Screenshot&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Use your cursor, move to line &lt;em&gt;&lt;strong&gt;CMAKE_INSTALL_PREFIX&lt;/strong&gt;&lt;/em&gt;, which is the path SUNDIALS will be installed. Press Enter to start edit the line. I install it on &lt;strong&gt;/usr/local/sundials&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Another path you may change is the path of example code, &lt;em&gt;&lt;strong&gt;EXAMPLES_INSTALL_PATH&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;Next, you need to select which solver you want to install, such as, ARKODE, CVODE, CVODES IDA, IDAS, KINSOL. They are on the top of your GUI; press Enter to enable or disable it. Since I need the CVODE only, I turn the &lt;em&gt;&lt;strong&gt;BUILD_CVODE&lt;/strong&gt;&lt;/em&gt; option ON and keep the rest of them OFF.&lt;/p&gt;
-&lt;p&gt;If you have OpenMP on your machine and you need the support of OpenMP parallel in your program, you can turn the &lt;em&gt;OPENMP_ENABLE&lt;/em&gt; ON.&lt;/p&gt;
-&lt;p&gt;After edits, press &lt;strong&gt;C&lt;/strong&gt; to configure, and press &lt;strong&gt;C&lt;/strong&gt; again, when &lt;strong&gt;g&lt;/strong&gt; option shows up on the bottom, press &lt;strong&gt;g&lt;/strong&gt; to generate configuration files.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Option 2&lt;/strong&gt;, you can use command to realise the edits above, for example:&lt;/li&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;You will see a screen like this:
+  &lt;img src=&#34;featured.png&#34; alt=&#34;CCMAKE Screenshot&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Use your cursor, move to line &lt;strong&gt;&lt;em&gt;CMAKE_INSTALL_PREFIX&lt;/em&gt;&lt;/strong&gt;, which is the path SUNDIALS will be installed. Press Enter to start edit the line. I install it on &lt;strong&gt;/usr/local/sundials&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Another path you may change is the path of example code, &lt;strong&gt;&lt;em&gt;EXAMPLES_INSTALL_PATH&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Next, you need to select which solver you want to install, such as, ARKODE, CVODE, CVODES IDA, IDAS, KINSOL. They are on the top of your GUI; press Enter to enable or disable it. Since I need the CVODE only, I turn the &lt;strong&gt;&lt;em&gt;BUILD_CVODE&lt;/em&gt;&lt;/strong&gt; option ON and keep the rest of them OFF.&lt;/p&gt;
+
+&lt;p&gt;If you have OpenMP on your machine and you need the support of OpenMP parallel in your program, you can turn the &lt;em&gt;OPENMP_ENABLE&lt;/em&gt; ON.&lt;/p&gt;
+
+&lt;p&gt;After edits, press &lt;strong&gt;C&lt;/strong&gt; to configure, and press &lt;strong&gt;C&lt;/strong&gt; again, when &lt;strong&gt;g&lt;/strong&gt; option shows up on the bottom, press &lt;strong&gt;g&lt;/strong&gt; to generate configuration files.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Option 2&lt;/strong&gt;, you can use command to realise the edits above, for example:&lt;/p&gt;
+
 &lt;pre&gt;&lt;code&gt;cmake -DCMAKE_INSTALL_PREFIX=/usr/local/sundials \
- -DEXAMPLES_INSTALL_PATH=../example \
- -DBUILD_CVODE=ON \
- -DBUILD_CVODES=OFF \
- -DBUILD_ARKODE=OFF \
- -DBUILD_CVODES=OFF \
- -DBUILD_IDA=OFF \
- -DBUILD_IDAS=OFF \
- -DBUILD_KINSOL=OFF \
- -DOPENMP_ENABLE=ON \
- ../../sundials/
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The command above configure installation, to install SUNDIALS to &lt;em&gt;/usr/local/sundials&lt;/em&gt;, the examples to &lt;em&gt;../example&lt;/em&gt;, install &lt;em&gt;CVODE&lt;/em&gt; only, with OpenMP support.&lt;/p&gt;
-&lt;p&gt;If you don&#39;t need OpenMP or your OpenMP may result in errors, use the command below:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;cmake -DCMAKE_INSTALL_PREFIX=/usr/local/sundials \
- -DEXAMPLES_INSTALL_PATH=../example \
- -DBUILD_CVODE=ON \
- -DBUILD_CVODES=OFF \
- -DBUILD_ARKODE=OFF \
- -DBUILD_CVODES=OFF \
- -DBUILD_IDA=OFF \
- -DBUILD_IDAS=OFF \
- -DBUILD_KINSOL=OFF \
- -DOPENMP_ENABLE=OFF \
- ../../sundials/
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;4&#34;&gt;
+-DEXAMPLES_INSTALL_PATH=../example \
+-DBUILD_CVODE=ON \
+-DBUILD_CVODES=OFF \
+-DBUILD_ARKODE=OFF \
+-DBUILD_CVODES=OFF \
+-DBUILD_IDA=OFF \
+-DBUILD_IDAS=OFF \
+-DBUILD_KINSOL=OFF \
+-DOPENMP_ENABLE=ON \
+../../sundials/
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The command above configure installation, to install SUNDIALS to &lt;em&gt;/usr/local/sundials&lt;/em&gt;, the examples to &lt;em&gt;../example&lt;/em&gt;, install &lt;em&gt;CVODE&lt;/em&gt; only, with OpenMP support.&lt;/p&gt;
+
+&lt;p&gt;If you don&amp;rsquo;t need OpenMP or your OpenMP may result in errors, use the command below:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  cmake -DCMAKE_INSTALL_PREFIX=/usr/local/sundials \
+   -DEXAMPLES_INSTALL_PATH=../example \
+   -DBUILD_CVODE=ON \
+   -DBUILD_CVODES=OFF \
+   -DBUILD_ARKODE=OFF \
+   -DBUILD_CVODES=OFF \
+   -DBUILD_IDA=OFF \
+   -DBUILD_IDAS=OFF \
+   -DBUILD_KINSOL=OFF \
+   -DOPENMP_ENABLE=OFF \
+   ../../sundials/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ol&gt;
 &lt;li&gt;make and install&lt;/li&gt;
 &lt;/ol&gt;
+
 &lt;p&gt;This is simple and easy, run:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;make
-make install
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Sometimes, if the system may require higher previlage. If so, please try to use sudo:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;make
-sudo make install
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;If there is no error occur, the SUNDIALS is installed successfully. Congrats.&lt;/p&gt;
-&lt;ol start=&#34;5&#34;&gt;
+
+&lt;pre&gt;&lt;code&gt;  make
+  make install
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Sometimes, if the system may require higher previlage. If so, please try to use sudo:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  make
+  sudo make install
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If there is no error occur, the SUNDIALS is installed successfully. Congrats.&lt;/p&gt;
+
+&lt;ol&gt;
 &lt;li&gt;Test the SUNDIALS library with the examples.&lt;/li&gt;
 &lt;/ol&gt;
+
 &lt;p&gt;Enter the example folder,  &lt;em&gt;../example&lt;/em&gt; as the &lt;strong&gt;Option 2&lt;/strong&gt; in step 3. You will see several examples.
-&lt;img src=&#34;example.png&#34; alt=&#34;example&#34;&gt;&lt;/p&gt;
+    &lt;img src=&#34;example.png&#34; alt=&#34;example&#34; /&gt;&lt;/p&gt;
+
 &lt;p&gt;Use make to compile all of them:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt; cd ../example/cvode/serial/
- ls
- make
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;After make, you will see files like this:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;outfile.png&#34; alt=&#34;outfile&#34;&gt;&lt;/p&gt;
-&lt;ol start=&#34;6&#34;&gt;
-&lt;li&gt;
-&lt;p&gt;Test the program:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;   cd ../example/cvode/serial/
+   ls
+   make
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;After make, you will see files like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;outfile.png&#34; alt=&#34;outfile&#34; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Test the program:&lt;/p&gt;
+
 &lt;pre&gt;&lt;code&gt;./cvAdvDiff_bnd
 
 ./cvKrylovDemo_ls
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;test.png&#34; alt=&#34;TEst&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;test.png&#34; alt=&#34;TEst&#34; /&gt;&lt;/p&gt;
+
 &lt;p&gt;Now, you can use SUNDIALS/CVODE in your own numeric solver.&lt;/p&gt;
+
 &lt;p&gt;Be patient, you will meet more challenges.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>R Script to Animate Global NDVI</title>
-      <link>/en/post/20191003_r_animation/</link>
+      <link>https://www.shulele.net/en/post/20191003_r_animation/</link>
       <pubDate>Thu, 03 Oct 2019 00:15:07 +0000</pubDate>
-      <guid>/en/post/20191003_r_animation/</guid>
-      <description>&lt;p&gt;This script is to demonstrate the capability and scheme to realise the animation. You have to prepare your own data for this animation script.&lt;/p&gt;
+      <guid>https://www.shulele.net/en/post/20191003_r_animation/</guid>
+      <description>
+
+&lt;p&gt;This script is to demonstrate the capability and scheme to realise the animation. You have to prepare your own data for this animation script.&lt;/p&gt;
+
 &lt;h1 id=&#34;script-for-global-ndvi&#34;&gt;Script for Global NDVI&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;NDVI_GLOBAL201002.png&#34; alt=&#34;Global NDVI on Feb 2010&#34;&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-{r}&#34; data-lang=&#34;{r}&#34;&gt;rm(list=ls())
+
+&lt;p&gt;&lt;img src=&#34;NDVI_GLOBAL201002.png&#34; alt=&#34;Global NDVI on Feb 2010&#34; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;rm(list=ls())
 library(RoundAndRound)
 # devtools::install_github(&#39;shulele/RoundAndRound&#39;)
 col.fun=function(x){ colorspace::terrain_hcl(x, l=c(65,95),
@@ -275,9 +383,13 @@ cmd = paste(&#39;ffmpeg -r &#39;, fps,  &#39;-f image2 -s 1920x1080 -i &#39;, pa
             &#39;-vcodec libx264 -crf 25  -pix_fmt yuv420p&#39;, fn.mov)
 print(cmd)
 # system(cmd)
-&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;script-for-china-ndvi&#34;&gt;Script for China NDVI&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;NDVI_CN200202.png&#34; alt=&#34;China NDVI on Feb 2002&#34;&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-{r}&#34; data-lang=&#34;{r}&#34;&gt;rm(list=ls())
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;script-for-china-ndvi&#34;&gt;Script for China NDVI&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;NDVI_CN200202.png&#34; alt=&#34;China NDVI on Feb 2002&#34; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;rm(list=ls())
 # devtools::install_github(&#39;shulele/RoundAndRound&#39;)
 library(RoundAndRound)
 library(xts)
@@ -465,144 +577,151 @@ cmd = paste(&#39;ffmpeg -r &#39;, fps,  &#39;-f image2 -s 1920x1080 -i &#39;,
              &#39;-vcodec libx264 -crf 25  -pix_fmt yuv420p&#39;, fn.mov)
 print(cmd)
 system(cmd)
-&lt;/code&gt;&lt;/pre&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
     <item>
       <title>Monthly NDVI change in USA and Global from 2002-2017</title>
-      <link>/en/post/20190627_ndvi/</link>
+      <link>https://www.shulele.net/en/post/20190627_ndvi/</link>
       <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>/en/post/20190627_ndvi/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
+      <guid>https://www.shulele.net/en/post/20190627_ndvi/</guid>
+      <description>
+
+&lt;!-- ![Global NDVI](featured.png) --&gt;
+
 &lt;p&gt;The normalized difference vegetation index (NDVI) is a simple graphical indicator that reflect the greenness and the heath condition of vegetations.&lt;/p&gt;
-&lt;p&gt;The raw data is from &lt;a href=&#34;https://modis.gsfc.nasa.gov/data/dataprod/mod13.php&#34;&gt;NASA MOD13A&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The raw data is from &lt;a href=&#34;https://modis.gsfc.nasa.gov/data/dataprod/mod13.php&#34; target=&#34;_blank&#34;&gt;NASA MOD13A&lt;/a&gt;.&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;The global NDVI variation from 2002 to 2017.&lt;/li&gt;
 &lt;/ul&gt;
+
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/7yyPfozr1PU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
+
 &lt;ul&gt;
-&lt;li&gt;The NDVI varies from 2002 to 2017 in US (Continental)
+&lt;li&gt;&lt;p&gt;The NDVI varies from 2002 to 2017 in US (Continental)
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/LL0qRwLLd1g&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/p&gt;
+
 &lt;h2 id=&#34;how-to-download-the-rawdata&#34;&gt;How to download the rawdata&lt;/h2&gt;
+
 &lt;p&gt;The code of the monthly NDVI from MODIS dataset is MOD13C2, so type the code below in your terminal and the wget will download all availalble data from server to you local matchine.&lt;/p&gt;
+
 &lt;pre&gt;&lt;code&gt;wget  --user=XXXXX --password=XXXX -r -c -np -x https://e4ftl01.cr.usgs.gov/MOLT/MOD13C2.006/
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;em&gt;The R package RoundAndRound and PIHMgisR is used for this data processing and visulization.&lt;/em&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;The R package RoundAndRound and PIHMgisR is used for this data processing and visulization.&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>The project to plot planets/objects in space and orbital movement.</title>
-      <link>/en/post/20190129roundandround/</link>
+      <link>https://www.shulele.net/en/post/20190129roundandround/</link>
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/en/post/20190129roundandround/</guid>
+      <guid>https://www.shulele.net/en/post/20190129roundandround/</guid>
       <description>&lt;p&gt;I planed to write an R package and submit on CRAN, that can plot the planets orbiting in Solar System, or satellite/moon orbiting around earth. That package must plot the moving planets, the moon, moon phase and satellite in 2D or 3D canvas. In future, it may calculate the orbit based on orbit mechanics.&lt;/p&gt;
+
 &lt;p&gt;My son loves the song “The wheels on the bus go round and round“, and he has an obsession on planets. He asks mommy play the solar system documentary every night when we ask him to brush his teeth.  So I decided to plot the moving planets in solar system for him with the scientific knowledge I know.&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;left&#34;&gt;My son is obsessed by the planets and stars&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;photo.png&#34; alt=&#34;classroom.jpg&#34;&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
+
+&lt;p&gt;|My son is obsessed by the planets and stars|
+  |:&amp;ndash;|
+  | &lt;img src=&#34;photo.png&#34; alt=&#34;classroom.jpg&#34; /&gt; |&lt;/p&gt;
+
 &lt;p&gt;Another motivation is from the Chinese lunar exploration, Chang-E 5 landing on far-side of the moon.  Lots of people discussed it and were fuddled on the rotation of moon and relation between the earth and the moon.&lt;/p&gt;
+
 &lt;p&gt;Furthermore, I kept thinking the Chinese semi-lunar calendar for many years, I know the founder mental logic and algorithm of the calendar in my mind, but never scratched the equations and numbers in paper yet.  This calendar is determined by the moon phase and the position of the earth in orbit. Definitely the solver in papers are more rousted in my brain.&lt;/p&gt;
+
 &lt;p&gt;Let’s see what I got, by now.&lt;/p&gt;
+
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th align=&#34;left&#34;&gt;The idea of the Moon and the Sun are moving around the Earth, when we assume the earth is the center of system. The orbital period of the moon is 27.321 day, but the synodic period is 29.53 day, that because the sun moves 27.321/365.25 in its sun’s orbit when the moon moves in the moon’s orbit. It requires 2.2 days to let the sun and the moon to face-to-face again.&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;The idea of the Moon and the Sun are moving around the Earth, when we assume the earth is the center of system. The orbital period of the moon is 27.321 day, but the synodic period is 29.53 day, that because the sun moves 27.&lt;sup&gt;321&lt;/sup&gt;&amp;frasl;&lt;sub&gt;365&lt;/sub&gt;.25 in its sun’s orbit when the moon moves in the moon’s orbit. It requires 2.2 days to let the sun and the moon to face-to-face again.&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
+
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;Moon0.png&#34; alt=&#34;classroom.jpg&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;Moon0.png&#34; alt=&#34;classroom.jpg&#34; /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;left&#34;&gt;The position of the Moon and the Sun in an earth year (365 day). The right legend shows the moon phase in 30 days. The concentric orbits are numbers of the moon periods.&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;Moon_year365.png&#34; alt=&#34;classroom.jpg&#34;&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
+
+&lt;p&gt;|The position of the Moon and the Sun in an earth year (365 day). The right legend shows the moon phase in 30 days. The concentric orbits are numbers of the moon periods.|
+  |:&amp;ndash;|
+  | &lt;img src=&#34;Moon_year365.png&#34; alt=&#34;classroom.jpg&#34; /&gt; |&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Volunteer for Kids Discovering Science project in California</title>
-      <link>/en/post/20190129kids-ucd/</link>
+      <link>https://www.shulele.net/en/post/20190129kids-ucd/</link>
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/en/post/20190129kids-ucd/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://kidsdiscoveringscience.wordpress.com/about/&#34;&gt;external_link of the project&lt;/a&gt;&lt;/p&gt;
+      <guid>https://www.shulele.net/en/post/20190129kids-ucd/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;https://kidsdiscoveringscience.wordpress.com/about/&#34; target=&#34;_blank&#34;&gt;external_link of the project&lt;/a&gt;&lt;/p&gt;
+
 &lt;h2 id=&#34;motivation-of-the-project&#34;&gt;Motivation of the project&lt;/h2&gt;
+
 &lt;p&gt;This is fantastic program to teach the local kids and lead them into the discovering sciences.&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;left&#34;&gt;Panoview of the Math&amp;amp;Science classroom.&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;Classroom.jpg&#34; alt=&#34;classroom.jpg&#34;&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
+
+&lt;p&gt;| Panoview of the Math&amp;amp;Science classroom.|
+  |:&amp;ndash;|
+  | &lt;img src=&#34;Classroom.jpg&#34; alt=&#34;classroom.jpg&#34; /&gt; |&lt;/p&gt;
+
 &lt;h4 id=&#34;week-03&#34;&gt;Week 03:&lt;/h4&gt;
+
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th align=&#34;left&#34;&gt;Week 03: Jessica is writing students observation and discussion of plants in two different soils (Sperpentine and sandy loam).&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
+
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;L03.jpg&#34; alt=&#34;L03.jpg&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;L03.jpg&#34; alt=&#34;L03.jpg&#34; /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+
 &lt;h4 id=&#34;week-05&#34;&gt;Week 05:&lt;/h4&gt;
+
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th align=&#34;left&#34;&gt;Week 05: The growth condition of their beans.&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
+
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;L05.jpg&#34; alt=&#34;L05.jpg&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;L05.jpg&#34; alt=&#34;L05.jpg&#34; /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th align=&#34;left&#34;&gt;Week 05: One question from students&amp;rsquo; question box. Question: Why are my plants leaves sticky?&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
+
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;QA05.jpg&#34; alt=&#34;QA05.jpg&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;img src=&#34;QA05.jpg&#34; alt=&#34;QA05.jpg&#34; /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;

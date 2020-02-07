@@ -3,1275 +3,1295 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/en/class_fdm/class01/class_01/</loc>
+    <loc>https://www.shulele.net/en/class_fdm/class01/class_01/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/en/authors/admin/</loc>
-    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+    <loc>https://www.shulele.net/en/authors/admin/</loc>
+    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/authors/admin/"
+                href="https://www.shulele.net/zh/authors/admin/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/authors/admin/"
+                href="https://www.shulele.net/en/authors/admin/"
                 />
   </url>
   
   <url>
-    <loc>/en/publication_types/3/</loc>
+    <loc>https://www.shulele.net/en/authors/</loc>
+    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.shulele.net/zh/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.shulele.net/en/authors/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.shulele.net/en/post/20200201_nature/</loc>
+    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.shulele.net/zh/post/20200201_nature/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.shulele.net/en/post/20200201_nature/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.shulele.net/en/post/</loc>
+    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.shulele.net/zh/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.shulele.net/en/post/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.shulele.net/en/</loc>
+    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.shulele.net/zh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.shulele.net/en/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.shulele.net/en/post/20200110_calender/</loc>
+    <lastmod>2020-01-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.shulele.net/en/publication_types/3/</loc>
     <lastmod>2019-11-25T00:00:00-08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/publication_types/3/"
+                href="https://www.shulele.net/zh/publication_types/3/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/publication_types/3/"
+                href="https://www.shulele.net/en/publication_types/3/"
                 />
   </url>
   
   <url>
-    <loc>/en/authors/</loc>
+    <loc>https://www.shulele.net/en/authors/duffy-christopher/</loc>
     <lastmod>2019-11-25T00:00:00-08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/authors/"
+                href="https://www.shulele.net/zh/authors/duffy-christopher/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/authors/"
+                href="https://www.shulele.net/en/authors/duffy-christopher/"
                 />
   </url>
   
   <url>
-    <loc>/en/authors/duffy-christopher/</loc>
+    <loc>https://www.shulele.net/en/publication_types/</loc>
     <lastmod>2019-11-25T00:00:00-08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/authors/duffy-christopher/"
+                href="https://www.shulele.net/zh/publication_types/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/authors/duffy-christopher/"
+                href="https://www.shulele.net/en/publication_types/"
                 />
   </url>
   
   <url>
-    <loc>/en/publication_types/</loc>
+    <loc>https://www.shulele.net/en/publication/</loc>
     <lastmod>2019-11-25T00:00:00-08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/publication_types/"
+                href="https://www.shulele.net/zh/publication/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/publication_types/"
+                href="https://www.shulele.net/en/publication/"
                 />
   </url>
   
   <url>
-    <loc>/en/publication/</loc>
+    <loc>https://www.shulele.net/en/authors/shu-lele/</loc>
     <lastmod>2019-11-25T00:00:00-08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/publication/"
+                href="https://www.shulele.net/zh/authors/shu-lele/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/publication/"
+                href="https://www.shulele.net/en/authors/shu-lele/"
                 />
   </url>
   
   <url>
-    <loc>/en/</loc>
+    <loc>https://www.shulele.net/en/publication/shu2019_shud/</loc>
     <lastmod>2019-11-25T00:00:00-08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/"
+                href="https://www.shulele.net/zh/publication/shu2019_shud/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/"
+                href="https://www.shulele.net/en/publication/shu2019_shud/"
                 />
   </url>
   
   <url>
-    <loc>/en/authors/shu-lele/</loc>
+    <loc>https://www.shulele.net/en/authors/ullrich-paul/</loc>
     <lastmod>2019-11-25T00:00:00-08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/authors/shu-lele/"
+                href="https://www.shulele.net/zh/authors/ullrich-paul/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/authors/shu-lele/"
+                href="https://www.shulele.net/en/authors/ullrich-paul/"
                 />
   </url>
   
   <url>
-    <loc>/en/publication/shu2019_shud/</loc>
-    <lastmod>2019-11-25T00:00:00-08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/publication/shu2019_shud/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/publication/shu2019_shud/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/authors/ullrich-paul/</loc>
-    <lastmod>2019-11-25T00:00:00-08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/authors/ullrich-paul/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/authors/ullrich-paul/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/post/20191119_sundials/</loc>
+    <loc>https://www.shulele.net/en/post/20191119_sundials/</loc>
     <lastmod>2019-09-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/post/20191119_sundials/"
+                href="https://www.shulele.net/zh/post/20191119_sundials/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/post/20191119_sundials/"
+                href="https://www.shulele.net/en/post/20191119_sundials/"
                 />
   </url>
   
   <url>
-    <loc>/en/post/</loc>
+    <loc>https://www.shulele.net/en/project/mint/</loc>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.shulele.net/zh/project/mint/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.shulele.net/en/project/mint/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.shulele.net/en/tags/automatic-modeling/</loc>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.shulele.net/zh/tags/automatic-modeling/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.shulele.net/en/tags/automatic-modeling/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.shulele.net/en/categories/</loc>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.shulele.net/zh/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.shulele.net/en/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.shulele.net/en/tags/climate-change/</loc>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.shulele.net/zh/tags/climate-change/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.shulele.net/en/tags/climate-change/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.shulele.net/en/tags/drought/</loc>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.shulele.net/zh/tags/drought/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.shulele.net/en/tags/drought/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.shulele.net/en/tags/flood/</loc>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.shulele.net/zh/tags/flood/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.shulele.net/en/tags/flood/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.shulele.net/en/tags/hydrology/</loc>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.shulele.net/zh/tags/hydrology/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.shulele.net/en/tags/hydrology/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.shulele.net/en/tags/landuse-change/</loc>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.shulele.net/zh/tags/landuse-change/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.shulele.net/en/tags/landuse-change/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.shulele.net/en/tags/pihm/</loc>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.shulele.net/zh/tags/pihm/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.shulele.net/en/tags/pihm/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.shulele.net/en/categories/research/</loc>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.shulele.net/zh/categories/research/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.shulele.net/en/categories/research/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.shulele.net/en/project/</loc>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.shulele.net/zh/project/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.shulele.net/en/project/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.shulele.net/en/tags/</loc>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.shulele.net/zh/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.shulele.net/en/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.shulele.net/en/tags/watershed/</loc>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://www.shulele.net/zh/tags/watershed/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.shulele.net/en/tags/watershed/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.shulele.net/en/post/20191003_r_animation/</loc>
     <lastmod>2019-09-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/post/"
+                href="https://www.shulele.net/zh/post/20191003_r_animation/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/post/"
+                href="https://www.shulele.net/en/post/20191003_r_animation/"
                 />
   </url>
   
   <url>
-    <loc>/en/project/mint/</loc>
-    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+    <loc>https://www.shulele.net/en/publication_types/2/</loc>
+    <lastmod>2019-07-25T00:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/project/mint/"
+                href="https://www.shulele.net/zh/publication_types/2/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/project/mint/"
+                href="https://www.shulele.net/en/publication_types/2/"
                 />
   </url>
   
   <url>
-    <loc>/en/tags/automatic-modeling/</loc>
-    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+    <loc>https://www.shulele.net/en/authors/et.-al/</loc>
+    <lastmod>2019-07-25T00:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tags/automatic-modeling/"
+                href="https://www.shulele.net/zh/authors/et.-al/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/automatic-modeling/"
+                href="https://www.shulele.net/en/authors/et.-al/"
                 />
   </url>
   
   <url>
-    <loc>/en/categories/</loc>
-    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+    <loc>https://www.shulele.net/en/authors/fitchett-leah/</loc>
+    <lastmod>2019-07-25T00:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/categories/"
+                href="https://www.shulele.net/zh/authors/fitchett-leah/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/categories/"
+                href="https://www.shulele.net/en/authors/fitchett-leah/"
                 />
   </url>
   
   <url>
-    <loc>/en/tags/climate-change/</loc>
-    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+    <loc>https://www.shulele.net/en/authors/hart-julia-a./</loc>
+    <lastmod>2019-07-25T00:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tags/climate-change/"
+                href="https://www.shulele.net/zh/authors/hart-julia-a./"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/climate-change/"
+                href="https://www.shulele.net/en/authors/hart-julia-a./"
                 />
   </url>
   
   <url>
-    <loc>/en/tags/drought/</loc>
-    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+    <loc>https://www.shulele.net/en/publication/ward2018/</loc>
+    <lastmod>2019-07-25T00:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tags/drought/"
+                href="https://www.shulele.net/zh/publication/ward2018/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/drought/"
+                href="https://www.shulele.net/en/publication/ward2018/"
                 />
   </url>
   
   <url>
-    <loc>/en/tags/flood/</loc>
-    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+    <loc>https://www.shulele.net/en/authors/ward-nicole-k./</loc>
+    <lastmod>2019-07-25T00:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tags/flood/"
+                href="https://www.shulele.net/zh/authors/ward-nicole-k./"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/flood/"
+                href="https://www.shulele.net/en/authors/ward-nicole-k./"
                 />
   </url>
   
   <url>
-    <loc>/en/tags/hydrology/</loc>
-    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/tags/hydrology/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tags/hydrology/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/tags/landuse-change/</loc>
-    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/tags/landuse-change/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tags/landuse-change/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/tags/pihm/</loc>
-    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/tags/pihm/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tags/pihm/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/categories/research/</loc>
-    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/categories/research/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/categories/research/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/project/</loc>
-    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/project/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/project/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/tags/</loc>
-    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/tags/watershed/</loc>
-    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/tags/watershed/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tags/watershed/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/post/20191003_r_animation/</loc>
+    <loc>https://www.shulele.net/en/post/20190627_ndvi/</loc>
     <lastmod>2019-09-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/post/20191003_r_animation/"
+                href="https://www.shulele.net/zh/post/20190627_ndvi/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/post/20191003_r_animation/"
+                href="https://www.shulele.net/en/post/20190627_ndvi/"
                 />
   </url>
   
   <url>
-    <loc>/en/publication_types/2/</loc>
-    <lastmod>2019-07-25T00:00:00-07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/publication_types/2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/publication_types/2/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/authors/et.-al/</loc>
-    <lastmod>2019-07-25T00:00:00-07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/authors/et.-al/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/authors/et.-al/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/authors/fitchett-leah/</loc>
-    <lastmod>2019-07-25T00:00:00-07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/authors/fitchett-leah/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/authors/fitchett-leah/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/authors/hart-julia-a./</loc>
-    <lastmod>2019-07-25T00:00:00-07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/authors/hart-julia-a./"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/authors/hart-julia-a./"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/publication/ward2018/</loc>
-    <lastmod>2019-07-25T00:00:00-07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/publication/ward2018/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/publication/ward2018/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/authors/ward-nicole-k./</loc>
-    <lastmod>2019-07-25T00:00:00-07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/authors/ward-nicole-k./"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/authors/ward-nicole-k./"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/post/20190627_ndvi/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/post/20190627_ndvi/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/post/20190627_ndvi/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/cv/</loc>
+    <loc>https://www.shulele.net/en/cv/</loc>
     <lastmod>2019-06-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/cv/"
+                href="https://www.shulele.net/zh/cv/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/cv/"
+                href="https://www.shulele.net/en/cv/"
                 />
   </url>
   
   <url>
-    <loc>/en/class_fdm/</loc>
+    <loc>https://www.shulele.net/en/class_fdm/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/en/tags/groundwater/</loc>
+    <loc>https://www.shulele.net/en/tags/groundwater/</loc>
     <lastmod>2019-11-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tags/groundwater/"
+                href="https://www.shulele.net/zh/tags/groundwater/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/groundwater/"
+                href="https://www.shulele.net/en/tags/groundwater/"
                 />
   </url>
   
   <url>
-    <loc>/en/project/hyperion/</loc>
+    <loc>https://www.shulele.net/en/project/hyperion/</loc>
     <lastmod>2019-11-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/project/hyperion/"
+                href="https://www.shulele.net/zh/project/hyperion/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/project/hyperion/"
+                href="https://www.shulele.net/en/project/hyperion/"
                 />
   </url>
   
   <url>
-    <loc>/en/tags/machine-learning/</loc>
+    <loc>https://www.shulele.net/en/tags/machine-learning/</loc>
     <lastmod>2019-11-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tags/machine-learning/"
+                href="https://www.shulele.net/zh/tags/machine-learning/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/machine-learning/"
+                href="https://www.shulele.net/en/tags/machine-learning/"
                 />
   </url>
   
   <url>
-    <loc>/en/tags/statistical-downscaling/</loc>
+    <loc>https://www.shulele.net/en/tags/statistical-downscaling/</loc>
     <lastmod>2019-11-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tags/statistical-downscaling/"
+                href="https://www.shulele.net/zh/tags/statistical-downscaling/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/statistical-downscaling/"
+                href="https://www.shulele.net/en/tags/statistical-downscaling/"
                 />
   </url>
   
   <url>
-    <loc>/en/post/20190129roundandround/</loc>
+    <loc>https://www.shulele.net/en/post/20190129roundandround/</loc>
     <lastmod>2019-09-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/post/20190129roundandround/"
+                href="https://www.shulele.net/zh/post/20190129roundandround/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/post/20190129roundandround/"
+                href="https://www.shulele.net/en/post/20190129roundandround/"
                 />
   </url>
   
   <url>
-    <loc>/en/post/20190129kids-ucd/</loc>
+    <loc>https://www.shulele.net/en/post/20190129kids-ucd/</loc>
     <lastmod>2019-09-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/post/20190129kids-ucd/"
+                href="https://www.shulele.net/zh/post/20190129kids-ucd/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/post/20190129kids-ucd/"
+                href="https://www.shulele.net/en/post/20190129kids-ucd/"
                 />
   </url>
   
   <url>
-    <loc>/en/class_programming/</loc>
+    <loc>https://www.shulele.net/en/class_programming/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/en/tags/course/</loc>
+    <loc>https://www.shulele.net/en/tags/course/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/en/class_geospatialr/0overview/</loc>
+    <loc>https://www.shulele.net/en/class_geospatialr/0overview/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/en/tags/geostatistical/</loc>
+    <loc>https://www.shulele.net/en/tags/geostatistical/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/en/tags/gis/</loc>
+    <loc>https://www.shulele.net/en/tags/gis/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/en/tags/programming/</loc>
+    <loc>https://www.shulele.net/en/tags/programming/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/en/tags/r/</loc>
+    <loc>https://www.shulele.net/en/tags/r/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/en/tags/spatial-analysis/</loc>
+    <loc>https://www.shulele.net/en/tags/spatial-analysis/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/en/tags/statistical/</loc>
+    <loc>https://www.shulele.net/en/tags/statistical/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/en/categories/teaching/</loc>
+    <loc>https://www.shulele.net/en/categories/teaching/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/en/tags/hydrologic-modeling/</loc>
+    <loc>https://www.shulele.net/en/tags/hydrologic-modeling/</loc>
     <lastmod>2018-12-01T00:00:00-08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tags/hydrologic-modeling/"
+                href="https://www.shulele.net/zh/tags/hydrologic-modeling/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/hydrologic-modeling/"
+                href="https://www.shulele.net/en/tags/hydrologic-modeling/"
                 />
   </url>
   
   <url>
-    <loc>/en/authors/lele-shu/</loc>
+    <loc>https://www.shulele.net/en/authors/lele-shu/</loc>
     <lastmod>2018-12-01T00:00:00-08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/authors/lele-shu/"
+                href="https://www.shulele.net/zh/authors/lele-shu/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/authors/lele-shu/"
+                href="https://www.shulele.net/en/authors/lele-shu/"
                 />
   </url>
   
   <url>
-    <loc>/en/talk/agu2018/</loc>
+    <loc>https://www.shulele.net/en/talk/agu2018/</loc>
     <lastmod>2018-12-01T00:00:00-08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/talk/agu2018/"
+                href="https://www.shulele.net/zh/talk/agu2018/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/talk/agu2018/"
+                href="https://www.shulele.net/en/talk/agu2018/"
                 />
   </url>
   
   <url>
-    <loc>/en/authors/paul-ullrich/</loc>
+    <loc>https://www.shulele.net/en/authors/paul-ullrich/</loc>
     <lastmod>2018-12-01T00:00:00-08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/authors/paul-ullrich/"
+                href="https://www.shulele.net/zh/authors/paul-ullrich/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/authors/paul-ullrich/"
+                href="https://www.shulele.net/en/authors/paul-ullrich/"
                 />
   </url>
   
   <url>
-    <loc>/en/tags/poster/</loc>
+    <loc>https://www.shulele.net/en/tags/poster/</loc>
     <lastmod>2018-12-01T00:00:00-08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tags/poster/"
+                href="https://www.shulele.net/zh/tags/poster/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/poster/"
+                href="https://www.shulele.net/en/tags/poster/"
                 />
   </url>
   
   <url>
-    <loc>/en/talk/</loc>
+    <loc>https://www.shulele.net/en/talk/</loc>
     <lastmod>2018-12-01T00:00:00-08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/talk/"
+                href="https://www.shulele.net/zh/talk/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/talk/"
+                href="https://www.shulele.net/en/talk/"
                 />
   </url>
   
   <url>
-    <loc>/en/publication/cobourn2018/</loc>
+    <loc>https://www.shulele.net/en/publication/cobourn2018/</loc>
     <lastmod>2018-05-25T00:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/publication/cobourn2018/"
+                href="https://www.shulele.net/zh/publication/cobourn2018/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/publication/cobourn2018/"
+                href="https://www.shulele.net/en/publication/cobourn2018/"
                 />
   </url>
   
   <url>
-    <loc>/en/authors/christopher-duffy/</loc>
+    <loc>https://www.shulele.net/en/authors/christopher-duffy/</loc>
     <lastmod>2017-12-01T00:00:00-08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/authors/christopher-duffy/"
+                href="https://www.shulele.net/zh/authors/christopher-duffy/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/authors/christopher-duffy/"
+                href="https://www.shulele.net/en/authors/christopher-duffy/"
                 />
   </url>
   
   <url>
-    <loc>/en/talk/agu2017/</loc>
+    <loc>https://www.shulele.net/en/talk/agu2017/</loc>
     <lastmod>2017-12-01T00:00:00-08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/talk/agu2017/"
+                href="https://www.shulele.net/zh/talk/agu2017/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/talk/agu2017/"
+                href="https://www.shulele.net/en/talk/agu2017/"
                 />
   </url>
   
   <url>
-    <loc>/en/publication_types/0/</loc>
+    <loc>https://www.shulele.net/en/publication_types/0/</loc>
     <lastmod>2017-08-11T00:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/publication_types/0/"
+                href="https://www.shulele.net/zh/publication_types/0/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/publication_types/0/"
+                href="https://www.shulele.net/en/publication_types/0/"
                 />
   </url>
   
   <url>
-    <loc>/en/publication/shu2017/</loc>
+    <loc>https://www.shulele.net/en/publication/shu2017/</loc>
     <lastmod>2017-08-11T00:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/publication/shu2017/"
+                href="https://www.shulele.net/zh/publication/shu2017/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/publication/shu2017/"
+                href="https://www.shulele.net/en/publication/shu2017/"
                 />
   </url>
   
   <url>
-    <loc>/en/tags/anthropology/</loc>
+    <loc>https://www.shulele.net/en/tags/anthropology/</loc>
     <lastmod>2019-11-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tags/anthropology/"
+                href="https://www.shulele.net/zh/tags/anthropology/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/anthropology/"
+                href="https://www.shulele.net/en/tags/anthropology/"
                 />
   </url>
   
   <url>
-    <loc>/en/tags/maya/</loc>
+    <loc>https://www.shulele.net/en/tags/maya/</loc>
     <lastmod>2019-11-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tags/maya/"
+                href="https://www.shulele.net/zh/tags/maya/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/maya/"
+                href="https://www.shulele.net/en/tags/maya/"
                 />
   </url>
   
   <url>
-    <loc>/en/project/tikal/</loc>
+    <loc>https://www.shulele.net/en/project/tikal/</loc>
     <lastmod>2019-11-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/project/tikal/"
+                href="https://www.shulele.net/zh/project/tikal/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/project/tikal/"
+                href="https://www.shulele.net/en/project/tikal/"
                 />
   </url>
   
   <url>
-    <loc>/en/vis3d/</loc>
+    <loc>https://www.shulele.net/en/vis3d/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/vis3d/"
+                href="https://www.shulele.net/zh/vis3d/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/vis3d/"
+                href="https://www.shulele.net/en/vis3d/"
                 />
   </url>
   
   <url>
-    <loc>/en/tags/lake/</loc>
+    <loc>https://www.shulele.net/en/tags/lake/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tags/lake/"
+                href="https://www.shulele.net/zh/tags/lake/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/lake/"
+                href="https://www.shulele.net/en/tags/lake/"
                 />
   </url>
   
   <url>
-    <loc>/en/vis3d/mendota/</loc>
+    <loc>https://www.shulele.net/en/vis3d/mendota/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/vis3d/mendota/"
+                href="https://www.shulele.net/zh/vis3d/mendota/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/vis3d/mendota/"
+                href="https://www.shulele.net/en/vis3d/mendota/"
                 />
   </url>
   
   <url>
-    <loc>/en/tags/shud/</loc>
+    <loc>https://www.shulele.net/en/tags/shud/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tags/shud/"
+                href="https://www.shulele.net/zh/tags/shud/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/shud/"
+                href="https://www.shulele.net/en/tags/shud/"
                 />
   </url>
   
   <url>
-    <loc>/en/vis3d/sunapee/</loc>
+    <loc>https://www.shulele.net/en/vis3d/sunapee/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/vis3d/sunapee/"
+                href="https://www.shulele.net/zh/vis3d/sunapee/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/vis3d/sunapee/"
+                href="https://www.shulele.net/en/vis3d/sunapee/"
                 />
   </url>
   
   <url>
-    <loc>/en/vis3d/yanhuacun/</loc>
+    <loc>https://www.shulele.net/en/vis3d/yanhuacun/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/vis3d/yanhuacun/"
+                href="https://www.shulele.net/zh/vis3d/yanhuacun/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/vis3d/yanhuacun/"
+                href="https://www.shulele.net/en/vis3d/yanhuacun/"
                 />
   </url>
   
   <url>
-    <loc>/en/talk/agu2015/</loc>
+    <loc>https://www.shulele.net/en/talk/agu2015/</loc>
     <lastmod>2015-12-01T00:00:00-08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/talk/agu2015/"
+                href="https://www.shulele.net/zh/talk/agu2015/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/talk/agu2015/"
+                href="https://www.shulele.net/en/talk/agu2015/"
                 />
   </url>
   
   <url>
-    <loc>/en/tags/water-availability/</loc>
+    <loc>https://www.shulele.net/en/tags/water-availability/</loc>
     <lastmod>2015-12-01T00:00:00-08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tags/water-availability/"
+                href="https://www.shulele.net/zh/tags/water-availability/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/water-availability/"
+                href="https://www.shulele.net/en/tags/water-availability/"
                 />
   </url>
   
   <url>
-    <loc>/en/project/stormwater/</loc>
+    <loc>https://www.shulele.net/en/project/stormwater/</loc>
     <lastmod>2019-11-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/project/stormwater/"
+                href="https://www.shulele.net/zh/project/stormwater/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/project/stormwater/"
+                href="https://www.shulele.net/en/project/stormwater/"
                 />
   </url>
   
   <url>
-    <loc>/en/authors/kirk-d.-french/</loc>
+    <loc>https://www.shulele.net/en/authors/kirk-d.-french/</loc>
     <lastmod>2014-12-31T00:00:00-08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/authors/kirk-d.-french/"
+                href="https://www.shulele.net/zh/authors/kirk-d.-french/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/authors/kirk-d.-french/"
+                href="https://www.shulele.net/en/authors/kirk-d.-french/"
                 />
   </url>
   
   <url>
-    <loc>/en/talk/agu2014/</loc>
+    <loc>https://www.shulele.net/en/talk/agu2014/</loc>
     <lastmod>2014-12-31T00:00:00-08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/talk/agu2014/"
+                href="https://www.shulele.net/zh/talk/agu2014/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/talk/agu2014/"
+                href="https://www.shulele.net/en/talk/agu2014/"
                 />
   </url>
   
   <url>
-    <loc>/en/authors/susana-e.-garcia-gonzalez/</loc>
+    <loc>https://www.shulele.net/en/authors/susana-e.-garcia-gonzalez/</loc>
     <lastmod>2014-12-31T00:00:00-08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/authors/susana-e.-garcia-gonzalez/"
+                href="https://www.shulele.net/zh/authors/susana-e.-garcia-gonzalez/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/authors/susana-e.-garcia-gonzalez/"
+                href="https://www.shulele.net/en/authors/susana-e.-garcia-gonzalez/"
                 />
   </url>
   
   <url>
-    <loc>/en/authors/timothy-murtha/</loc>
+    <loc>https://www.shulele.net/en/authors/timothy-murtha/</loc>
     <lastmod>2014-12-31T00:00:00-08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/authors/timothy-murtha/"
+                href="https://www.shulele.net/zh/authors/timothy-murtha/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/authors/timothy-murtha/"
+                href="https://www.shulele.net/en/authors/timothy-murtha/"
                 />
   </url>
   
   <url>
-    <loc>/en/tags/water-budgets/</loc>
+    <loc>https://www.shulele.net/en/tags/water-budgets/</loc>
     <lastmod>2014-12-31T00:00:00-08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tags/water-budgets/"
+                href="https://www.shulele.net/zh/tags/water-budgets/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/water-budgets/"
+                href="https://www.shulele.net/en/tags/water-budgets/"
                 />
   </url>
   
   <url>
-    <loc>/en/class_geospatialr/</loc>
+    <loc>https://www.shulele.net/en/class_geospatialr/</loc>
     <lastmod>2013-12-31T00:00:00-08:00</lastmod>
   </url>
   
   <url>
-    <loc>/en/talk/agu2013/</loc>
+    <loc>https://www.shulele.net/en/talk/agu2013/</loc>
     <lastmod>2013-12-31T00:00:00-08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/talk/agu2013/"
+                href="https://www.shulele.net/zh/talk/agu2013/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/talk/agu2013/"
+                href="https://www.shulele.net/en/talk/agu2013/"
                 />
   </url>
   
   <url>
-    <loc>/en/authors/ding-yongjian/</loc>
+    <loc>https://www.shulele.net/en/authors/ding-yongjian/</loc>
     <lastmod>2011-08-25T00:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/authors/ding-yongjian/"
+                href="https://www.shulele.net/zh/authors/ding-yongjian/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/authors/ding-yongjian/"
+                href="https://www.shulele.net/en/authors/ding-yongjian/"
                 />
   </url>
   
   <url>
-    <loc>/en/tags/environment/</loc>
+    <loc>https://www.shulele.net/en/tags/environment/</loc>
     <lastmod>2011-08-25T00:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tags/environment/"
+                href="https://www.shulele.net/zh/tags/environment/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/environment/"
+                href="https://www.shulele.net/en/tags/environment/"
                 />
   </url>
   
   <url>
-    <loc>/en/publication/nan2011/</loc>
+    <loc>https://www.shulele.net/en/publication/nan2011/</loc>
     <lastmod>2011-08-25T00:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/publication/nan2011/"
+                href="https://www.shulele.net/zh/publication/nan2011/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/publication/nan2011/"
+                href="https://www.shulele.net/en/publication/nan2011/"
                 />
   </url>
   
   <url>
-    <loc>/en/authors/li-xin/</loc>
+    <loc>https://www.shulele.net/en/authors/li-xin/</loc>
     <lastmod>2011-08-25T00:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/authors/li-xin/"
+                href="https://www.shulele.net/zh/authors/li-xin/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/authors/li-xin/"
+                href="https://www.shulele.net/en/authors/li-xin/"
                 />
   </url>
   
   <url>
-    <loc>/en/tags/modeling/</loc>
+    <loc>https://www.shulele.net/en/tags/modeling/</loc>
     <lastmod>2011-08-25T00:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tags/modeling/"
+                href="https://www.shulele.net/zh/tags/modeling/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/modeling/"
+                href="https://www.shulele.net/en/tags/modeling/"
                 />
   </url>
   
   <url>
-    <loc>/en/authors/nan-zhuotong/</loc>
+    <loc>https://www.shulele.net/en/authors/nan-zhuotong/</loc>
     <lastmod>2011-08-25T00:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/authors/nan-zhuotong/"
+                href="https://www.shulele.net/zh/authors/nan-zhuotong/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/authors/nan-zhuotong/"
+                href="https://www.shulele.net/en/authors/nan-zhuotong/"
                 />
   </url>
   
   <url>
-    <loc>/en/tags/noah-lsm/</loc>
+    <loc>https://www.shulele.net/en/tags/noah-lsm/</loc>
     <lastmod>2011-08-25T00:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tags/noah-lsm/"
+                href="https://www.shulele.net/zh/tags/noah-lsm/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/noah-lsm/"
+                href="https://www.shulele.net/en/tags/noah-lsm/"
                 />
   </url>
   
   <url>
-    <loc>/en/tags/the-heihe-river-basin/</loc>
+    <loc>https://www.shulele.net/en/tags/the-heihe-river-basin/</loc>
     <lastmod>2011-08-25T00:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tags/the-heihe-river-basin/"
+                href="https://www.shulele.net/zh/tags/the-heihe-river-basin/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/the-heihe-river-basin/"
+                href="https://www.shulele.net/en/tags/the-heihe-river-basin/"
                 />
   </url>
   
   <url>
-    <loc>/en/tags/topmodel/</loc>
+    <loc>https://www.shulele.net/en/tags/topmodel/</loc>
     <lastmod>2011-08-25T00:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/tags/topmodel/"
+                href="https://www.shulele.net/zh/tags/topmodel/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/topmodel/"
+                href="https://www.shulele.net/en/tags/topmodel/"
                 />
   </url>
   
   <url>
-    <loc>/en/authors/zhao-yanbo/</loc>
+    <loc>https://www.shulele.net/en/authors/zhao-yanbo/</loc>
     <lastmod>2011-08-25T00:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/authors/zhao-yanbo/"
+                href="https://www.shulele.net/zh/authors/zhao-yanbo/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/authors/zhao-yanbo/"
+                href="https://www.shulele.net/en/authors/zhao-yanbo/"
                 />
   </url>
   
   <url>
-    <loc>/en/gallery/</loc>
+    <loc>https://www.shulele.net/en/gallery/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="/zh/gallery/"
+                href="https://www.shulele.net/zh/gallery/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/gallery/"
+                href="https://www.shulele.net/en/gallery/"
                 />
   </url>
   
   <url>
-    <loc>/en/class_fdm/0overview/</loc>
+    <loc>https://www.shulele.net/en/class_fdm/0overview/</loc>
   </url>
   
   <url>
-    <loc>/en/teaching/</loc>
+    <loc>https://www.shulele.net/en/teaching/</loc>
   </url>
   
 </urlset>

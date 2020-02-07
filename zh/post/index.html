@@ -31,9 +31,9 @@
   <meta name="description" content="博士后研究员, SHUD模型作者">
 
   
-  <link rel="alternate" hreflang="en" href="/en/post/">
+  <link rel="alternate" hreflang="en" href="https://www.shulele.net/en/post/">
   
-  <link rel="alternate" hreflang="zh-Hans" href="/zh/post/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://www.shulele.net/zh/post/">
 
   
 
@@ -93,15 +93,43 @@
 
 
 
-  
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135370684-1"></script>
 <script>
-  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','UA-135370684-1');
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-135370684-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
 </script>
 
+
+  
 
 
   
@@ -112,7 +140,7 @@
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/zh/post/">
+  <link rel="canonical" href="https://www.shulele.net/zh/post/">
 
   
   
@@ -128,29 +156,29 @@
   <meta property="twitter:creator" content="@leleshu">
   
   <meta property="og:site_name" content="舒乐乐">
-  <meta property="og:url" content="/zh/post/">
-  <meta property="og:title" content="日志 | 舒乐乐">
-  <meta property="og:description" content="博士后研究员, SHUD模型作者"><meta property="og:image" content="/img/icon-192.png">
-  <meta property="twitter:image" content="/img/icon-192.png"><meta property="og:locale" content="zh-Hans">
+  <meta property="og:url" content="https://www.shulele.net/zh/post/">
+  <meta property="og:title" content="个人日志 | 舒乐乐">
+  <meta property="og:description" content="博士后研究员, SHUD模型作者"><meta property="og:image" content="https://www.shulele.net/img/icon-192.png">
+  <meta property="twitter:image" content="https://www.shulele.net/img/icon-192.png"><meta property="og:locale" content="zh-Hans">
   
-    <meta property="og:updated_time" content="2019-12-02T22:05:38&#43;00:00">
+    <meta property="og:updated_time" content="2020-02-05T22:05:38&#43;00:00">
   
-
-  
-
-
-
-
-  
-
 
   
 
 
 
 
+  
 
-  <title>日志 | 舒乐乐</title>
+
+  
+
+
+
+
+
+  <title>个人日志 | 舒乐乐</title>
 
 </head>
 
@@ -195,7 +223,7 @@
     
     
     
-      <a class="navbar-brand" href="/zh">舒乐乐</a>
+      <a class="navbar-brand" href="/zh/">舒乐乐</a>
     
 
     
@@ -247,25 +275,16 @@
         
         
         
-          
-        
 
         
         
         
         
         
-        
-          
-          
-          
-            
-          
-          
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/zh/#posts"><span>日志</span></a>
+          <a class="nav-link  active" href="/zh/post"><span>日志</span></a>
         </li>
 
         
@@ -464,8 +483,10 @@
     
   
 <div class="universal-wrapper pt-3">
-  <h1>日志</h1>
+  <h1>个人日志</h1>
 
+  
+  <p class="page-subtitle">随机的一点总结和感谢</p>
   
 
   
@@ -490,31 +511,280 @@
 
 
 
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  
+  <span>舒乐乐</span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          最近更新于
+      
+    
+    Feb 5, 2020
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <a href="/zh/post/20200205_rscopus/#disqus_thread"></a>
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/zh/post/20200205_rscopus/">如何获取某人的发文章数据？</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>以获取武汉病毒所所有博导的发文章数据为例。 一 获取名单。 列出你需要获得数据的人名和研究所。 人名和单位名字都必须是英文。 从此链接进入，武汉病毒所</p>
+  </div>
+  
+
+  
+
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
 
 
 
   
 
 
-<div class="media stream-item">
-  <div class="media-body">
+<div class="card-simple">
 
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/zh/post/20191202_xueshuwubi/" >《葵花宝典》放在你面前，你愿意挥刀自宫吗？</a>
-    </h3>
-
-    
-    <div class="article-style">
-      我经常在想，金庸笔下的挥刀自宫究竟是什么意思？ 金庸笔下的江湖。并不是一个空穴来风的虚构世界，而是将现实社会抽象化之后的江湖。金庸笔下说的江湖
-    </div>
+  
     
 
-    <div class="stream-meta article-metadata">
 
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  
+  <span>舒乐乐</span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          最近更新于
+      
+    
+    Feb 3, 2020
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <a href="/zh/post/20200203_wushui/#disqus_thread"></a>
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/zh/post/20200203_wushui/">忍不了给别人泼脏水的</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>现在几个批评文章意思差不多，基本主旨是这样： 学术能力不够，却当所长。证据：只有24篇文章，11篇通讯文章，说不够分量。 年龄太小，资历不够。 证</p>
+  </div>
+  
+
+  
+
+</div>
+
+    
+  
+    
       
 
+
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  
+  <span>舒乐乐</span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
       
-        
+    
+    Feb 1, 2020
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <a href="/zh/post/20200201_nature/#disqus_thread"></a>
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/zh/post/20200201_nature/">
+      <img src="/zh/post/20200201_nature/featured_hu7f456a7360ca1a91af9c8b22669c07e1_384744_918x517_fill_q90_lanczos_smart1_2.png" class="article-banner" alt="">
+  </a>
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/zh/post/20200201_nature/">写给Nature的信：Stop using the offensive virus names</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>《nature》在报道新冠病毒时候，使用的名字都很刺耳，于是我写了一篇短评论给《Nature》。 Stop using the offensive virus names Inappropriate naming of the new human disease inevitably causes prejudice and discrimination upon particular people and</p>
+  </div>
+  
+
+  
+
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
 
 
 <div class="article-metadata">
@@ -563,21 +833,29 @@
 
 </div>
 
-      
-    </div>
+  
 
-    
+  
+  
+  
+  
+  <a href="/zh/post/20191202_xueshuwubi/">
+      <img src="/zh/post/20191202_xueshuwubi/featured_hu9bbcd789c589952c50864404d86f8769_25704_918x517_fill_q90_lanczos_smart1.jpg" class="article-banner" alt="">
+  </a>
+  
 
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/zh/post/20191202_xueshuwubi/">《葵花宝典》放在你面前，你愿意挥刀自宫吗？</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>我经常在想，金庸笔下的挥刀自宫究竟是什么意思？ 金庸笔下的江湖。并不是一个空穴来风的虚构世界，而是将现实社会抽象化之后的江湖。金庸笔下说的江湖</p>
   </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/zh/post/20191202_xueshuwubi/" >
-      <img src="/zh/post/20191202_xueshuwubi/featured_hu9bbcd789c589952c50864404d86f8769_25704_150x0_resize_q90_lanczos.jpg" alt="">
-    </a>
-    
-  </div>
+  
+
+  
+
 </div>
 
     
@@ -593,31 +871,13 @@
 
 
 
-
-
-
   
 
 
-<div class="media stream-item">
-  <div class="media-body">
+<div class="card-simple">
 
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/zh/post/20191119_sundials/" >如何在Linux/mac上安装SUNDIALS/CVODE</a>
-    </h3>
-
+  
     
-    <div class="article-style">
-      SUNDIALS: SUite of Nonlinear and DIfferential/ALgebraic Equation Solvers SUNDIALS (https://computing.llnl.gov/projects/sundials) is a …
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
 
 
 <div class="article-metadata">
@@ -666,21 +926,29 @@
 
 </div>
 
-      
-    </div>
+  
 
-    
+  
+  
+  
+  
+  <a href="/zh/post/20191119_sundials/">
+      <img src="/zh/post/20191119_sundials/featured_hu9c2fdeb06166f885ce6e380ced074eb4_203766_918x517_fill_q90_lanczos_smart1_2.png" class="article-banner" alt="">
+  </a>
+  
 
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/zh/post/20191119_sundials/">如何在Linux/mac上安装SUNDIALS/CVODE</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>SUNDIALS: SUite of Nonlinear and DIfferential/ALgebraic Equation Solvers SUNDIALS (https://computing.llnl.gov/projects/sundials) is a very powerful mathematical library that is helpful in solving engineering and scientific problems efficiently. CVODE is one of the tools, aiming to solve Ordinary Differential Equation, in C language. In the Solver of Hydrologic Unstructured Domain (SHUD) model, the system of ODEs describing the hydrological processes is fully coupled and solved simultaneously at each time step ($ \Delta</p>
   </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/zh/post/20191119_sundials/" >
-      <img src="/zh/post/20191119_sundials/featured_hu9c2fdeb06166f885ce6e380ced074eb4_203766_150x0_resize_lanczos_2.png" alt="">
-    </a>
-    
-  </div>
+  
+
+  
+
 </div>
 
     
@@ -696,31 +964,13 @@
 
 
 
-
-
-
   
 
 
-<div class="media stream-item">
-  <div class="media-body">
+<div class="card-simple">
 
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/zh/post/20191003_r_animation/" >使用R脚本制作全球NDVI动画</a>
-    </h3>
-
+  
     
-    <div class="article-style">
-      This script is to demonstrate the capability and scheme to realise the animation. You have to prepare your own data for this animation …
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
 
 
 <div class="article-metadata">
@@ -769,21 +1019,29 @@
 
 </div>
 
-      
-    </div>
+  
 
-    
+  
+  
+  
+  
+  <a href="/zh/post/20191003_r_animation/">
+      <img src="/zh/post/20191003_r_animation/featured_hu1ed7f3778d56d380004297095f388651_136097_918x517_fill_q90_lanczos_smart1_2.png" class="article-banner" alt="">
+  </a>
+  
 
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/zh/post/20191003_r_animation/">使用R脚本制作全球NDVI动画</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>This script is to demonstrate the capability and scheme to realise the animation. You have to prepare your own data for this animation script. Script for Global NDVI rm(list=ls()) library(RoundAndRound) # devtools::install_github('shulele/RoundAndRound') col.fun=function(x){ colorspace::terrain_hcl(x, l=c(65,95), power=c(1/3, 1.5)) } plotStar &lt;- function(x, y, radius, angle=180, xyratio=1, ...){ i &lt;- 1:11 alpha &lt;- 2*pi / 10 r &lt;- radius * (i %% 2 + 1)/2 omega &lt;- alpha * i + angle</p>
   </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/zh/post/20191003_r_animation/" >
-      <img src="/zh/post/20191003_r_animation/featured_hu1ed7f3778d56d380004297095f388651_136097_150x0_resize_lanczos_2.png" alt="">
-    </a>
-    
-  </div>
+  
+
+  
+
 </div>
 
     
@@ -799,31 +1057,13 @@
 
 
 
-
-
-
   
 
 
-<div class="media stream-item">
-  <div class="media-body">
+<div class="card-simple">
 
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/zh/post/20190916_iahs_hydrology/" >2018年IAHS(国际水文学会)选出的23个未解决的水文问题</a>
-    </h3>
-
+  
     
-    <div class="article-style">
-      The 23 unsolved problems in hydrology identified by the community process in 2018. Link of the paper:link Time variability and change …
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
 
 
 <div class="article-metadata">
@@ -872,21 +1112,29 @@
 
 </div>
 
-      
-    </div>
+  
 
-    
+  
+  
+  
+  
+  <a href="/zh/post/20190916_iahs_hydrology/">
+      <img src="/zh/post/20190916_iahs_hydrology/featured_hu5d152e25335b2ed59cb4d9e90c0b5c2a_88638_918x517_fill_q90_lanczos_smart1_2.png" class="article-banner" alt="">
+  </a>
+  
 
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/zh/post/20190916_iahs_hydrology/">2018年IAHS(国际水文学会)选出的23个未解决的水文问题</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>The 23 unsolved problems in hydrology identified by the community process in 2018. Link of the paper:link Time variability and change Is the hydrological cycle regionally accelerating/decelerating under climate and environmental change, and are there tipping points (irreversible changes)? How will cold region runoff and groundwater change in a warmer climate (e.g. with glacier melt and permafrost thaw)? What are the mechanisms by which climate change and water use alter</p>
   </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/zh/post/20190916_iahs_hydrology/" >
-      <img src="/zh/post/20190916_iahs_hydrology/featured_hu5d152e25335b2ed59cb4d9e90c0b5c2a_88638_150x0_resize_lanczos_2.png" alt="">
-    </a>
-    
-  </div>
+  
+
+  
+
 </div>
 
     
@@ -902,31 +1150,13 @@
 
 
 
-
-
-
   
 
 
-<div class="media stream-item">
-  <div class="media-body">
+<div class="card-simple">
 
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/zh/post/20190627_ndvi/" >2002-201年间美国和全球逐月NDVI的变化动画</a>
-    </h3>
-
+  
     
-    <div class="article-style">
-      The normalized difference vegetation index (NDVI) is a simple graphical indicator that reflect the greenness and the heath condition of …
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
 
 
 <div class="article-metadata">
@@ -975,21 +1205,29 @@
 
 </div>
 
-      
-    </div>
+  
 
-    
+  
+  
+  
+  
+  <a href="/zh/post/20190627_ndvi/">
+      <img src="/zh/post/20190627_ndvi/featured_hu037e5223d180b1e3f8c7556e8d899af2_62563_918x517_fill_q90_lanczos_smart1_2.png" class="article-banner" alt="">
+  </a>
+  
 
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/zh/post/20190627_ndvi/">2002-201年间美国和全球逐月NDVI的变化动画</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>The normalized difference vegetation index (NDVI) is a simple graphical indicator that reflect the greenness and the heath condition of vegetations. The raw data is from NASA MOD13A. The global NDVI variation from 2002 to 2017. The NDVI varies from 2002 to 2017 in US (Continental) How to download the rawdata The code of the monthly NDVI from MODIS dataset is MOD13C2, so type the code below in your terminal</p>
   </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/zh/post/20190627_ndvi/" >
-      <img src="/zh/post/20190627_ndvi/featured_hu037e5223d180b1e3f8c7556e8d899af2_62563_150x0_resize_lanczos_2.png" alt="">
-    </a>
-    
-  </div>
+  
+
+  
+
 </div>
 
     
@@ -1005,31 +1243,104 @@
 
 
 
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  
+  <span>舒乐乐</span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Jun 11, 2019
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <a href="/zh/post/20190611_wrfhydro/#disqus_thread"></a>
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/zh/post/20190611_wrfhydro/">
+      <img src="/zh/post/20190611_wrfhydro/featured_hu80c4e3c7241abb0d8912035f3edc9058_560530_918x517_fill_q90_lanczos_smart1_2.png" class="article-banner" alt="">
+  </a>
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/zh/post/20190611_wrfhydro/">WRF-Hydro这个模型怎么样？</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>WRF-Hydro做得非常好。 能够完成大尺度(全美国900万平方公里)实时的洪水预报，这个就已经超出所有分布式水文模型的能力了。而且他们在推</p>
+  </div>
+  
+
+  
+
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
 
 
 
   
 
 
-<div class="media stream-item">
-  <div class="media-body">
+<div class="card-simple">
 
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/zh/post/20190129roundandround/" >使用R语言计算、绘制和动画演示物体、天体在太空的运行状况.</a>
-    </h3>
-
+  
     
-    <div class="article-style">
-      I planed to write an R package and submit on CRAN, that can plot the planets orbiting in Solar System, or satellite/moon orbiting …
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
 
 
 <div class="article-metadata">
@@ -1078,130 +1389,44 @@
 
 </div>
 
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/zh/post/20190129roundandround/" >
-      <img src="/zh/post/20190129roundandround/featured_hu198ddc5f85a4993931070e23a0e932ec_290973_150x0_resize_lanczos_2.png" alt="">
-    </a>
-    
-  </div>
-</div>
-
-    
   
-    
-      
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/zh/post/20190129kids-ucd/" >我在美国做支教</a>
-    </h3>
-
-    
-    <div class="article-style">
-      项目外部链接 Motivation of the project This is fantastic program to teach the local kids and lead them into the discovering sciences. …
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
 
   
   
   
   
-  <div>
-    
+  <a href="/zh/post/20190129roundandround/">
+      <img src="/zh/post/20190129roundandround/featured_hu198ddc5f85a4993931070e23a0e932ec_290973_918x517_fill_q90_lanczos_smart1_2.png" class="article-banner" alt="">
+  </a>
+  
 
-
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/zh/post/20190129roundandround/">使用R语言计算、绘制和动画演示物体、天体在太空的运行状况.</a>
+  </h3>
 
   
-  <span>舒乐乐</span>
-
+  <div class="article-style">
+    <p>I planed to write an R package and submit on CRAN, that can plot the planets orbiting in Solar System, or satellite/moon orbiting around earth. That package must plot the moving planets, the moon, moon phase and satellite in 2D or 3D canvas. In future, it may calculate the orbit based on orbit mechanics. My son loves the song “The wheels on the bus go round and</p>
   </div>
   
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-          最近更新于
-      
-    
-    Sep 5, 2019
-  </span>
-  
 
   
 
-  
-
-  
-  
-  
-  <span class="middot-divider"></span>
-  <a href="/zh/post/20190129kids-ucd/#disqus_thread"></a>
-  
-
-  
-  
-
-</div>
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/zh/post/20190129kids-ucd/" >
-      <img src="/zh/post/20190129kids-ucd/featured_hu33bcbaea2b5a62a48065cddc376e29b6_19369_150x0_resize_q90_lanczos.jpg" alt="">
-    </a>
-    
-  </div>
 </div>
 
     
   
 
   
+<nav>
+  <ul class="pagination justify-content-center">
+    
+    
+    <li class="page-item"><a class="page-link" href="/zh/post/page/2/">&raquo;</a></li>
+    
+  </ul>
+</nav>
+
 
 
 </div>

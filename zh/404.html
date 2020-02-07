@@ -31,7 +31,7 @@
   <meta name="description" content="博士后研究员, SHUD模型作者">
 
   
-  <link rel="alternate" hreflang="zh-Hans" href="/zh/404.html">
+  <link rel="alternate" hreflang="zh-Hans" href="https://www.shulele.net/zh/404.html">
 
   
 
@@ -91,15 +91,43 @@
 
 
 
-  
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135370684-1"></script>
 <script>
-  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','UA-135370684-1');
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-135370684-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
 </script>
 
+
+  
 
 
   
@@ -108,7 +136,7 @@
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/zh/404.html">
+  <link rel="canonical" href="https://www.shulele.net/zh/404.html">
 
   
   
@@ -124,10 +152,10 @@
   <meta property="twitter:creator" content="@leleshu">
   
   <meta property="og:site_name" content="舒乐乐">
-  <meta property="og:url" content="/zh/404.html">
+  <meta property="og:url" content="https://www.shulele.net/zh/404.html">
   <meta property="og:title" content="404 Page not found | 舒乐乐">
-  <meta property="og:description" content="博士后研究员, SHUD模型作者"><meta property="og:image" content="/img/icon-192.png">
-  <meta property="twitter:image" content="/img/icon-192.png"><meta property="og:locale" content="zh-Hans">
+  <meta property="og:description" content="博士后研究员, SHUD模型作者"><meta property="og:image" content="https://www.shulele.net/img/icon-192.png">
+  <meta property="twitter:image" content="https://www.shulele.net/img/icon-192.png"><meta property="og:locale" content="zh-Hans">
   
     
   
@@ -191,7 +219,7 @@
     
     
     
-      <a class="navbar-brand" href="/zh">舒乐乐</a>
+      <a class="navbar-brand" href="/zh/">舒乐乐</a>
     
 
     
@@ -243,25 +271,16 @@
         
         
         
-          
-        
 
         
         
         
         
         
-        
-          
-          
-          
-            
-          
-          
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/zh/#posts"><span>日志</span></a>
+          <a class="nav-link " href="/zh/post"><span>日志</span></a>
         </li>
 
         
@@ -444,6 +463,12 @@
   <h2>最新</h2>
   <ul>
     
+      <li><a href="/zh/post/20200205_rscopus/">如何获取某人的发文章数据？</a></li>
+    
+      <li><a href="/zh/post/20200203_wushui/">忍不了给别人泼脏水的</a></li>
+    
+      <li><a href="/zh/post/20200201_nature/">写给Nature的信：Stop using the offensive virus names</a></li>
+    
       <li><a href="/zh/post/20191202_xueshuwubi/">《葵花宝典》放在你面前，你愿意挥刀自宫吗？</a></li>
     
       <li><a href="/zh/publication/shu2019_shud/">Solver for Hydrologic Unstructured Domain (SHUD): Numerical modeling of watershed hydrology with the finite element method</a></li>
@@ -457,12 +482,6 @@
       <li><a href="/zh/post/20190916_iahs_hydrology/">2018年IAHS(国际水文学会)选出的23个未解决的水文问题</a></li>
     
       <li><a href="/zh/publication/ward2018/">Integrating fast and slow processes is essential for simulating human–freshwater interactions</a></li>
-    
-      <li><a href="/zh/post/20190627_ndvi/">2002-201年间美国和全球逐月NDVI的变化动画</a></li>
-    
-      <li><a href="/zh/project/hyperion/">Hydrologic modeling in project HYPERION</a></li>
-    
-      <li><a href="/zh/post/20190129roundandround/">使用R语言计算、绘制和动画演示物体、天体在太空的运行状况.</a></li>
     
   </ul>
   

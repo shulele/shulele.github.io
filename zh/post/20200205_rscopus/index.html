@@ -1,0 +1,1231 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.6.2">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="舒乐乐">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="以获取武汉病毒所所有博导的发文章数据为例。 一 获取名单。 列出你需要获得数据的人名和研究所。 人名和单位名字都必须是英文。 从此链接进入，武汉病毒所">
+
+  
+  <link rel="alternate" hreflang="zh-Hans" href="https://www.shulele.net/zh/post/20200205_rscopus/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto Sans SC+Noto Serif SC%7CZCOOL XiaoWei:400,700%7CNoto Sans SC:400,700&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135370684-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-135370684-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/zh/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://www.shulele.net/zh/post/20200205_rscopus/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@leleshu">
+  <meta property="twitter:creator" content="@leleshu">
+  
+  <meta property="og:site_name" content="舒乐乐">
+  <meta property="og:url" content="https://www.shulele.net/zh/post/20200205_rscopus/">
+  <meta property="og:title" content="如何获取某人的发文章数据？ | 舒乐乐">
+  <meta property="og:description" content="以获取武汉病毒所所有博导的发文章数据为例。 一 获取名单。 列出你需要获得数据的人名和研究所。 人名和单位名字都必须是英文。 从此链接进入，武汉病毒所"><meta property="og:image" content="https://www.shulele.net/img/icon-192.png">
+  <meta property="twitter:image" content="https://www.shulele.net/img/icon-192.png"><meta property="og:locale" content="zh-Hans">
+  
+    
+      <meta property="article:published_time" content="2020-02-05T22:05:38&#43;00:00">
+    
+    <meta property="article:modified_time" content="2020-02-05T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.shulele.net/zh/post/20200205_rscopus/"
+  },
+  "headline": "如何获取某人的发文章数据？",
+  
+  "datePublished": "2020-02-05T22:05:38Z",
+  "dateModified": "2020-02-05T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "舒乐乐"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "舒乐乐",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.shulele.net/img/icon-512.png"
+    }
+  },
+  "description": "以获取武汉病毒所所有博导的发文章数据为例。 一 获取名单。 列出你需要获得数据的人名和研究所。 人名和单位名字都必须是英文。 从此链接进入，武汉病毒所"
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>如何获取某人的发文章数据？ | 舒乐乐</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>搜索</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="搜索..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    
+    
+      <a class="navbar-brand" href="/zh/">舒乐乐</a>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="切换导航">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-center" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/zh/#about"><span>首页</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/zh/post"><span>日志</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/zh/#projects"><span>研究</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/zh/#talks"><span>讲座报告</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/zh/#publications"><span>文章</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/zh/gallery/"><span>图库</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/zh/cv/"><span>简历</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item">
+        <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>如何获取某人的发文章数据？</h1>
+
+  
+  <p class="page-subtitle">使用R获取Scopus上研究者文章数据</p>
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  
+  <span>舒乐乐</span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          最近更新于
+      
+    
+    Feb 5, 2020
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <a href="/zh/post/20200205_rscopus/#disqus_thread"></a>
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      
+
+<p>以获取武汉病毒所所有博导的发文章数据为例。</p>
+
+<h2 id="一-获取名单">一 获取名单。</h2>
+
+<p>列出你需要获得数据的人名和研究所。 人名和单位名字都必须是英文。</p>
+
+<p>从此链接进入，<a href="http://gd.whiov.cas.cn/dsjs/201410/t20141013_261889.html" target="_blank">武汉病毒所导师介绍</a>。 可以看到31为博士生导师的姓名，通过手动或者软件获得这些导师的人名拼音——即英文名。将这些英文名写入一个txt文件。<em>下面切图我隐去了他们的姓名。</em></p>
+
+<p>如：</p>
+
+<p><img src="name.png" alt="人名" /></p>
+
+<h2 id="从scopus获取名单上教授的发文章数据">从scopus获取名单上教授的发文章数据。</h2>
+
+<p>直接使用一下代码，其中需要路径，使得程序可以找到第一步中存储的名字列表。</p>
+
+<p><em>affil_id = &lsquo;60027289&rsquo;</em> 是武汉病毒所的单位代码。如果需要其他研究所，请自行查找单位代码。</p>
+
+<p><em>aff = &lsquo;virology&rsquo;</em> 是病毒所的英文名关键字。</p>
+
+<p>api_key =&lsquo;xxx&rsquo; 是你需要获取scopus一个帐号，以此来获取数据。</p>
+
+<pre><code>rm(list = ls())
+library('rvest')
+library('dplyr')
+library('scholar')
+# install.packages('scholar')
+library(rscopus)
+# source('Rcode/function/function.GS.R')
+
+dir.data = 'wuhan'
+fn.namelist = 'wuhan/BoDao.txt'
+outdir = 'wuhan/out'
+# Read names from fn.namelist
+# download the profile html pages from GS, save them to local drive.
+
+dir.create(outdir, showWarnings = F, recursive = T)
+dir.create(dir.data, showWarnings = F, recursive = T)
+
+tmp = readLines(fn.namelist, skipNul = T)
+name.tab = as.matrix(read.table(text=tmp,header = F))
+name.tab
+api_key = ''
+# api_key = '4f1f89830728c357bd1b9e5b18007dbf'
+rscopus::set_api_key(api_key)
+id=get_api_key(api_key)
+
+aff = 'virology'
+
+nx = nrow(name.tab)
+yl=NULL
+xmat=NULL
+for(i in 1:nx){
+  aff = 'Wuhan'
+  xthis = paste(name.tab[i, ], collapse = ' ')
+  message(i, '/', nx, '\t', xthis)
+  first_name =  name.tab[i, 2]
+  last_name =  name.tab[i, 1]
+  x = get_author_info(first_name = first_name,
+                      last_name =  last_name,
+                      affil_id = '60027289',
+                      verbose = FALSE, 
+                      query = paste0(&quot;AFFIL(&quot;, aff, &quot;)&quot;)
+                      ) 
+  x
+  # x = author_df(first_name = first_name,
+  #                     last_name =  last_name,
+  #                     affil_id = '60027289',
+  #                     verbose = FALSE, 
+  #                     query = paste0(&quot;AFFIL(&quot;, aff, &quot;)&quot;) ) 
+  auids = x$au_id
+  nres = nrow(x)
+  # if(nres&gt;1){
+  #   pt1= sprintf(&quot;\\b%s\\b&quot;, name.tab[i, 2])
+  #   pt2= sprintf(&quot;\\b%s\\b&quot;, name.tab[i, 1])
+  #   id=which(grepl(pt1, x$auth_name) &amp;
+  #              grepl(pt2, x$auth_name) )
+  #   id
+  #   if(length(id)&lt;1){
+  #     stop()
+  #   }
+  #   x=x[id, ]
+  # }
+  nres = nrow(x)
+  y = NULL
+  if( !all(is.na(auids) )){
+    if(nres &gt; 1){
+      message('\t', nres, ' au-id exit')
+      print(x)
+    }
+    for(j in 1:nres){
+      # use id to get author pub data.
+      tmp = try(
+        author_list(au_id = auids[j], verbose = FALSE, 
+                      general = FALSE, all_author_info = F,
+                      count=500), 
+      silent = TRUE
+      )
+      View(tmp)
+      if(is.data.frame(tmp)){
+        y = plyr::rbind.fill(y, tmp)
+      }
+    }
+  }else{
+    message('\t', 0, ' au-id exit')
+    print(x)
+  }
+  # x
+  if(!all(is.na(x))){
+    xmat = rbind(xmat, x)
+  }else{
+    stop()
+  }
+  yl[[i]] = y
+}
+# ret = cbind(name.tab, xmat)
+# saveRDS(xmat, 'xmat.RDS')
+saveRDS(yl, 'wuhan/yl.RDS')
+</code></pre>
+
+<p>程序结束后，会将获取的数据存储与文件yl.RDS</p>
+
+<h2 id="三-分析数据">三 分析数据</h2>
+
+<p>通过前一步获取的数据，分析几项内容： <strong>学术年龄， 文章数，一作文章数，总引用， 平均引用， 顶级文章数目， 一作顶级期刊数目， h因子</strong>。</p>
+
+<p>完成这项需要另外一个手动完成的文件，就是顶级期刊名字。</p>
+
+<p>下面是针对武汉病毒所的专业方向而选择的顶级期刊列表，包含名字和影响因子——Journal of Virology的影响因子虽然小，但却是病毒专业方向的顶级期刊。</p>
+
+<p><img src="topJ.png" alt="顶级期刊" /></p>
+
+<p>然后使用一下代码：</p>
+
+<pre><code># xmat = readRDS('xmat.RDS')
+yl = readRDS('wuhan/yl.RDS')
+jn = as.matrix(read.table('wuhan/TopJ2.txt', sep=','))
+jn
+nx=length(yl)
+jj=NULL
+
+fx &lt;- function(xx){which(grepl(paste0('^', xx, '$')  , x$journal) )  }
+hinx &lt;- function(x){
+  for(i in 1:length(x)){
+    if(length(which(x&gt;=i)) &lt;i ){
+      return(i)
+    }
+  }
+}
+xmat = NULL
+for(i in 1:nx){
+  x = yl[[i]]
+  # jj = c(jj, x$journal)
+  top.j = apply(cbind(jn[, 1]), 1, fx)
+  top.id = unlist(top.j)
+  top.fa = sum(which(x$auth_order == 1) %in% top.id)
+  top.n = length(unlist(top.j))
+  if(is.null(x)){
+    nt=0
+  }else{
+    tt = as.Date(x$cover_date)
+    nt = 2020 - as.numeric(format(min(tt), '%Y'))
+  }
+  xi = c( 
+    nt,
+    nrow(x),
+          sum(x$auth_order==1, na.rm = TRUE),
+          sum(x$citations, na.rm = TRUE),
+          mean(x$citations, na.rm = TRUE), 
+          top.n,
+          top.fa,
+          hinx(x$citations)
+  )      
+  xmat = rbind(xmat, xi)
+}
+xmat = data.frame(name.tab, xmat)
+colnames(xmat) = c('Family', 'First', 'Age',
+                   'n', 'nFA', 'Total_Cites', 
+                   'Mean_Cites', 'nTop', 'nTop.FA', 'h_index'
+                   )
+write.table(xmat, 'wuhan/out.csv', col.names = T, row.names = F, sep='\t', quote = F)
+View(xmat)
+</code></pre>
+
+<p>程序完成后，会存储结果到out.csv文件。</p>
+
+<h2 id="四-额外的分析">四 额外的分析。</h2>
+
+<p>这部分数据分析比较简单，我使用<strong><em>WPS表格</em></strong>完成，如果数据量大或者需要不断重复验证，也完全可以使用R来完成。</p>
+
+<p>使用<strong><em>WPS表格</em></strong>分析的结果。</p>
+
+<p><img src="2020.png" alt="2020" /></p>
+
+<p>作为案例，数据中的人名我就不展示了。</p>
+
+<p><strong>如果有人愿意以此做个更大范围的研究，欢迎合作。</strong></p>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://www.shulele.net/zh/post/20200205_rscopus/&amp;text=%e5%a6%82%e4%bd%95%e8%8e%b7%e5%8f%96%e6%9f%90%e4%ba%ba%e7%9a%84%e5%8f%91%e6%96%87%e7%ab%a0%e6%95%b0%e6%8d%ae%ef%bc%9f" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://www.shulele.net/zh/post/20200205_rscopus/&amp;t=%e5%a6%82%e4%bd%95%e8%8e%b7%e5%8f%96%e6%9f%90%e4%ba%ba%e7%9a%84%e5%8f%91%e6%96%87%e7%ab%a0%e6%95%b0%e6%8d%ae%ef%bc%9f" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=%e5%a6%82%e4%bd%95%e8%8e%b7%e5%8f%96%e6%9f%90%e4%ba%ba%e7%9a%84%e5%8f%91%e6%96%87%e7%ab%a0%e6%95%b0%e6%8d%ae%ef%bc%9f&amp;body=https://www.shulele.net/zh/post/20200205_rscopus/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://www.shulele.net/zh/post/20200205_rscopus/&amp;title=%e5%a6%82%e4%bd%95%e8%8e%b7%e5%8f%96%e6%9f%90%e4%ba%ba%e7%9a%84%e5%8f%91%e6%96%87%e7%ab%a0%e6%95%b0%e6%8d%ae%ef%bc%9f" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=%e5%a6%82%e4%bd%95%e8%8e%b7%e5%8f%96%e6%9f%90%e4%ba%ba%e7%9a%84%e5%8f%91%e6%96%87%e7%ab%a0%e6%95%b0%e6%8d%ae%ef%bc%9f%20https://www.shulele.net/zh/post/20200205_rscopus/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://www.shulele.net/zh/post/20200205_rscopus/&amp;title=%e5%a6%82%e4%bd%95%e8%8e%b7%e5%8f%96%e6%9f%90%e4%ba%ba%e7%9a%84%e5%8f%91%e6%96%87%e7%ab%a0%e6%95%b0%e6%8d%ae%ef%bc%9f" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <img class="portrait mr-3" src="/zh/authors/admin/avatar_hueb1c8038b4a9c17f7b98348cfd22026b_72001_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://www.shulele.net/">舒乐乐</a></h5>
+      <h6 class="card-subtitle">博士后研究员, SHUD模型作者</h6>
+      <p class="card-text">加州大学戴维斯分校博士后研究员, SHUD模型作者； 专注于数值方法的分布式水文模型、水文大数据的机器学习、气候/人类活动对水循环的影响和集成模型耦合研究</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:lele.shu@gmail.com" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/leleshu" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=6yiZVfkAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/shulele" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/img/weixin.jpg" >
+        <i class="fab fa-weixin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/cv/LeleShu_CV_cn.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+<section id="comments">
+  
+    
+
+  
+</section>
+
+
+
+
+<div class="article-widget">
+  
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">上一页</div>
+    <a href="/zh/post/20200203_wushui/" rel="prev">忍不了给别人泼脏水的</a>
+  </div>
+  
+</div>
+
+</div>
+
+
+
+  
+  
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/zh/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"没有找到结果","placeholder":"搜索...","results":"搜索结果"};
+      const content_type = {
+        'post': "文章",
+        'project': "项目",
+        'publication' : "出版物",
+        'talk' : "演讲"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    <script id="dsq-count-scr" src="https://.disqus.com/count.js" async></script>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.bcfae8267aba63cc55af53a503896bd9.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">引用</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> 复制
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> 下载
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lele Shu, Ph.D | SHU</title>
-    <link>/en/cv/</link>
-      <atom:link href="/en/cv/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.shulele.net/en/cv/</link>
+      <atom:link href="https://www.shulele.net/en/cv/index.xml" rel="self" type="application/rss+xml" />
     <description>Lele Shu, Ph.D</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 26 Jun 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://www.shulele.net/img/icon-192.png</url>
       <title>Lele Shu, Ph.D</title>
-      <link>/en/cv/</link>
+      <link>https://www.shulele.net/en/cv/</link>
     </image>
     
   </channel>

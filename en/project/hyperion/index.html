@@ -31,9 +31,9 @@
   <meta name="description" content="Introduction of HYPERION  The objective of HYPERION is the development of a comprehensive regional hydroclimate data assessment capability focused on feature-specific metrics and stakeholder-relevant outcomes. The secondary objective of this proposal is to leverage this assessment capability to improve our ability to predict these outcomes, by identifying the process-level drivers of outcome biases and evaluating the most appropriate and efficient ways to couple climate models, hydrologic models, and models of human impacts.">
 
   
-  <link rel="alternate" hreflang="zh" href="/zh/project/hyperion/">
+  <link rel="alternate" hreflang="zh" href="https://www.shulele.net/zh/project/hyperion/">
   
-  <link rel="alternate" hreflang="en-us" href="/en/project/hyperion/">
+  <link rel="alternate" hreflang="en-us" href="https://www.shulele.net/en/project/hyperion/">
 
   
 
@@ -93,15 +93,43 @@
 
 
 
-  
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135370684-1"></script>
 <script>
-  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','UA-135370684-1');
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-135370684-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
 </script>
 
+
+  
 
 
   
@@ -110,7 +138,7 @@
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/en/project/hyperion/">
+  <link rel="canonical" href="https://www.shulele.net/en/project/hyperion/">
 
   
   
@@ -125,10 +153,10 @@
   <meta property="twitter:creator" content="@leleshu">
   
   <meta property="og:site_name" content="SHU">
-  <meta property="og:url" content="/en/project/hyperion/">
+  <meta property="og:url" content="https://www.shulele.net/en/project/hyperion/">
   <meta property="og:title" content="Hydrologic modeling in project HYPERION | SHU">
-  <meta property="og:description" content="Introduction of HYPERION  The objective of HYPERION is the development of a comprehensive regional hydroclimate data assessment capability focused on feature-specific metrics and stakeholder-relevant outcomes. The secondary objective of this proposal is to leverage this assessment capability to improve our ability to predict these outcomes, by identifying the process-level drivers of outcome biases and evaluating the most appropriate and efficient ways to couple climate models, hydrologic models, and models of human impacts."><meta property="og:image" content="/en/project/hyperion/featured.png">
-  <meta property="twitter:image" content="/en/project/hyperion/featured.png"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Introduction of HYPERION  The objective of HYPERION is the development of a comprehensive regional hydroclimate data assessment capability focused on feature-specific metrics and stakeholder-relevant outcomes. The secondary objective of this proposal is to leverage this assessment capability to improve our ability to predict these outcomes, by identifying the process-level drivers of outcome biases and evaluating the most appropriate and efficient ways to couple climate models, hydrologic models, and models of human impacts."><meta property="og:image" content="https://www.shulele.net/en/project/hyperion/featured.png">
+  <meta property="twitter:image" content="https://www.shulele.net/en/project/hyperion/featured.png"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2019-02-23T21:13:14&#43;00:00">
@@ -157,12 +185,12 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "/en/project/hyperion/"
+    "@id": "https://www.shulele.net/en/project/hyperion/"
   },
   "headline": "Hydrologic modeling in project HYPERION",
   
   "image": [
-    "/en/project/hyperion/featured.png"
+    "https://www.shulele.net/en/project/hyperion/featured.png"
   ],
   
   "datePublished": "2019-02-23T21:13:14Z",
@@ -178,7 +206,7 @@
     "name": "SHU",
     "logo": {
       "@type": "ImageObject",
-      "url": "/img/icon-512.png"
+      "url": "https://www.shulele.net/img/icon-512.png"
     }
   },
   "description": "Introduction of HYPERION  The objective of HYPERION is the development of a comprehensive regional hydroclimate data assessment capability focused on feature-specific metrics and stakeholder-relevant outcomes. The secondary objective of this proposal is to leverage this assessment capability to improve our ability to predict these outcomes, by identifying the process-level drivers of outcome biases and evaluating the most appropriate and efficient ways to couple climate models, hydrologic models, and models of human impacts."
@@ -244,7 +272,7 @@
     
     
     
-      <a class="navbar-brand" href="/en">SHU</a>
+      <a class="navbar-brand" href="/en/">SHU</a>
     
 
     
@@ -305,16 +333,9 @@
         
         
         
-          
-          
-          
-            
-          
-          
-        
 
         <li class="nav-item">
-          <a class="nav-link " href="/en/#posts"><span>Posts</span></a>
+          <a class="nav-link " href="/en/post/"><span>Posts</span></a>
         </li>
 
         
@@ -609,16 +630,23 @@
   <div class="article-container">
 
     <div class="article-style">
-      <h2 id="introduction-of-hyperion-i-classfas-faexternallinkaltihttpsclimateucdaviseduhyperion">Introduction of HYPERION <a href="https://climate.ucdavis.edu/hyperion/"><!-- raw HTML omitted --><!-- raw HTML omitted --></a></h2>
+      
+
+<h2 id="introduction-of-hyperion-i-class-fas-fa-external-link-alt-i-https-climate-ucdavis-edu-hyperion">Introduction of HYPERION <a href="https://climate.ucdavis.edu/hyperion/" target="_blank"><i class="fas fa-external-link-alt"></i></a></h2>
+
 <p>The objective of HYPERION is the development of a comprehensive regional hydroclimate data assessment capability focused on feature-specific metrics and stakeholder-relevant outcomes. The secondary objective of this proposal is to leverage this assessment capability to improve our ability to predict these outcomes, by identifying the process-level drivers of outcome biases and evaluating the most appropriate and efficient ways to couple climate models, hydrologic models, and models of human impacts.</p>
-<p><img src="fig/hyperion.png" alt="HYPERION logo"></p>
+
+<p><img src="fig/hyperion.png" alt="HYPERION logo" /></p>
+
 <h2 id="tasks-in-hydrologic-modeling">Tasks in hydrologic modeling</h2>
+
 <ul>
-<li>Develop a hydrologic modeling system for both the Sacramento watershed and several subcatchments.  Calculate key hydrological metrics, including stream flow, groundwater table, soil moisture, and snow pack.</li>
-<li>Evaluate the quality of the hydrologic model and identify potential issues related to its performance.</li>
-<li>Develop a statistical downscaling technique using both traditional statistical and machine learning methods that digests input to the hydrologic model and mimics the output of the model.</li>
+<li>Develop a hydrologic modeling system for both the Sacramento watershed and several subcatchments.  Calculate key hydrological metrics, including stream flow, groundwater table, soil moisture, and snow pack.</li>
+<li>Evaluate the quality of the hydrologic model and identify potential issues related to its performance.</li>
+<li>Develop a statistical downscaling technique using both traditional statistical and machine learning methods that digests input to the hydrologic model and mimics the output of the model.</li>
 <li>Determine which input variables are most relevant for producing an accurate statistical model.</li>
 </ul>
+
 <table>
 <thead>
 <tr>
@@ -626,16 +654,24 @@
 <th align="center">Annual Precipitation</th>
 </tr>
 </thead>
+
 <tbody>
 <tr>
-<td align="center"><img src="fig/pihmdata.png" alt="Data"></td>
-<td align="center"><img src="fig/AnnualPRCP.png" alt="Precipitation"></td>
+<td align="center"><img src="fig/pihmdata.png" alt="Data" /></td>
+<td align="center"><img src="fig/AnnualPRCP.png" alt="Precipitation" /></td>
 </tr>
 </tbody>
 </table>
+
 <h2 id="sacramento-watershed">Sacramento Watershed</h2>
+
 <p>The Sacramento River flows from Southern Oregon and to San Francisco Bay. Total drainage area is ~72000 km2. Elevation ranges from 0 to 4200m. The climate in SW is semi-arid hot Mediterranean. The spatial climatic characteristics are not only affected by latitude, terrain and snow coverage, but also by wind and ocean currents. Dramatic seasonal and annual climatic variations exist as well as large spatial heterogeneity. The mountains on the eastern and northern edges of the domain accumulate rain and snow which funnels into the groundwater of the whole watershed.  Annual precipitation ranges from 400 mm/year to 1500 mm/year, however extreme annual precipitation was more than 4000 mm/year in Northern mountainous area in 1983, and mean precipitation was only 270 mm/year from the 2013 extreme drought year.</p>
-<!-- raw HTML omitted -->
+
+<figure class="image">
+  <img src="fig/Animation.gif", width=400px>
+  <figcaption>Animation of spatial annual precipitation in Sacramento Watershed</figcaption>
+</figure>
+
 <table>
 <thead>
 <tr>
@@ -643,38 +679,52 @@
 <th align="center">Annual precipitation variation from 1979 to 2017 based on NLDAS data</th>
 </tr>
 </thead>
+
 <tbody>
 <tr>
-<td align="center"><img src="fig/prcp_boxMonth.png" alt="Data"></td>
-<td align="center"><img src="fig/prcp_boxyr.png" alt="Precipitation"></td>
+<td align="center"><img src="fig/prcp_boxMonth.png" alt="Data" /></td>
+<td align="center"><img src="fig/prcp_boxyr.png" alt="Precipitation" /></td>
 </tr>
 </tbody>
 </table>
+
 <h2 id="simulation-and-results">Simulation and Results</h2>
+
 <p>The calibration of the PIHM model used the Covariance Matrix Adaptation Evolution Strategy (CMA-ES) (Hansen 2006,Auger 2005). The automatic CMA-ES calibration is robust and able to converge to global optimization with low computing cost.</p>
+
 <h3 id="river-discharge">River discharge</h3>
-<p>The stream flow in the watershed follows the seasonal variation of precipitation. During drought years, the base flow from groundwater depletion contributes to the streamflow, and the excess infiltration replenishes ground water in wet seasons. For small watersheds in the Central Valley, such as catchment #9 where precipitation is less and the aquifer is thicker, the contribution from groundwater is small.</p>
-<!-- raw HTML omitted -->
+
+<p>The stream flow in the watershed follows the seasonal variation of precipitation. During drought years, the base flow from groundwater depletion contributes to the streamflow, and the excess infiltration replenishes ground water in wet seasons. For small watersheds in the Central Valley, such as catchment #9 where precipitation is less and the aquifer is thicker, the contribution from groundwater is small.
+<figure class="image">
+  <img src="fig/calib.png">
+  <figcaption>Calibration based on discharge of four subcatchments</figcaption>
+</figure></p>
+
 <h3 id="ground-water-variation">Ground water variation</h3>
+
 <p>The ground water near the river channel is shallower than the hill-slope. The spatial distribution pattern of ground water is controlled by topography, soil/geology characteristics and shape of the watershed. Steep slopes store less ground water than moderate slopes, because a steep hydraulic gradient on steep slopes drive the lateral groundwater flow.</p>
+
 <table>
 <thead>
 <tr>
 <th align="center"></th>
-<th></th>
+<th align="center"></th>
 </tr>
 </thead>
+
 <tbody>
 <tr>
-<td align="center"><img src="fig/GWmap.png" alt=""></td>
-<td align="center"><img src="fig/gwd.png" alt=""></td>
+<td align="center"><img src="fig/GWmap.png" alt="" /></td>
+<td align="center"><img src="fig/gwd.png" alt="" /></td>
 </tr>
+
 <tr>
 <td align="center">Ground water spatial distribution</td>
 <td align="center">Temporal fluctuation from 2000 to 2017.</td>
 </tr>
 </tbody>
 </table>
+
 <p>Ground water seasonal fluctuation follows the climatic variation. However, the seasonal variations in some catchments are relatively larger than others. The inter-annual variation in #5 sub-catchment is larger than seasonal variation. Although the annual precipitation trends in each sub-catchments are comparable, the trend in multiple-year changes of ground water table varies. This requires further analysis on water balance and the memory effect of ground water storage.</p>
 
     </div>
@@ -712,7 +762,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/en/project/hyperion/&amp;text=Hydrologic%20modeling%20in%20project%20HYPERION" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://www.shulele.net/en/project/hyperion/&amp;text=Hydrologic%20modeling%20in%20project%20HYPERION" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -725,7 +775,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/en/project/hyperion/&amp;t=Hydrologic%20modeling%20in%20project%20HYPERION" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://www.shulele.net/en/project/hyperion/&amp;t=Hydrologic%20modeling%20in%20project%20HYPERION" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -738,7 +788,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Hydrologic%20modeling%20in%20project%20HYPERION&amp;body=/en/project/hyperion/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Hydrologic%20modeling%20in%20project%20HYPERION&amp;body=https://www.shulele.net/en/project/hyperion/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -751,7 +801,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/en/project/hyperion/&amp;title=Hydrologic%20modeling%20in%20project%20HYPERION" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://www.shulele.net/en/project/hyperion/&amp;title=Hydrologic%20modeling%20in%20project%20HYPERION" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -764,7 +814,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Hydrologic%20modeling%20in%20project%20HYPERION%20/en/project/hyperion/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Hydrologic%20modeling%20in%20project%20HYPERION%20https://www.shulele.net/en/project/hyperion/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -777,7 +827,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/en/project/hyperion/&amp;title=Hydrologic%20modeling%20in%20project%20HYPERION" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://www.shulele.net/en/project/hyperion/&amp;title=Hydrologic%20modeling%20in%20project%20HYPERION" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -816,11 +866,11 @@
   <div class="media author-card content-widget-hr">
     
       
-      <img class="portrait mr-3" src="/en/authors/admin/avatar_hu18b35d882719384e90116b918ac0f720_105008_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
+      <img class="portrait mr-3" src="/en/authors/admin/avatar_hueb1c8038b4a9c17f7b98348cfd22026b_72001_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="/">Lele Shu</a></h5>
+      <h5 class="card-title"><a href="https://www.shulele.net/">Lele Shu</a></h5>
       <h6 class="card-subtitle">Ph.D, Hydrologist, Lead of SHUD project</h6>
       <p class="card-text">Hydrologist on distributed numeric hydrologic modeling, impact of landuse and climate change, Coupled Nature-Human-System and hydrologic data mining.</p>
       <ul class="network-icon" aria-hidden="true">

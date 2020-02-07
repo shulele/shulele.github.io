@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories | SHU</title>
-    <link>/en/categories/</link>
-      <atom:link href="/en/categories/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.shulele.net/en/categories/</link>
+      <atom:link href="https://www.shulele.net/en/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 05 Nov 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://www.shulele.net/img/icon-192.png</url>
       <title>Categories</title>
-      <link>/en/categories/</link>
+      <link>https://www.shulele.net/en/categories/</link>
     </image>
     
     <item>
       <title>Research</title>
-      <link>/en/categories/research/</link>
+      <link>https://www.shulele.net/en/categories/research/</link>
       <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/en/categories/research/</guid>
+      <guid>https://www.shulele.net/en/categories/research/</guid>
       <description></description>
     </item>
     
     <item>
       <title>teaching</title>
-      <link>/en/categories/teaching/</link>
+      <link>https://www.shulele.net/en/categories/teaching/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/en/categories/teaching/</guid>
+      <guid>https://www.shulele.net/en/categories/teaching/</guid>
       <description></description>
     </item>
     

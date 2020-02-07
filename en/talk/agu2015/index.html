@@ -31,9 +31,9 @@
   <meta name="description" content="Poster in AGU 2015 Fall meeting">
 
   
-  <link rel="alternate" hreflang="zh" href="/zh/talk/agu2015/">
+  <link rel="alternate" hreflang="zh" href="https://www.shulele.net/zh/talk/agu2015/">
   
-  <link rel="alternate" hreflang="en-us" href="/en/talk/agu2015/">
+  <link rel="alternate" hreflang="en-us" href="https://www.shulele.net/en/talk/agu2015/">
 
   
 
@@ -93,15 +93,43 @@
 
 
 
-  
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135370684-1"></script>
 <script>
-  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','UA-135370684-1');
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-135370684-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
 </script>
 
+
+  
 
 
   
@@ -110,7 +138,7 @@
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/en/talk/agu2015/">
+  <link rel="canonical" href="https://www.shulele.net/en/talk/agu2015/">
 
   
   
@@ -125,10 +153,10 @@
   <meta property="twitter:creator" content="@leleshu">
   
   <meta property="og:site_name" content="SHU">
-  <meta property="og:url" content="/en/talk/agu2015/">
+  <meta property="og:url" content="https://www.shulele.net/en/talk/agu2015/">
   <meta property="og:title" content="Catchment hydrological change from soil degradation | SHU">
-  <meta property="og:description" content="Poster in AGU 2015 Fall meeting"><meta property="og:image" content="/en/talk/agu2015/featured.jpg">
-  <meta property="twitter:image" content="/en/talk/agu2015/featured.jpg"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Poster in AGU 2015 Fall meeting"><meta property="og:image" content="https://www.shulele.net/en/talk/agu2015/featured.jpg">
+  <meta property="twitter:image" content="https://www.shulele.net/en/talk/agu2015/featured.jpg"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2015-12-01T00:00:00-08:00">
@@ -152,7 +180,7 @@
   "@type": "Event",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "/en/talk/agu2015/"
+    "@id": "https://www.shulele.net/en/talk/agu2015/"
   },
   "name": "Catchment hydrological change from soil degradation",
   
@@ -163,7 +191,7 @@
   
   
   "image": [
-    "/en/talk/agu2015/featured.jpg"
+    "https://www.shulele.net/en/talk/agu2015/featured.jpg"
   ],
   
   "startDate": "2015-12-01T00:00:00-08:00",
@@ -235,7 +263,7 @@
     
     
     
-      <a class="navbar-brand" href="/en">SHU</a>
+      <a class="navbar-brand" href="/en/">SHU</a>
     
 
     
@@ -296,16 +324,9 @@
         
         
         
-          
-          
-          
-            
-          
-          
-        
 
         <li class="nav-item">
-          <a class="nav-link " href="/en/#posts"><span>Posts</span></a>
+          <a class="nav-link " href="/en/post/"><span>Posts</span></a>
         </li>
 
         
@@ -626,7 +647,7 @@
 
     
       <h3>Abstract</h3>
-      <p class="pub-abstract">Land cover and land use changes from agriculture and urbanization affect soil structure, compaction, and loss of carbon on hydrologic performance. The consequential change on soil properties, such as aggregation of soil particles, reduction of voids, impacts on matrix conductivity and macropore fractions, alter the hydrological processes in a watershed. <!-- raw HTML omitted --> Macropores promote rapid water and gas movement under wet conditions while the soil matrix preserves the water-holding capacity necessary for plant growth. Soil degradation leads to a reduction of the macropore fraction with dramatic changes in overall hydrologic performance under urban development and agricultural landuse practices. <!-- raw HTML omitted --> The effects of macropore reduction and compaction on hydrologic performance were found to be of the same order or greater magnitude than for changes in landuse practices alone. The research, funded by the US EPA, illustrates the complex interaction of landuse and soil changes on the terrestrial water cycle.</p>
+      <p class="pub-abstract">Land cover and land use changes from agriculture and urbanization affect soil structure, compaction, and loss of carbon on hydrologic performance. The consequential change on soil properties, such as aggregation of soil particles, reduction of voids, impacts on matrix conductivity and macropore fractions, alter the hydrological processes in a watershed. <br> Macropores promote rapid water and gas movement under wet conditions while the soil matrix preserves the water-holding capacity necessary for plant growth. Soil degradation leads to a reduction of the macropore fraction with dramatic changes in overall hydrologic performance under urban development and agricultural landuse practices. <br> The effects of macropore reduction and compaction on hydrologic performance were found to be of the same order or greater magnitude than for changes in landuse practices alone. The research, funded by the US EPA, illustrates the complex interaction of landuse and soil changes on the terrestrial water cycle.</p>
     
 
     <div class="row">
@@ -713,7 +734,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/en/talk/agu2015/&amp;text=Catchment%20hydrological%20change%20from%20soil%20degradation" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://www.shulele.net/en/talk/agu2015/&amp;text=Catchment%20hydrological%20change%20from%20soil%20degradation" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -726,7 +747,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/en/talk/agu2015/&amp;t=Catchment%20hydrological%20change%20from%20soil%20degradation" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://www.shulele.net/en/talk/agu2015/&amp;t=Catchment%20hydrological%20change%20from%20soil%20degradation" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -739,7 +760,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Catchment%20hydrological%20change%20from%20soil%20degradation&amp;body=/en/talk/agu2015/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Catchment%20hydrological%20change%20from%20soil%20degradation&amp;body=https://www.shulele.net/en/talk/agu2015/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -752,7 +773,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/en/talk/agu2015/&amp;title=Catchment%20hydrological%20change%20from%20soil%20degradation" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://www.shulele.net/en/talk/agu2015/&amp;title=Catchment%20hydrological%20change%20from%20soil%20degradation" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -765,7 +786,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Catchment%20hydrological%20change%20from%20soil%20degradation%20/en/talk/agu2015/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Catchment%20hydrological%20change%20from%20soil%20degradation%20https://www.shulele.net/en/talk/agu2015/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -778,7 +799,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/en/talk/agu2015/&amp;title=Catchment%20hydrological%20change%20from%20soil%20degradation" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://www.shulele.net/en/talk/agu2015/&amp;title=Catchment%20hydrological%20change%20from%20soil%20degradation" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>

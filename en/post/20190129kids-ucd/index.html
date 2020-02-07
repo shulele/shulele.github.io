@@ -30,12 +30,13 @@
   
   <meta name="description" content="external_link of the project
 Motivation of the project This is fantastic program to teach the local kids and lead them into the discovering sciences.
-   Panoview of the Math&amp;Science classroom.         Week 03:    Week 03: Jessica is writing students observation and discussion of plants in two different soils (Sperpentine and sandy loam).         Week 05:    Week 05: The growth condition of their beans.">
+| Panoview of the Math&amp;Science classroom.| |:&ndash;| | |
+Week 03:    Week 03: Jessica is writing students observation and discussion of plants in two different soils (Sperpentine and sandy loam).         Week 05:    Week 05: The growth condition of their beans.">
 
   
-  <link rel="alternate" hreflang="zh" href="/zh/post/20190129kids-ucd/">
+  <link rel="alternate" hreflang="zh" href="https://www.shulele.net/zh/post/20190129kids-ucd/">
   
-  <link rel="alternate" hreflang="en-us" href="/en/post/20190129kids-ucd/">
+  <link rel="alternate" hreflang="en-us" href="https://www.shulele.net/en/post/20190129kids-ucd/">
 
   
 
@@ -95,15 +96,43 @@ Motivation of the project This is fantastic program to teach the local kids and 
 
 
 
-  
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135370684-1"></script>
 <script>
-  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','UA-135370684-1');
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-135370684-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
 </script>
 
+
+  
 
 
   
@@ -112,7 +141,7 @@ Motivation of the project This is fantastic program to teach the local kids and 
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/en/post/20190129kids-ucd/">
+  <link rel="canonical" href="https://www.shulele.net/en/post/20190129kids-ucd/">
 
   
   
@@ -127,12 +156,13 @@ Motivation of the project This is fantastic program to teach the local kids and 
   <meta property="twitter:creator" content="@leleshu">
   
   <meta property="og:site_name" content="SHU">
-  <meta property="og:url" content="/en/post/20190129kids-ucd/">
+  <meta property="og:url" content="https://www.shulele.net/en/post/20190129kids-ucd/">
   <meta property="og:title" content="Volunteer for Kids Discovering Science project in California | SHU">
   <meta property="og:description" content="external_link of the project
 Motivation of the project This is fantastic program to teach the local kids and lead them into the discovering sciences.
-   Panoview of the Math&amp;Science classroom.         Week 03:    Week 03: Jessica is writing students observation and discussion of plants in two different soils (Sperpentine and sandy loam).         Week 05:    Week 05: The growth condition of their beans."><meta property="og:image" content="/en/post/20190129kids-ucd/featured.jpg">
-  <meta property="twitter:image" content="/en/post/20190129kids-ucd/featured.jpg"><meta property="og:locale" content="en-us">
+| Panoview of the Math&amp;Science classroom.| |:&ndash;| | |
+Week 03:    Week 03: Jessica is writing students observation and discussion of plants in two different soils (Sperpentine and sandy loam).         Week 05:    Week 05: The growth condition of their beans."><meta property="og:image" content="https://www.shulele.net/en/post/20190129kids-ucd/featured.jpg">
+  <meta property="twitter:image" content="https://www.shulele.net/en/post/20190129kids-ucd/featured.jpg"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2019-01-29T00:00:00&#43;00:00">
@@ -163,12 +193,12 @@ Motivation of the project This is fantastic program to teach the local kids and 
   "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "/en/post/20190129kids-ucd/"
+    "@id": "https://www.shulele.net/en/post/20190129kids-ucd/"
   },
   "headline": "Volunteer for Kids Discovering Science project in California",
   
   "image": [
-    "/en/post/20190129kids-ucd/featured.jpg"
+    "https://www.shulele.net/en/post/20190129kids-ucd/featured.jpg"
   ],
   
   "datePublished": "2019-01-29T00:00:00Z",
@@ -184,10 +214,10 @@ Motivation of the project This is fantastic program to teach the local kids and 
     "name": "SHU",
     "logo": {
       "@type": "ImageObject",
-      "url": "/img/icon-512.png"
+      "url": "https://www.shulele.net/img/icon-512.png"
     }
   },
-  "description": "external_link of the project\nMotivation of the project This is fantastic program to teach the local kids and lead them into the discovering sciences.\n   Panoview of the Math\u0026amp;Science classroom.         Week 03:    Week 03: Jessica is writing students observation and discussion of plants in two different soils (Sperpentine and sandy loam).         Week 05:    Week 05: The growth condition of their beans."
+  "description": "external_link of the project\nMotivation of the project This is fantastic program to teach the local kids and lead them into the discovering sciences.\n| Panoview of the Math\u0026amp;Science classroom.| |:\u0026ndash;| | |\nWeek 03:    Week 03: Jessica is writing students observation and discussion of plants in two different soils (Sperpentine and sandy loam).         Week 05:    Week 05: The growth condition of their beans."
 }
 </script>
 
@@ -250,7 +280,7 @@ Motivation of the project This is fantastic program to teach the local kids and 
     
     
     
-      <a class="navbar-brand" href="/en">SHU</a>
+      <a class="navbar-brand" href="/en/">SHU</a>
     
 
     
@@ -311,16 +341,9 @@ Motivation of the project This is fantastic program to teach the local kids and 
         
         
         
-          
-          
-          
-            
-          
-          
-        
 
         <li class="nav-item">
-          <a class="nav-link " href="/en/#posts"><span>Posts</span></a>
+          <a class="nav-link  active" href="/en/post/"><span>Posts</span></a>
         </li>
 
         
@@ -609,56 +632,60 @@ Motivation of the project This is fantastic program to teach the local kids and 
   <div class="article-container">
 
     <div class="article-style">
-      <p><a href="https://kidsdiscoveringscience.wordpress.com/about/">external_link of the project</a></p>
+      
+
+<p><a href="https://kidsdiscoveringscience.wordpress.com/about/" target="_blank">external_link of the project</a></p>
+
 <h2 id="motivation-of-the-project">Motivation of the project</h2>
+
 <p>This is fantastic program to teach the local kids and lead them into the discovering sciences.</p>
-<table>
-<thead>
-<tr>
-<th align="left">Panoview of the Math&amp;Science classroom.</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left"><img src="Classroom.jpg" alt="classroom.jpg"></td>
-</tr>
-</tbody>
-</table>
+
+<p>| Panoview of the Math&amp;Science classroom.|
+  |:&ndash;|
+  | <img src="Classroom.jpg" alt="classroom.jpg" /> |</p>
+
 <h4 id="week-03">Week 03:</h4>
+
 <table>
 <thead>
 <tr>
 <th align="left">Week 03: Jessica is writing students observation and discussion of plants in two different soils (Sperpentine and sandy loam).</th>
 </tr>
 </thead>
+
 <tbody>
 <tr>
-<td align="left"><img src="L03.jpg" alt="L03.jpg"></td>
+<td align="left"><img src="L03.jpg" alt="L03.jpg" /></td>
 </tr>
 </tbody>
 </table>
+
 <h4 id="week-05">Week 05:</h4>
+
 <table>
 <thead>
 <tr>
 <th align="left">Week 05: The growth condition of their beans.</th>
 </tr>
 </thead>
+
 <tbody>
 <tr>
-<td align="left"><img src="L05.jpg" alt="L05.jpg"></td>
+<td align="left"><img src="L05.jpg" alt="L05.jpg" /></td>
 </tr>
 </tbody>
 </table>
+
 <table>
 <thead>
 <tr>
 <th align="left">Week 05: One question from students&rsquo; question box. Question: Why are my plants leaves sticky?</th>
 </tr>
 </thead>
+
 <tbody>
 <tr>
-<td align="left"><img src="QA05.jpg" alt="QA05.jpg"></td>
+<td align="left"><img src="QA05.jpg" alt="QA05.jpg" /></td>
 </tr>
 </tbody>
 </table>
@@ -682,7 +709,7 @@ Motivation of the project This is fantastic program to teach the local kids and 
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/en/post/20190129kids-ucd/&amp;text=Volunteer%20for%20Kids%20Discovering%20Science%20project%20in%20California" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://www.shulele.net/en/post/20190129kids-ucd/&amp;text=Volunteer%20for%20Kids%20Discovering%20Science%20project%20in%20California" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -695,7 +722,7 @@ Motivation of the project This is fantastic program to teach the local kids and 
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/en/post/20190129kids-ucd/&amp;t=Volunteer%20for%20Kids%20Discovering%20Science%20project%20in%20California" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://www.shulele.net/en/post/20190129kids-ucd/&amp;t=Volunteer%20for%20Kids%20Discovering%20Science%20project%20in%20California" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -708,7 +735,7 @@ Motivation of the project This is fantastic program to teach the local kids and 
       
       
       <li>
-        <a href="mailto:?subject=Volunteer%20for%20Kids%20Discovering%20Science%20project%20in%20California&amp;body=/en/post/20190129kids-ucd/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Volunteer%20for%20Kids%20Discovering%20Science%20project%20in%20California&amp;body=https://www.shulele.net/en/post/20190129kids-ucd/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -721,7 +748,7 @@ Motivation of the project This is fantastic program to teach the local kids and 
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/en/post/20190129kids-ucd/&amp;title=Volunteer%20for%20Kids%20Discovering%20Science%20project%20in%20California" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://www.shulele.net/en/post/20190129kids-ucd/&amp;title=Volunteer%20for%20Kids%20Discovering%20Science%20project%20in%20California" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -734,7 +761,7 @@ Motivation of the project This is fantastic program to teach the local kids and 
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Volunteer%20for%20Kids%20Discovering%20Science%20project%20in%20California%20/en/post/20190129kids-ucd/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Volunteer%20for%20Kids%20Discovering%20Science%20project%20in%20California%20https://www.shulele.net/en/post/20190129kids-ucd/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -747,7 +774,7 @@ Motivation of the project This is fantastic program to teach the local kids and 
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/en/post/20190129kids-ucd/&amp;title=Volunteer%20for%20Kids%20Discovering%20Science%20project%20in%20California" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://www.shulele.net/en/post/20190129kids-ucd/&amp;title=Volunteer%20for%20Kids%20Discovering%20Science%20project%20in%20California" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -786,11 +813,11 @@ Motivation of the project This is fantastic program to teach the local kids and 
   <div class="media author-card content-widget-hr">
     
       
-      <img class="portrait mr-3" src="/en/authors/admin/avatar_hu18b35d882719384e90116b918ac0f720_105008_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
+      <img class="portrait mr-3" src="/en/authors/admin/avatar_hueb1c8038b4a9c17f7b98348cfd22026b_72001_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="/">Lele Shu</a></h5>
+      <h5 class="card-title"><a href="https://www.shulele.net/">Lele Shu</a></h5>
       <h6 class="card-subtitle">Ph.D, Hydrologist, Lead of SHUD project</h6>
       <p class="card-text">Hydrologist on distributed numeric hydrologic modeling, impact of landuse and climate change, Coupled Nature-Human-System and hydrologic data mining.</p>
       <ul class="network-icon" aria-hidden="true">

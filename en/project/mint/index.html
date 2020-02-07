@@ -33,9 +33,9 @@ Introduction of project
    Overview of the use of artificial intelligence techniques to support model integration   Tasks in hydrologic modeling    The completed workflow of hydrologic modeling with PIHM model and national/global data services.      Animation of flood plant in South Sudan from 2001 to 2017 based on FLDAS data.">
 
   
-  <link rel="alternate" hreflang="zh" href="/zh/project/mint/">
+  <link rel="alternate" hreflang="zh" href="https://www.shulele.net/zh/project/mint/">
   
-  <link rel="alternate" hreflang="en-us" href="/en/project/mint/">
+  <link rel="alternate" hreflang="en-us" href="https://www.shulele.net/en/project/mint/">
 
   
 
@@ -95,15 +95,43 @@ Introduction of project
 
 
 
-  
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135370684-1"></script>
 <script>
-  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','UA-135370684-1');
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-135370684-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
 </script>
 
+
+  
 
 
   
@@ -112,7 +140,7 @@ Introduction of project
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/en/project/mint/">
+  <link rel="canonical" href="https://www.shulele.net/en/project/mint/">
 
   
   
@@ -127,12 +155,12 @@ Introduction of project
   <meta property="twitter:creator" content="@leleshu">
   
   <meta property="og:site_name" content="SHU">
-  <meta property="og:url" content="/en/project/mint/">
+  <meta property="og:url" content="https://www.shulele.net/en/project/mint/">
   <meta property="og:title" content="Automatic hydrologic deployment and modeling | SHU">
   <meta property="og:description" content="This project is the hydrologic modeling part of the project Model Integration through Knowledge-Rich Data and Process Composition.
 Introduction of project 
-   Overview of the use of artificial intelligence techniques to support model integration   Tasks in hydrologic modeling    The completed workflow of hydrologic modeling with PIHM model and national/global data services.      Animation of flood plant in South Sudan from 2001 to 2017 based on FLDAS data."><meta property="og:image" content="/en/project/mint/featured.png">
-  <meta property="twitter:image" content="/en/project/mint/featured.png"><meta property="og:locale" content="en-us">
+   Overview of the use of artificial intelligence techniques to support model integration   Tasks in hydrologic modeling    The completed workflow of hydrologic modeling with PIHM model and national/global data services.      Animation of flood plant in South Sudan from 2001 to 2017 based on FLDAS data."><meta property="og:image" content="https://www.shulele.net/en/project/mint/featured.png">
+  <meta property="twitter:image" content="https://www.shulele.net/en/project/mint/featured.png"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2019-11-05T00:00:00&#43;00:00">
@@ -161,12 +189,12 @@ Introduction of project
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "/en/project/mint/"
+    "@id": "https://www.shulele.net/en/project/mint/"
   },
   "headline": "Automatic hydrologic deployment and modeling",
   
   "image": [
-    "/en/project/mint/featured.png"
+    "https://www.shulele.net/en/project/mint/featured.png"
   ],
   
   "datePublished": "0001-01-01T00:00:00Z",
@@ -182,7 +210,7 @@ Introduction of project
     "name": "SHU",
     "logo": {
       "@type": "ImageObject",
-      "url": "/img/icon-512.png"
+      "url": "https://www.shulele.net/img/icon-512.png"
     }
   },
   "description": "This project is the hydrologic modeling part of the project Model Integration through Knowledge-Rich Data and Process Composition.\nIntroduction of project \n   Overview of the use of artificial intelligence techniques to support model integration   Tasks in hydrologic modeling    The completed workflow of hydrologic modeling with PIHM model and national/global data services.      Animation of flood plant in South Sudan from 2001 to 2017 based on FLDAS data."
@@ -248,7 +276,7 @@ Introduction of project
     
     
     
-      <a class="navbar-brand" href="/en">SHU</a>
+      <a class="navbar-brand" href="/en/">SHU</a>
     
 
     
@@ -309,16 +337,9 @@ Introduction of project
         
         
         
-          
-          
-          
-            
-          
-          
-        
 
         <li class="nav-item">
-          <a class="nav-link " href="/en/#posts"><span>Posts</span></a>
+          <a class="nav-link " href="/en/post/"><span>Posts</span></a>
         </li>
 
         
@@ -611,9 +632,14 @@ Introduction of project
   <div class="article-container">
 
     <div class="article-style">
-      <p>This project is the hydrologic modeling part of the project <em>Model Integration through Knowledge-Rich Data and Process Composition</em>.</p>
+      
+
+<p>This project is the hydrologic modeling part of the project <em>Model Integration through Knowledge-Rich Data and Process Composition</em>.</p>
+
 <h2 id="introduction-of-project">Introduction of project</h2>
-<p><a href="http://mint-project.info"><!-- raw HTML omitted --><!-- raw HTML omitted --></a></p>
+
+<p><a href="http://mint-project.info" target="_blank"><i class="fas fa-external-link-alt"></i></a></p>
+
 
 
 
@@ -643,7 +669,9 @@ Introduction of project
 
 </figure>
 
+
 <h2 id="tasks-in-hydrologic-modeling">Tasks in hydrologic modeling</h2>
+
 
 
 
@@ -672,6 +700,7 @@ Introduction of project
 
 
 </figure>
+
 
 
 
@@ -715,6 +744,7 @@ Introduction of project
 
 
 
+
 <figure>
 
 
@@ -731,7 +761,9 @@ Introduction of project
 
 </figure>
 
+
 <h2 id="accomplishment-of-the-project">Accomplishment of the project</h2>
+
 <p><strong>keep updating</strong></p>
 
     </div>
@@ -773,7 +805,7 @@ Introduction of project
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/en/project/mint/&amp;text=Automatic%20hydrologic%20deployment%20and%20modeling" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://www.shulele.net/en/project/mint/&amp;text=Automatic%20hydrologic%20deployment%20and%20modeling" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -786,7 +818,7 @@ Introduction of project
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/en/project/mint/&amp;t=Automatic%20hydrologic%20deployment%20and%20modeling" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://www.shulele.net/en/project/mint/&amp;t=Automatic%20hydrologic%20deployment%20and%20modeling" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -799,7 +831,7 @@ Introduction of project
       
       
       <li>
-        <a href="mailto:?subject=Automatic%20hydrologic%20deployment%20and%20modeling&amp;body=/en/project/mint/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Automatic%20hydrologic%20deployment%20and%20modeling&amp;body=https://www.shulele.net/en/project/mint/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -812,7 +844,7 @@ Introduction of project
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/en/project/mint/&amp;title=Automatic%20hydrologic%20deployment%20and%20modeling" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://www.shulele.net/en/project/mint/&amp;title=Automatic%20hydrologic%20deployment%20and%20modeling" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -825,7 +857,7 @@ Introduction of project
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Automatic%20hydrologic%20deployment%20and%20modeling%20/en/project/mint/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Automatic%20hydrologic%20deployment%20and%20modeling%20https://www.shulele.net/en/project/mint/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -838,7 +870,7 @@ Introduction of project
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/en/project/mint/&amp;title=Automatic%20hydrologic%20deployment%20and%20modeling" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://www.shulele.net/en/project/mint/&amp;title=Automatic%20hydrologic%20deployment%20and%20modeling" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -877,11 +909,11 @@ Introduction of project
   <div class="media author-card content-widget-hr">
     
       
-      <img class="portrait mr-3" src="/en/authors/admin/avatar_hu18b35d882719384e90116b918ac0f720_105008_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
+      <img class="portrait mr-3" src="/en/authors/admin/avatar_hueb1c8038b4a9c17f7b98348cfd22026b_72001_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="/">Lele Shu</a></h5>
+      <h5 class="card-title"><a href="https://www.shulele.net/">Lele Shu</a></h5>
       <h6 class="card-subtitle">Ph.D, Hydrologist, Lead of SHUD project</h6>
       <p class="card-text">Hydrologist on distributed numeric hydrologic modeling, impact of landuse and climate change, Coupled Nature-Human-System and hydrologic data mining.</p>
       <ul class="network-icon" aria-hidden="true">

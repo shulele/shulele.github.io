@@ -31,9 +31,9 @@
   <meta name="description" content="Ph.D, Hydrologist, Lead of SHUD project">
 
   
-  <link rel="alternate" hreflang="zh" href="/zh/post/">
+  <link rel="alternate" hreflang="zh" href="https://www.shulele.net/zh/post/">
   
-  <link rel="alternate" hreflang="en-us" href="/en/post/">
+  <link rel="alternate" hreflang="en-us" href="https://www.shulele.net/en/post/">
 
   
 
@@ -93,15 +93,43 @@
 
 
 
-  
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135370684-1"></script>
 <script>
-  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','UA-135370684-1');
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-135370684-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
 </script>
 
+
+  
 
 
   
@@ -112,7 +140,7 @@
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/en/post/">
+  <link rel="canonical" href="https://www.shulele.net/en/post/">
 
   
   
@@ -128,12 +156,12 @@
   <meta property="twitter:creator" content="@leleshu">
   
   <meta property="og:site_name" content="SHU">
-  <meta property="og:url" content="/en/post/">
+  <meta property="og:url" content="https://www.shulele.net/en/post/">
   <meta property="og:title" content="Posts | SHU">
-  <meta property="og:description" content="Ph.D, Hydrologist, Lead of SHUD project"><meta property="og:image" content="/img/icon-192.png">
-  <meta property="twitter:image" content="/img/icon-192.png"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Ph.D, Hydrologist, Lead of SHUD project"><meta property="og:image" content="https://www.shulele.net/img/icon-192.png">
+  <meta property="twitter:image" content="https://www.shulele.net/img/icon-192.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2019-11-19T22:05:38&#43;00:00">
+    <meta property="og:updated_time" content="2020-02-01T00:00:00&#43;00:00">
   
 
   
@@ -195,7 +223,7 @@
     
     
     
-      <a class="navbar-brand" href="/en">SHU</a>
+      <a class="navbar-brand" href="/en/">SHU</a>
     
 
     
@@ -256,16 +284,9 @@
         
         
         
-          
-          
-          
-            
-          
-          
-        
 
         <li class="nav-item">
-          <a class="nav-link " href="/en/#posts"><span>Posts</span></a>
+          <a class="nav-link  active" href="/en/post/"><span>Posts</span></a>
         </li>
 
         
@@ -478,6 +499,206 @@
   
 
   
+  
+    
+      
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/en/post/20200201_nature/" >Leter to Nature: Stop using the offensive virus names</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Stop using the offensive virus names Inappropriate naming of the new human disease inevitably causes prejudice and discrimination upon …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  
+  <span>Lele Shu</span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Feb 1, 2020
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <a href="/en/post/20200201_nature/#disqus_thread"></a>
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/en/post/20200201_nature/" >
+      <img src="/en/post/20200201_nature/featured_hu7f456a7360ca1a91af9c8b22669c07e1_384744_150x0_resize_lanczos_2.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/en/post/20200110_calender/" >Spiral calendar</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Is the current calendar is the best or only way to represent days?
+The days we experienced, undergoing, and expecting are recorded a …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  
+  <span>Lele Shu</span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Jan 22, 2020
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <a href="/en/post/20200110_calender/#disqus_thread"></a>
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+    
   
     
       

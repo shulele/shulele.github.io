@@ -31,9 +31,9 @@
   <meta name="description" content="博士后研究员, SHUD模型作者">
 
   
-  <link rel="alternate" hreflang="en" href="/en/authors/susana-e.-garcia-gonzalez/">
+  <link rel="alternate" hreflang="en" href="https://www.shulele.net/en/authors/susana-e.-garcia-gonzalez/">
   
-  <link rel="alternate" hreflang="zh-Hans" href="/zh/authors/susana-e.-garcia-gonzalez/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://www.shulele.net/zh/authors/susana-e.-garcia-gonzalez/">
 
   
 
@@ -93,15 +93,43 @@
 
 
 
-  
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135370684-1"></script>
 <script>
-  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','UA-135370684-1');
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-135370684-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
 </script>
 
+
+  
 
 
   
@@ -112,7 +140,7 @@
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/zh/authors/susana-e.-garcia-gonzalez/">
+  <link rel="canonical" href="https://www.shulele.net/zh/authors/susana-e.-garcia-gonzalez/">
 
   
   
@@ -128,10 +156,10 @@
   <meta property="twitter:creator" content="@leleshu">
   
   <meta property="og:site_name" content="舒乐乐">
-  <meta property="og:url" content="/zh/authors/susana-e.-garcia-gonzalez/">
+  <meta property="og:url" content="https://www.shulele.net/zh/authors/susana-e.-garcia-gonzalez/">
   <meta property="og:title" content="Susana E. Garcia-gonzalez | 舒乐乐">
-  <meta property="og:description" content="博士后研究员, SHUD模型作者"><meta property="og:image" content="/img/icon-192.png">
-  <meta property="twitter:image" content="/img/icon-192.png"><meta property="og:locale" content="zh-Hans">
+  <meta property="og:description" content="博士后研究员, SHUD模型作者"><meta property="og:image" content="https://www.shulele.net/img/icon-192.png">
+  <meta property="twitter:image" content="https://www.shulele.net/img/icon-192.png"><meta property="og:locale" content="zh-Hans">
   
     <meta property="og:updated_time" content="2014-12-31T00:00:00-08:00">
   
@@ -195,7 +223,7 @@
     
     
     
-      <a class="navbar-brand" href="/zh">舒乐乐</a>
+      <a class="navbar-brand" href="/zh/">舒乐乐</a>
     
 
     
@@ -247,25 +275,16 @@
         
         
         
-          
-        
 
         
         
         
         
         
-        
-          
-          
-          
-            
-          
-          
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/zh/#posts"><span>日志</span></a>
+          <a class="nav-link " href="/zh/post"><span>日志</span></a>
         </li>
 
         

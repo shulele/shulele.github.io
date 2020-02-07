@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kirk D. French | SHU</title>
-    <link>/en/authors/kirk-d.-french/</link>
-      <atom:link href="/en/authors/kirk-d.-french/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.shulele.net/en/authors/kirk-d.-french/</link>
+      <atom:link href="https://www.shulele.net/en/authors/kirk-d.-french/index.xml" rel="self" type="application/rss+xml" />
     <description>Kirk D. French</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 31 Dec 2014 00:00:00 -0800</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://www.shulele.net/img/icon-192.png</url>
       <title>Kirk D. French</title>
-      <link>/en/authors/kirk-d.-french/</link>
+      <link>https://www.shulele.net/en/authors/kirk-d.-french/</link>
     </image>
     
     <item>
       <title>Reconstructing the role of landuse change on water yield at the Maya urban center Tikal, Guatemala [700-800 AD]</title>
-      <link>/en/talk/agu2014/</link>
+      <link>https://www.shulele.net/en/talk/agu2014/</link>
       <pubDate>Wed, 31 Dec 2014 00:00:00 -0800</pubDate>
-      <guid>/en/talk/agu2014/</guid>
+      <guid>https://www.shulele.net/en/talk/agu2014/</guid>
       <description></description>
     </item>
     
