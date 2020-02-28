@@ -28,7 +28,7 @@
 &lt;h2 id=&#34;tasks-in-hydrologic-modeling&#34;&gt;Tasks in hydrologic modeling&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Develop a hydrologic modeling system for both the Sacramento watershed and several subcatchments.  Calculate key hydrological metrics, including stream flow, groundwater table, soil moisture, and snow pack.&lt;/li&gt;
+&lt;li&gt;Develop a hydrologic modeling system for both the Sacramento watershed and several subcatchments.  Calculate key hydrological metrics, including streamflow, groundwater table, soil moisture, and snowpack.&lt;/li&gt;
 &lt;li&gt;Evaluate the quality of the hydrologic model and identify potential issues related to its performance.&lt;/li&gt;
 &lt;li&gt;Develop a statistical downscaling technique using both traditional statistical and machine learning methods that digests input to the hydrologic model and mimics the output of the model.&lt;/li&gt;
 &lt;li&gt;Determine which input variables are most relevant for producing an accurate statistical model.&lt;/li&gt;
@@ -52,7 +52,7 @@
 
 &lt;h2 id=&#34;sacramento-watershed&#34;&gt;Sacramento Watershed&lt;/h2&gt;
 
-&lt;p&gt;The Sacramento River flows from Southern Oregon and to San Francisco Bay. Total drainage area is ~72000 km2. Elevation ranges from 0 to 4200m. The climate in SW is semi-arid hot Mediterranean. The spatial climatic characteristics are not only affected by latitude, terrain and snow coverage, but also by wind and ocean currents. Dramatic seasonal and annual climatic variations exist as well as large spatial heterogeneity. The mountains on the eastern and northern edges of the domain accumulate rain and snow which funnels into the groundwater of the whole watershed.  Annual precipitation ranges from 400 mm/year to 1500 mm/year, however extreme annual precipitation was more than 4000 mm/year in Northern mountainous area in 1983, and mean precipitation was only 270 mm/year from the 2013 extreme drought year.&lt;/p&gt;
+&lt;p&gt;The Sacramento River flows from Southern Oregon and to San Francisco Bay. The total drainage area is ~72000 km2. Elevation ranges from 0 to 4200m. The climate in SW is semi-arid hot Mediterranean. The spatial climatic characteristics are not only affected by latitude, terrain and snow coverage, but also by wind and ocean currents. Dramatic seasonal and annual climatic variations exist as well as large spatial heterogeneity. The mountains on the eastern and northern edges of the domain accumulate rain and snow, which funnels into the groundwater of the whole watershed.  Annual precipitation ranges from 400 mm/year to 1500 mm/year, however extreme annual precipitation was more than 4000 mm/year in the Northern mountainous area in 1983, and mean precipitation was only 270 mm/year from the 2013 extreme drought year.&lt;/p&gt;
 
 &lt;figure class=&#34;image&#34;&gt;
   &lt;img src=&#34;fig/Animation.gif&#34;, width=400px&gt;
@@ -77,19 +77,19 @@
 
 &lt;h2 id=&#34;simulation-and-results&#34;&gt;Simulation and Results&lt;/h2&gt;
 
-&lt;p&gt;The calibration of the PIHM model used the Covariance Matrix Adaptation Evolution Strategy (CMA-ES) (Hansen 2006,Auger 2005). The automatic CMA-ES calibration is robust and able to converge to global optimization with low computing cost.&lt;/p&gt;
+&lt;p&gt;The calibration of the PIHM model used the Covariance Matrix Adaptation Evolution Strategy (CMA-ES) (Hansen 2006, Auger 2005). The automatic CMA-ES calibration is robust and able to converge to global optimization with low computing cost.&lt;/p&gt;
 
 &lt;h3 id=&#34;river-discharge&#34;&gt;River discharge&lt;/h3&gt;
 
-&lt;p&gt;The stream flow in the watershed follows the seasonal variation of precipitation. During drought years, the base flow from groundwater depletion contributes to the streamflow, and the excess infiltration replenishes ground water in wet seasons. For small watersheds in the Central Valley, such as catchment #9 where precipitation is less and the aquifer is thicker, the contribution from groundwater is small.
+&lt;p&gt;The streamflow in the watershed follows the seasonal variation of precipitation. During drought years, the base flow from groundwater depletion contributes to the streamflow, and the excess infiltration replenishes groundwater in wet seasons. For small watersheds in the Central Valley, such as catchment #9 where precipitation is less and the aquifer is thicker, the contribution from groundwater is small.
 &lt;figure class=&#34;image&#34;&gt;
   &lt;img src=&#34;fig/calib.png&#34;&gt;
   &lt;figcaption&gt;Calibration based on discharge of four subcatchments&lt;/figcaption&gt;
 &lt;/figure&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;ground-water-variation&#34;&gt;Ground water variation&lt;/h3&gt;
+&lt;h3 id=&#34;groundwater-variation&#34;&gt;Groundwater variation&lt;/h3&gt;
 
-&lt;p&gt;The ground water near the river channel is shallower than the hill-slope. The spatial distribution pattern of ground water is controlled by topography, soil/geology characteristics and shape of the watershed. Steep slopes store less ground water than moderate slopes, because a steep hydraulic gradient on steep slopes drive the lateral groundwater flow.&lt;/p&gt;
+&lt;p&gt;The groundwater near the river channel is shallower than the hill-slope. The spatial distribution pattern of groundwater is controlled by topography, soil/geology characteristics and shape of the watershed. Steep slopes store less groundwater than moderate slopes because a steep hydraulic gradient on steep slopes drives the lateral groundwater flow.&lt;/p&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -112,7 +112,7 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;Ground water seasonal fluctuation follows the climatic variation. However, the seasonal variations in some catchments are relatively larger than others. The inter-annual variation in #5 sub-catchment is larger than seasonal variation. Although the annual precipitation trends in each sub-catchments are comparable, the trend in multiple-year changes of ground water table varies. This requires further analysis on water balance and the memory effect of ground water storage.&lt;/p&gt;
+&lt;p&gt;Groundwater seasonal fluctuation follows the climatic variation. However, the seasonal variations in some catchments are relatively larger than others. The inter-annual variation in #5 sub-catchment is larger than seasonal variation. Although the annual precipitation trends in each sub-catchments are comparable, the trend in multiple-year changes in the groundwater table varies. This requires further analysis of water balance and the memory effect of ground water storage.&lt;/p&gt;
 </description>
     </item>
     

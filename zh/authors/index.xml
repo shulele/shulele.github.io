@@ -5,12 +5,20 @@
     <link>https://www.shulele.net/zh/authors/</link>
       <atom:link href="https://www.shulele.net/zh/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Wed, 05 Feb 2020 22:05:38 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Wed, 12 Feb 2020 00:00:00 -0800</lastBuildDate>
     <image>
       <url>https://www.shulele.net/img/icon-192.png</url>
       <title>Authors</title>
       <link>https://www.shulele.net/zh/authors/</link>
     </image>
+    
+    <item>
+      <title>Shu, Lele</title>
+      <link>https://www.shulele.net/zh/authors/shu-lele/</link>
+      <pubDate>Wed, 12 Feb 2020 00:00:00 -0800</pubDate>
+      <guid>https://www.shulele.net/zh/authors/shu-lele/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title></title>
@@ -24,24 +32,24 @@
     <item>
       <title>Duffy, Christopher</title>
       <link>https://www.shulele.net/zh/authors/duffy-christopher/</link>
-      <pubDate>Mon, 25 Nov 2019 00:00:00 -0800</pubDate>
+      <pubDate>Sun, 12 Jan 2020 00:00:00 -0800</pubDate>
       <guid>https://www.shulele.net/zh/authors/duffy-christopher/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shu, Lele</title>
-      <link>https://www.shulele.net/zh/authors/shu-lele/</link>
-      <pubDate>Mon, 25 Nov 2019 00:00:00 -0800</pubDate>
-      <guid>https://www.shulele.net/zh/authors/shu-lele/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ullrich, Paul</title>
       <link>https://www.shulele.net/zh/authors/ullrich-paul/</link>
-      <pubDate>Mon, 25 Nov 2019 00:00:00 -0800</pubDate>
+      <pubDate>Sun, 12 Jan 2020 00:00:00 -0800</pubDate>
       <guid>https://www.shulele.net/zh/authors/ullrich-paul/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zexuan Xu</title>
+      <link>https://www.shulele.net/zh/authors/zexuan-xu/</link>
+      <pubDate>Mon, 25 Nov 2019 00:00:00 -0800</pubDate>
+      <guid>https://www.shulele.net/zh/authors/zexuan-xu/</guid>
       <description></description>
     </item>
     

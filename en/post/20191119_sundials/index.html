@@ -28,7 +28,7 @@
   
     
   
-  <meta name="description" content="SUNDIALS: SUite of Nonlinear and DIfferential/ALgebraic Equation Solvers SUNDIALS (https://computing.llnl.gov/projects/sundials) is a very powerful mathematical library that is helpful in solving engineering and scientific problems efficiently. CVODE is one of the tools, aiming to solve Ordinary Differential Equation, in C language. In the Solver of Hydrologic Unstructured Domain (SHUD) model, the system of ODEs describing the hydrological processes is fully coupled and solved simultaneously at each time step ($ \Delta t=t{n}-t{n-1}$) using CVODE, a stiff solver based on Newton-Krylov iteration.">
+  <meta name="description" content="SUNDIALS: SUite of Nonlinear and DIfferential/ALgebraic Equation Solvers SUNDIALS (https://computing.llnl.gov/projects/sundials) is a very powerful mathematical library that is helpful in solving engineering and scientific problems efficiently. CVODE is one of the tools, aiming to solve the Ordinary Differential Equation, in C language. In the Solver of Hydrologic Unstructured Domain (SHUD) model, the system of ODEs describing the hydrological processes is fully coupled and solved simultaneously at each time step ($ \Delta t=t{n}-t{n-1}$) using CVODE, a stiff solver based on Newton-Krylov iteration.">
 
   
   <link rel="alternate" hreflang="zh" href="https://www.shulele.net/zh/post/20191119_sundials/">
@@ -154,8 +154,8 @@
   
   <meta property="og:site_name" content="SHU">
   <meta property="og:url" content="https://www.shulele.net/en/post/20191119_sundials/">
-  <meta property="og:title" content="How to Install Sundials 5.x or Cvode on Mac Linux System | SHU">
-  <meta property="og:description" content="SUNDIALS: SUite of Nonlinear and DIfferential/ALgebraic Equation Solvers SUNDIALS (https://computing.llnl.gov/projects/sundials) is a very powerful mathematical library that is helpful in solving engineering and scientific problems efficiently. CVODE is one of the tools, aiming to solve Ordinary Differential Equation, in C language. In the Solver of Hydrologic Unstructured Domain (SHUD) model, the system of ODEs describing the hydrological processes is fully coupled and solved simultaneously at each time step ($ \Delta t=t{n}-t{n-1}$) using CVODE, a stiff solver based on Newton-Krylov iteration."><meta property="og:image" content="https://www.shulele.net/en/post/20191119_sundials/featured.png">
+  <meta property="og:title" content="How to Install Sundials 5.x or CVODE on Mac Linux System | SHU">
+  <meta property="og:description" content="SUNDIALS: SUite of Nonlinear and DIfferential/ALgebraic Equation Solvers SUNDIALS (https://computing.llnl.gov/projects/sundials) is a very powerful mathematical library that is helpful in solving engineering and scientific problems efficiently. CVODE is one of the tools, aiming to solve the Ordinary Differential Equation, in C language. In the Solver of Hydrologic Unstructured Domain (SHUD) model, the system of ODEs describing the hydrological processes is fully coupled and solved simultaneously at each time step ($ \Delta t=t{n}-t{n-1}$) using CVODE, a stiff solver based on Newton-Krylov iteration."><meta property="og:image" content="https://www.shulele.net/en/post/20191119_sundials/featured.png">
   <meta property="twitter:image" content="https://www.shulele.net/en/post/20191119_sundials/featured.png"><meta property="og:locale" content="en-us">
   
     
@@ -189,7 +189,7 @@
     "@type": "WebPage",
     "@id": "https://www.shulele.net/en/post/20191119_sundials/"
   },
-  "headline": "How to Install Sundials 5.x or Cvode on Mac Linux System",
+  "headline": "How to Install Sundials 5.x or CVODE on Mac Linux System",
   
   "image": [
     "https://www.shulele.net/en/post/20191119_sundials/featured.png"
@@ -211,7 +211,7 @@
       "url": "https://www.shulele.net/img/icon-512.png"
     }
   },
-  "description": "SUNDIALS: SUite of Nonlinear and DIfferential/ALgebraic Equation Solvers SUNDIALS (https://computing.llnl.gov/projects/sundials) is a very powerful mathematical library that is helpful in solving engineering and scientific problems efficiently. CVODE is one of the tools, aiming to solve Ordinary Differential Equation, in C language. In the Solver of Hydrologic Unstructured Domain (SHUD) model, the system of ODEs describing the hydrological processes is fully coupled and solved simultaneously at each time step ($ \\Delta t=t{n}-t{n-1}$) using CVODE, a stiff solver based on Newton-Krylov iteration."
+  "description": "SUNDIALS: SUite of Nonlinear and DIfferential/ALgebraic Equation Solvers SUNDIALS (https://computing.llnl.gov/projects/sundials) is a very powerful mathematical library that is helpful in solving engineering and scientific problems efficiently. CVODE is one of the tools, aiming to solve the Ordinary Differential Equation, in C language. In the Solver of Hydrologic Unstructured Domain (SHUD) model, the system of ODEs describing the hydrological processes is fully coupled and solved simultaneously at each time step ($ \\Delta t=t{n}-t{n-1}$) using CVODE, a stiff solver based on Newton-Krylov iteration."
 }
 </script>
 
@@ -229,7 +229,7 @@
 
 
 
-  <title>How to Install Sundials 5.x or Cvode on Mac Linux System | SHU</title>
+  <title>How to Install Sundials 5.x or CVODE on Mac Linux System | SHU</title>
 
 </head>
 
@@ -545,7 +545,7 @@
 
 
 <div class="article-container pt-3">
-  <h1>How to Install Sundials 5.x or Cvode on Mac Linux System</h1>
+  <h1>How to Install Sundials 5.x or CVODE on Mac Linux System</h1>
 
   
 
@@ -632,10 +632,10 @@
 
 <h2 id="sundials-suite-of-nonlinear-and-differential-algebraic-equation-solvers">SUNDIALS: SUite of Nonlinear and DIfferential/ALgebraic Equation Solvers</h2>
 
-<p>SUNDIALS (<a href="https://computing.llnl.gov/projects/sundials" target="_blank">https://computing.llnl.gov/projects/sundials</a>) is a very powerful mathematical library that is helpful in solving engineering and scientific problems efficiently. CVODE is one of the tools, aiming to solve Ordinary Differential Equation, in C language.
-In the Solver of Hydrologic Unstructured Domain (SHUD) model, the system of ODEs describing the hydrological processes is fully coupled and solved simultaneously at each  time step ($ \Delta t=t<em>{n}-t</em>{n-1}$)  using CVODE, a stiff solver based on Newton-Krylov iteration.</p>
+<p>SUNDIALS (<a href="https://computing.llnl.gov/projects/sundials" target="_blank">https://computing.llnl.gov/projects/sundials</a>) is a very powerful mathematical library that is helpful in solving engineering and scientific problems efficiently. CVODE is one of the tools, aiming to solve the Ordinary Differential Equation, in C language.
+In the Solver of Hydrologic Unstructured Domain (SHUD) model, the system of ODEs describing the hydrological processes is fully coupled and solved simultaneously at each time step ($ \Delta t=t<em>{n}-t</em>{n-1}$)  using CVODE, a stiff solver based on Newton-Krylov iteration.</p>
 
-<p>The latest version of SUNDIALS is v5.0.0, released on November 2019. Let&rsquo;s install it on a Mac OS or Linux system.</p>
+<p>The latest version of SUNDIALS is v5.0.0, released in November 2019. Let&rsquo;s install it on a Mac OS or Linux system.</p>
 
 <p>I test the installation on <strong>Mac 10.13</strong> and  <strong>Ubuntu 18.04.3 LTS (GNU/Linux 4.15.0-66-generic x86_64)</strong></p>
 
@@ -652,7 +652,7 @@ Or get latest SUNDIALS on GitHub:</p>
   Let&rsquo;s assume you are in the same level of <em>sundials</em>.</p>
 
 <ol>
-<li>Create a install folder.</li>
+<li>Create an install folder.</li>
 </ol>
 
 <p>The installation folder names <strong>installSundials</strong></p>
@@ -673,7 +673,7 @@ Or get latest SUNDIALS on GitHub:</p>
 <li>Configure the installation with CCMAKE.</li>
 </ol>
 
-<p>There are two ways to configure the installation. One is GUI, and the other is command line.</p>
+<p>There are two ways to configure the installation. One is GUI, and the other is the command line.</p>
 
 <ul>
 <li><p><strong>Option 1</strong>, type command blow:</p>
@@ -685,7 +685,7 @@ Or get latest SUNDIALS on GitHub:</p>
 <p>You will see a screen like this:
   <img src="featured.png" alt="CCMAKE Screenshot" /></p>
 
-<p>Use your cursor, move to line <strong><em>CMAKE_INSTALL_PREFIX</em></strong>, which is the path SUNDIALS will be installed. Press Enter to start edit the line. I install it on <strong>/usr/local/sundials</strong></p>
+<p>Use your cursor, move to line <strong><em>CMAKE_INSTALL_PREFIX</em></strong>, which is the path SUNDIALS will be installed. Press Enter to start to edit the line. I install it on <strong>/usr/local/sundials</strong></p>
 
 <p>Another path you may change is the path of example code, <strong><em>EXAMPLES_INSTALL_PATH</em></strong>.</p>
 
@@ -712,7 +712,7 @@ Or get latest SUNDIALS on GitHub:</p>
 </code></pre></li>
 </ul>
 
-<p>The command above configure installation, to install SUNDIALS to <em>/usr/local/sundials</em>, the examples to <em>../example</em>, install <em>CVODE</em> only, with OpenMP support.</p>
+<p>The command above configure the installation, to install SUNDIALS to <em>/usr/local/sundials</em>, the examples to <em>../example</em>, install <em>CVODE</em> only, with OpenMP support.</p>
 
 <p>If you don&rsquo;t need OpenMP or your OpenMP may result in errors, use the command below:</p>
 
@@ -739,13 +739,13 @@ Or get latest SUNDIALS on GitHub:</p>
   make install
 </code></pre>
 
-<p>Sometimes, if the system may require higher previlage. If so, please try to use sudo:</p>
+<p>Sometimes, if the system may require higher privileges. If so, please try to use sudo:</p>
 
 <pre><code>  make
   sudo make install
 </code></pre>
 
-<p>If there is no error occur, the SUNDIALS is installed successfully. Congrats.</p>
+<p>If there is no error occurs, the SUNDIALS is installed successfully. Congrats.</p>
 
 <ol>
 <li>Test the SUNDIALS library with the examples.</li>
@@ -778,7 +778,7 @@ Or get latest SUNDIALS on GitHub:</p>
 
 <p>Now, you can use SUNDIALS/CVODE in your own numeric solver.</p>
 
-<p>Be patient, you will meet more challenges.</p>
+<p>Be patient; you will meet more challenges.</p>
 
     </div>
 
@@ -799,7 +799,7 @@ Or get latest SUNDIALS on GitHub:</p>
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://www.shulele.net/en/post/20191119_sundials/&amp;text=How%20to%20Install%20Sundials%205.x%20or%20Cvode%20on%20Mac%20Linux%20System" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://www.shulele.net/en/post/20191119_sundials/&amp;text=How%20to%20Install%20Sundials%205.x%20or%20CVODE%20on%20Mac%20Linux%20System" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -812,7 +812,7 @@ Or get latest SUNDIALS on GitHub:</p>
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://www.shulele.net/en/post/20191119_sundials/&amp;t=How%20to%20Install%20Sundials%205.x%20or%20Cvode%20on%20Mac%20Linux%20System" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://www.shulele.net/en/post/20191119_sundials/&amp;t=How%20to%20Install%20Sundials%205.x%20or%20CVODE%20on%20Mac%20Linux%20System" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -825,7 +825,7 @@ Or get latest SUNDIALS on GitHub:</p>
       
       
       <li>
-        <a href="mailto:?subject=How%20to%20Install%20Sundials%205.x%20or%20Cvode%20on%20Mac%20Linux%20System&amp;body=https://www.shulele.net/en/post/20191119_sundials/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=How%20to%20Install%20Sundials%205.x%20or%20CVODE%20on%20Mac%20Linux%20System&amp;body=https://www.shulele.net/en/post/20191119_sundials/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -838,7 +838,7 @@ Or get latest SUNDIALS on GitHub:</p>
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://www.shulele.net/en/post/20191119_sundials/&amp;title=How%20to%20Install%20Sundials%205.x%20or%20Cvode%20on%20Mac%20Linux%20System" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://www.shulele.net/en/post/20191119_sundials/&amp;title=How%20to%20Install%20Sundials%205.x%20or%20CVODE%20on%20Mac%20Linux%20System" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -851,7 +851,7 @@ Or get latest SUNDIALS on GitHub:</p>
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=How%20to%20Install%20Sundials%205.x%20or%20Cvode%20on%20Mac%20Linux%20System%20https://www.shulele.net/en/post/20191119_sundials/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=How%20to%20Install%20Sundials%205.x%20or%20CVODE%20on%20Mac%20Linux%20System%20https://www.shulele.net/en/post/20191119_sundials/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -864,7 +864,7 @@ Or get latest SUNDIALS on GitHub:</p>
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://www.shulele.net/en/post/20191119_sundials/&amp;title=How%20to%20Install%20Sundials%205.x%20or%20Cvode%20on%20Mac%20Linux%20System" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://www.shulele.net/en/post/20191119_sundials/&amp;title=How%20to%20Install%20Sundials%205.x%20or%20CVODE%20on%20Mac%20Linux%20System" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -909,7 +909,7 @@ Or get latest SUNDIALS on GitHub:</p>
     <div class="media-body">
       <h5 class="card-title"><a href="https://www.shulele.net/">Lele Shu</a></h5>
       <h6 class="card-subtitle">Ph.D, Hydrologist, Lead of SHUD project</h6>
-      <p class="card-text">Hydrologist on distributed numeric hydrologic modeling, impact of landuse and climate change, Coupled Nature-Human-System and hydrologic data mining.</p>
+      <p class="card-text">Hydrologist on distributed numeric hydrologic modeling, impact of landuse and climate change, Coupled Nature-Human-System</p>
       <ul class="network-icon" aria-hidden="true">
   
     

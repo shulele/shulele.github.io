@@ -5,7 +5,7 @@
     <link>https://www.shulele.net/zh/authors/duffy-christopher/</link>
       <atom:link href="https://www.shulele.net/zh/authors/duffy-christopher/index.xml" rel="self" type="application/rss+xml" />
     <description>Duffy, Christopher</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Mon, 25 Nov 2019 00:00:00 -0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><lastBuildDate>Sun, 12 Jan 2020 00:00:00 -0800</lastBuildDate>
     <image>
       <url>https://www.shulele.net/img/icon-192.png</url>
       <title>Duffy, Christopher</title>
@@ -13,10 +13,10 @@
     </image>
     
     <item>
-      <title>Solver for Hydrologic Unstructured Domain (SHUD): Numerical modeling of watershed hydrology with the finite element method</title>
-      <link>https://www.shulele.net/zh/publication/shu2019_shud/</link>
-      <pubDate>Mon, 25 Nov 2019 00:00:00 -0800</pubDate>
-      <guid>https://www.shulele.net/zh/publication/shu2019_shud/</guid>
+      <title>Solver for Hydrologic Unstructured Domain (SHUD): Numerical modeling of watershed hydrology with the finite volume method</title>
+      <link>https://www.shulele.net/zh/publication/2019shu_shud/</link>
+      <pubDate>Sun, 12 Jan 2020 00:00:00 -0800</pubDate>
+      <guid>https://www.shulele.net/zh/publication/2019shu_shud/</guid>
       <description>&lt;p&gt;Hydrological modeling is an essential strategy for understanding natural flows, particularly where observations are lacking in either space or time, or where topographic roughness leads to a disconnect in the characteristic timescales of overland and groundwater flow. Consequently, significant opportunities remain for the development of extensible modeling systems that operate robustly across regions.
 Towards the development of such a robust hydrological modeling system, this paper introduces the Solver for Hydrological Unstructured Domain (SHUD), an integrated multi-process, multi-scale, multi-timestep hydrological model, in which hydrological processes are fully coupled using the semi-discrete Finite Volume Method. The SHUD integrates overland flow, snow accumulation/melting, evapotranspiration, subsurface and groundwater flow, and river routing, while realistically capturing the physical processes in a watershed.&lt;br /&gt;
 The SHUD incorporates one-dimension unsaturated flow, two-dimension groundwater flow, and river channels connected with hillslopes via overland flow and baseflow.&lt;/p&gt;

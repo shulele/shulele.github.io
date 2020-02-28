@@ -5,7 +5,7 @@
     <link>https://www.shulele.net/en/</link>
       <atom:link href="https://www.shulele.net/en/index.xml" rel="self" type="application/rss+xml" />
     <description>SHU</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 12 Feb 2020 00:00:00 -0800</lastBuildDate>
     <image>
       <url>https://www.shulele.net/img/icon-192.png</url>
       <title>SHU</title>
@@ -22,6 +22,21 @@
 &lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
 
 &lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Avoid stigmatizing names for 2019 novel coronavirus</title>
+      <link>https://www.shulele.net/en/publication/2020nature_covid/</link>
+      <pubDate>Wed, 12 Feb 2020 00:00:00 -0800</pubDate>
+      <guid>https://www.shulele.net/en/publication/2020nature_covid/</guid>
+      <description>&lt;p&gt;The coronavirus that is currently causing severe respiratory illness worldwide has now been named SARS-CoV-2, and the disease is COVID-19. When the virus first emerged last December, it was generally described in medical journals as the ‘2019 novel coronavirus’. Nature, however, used ‘China coronavirus’ and ‘Wuhan coronavirus’. Such interim terminology based on geographic characteristics is objectionable because it can stimulate prejudice and discrimination against Chinese people, fuelled internationally by fear spread through social media.&lt;/p&gt;
+
+&lt;p&gt;Although it is difficult and time-consuming to formally name diseases and viruses, it is essential that we methodically select no-harm names for them to make their way into human history. In 2015, the World Health Organization issued guidelines intended to minimize “unnecessary negative impact of disease names on trade, travel, tourism or animal welfare, and avoid causing offence to any cultural, social, national, regional, professional or ethnic groups”. It asks scientists, journalists and health officials to use neutral, generic terms when referring to new human infectious diseases.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Editor’s note&lt;/strong&gt;: Nature has stopped referring to the 2019 novel coronavirus (SARS-CoV-2) as the Wuhan or China virus, for the reasons cited in the Correspondence. The names that appeared in earlier headlines were used to reflect the situation as it was understood at the time.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Nature 578, 363 (2020)&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -55,6 +70,21 @@
     </item>
     
     <item>
+      <title>Solver for Hydrologic Unstructured Domain (SHUD): Numerical modeling of watershed hydrology with the finite volume method</title>
+      <link>https://www.shulele.net/en/publication/2019shu_shud/</link>
+      <pubDate>Sun, 12 Jan 2020 00:00:00 -0800</pubDate>
+      <guid>https://www.shulele.net/en/publication/2019shu_shud/</guid>
+      <description>&lt;p&gt;Hydrological modeling is an essential strategy for understanding natural flows, particularly where observations are lacking in either space or time, or where topographic roughness leads to a disconnect in the characteristic timescales of overland and groundwater flow. Consequently, significant opportunities remain for the development of extensible modeling systems that operate robustly across regions.
+Towards the development of such a robust hydrological modeling system, this paper introduces the Solver for Hydrological Unstructured Domain (SHUD), an integrated multi-process, multi-scale, multi-timestep hydrological model, in which hydrological processes are fully coupled using the semi-discrete Finite Volume Method. The SHUD integrates overland flow, snow accumulation/melting, evapotranspiration, subsurface and groundwater flow, and river routing, while realistically capturing the physical processes in a watershed.&lt;br /&gt;
+The SHUD incorporates one-dimension unsaturated flow, two-dimension groundwater flow, and river channels connected with hillslopes via overland flow and baseflow.&lt;/p&gt;
+
+&lt;p&gt;This paper introduces the design of SHUD, from the conceptual and mathematical description of hydrological processes in a watershed to computational structures. To demonstrate and validate the model performance, we employ three hydrological experiments: the V-Catchment experiment, Vauclin&amp;rsquo;s experiment, and a study of the Cache Creek Watershed in northern California, USA.&lt;/p&gt;
+
+&lt;p&gt;Possible applications of then SHUD model include hydrological studies from the hillslope scale to regional scale, water resource and stormwater management, and coupling research with related fields such as limnology, agriculture, geochemistry, geomorphology, water quality, and ecology, climatic and landuse change.  In general, SHUD is a valuable scientific tool for any modeling task involving simulating and understanding hydrological response.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Spiral calendar</title>
       <link>https://www.shulele.net/en/post/20200110_calender/</link>
       <pubDate>Fri, 10 Jan 2020 12:05:38 +0000</pubDate>
@@ -79,22 +109,21 @@ Here is the calendar:&lt;/p&gt;
     </item>
     
     <item>
-      <title>Solver for Hydrologic Unstructured Domain (SHUD): Numerical modeling of watershed hydrology with the finite element method</title>
-      <link>https://www.shulele.net/en/publication/shu2019_shud/</link>
+      <title>China’s different shades of greening</title>
+      <link>https://www.shulele.net/en/publication/2019nature/</link>
       <pubDate>Mon, 25 Nov 2019 00:00:00 -0800</pubDate>
-      <guid>https://www.shulele.net/en/publication/shu2019_shud/</guid>
-      <description>&lt;p&gt;Hydrological modeling is an essential strategy for understanding natural flows, particularly where observations are lacking in either space or time, or where topographic roughness leads to a disconnect in the characteristic timescales of overland and groundwater flow. Consequently, significant opportunities remain for the development of extensible modeling systems that operate robustly across regions.
-Towards the development of such a robust hydrological modeling system, this paper introduces the Solver for Hydrological Unstructured Domain (SHUD), an integrated multi-process, multi-scale, multi-timestep hydrological model, in which hydrological processes are fully coupled using the semi-discrete Finite Volume Method. The SHUD integrates overland flow, snow accumulation/melting, evapotranspiration, subsurface and groundwater flow, and river routing, while realistically capturing the physical processes in a watershed.&lt;br /&gt;
-The SHUD incorporates one-dimension unsaturated flow, two-dimension groundwater flow, and river channels connected with hillslopes via overland flow and baseflow.&lt;/p&gt;
+      <guid>https://www.shulele.net/en/publication/2019nature/</guid>
+      <description>&lt;p&gt;Your view that China’s re-vegetation of its deserts could exacerbate water shortages risks oversimplifying an incredibly complex eco-restoration problem (Nature 573, 474–475; 2019).
+Far from just planting trees in arid areas, China’s re-vegetation codes vary for different regions and greening programmes. The nationwide Grain-to-Green programme, for example, aims to restore unstable and low-productivity farmlands to forest or natural vegetation. In humid areas, research optimizes greening programmes for plant selection and socio- economic benefits. And China’s re-vegetation projects are confined to a range that local water resources can sustain.&lt;/p&gt;
 
-&lt;p&gt;This paper introduces the design of SHUD, from the conceptual and mathematical description of hydrological processes in a watershed to computational structures. To demonstrate and validate the model performance, we employ three hydrological experiments: the V-Catchment experiment, Vauclin&amp;rsquo;s experiment, and a study of the Cache Creek Watershed in northern California, USA.&lt;/p&gt;
+&lt;p&gt;Re-vegetation, like any eco-restoration strategy, is not a catch-all solution to carbon sequestration, soil erosion and flooding. But, rather than worrying mainly about water consumption, Chinese and other scientists are investigating the nexus of vegetation, soil, water, ecosystems and human society.&lt;/p&gt;
 
-&lt;p&gt;Possible applications of then SHUD model include hydrological studies from the hillslope scale to regional scale, water resource and stormwater management, and coupling research with related fields such as limnology, agriculture, geochemistry, geomorphology, water quality, and ecology, climatic and landuse change.  In general, SHUD is a valuable scientific tool for any modeling task involving simulating and understanding hydrological response.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Nature 577, 29 (2019)&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>How to Install Sundials 5.x or Cvode on Mac Linux System</title>
+      <title>How to Install Sundials 5.x or CVODE on Mac Linux System</title>
       <link>https://www.shulele.net/en/post/20191119_sundials/</link>
       <pubDate>Tue, 19 Nov 2019 22:05:38 +0000</pubDate>
       <guid>https://www.shulele.net/en/post/20191119_sundials/</guid>
@@ -102,10 +131,10 @@ The SHUD incorporates one-dimension unsaturated flow, two-dimension groundwater 
 
 &lt;h2 id=&#34;sundials-suite-of-nonlinear-and-differential-algebraic-equation-solvers&#34;&gt;SUNDIALS: SUite of Nonlinear and DIfferential/ALgebraic Equation Solvers&lt;/h2&gt;
 
-&lt;p&gt;SUNDIALS (&lt;a href=&#34;https://computing.llnl.gov/projects/sundials&#34; target=&#34;_blank&#34;&gt;https://computing.llnl.gov/projects/sundials&lt;/a&gt;) is a very powerful mathematical library that is helpful in solving engineering and scientific problems efficiently. CVODE is one of the tools, aiming to solve Ordinary Differential Equation, in C language.
-In the Solver of Hydrologic Unstructured Domain (SHUD) model, the system of ODEs describing the hydrological processes is fully coupled and solved simultaneously at each  time step ($ \Delta t=t&lt;em&gt;{n}-t&lt;/em&gt;{n-1}$)  using CVODE, a stiff solver based on Newton-Krylov iteration.&lt;/p&gt;
+&lt;p&gt;SUNDIALS (&lt;a href=&#34;https://computing.llnl.gov/projects/sundials&#34; target=&#34;_blank&#34;&gt;https://computing.llnl.gov/projects/sundials&lt;/a&gt;) is a very powerful mathematical library that is helpful in solving engineering and scientific problems efficiently. CVODE is one of the tools, aiming to solve the Ordinary Differential Equation, in C language.
+In the Solver of Hydrologic Unstructured Domain (SHUD) model, the system of ODEs describing the hydrological processes is fully coupled and solved simultaneously at each time step ($ \Delta t=t&lt;em&gt;{n}-t&lt;/em&gt;{n-1}$)  using CVODE, a stiff solver based on Newton-Krylov iteration.&lt;/p&gt;
 
-&lt;p&gt;The latest version of SUNDIALS is v5.0.0, released on November 2019. Let&amp;rsquo;s install it on a Mac OS or Linux system.&lt;/p&gt;
+&lt;p&gt;The latest version of SUNDIALS is v5.0.0, released in November 2019. Let&amp;rsquo;s install it on a Mac OS or Linux system.&lt;/p&gt;
 
 &lt;p&gt;I test the installation on &lt;strong&gt;Mac 10.13&lt;/strong&gt; and  &lt;strong&gt;Ubuntu 18.04.3 LTS (GNU/Linux 4.15.0-66-generic x86_64)&lt;/strong&gt;&lt;/p&gt;
 
@@ -122,7 +151,7 @@ Or get latest SUNDIALS on GitHub:&lt;/p&gt;
   Let&amp;rsquo;s assume you are in the same level of &lt;em&gt;sundials&lt;/em&gt;.&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;Create a install folder.&lt;/li&gt;
+&lt;li&gt;Create an install folder.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;The installation folder names &lt;strong&gt;installSundials&lt;/strong&gt;&lt;/p&gt;
@@ -143,7 +172,7 @@ Or get latest SUNDIALS on GitHub:&lt;/p&gt;
 &lt;li&gt;Configure the installation with CCMAKE.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;There are two ways to configure the installation. One is GUI, and the other is command line.&lt;/p&gt;
+&lt;p&gt;There are two ways to configure the installation. One is GUI, and the other is the command line.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Option 1&lt;/strong&gt;, type command blow:&lt;/p&gt;
@@ -155,7 +184,7 @@ Or get latest SUNDIALS on GitHub:&lt;/p&gt;
 &lt;p&gt;You will see a screen like this:
   &lt;img src=&#34;featured.png&#34; alt=&#34;CCMAKE Screenshot&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Use your cursor, move to line &lt;strong&gt;&lt;em&gt;CMAKE_INSTALL_PREFIX&lt;/em&gt;&lt;/strong&gt;, which is the path SUNDIALS will be installed. Press Enter to start edit the line. I install it on &lt;strong&gt;/usr/local/sundials&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Use your cursor, move to line &lt;strong&gt;&lt;em&gt;CMAKE_INSTALL_PREFIX&lt;/em&gt;&lt;/strong&gt;, which is the path SUNDIALS will be installed. Press Enter to start to edit the line. I install it on &lt;strong&gt;/usr/local/sundials&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Another path you may change is the path of example code, &lt;strong&gt;&lt;em&gt;EXAMPLES_INSTALL_PATH&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
 
@@ -182,7 +211,7 @@ Or get latest SUNDIALS on GitHub:&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;The command above configure installation, to install SUNDIALS to &lt;em&gt;/usr/local/sundials&lt;/em&gt;, the examples to &lt;em&gt;../example&lt;/em&gt;, install &lt;em&gt;CVODE&lt;/em&gt; only, with OpenMP support.&lt;/p&gt;
+&lt;p&gt;The command above configure the installation, to install SUNDIALS to &lt;em&gt;/usr/local/sundials&lt;/em&gt;, the examples to &lt;em&gt;../example&lt;/em&gt;, install &lt;em&gt;CVODE&lt;/em&gt; only, with OpenMP support.&lt;/p&gt;
 
 &lt;p&gt;If you don&amp;rsquo;t need OpenMP or your OpenMP may result in errors, use the command below:&lt;/p&gt;
 
@@ -209,13 +238,13 @@ Or get latest SUNDIALS on GitHub:&lt;/p&gt;
   make install
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Sometimes, if the system may require higher previlage. If so, please try to use sudo:&lt;/p&gt;
+&lt;p&gt;Sometimes, if the system may require higher privileges. If so, please try to use sudo:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;  make
   sudo make install
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;If there is no error occur, the SUNDIALS is installed successfully. Congrats.&lt;/p&gt;
+&lt;p&gt;If there is no error occurs, the SUNDIALS is installed successfully. Congrats.&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;Test the SUNDIALS library with the examples.&lt;/li&gt;
@@ -248,7 +277,7 @@ Or get latest SUNDIALS on GitHub:&lt;/p&gt;
 
 &lt;p&gt;Now, you can use SUNDIALS/CVODE in your own numeric solver.&lt;/p&gt;
 
-&lt;p&gt;Be patient, you will meet more challenges.&lt;/p&gt;
+&lt;p&gt;Be patient; you will meet more challenges.&lt;/p&gt;
 </description>
     </item>
     
@@ -752,9 +781,9 @@ system(cmd)
     
     <item>
       <title>Integrating fast and slow processes is essential for simulating human–freshwater interactions</title>
-      <link>https://www.shulele.net/en/publication/ward2018/</link>
+      <link>https://www.shulele.net/en/publication/2018ward/</link>
       <pubDate>Thu, 25 Jul 2019 00:00:00 -0700</pubDate>
-      <guid>https://www.shulele.net/en/publication/ward2018/</guid>
+      <guid>https://www.shulele.net/en/publication/2018ward/</guid>
       <description></description>
     </item>
     
@@ -817,7 +846,7 @@ system(cmd)
 &lt;h2 id=&#34;tasks-in-hydrologic-modeling&#34;&gt;Tasks in hydrologic modeling&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Develop a hydrologic modeling system for both the Sacramento watershed and several subcatchments.  Calculate key hydrological metrics, including stream flow, groundwater table, soil moisture, and snow pack.&lt;/li&gt;
+&lt;li&gt;Develop a hydrologic modeling system for both the Sacramento watershed and several subcatchments.  Calculate key hydrological metrics, including streamflow, groundwater table, soil moisture, and snowpack.&lt;/li&gt;
 &lt;li&gt;Evaluate the quality of the hydrologic model and identify potential issues related to its performance.&lt;/li&gt;
 &lt;li&gt;Develop a statistical downscaling technique using both traditional statistical and machine learning methods that digests input to the hydrologic model and mimics the output of the model.&lt;/li&gt;
 &lt;li&gt;Determine which input variables are most relevant for producing an accurate statistical model.&lt;/li&gt;
@@ -841,7 +870,7 @@ system(cmd)
 
 &lt;h2 id=&#34;sacramento-watershed&#34;&gt;Sacramento Watershed&lt;/h2&gt;
 
-&lt;p&gt;The Sacramento River flows from Southern Oregon and to San Francisco Bay. Total drainage area is ~72000 km2. Elevation ranges from 0 to 4200m. The climate in SW is semi-arid hot Mediterranean. The spatial climatic characteristics are not only affected by latitude, terrain and snow coverage, but also by wind and ocean currents. Dramatic seasonal and annual climatic variations exist as well as large spatial heterogeneity. The mountains on the eastern and northern edges of the domain accumulate rain and snow which funnels into the groundwater of the whole watershed.  Annual precipitation ranges from 400 mm/year to 1500 mm/year, however extreme annual precipitation was more than 4000 mm/year in Northern mountainous area in 1983, and mean precipitation was only 270 mm/year from the 2013 extreme drought year.&lt;/p&gt;
+&lt;p&gt;The Sacramento River flows from Southern Oregon and to San Francisco Bay. The total drainage area is ~72000 km2. Elevation ranges from 0 to 4200m. The climate in SW is semi-arid hot Mediterranean. The spatial climatic characteristics are not only affected by latitude, terrain and snow coverage, but also by wind and ocean currents. Dramatic seasonal and annual climatic variations exist as well as large spatial heterogeneity. The mountains on the eastern and northern edges of the domain accumulate rain and snow, which funnels into the groundwater of the whole watershed.  Annual precipitation ranges from 400 mm/year to 1500 mm/year, however extreme annual precipitation was more than 4000 mm/year in the Northern mountainous area in 1983, and mean precipitation was only 270 mm/year from the 2013 extreme drought year.&lt;/p&gt;
 
 &lt;figure class=&#34;image&#34;&gt;
   &lt;img src=&#34;fig/Animation.gif&#34;, width=400px&gt;
@@ -866,19 +895,19 @@ system(cmd)
 
 &lt;h2 id=&#34;simulation-and-results&#34;&gt;Simulation and Results&lt;/h2&gt;
 
-&lt;p&gt;The calibration of the PIHM model used the Covariance Matrix Adaptation Evolution Strategy (CMA-ES) (Hansen 2006,Auger 2005). The automatic CMA-ES calibration is robust and able to converge to global optimization with low computing cost.&lt;/p&gt;
+&lt;p&gt;The calibration of the PIHM model used the Covariance Matrix Adaptation Evolution Strategy (CMA-ES) (Hansen 2006, Auger 2005). The automatic CMA-ES calibration is robust and able to converge to global optimization with low computing cost.&lt;/p&gt;
 
 &lt;h3 id=&#34;river-discharge&#34;&gt;River discharge&lt;/h3&gt;
 
-&lt;p&gt;The stream flow in the watershed follows the seasonal variation of precipitation. During drought years, the base flow from groundwater depletion contributes to the streamflow, and the excess infiltration replenishes ground water in wet seasons. For small watersheds in the Central Valley, such as catchment #9 where precipitation is less and the aquifer is thicker, the contribution from groundwater is small.
+&lt;p&gt;The streamflow in the watershed follows the seasonal variation of precipitation. During drought years, the base flow from groundwater depletion contributes to the streamflow, and the excess infiltration replenishes groundwater in wet seasons. For small watersheds in the Central Valley, such as catchment #9 where precipitation is less and the aquifer is thicker, the contribution from groundwater is small.
 &lt;figure class=&#34;image&#34;&gt;
   &lt;img src=&#34;fig/calib.png&#34;&gt;
   &lt;figcaption&gt;Calibration based on discharge of four subcatchments&lt;/figcaption&gt;
 &lt;/figure&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;ground-water-variation&#34;&gt;Ground water variation&lt;/h3&gt;
+&lt;h3 id=&#34;groundwater-variation&#34;&gt;Groundwater variation&lt;/h3&gt;
 
-&lt;p&gt;The ground water near the river channel is shallower than the hill-slope. The spatial distribution pattern of ground water is controlled by topography, soil/geology characteristics and shape of the watershed. Steep slopes store less ground water than moderate slopes, because a steep hydraulic gradient on steep slopes drive the lateral groundwater flow.&lt;/p&gt;
+&lt;p&gt;The groundwater near the river channel is shallower than the hill-slope. The spatial distribution pattern of groundwater is controlled by topography, soil/geology characteristics and shape of the watershed. Steep slopes store less groundwater than moderate slopes because a steep hydraulic gradient on steep slopes drives the lateral groundwater flow.&lt;/p&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -901,7 +930,7 @@ system(cmd)
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;Ground water seasonal fluctuation follows the climatic variation. However, the seasonal variations in some catchments are relatively larger than others. The inter-annual variation in #5 sub-catchment is larger than seasonal variation. Although the annual precipitation trends in each sub-catchments are comparable, the trend in multiple-year changes of ground water table varies. This requires further analysis on water balance and the memory effect of ground water storage.&lt;/p&gt;
+&lt;p&gt;Groundwater seasonal fluctuation follows the climatic variation. However, the seasonal variations in some catchments are relatively larger than others. The inter-annual variation in #5 sub-catchment is larger than seasonal variation. Although the annual precipitation trends in each sub-catchments are comparable, the trend in multiple-year changes in the groundwater table varies. This requires further analysis of water balance and the memory effect of ground water storage.&lt;/p&gt;
 </description>
     </item>
     
@@ -910,24 +939,24 @@ system(cmd)
       <link>https://www.shulele.net/en/post/20190129roundandround/</link>
       <pubDate>Tue, 29 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://www.shulele.net/en/post/20190129roundandround/</guid>
-      <description>&lt;p&gt;I planed to write an R package and submit on CRAN, that can plot the planets orbiting in Solar System, or satellite/moon orbiting around earth. That package must plot the moving planets, the moon, moon phase and satellite in 2D or 3D canvas. In future, it may calculate the orbit based on orbit mechanics.&lt;/p&gt;
+      <description>&lt;p&gt;I planed to write an R package and submit on CRAN, that can plot the planets orbiting in Solar System or satellite/moon orbiting around Earth. That package must plot the moving planets, the moon, moon phase and satellite in 2D or 3D canvas. In the future, it may calculate the orbit based on orbit mechanics.&lt;/p&gt;
 
-&lt;p&gt;My son loves the song “The wheels on the bus go round and round“, and he has an obsession on planets. He asks mommy play the solar system documentary every night when we ask him to brush his teeth.  So I decided to plot the moving planets in solar system for him with the scientific knowledge I know.&lt;/p&gt;
+&lt;p&gt;My son loves the song “The Wheels on the bus go round and round“, and he has an obsession with planets. He asks mommy to play the solar system documentary every night when we ask him to brush his teeth.  So I decided to plot the moving planets in the solar system for him with the scientific knowledge I know.&lt;/p&gt;
 
 &lt;p&gt;|My son is obsessed by the planets and stars|
   |:&amp;ndash;|
   | &lt;img src=&#34;photo.png&#34; alt=&#34;classroom.jpg&#34; /&gt; |&lt;/p&gt;
 
-&lt;p&gt;Another motivation is from the Chinese lunar exploration, Chang-E 5 landing on far-side of the moon.  Lots of people discussed it and were fuddled on the rotation of moon and relation between the earth and the moon.&lt;/p&gt;
+&lt;p&gt;Another motivation is from the Chinese lunar exploration, Chang-E 5, landing on the far-side of the moon.  Lots of people discussed it and were fuddled on the rotation of the moon and the relation between the Earth and the moon.&lt;/p&gt;
 
-&lt;p&gt;Furthermore, I kept thinking the Chinese semi-lunar calendar for many years, I know the founder mental logic and algorithm of the calendar in my mind, but never scratched the equations and numbers in paper yet.  This calendar is determined by the moon phase and the position of the earth in orbit. Definitely the solver in papers are more rousted in my brain.&lt;/p&gt;
+&lt;p&gt;Furthermore, I kept thinking about the Chinese semi-lunar calendar for many years, I know the founder mental logic and algorithm of the calendar in my mind, but never scratched the equations and numbers in the paper yet.  This calendar is determined by the moon phase and the position of the Earth in orbit. Definitely, the solver in papers is more rousted in my brain.&lt;/p&gt;
 
 &lt;p&gt;Let’s see what I got, by now.&lt;/p&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th align=&#34;left&#34;&gt;The idea of the Moon and the Sun are moving around the Earth, when we assume the earth is the center of system. The orbital period of the moon is 27.321 day, but the synodic period is 29.53 day, that because the sun moves 27.&lt;sup&gt;321&lt;/sup&gt;&amp;frasl;&lt;sub&gt;365&lt;/sub&gt;.25 in its sun’s orbit when the moon moves in the moon’s orbit. It requires 2.2 days to let the sun and the moon to face-to-face again.&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;The idea of the Moon and the Sun are moving around the Earth, when we assume the Earth is the center of the system. The orbital period of the moon is 27.321 days, but the synodic period is 29.53 days, that because the sun moves 27.&lt;sup&gt;321&lt;/sup&gt;&amp;frasl;&lt;sub&gt;365&lt;/sub&gt;.25 in its sun’s orbit when the moon moves in the moon’s orbit. It requires 2.2 days to let the sun and the moon to face-to-face again.&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 
@@ -938,7 +967,7 @@ system(cmd)
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;|The position of the Moon and the Sun in an earth year (365 day). The right legend shows the moon phase in 30 days. The concentric orbits are numbers of the moon periods.|
+&lt;p&gt;|The position of the Moon and the Sun in an earth year (365 days). The right legend shows the moon phase in 30 days. The concentric orbits are numbers of the moon periods.|
   |:&amp;ndash;|
   | &lt;img src=&#34;Moon_year365.png&#34; alt=&#34;classroom.jpg&#34; /&gt; |&lt;/p&gt;
 </description>
@@ -1157,9 +1186,9 @@ Total 100%&lt;/p&gt;
     
     <item>
       <title>From concept to practice to policy: modeling coupled natural and human systems in lake catchments</title>
-      <link>https://www.shulele.net/en/publication/cobourn2018/</link>
+      <link>https://www.shulele.net/en/publication/2018cobourn/</link>
       <pubDate>Fri, 25 May 2018 00:00:00 -0700</pubDate>
-      <guid>https://www.shulele.net/en/publication/cobourn2018/</guid>
+      <guid>https://www.shulele.net/en/publication/2018cobourn/</guid>
       <description></description>
     </item>
     
@@ -1173,9 +1202,9 @@ Total 100%&lt;/p&gt;
     
     <item>
       <title>Impacts of Urbanization and Climate Change on the Hydrological Cycle: A Study in Modern and Ancient Land Use Change</title>
-      <link>https://www.shulele.net/en/publication/shu2017/</link>
+      <link>https://www.shulele.net/en/publication/2017shu/</link>
       <pubDate>Fri, 11 Aug 2017 00:00:00 -0700</pubDate>
-      <guid>https://www.shulele.net/en/publication/shu2017/</guid>
+      <guid>https://www.shulele.net/en/publication/2017shu/</guid>
       <description></description>
     </item>
     
@@ -1354,9 +1383,9 @@ Total 100%&lt;/p&gt;
     
     <item>
       <title>Integrated modeling environment and a preliminary application on the Heihe River Basin, China</title>
-      <link>https://www.shulele.net/en/publication/nan2011/</link>
+      <link>https://www.shulele.net/en/publication/2011nan/</link>
       <pubDate>Thu, 25 Aug 2011 00:00:00 -0700</pubDate>
-      <guid>https://www.shulele.net/en/publication/nan2011/</guid>
+      <guid>https://www.shulele.net/en/publication/2011nan/</guid>
       <description></description>
     </item>
     
